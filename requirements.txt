@@ -1,3 +1,2 @@
-# GIR open-tier scripts use Python 3.10+ stdlib only for ingest.
-# Chart generation:
-matplotlib>=3.8.0
+# Ingest uses Python 3.10+ stdlib only.
+# Graph markup (docs/GRAPHS.md) also uses stdlib only — no matplotlib required.

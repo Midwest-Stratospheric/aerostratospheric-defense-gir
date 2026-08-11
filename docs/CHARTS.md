@@ -1,32 +1,21 @@
-# GIR charts (git code)
+# GIR graphs — git markup only
 
-Charts under `docs/images/` are produced by:
+Graphs live as **Mermaid + Markdown tables** in [`docs/GRAPHS.md`](GRAPHS.md).
+
+No PNG/JPG chart binaries are stored in this repository (avoids failed image renders and large binary commits).
+
+## Regenerate from open data
 
 ```bash
 python3 scripts/generate_gir_charts.py
 ```
 
-## What it reads
+That script reads `data/**` and rewrites `docs/GRAPHS.md`.
 
-| Input | Chart output |
-|-------|----------------|
-| `data/manifests/manifest_latest.json` | `ingest_status.png` |
-| `data/anomalies/uogw_anomalies_latest.json` | `uogw_severity.png` |
-| `data/events/usgs_quakes_2.5_day_latest.geojson` | `usgs_mags.png` |
-| `data/defense_open/public_military_airfields_ourairports.json` | `airfields_by_country.png` |
-| `data/imagery_index/sentinel2_index_latest.json` | `sentinel2_clouds.png` |
-| `data/defense_open/usaspending_defense_naics_latest.json` | `usaspending_top.png` |
-| (static diagram) | `gir_data_flow.png` |
+## Daily automation
 
-## Automation
+`scripts/daily_gir_automation.sh` runs the generator after ingest so graph markup stays in sync with open-tier feeds.
 
-`scripts/daily_gir_automation.sh` runs chart generation after ingest and before the git commit, so refreshed PNGs are included when data changes.
+## View
 
-## Dependency
-
-```bash
-pip install matplotlib
-# or: pip install -r requirements.txt
-```
-
-Open tier only — charts summarize public feeds.
+GitHub renders Mermaid in Markdown automatically when you open `docs/GRAPHS.md`.

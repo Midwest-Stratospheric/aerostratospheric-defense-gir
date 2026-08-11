@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360" role="img">
+  <title>Ingest status (7/7 OK)</title>
+  <rect width="100%" height="100%" fill="#0a1628"/>
+<text x="20" y="28" fill="#00d4ff" font-family="system-ui,sans-serif" font-size="15" font-weight="700">Ingest status (7/7 OK)</text>
+<circle cx="180" cy="180" r="140" fill="#34d399"/>
+<circle cx="180" cy="180" r="63.0" fill="#0a1628"/>
+<rect x="20" y="316" width="12" height="12" rx="2" fill="#34d399"/>
+<text x="38" y="327" fill="#e2e8f0" font-family="system-ui,sans-serif" font-size="12">OK: 7</text>
+<rect x="20" y="334" width="12" height="12" rx="2" fill="#334155"/>
+<text x="38" y="345" fill="#e2e8f0" font-family="system-ui,sans-serif" font-size="12">Failed/skipped: 0</text>
+</svg>

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "default_crs": "EPSG:4326",
+  "regions": [
+    {"id": "conus", "name": "Contiguous United States", "bbox": [-124.85, 24.39, -66.88, 49.38], "priority": 1, "use": ["hazards", "imagery", "alerts"]},
+    {"id": "midwest_il", "name": "Illinois / Midwest ops focus", "bbox": [-91.5, 36.9, -87.0, 42.5], "priority": 1, "use": ["hazards", "imagery", "ops"]},
+    {"id": "global_sample", "name": "Global sample band", "bbox": [-180, -40, 180, 60], "priority": 2, "use": ["imagery", "reference"]},
+    {"id": "north_atlantic", "name": "North Atlantic corridor", "bbox": [-80, 20, -10, 60], "priority": 2, "use": ["hazards", "maritime"]}
+  ]
+}

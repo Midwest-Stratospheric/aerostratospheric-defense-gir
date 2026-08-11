@@ -1,0 +1,6 @@
+{
+  "status": "best-effort",
+  "endpoint": "https://opensky-network.org/api/states/all",
+  "note": "Public ADS-B API; may rate-limit anonymous access. Daily job stores snapshot when available.",
+  "tier": "open"
+}

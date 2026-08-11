@@ -1,0 +1,36 @@
+{
+  "updated_utc": "2026-08-11T17:45:56Z",
+  "tier": "open",
+  "description": "Public flight log summaries for Aerostratospheric / MSDS research balloons and tests. No classified tracks.",
+  "count": 2,
+  "flights": [
+    {
+      "flight_id": "MSDS-X2-2026-001",
+      "platform": "X2Griffon",
+      "status": "planned",
+      "launch_utc": "2026-09-19T15:00:00Z",
+      "landing_utc": null,
+      "launch_site": {"name": "Casey IL area (public event)", "lat": 39.30, "lon": -87.99},
+      "max_altitude_ft": null,
+      "duration_min": null,
+      "telemetry": ["APRS", "WSPR", "public tracking when active"],
+      "notes": "Maiden public launch concept — dates may shift. Open summary only.",
+      "tier": "open",
+      "public_summary": "Planned public stratospheric research flight (Casey IL area). Not an operational military sortie."
+    },
+    {
+      "flight_id": "MSDS-TEST-2026-DRY",
+      "platform": "Ground / dry-run",
+      "status": "complete",
+      "launch_utc": "2026-05-12T18:00:00Z",
+      "landing_utc": "2026-05-12T18:45:00Z",
+      "launch_site": {"name": "Casey IL", "lat": 39.30, "lon": -87.99},
+      "max_altitude_ft": 0,
+      "duration_min": 45,
+      "telemetry": ["checklist", "tracker bench test"],
+      "notes": "Dry launch / systems checklist exercise.",
+      "tier": "open",
+      "public_summary": "Completed ground dry-run and tracker checklist. No free balloon release."
+    }
+  ]
+}

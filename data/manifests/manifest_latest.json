@@ -1,0 +1,102 @@
+{
+  "generated_at_utc": "2026-08-11T02:55:18.491652+00:00",
+  "ok": 15,
+  "total": 15,
+  "results": [
+    {
+      "source": "uogw_anomalies",
+      "ok": true,
+      "file": "uogw_anomalies_latest.json",
+      "counts": {
+        "total": 4,
+        "alert": 1,
+        "watch": 3,
+        "info": 0
+      }
+    },
+    {
+      "source": "eonet_events",
+      "ok": true,
+      "file": "eonet_open_latest.json",
+      "events": 100
+    },
+    {
+      "source": "eonet_geojson",
+      "ok": true,
+      "file": "eonet_open_latest.geojson",
+      "features": 100
+    },
+    {
+      "source": "usgs_quakes",
+      "ok": true,
+      "file": "usgs_quakes_2.5_day_latest.geojson",
+      "features": 39
+    },
+    {
+      "source": "nws_alerts",
+      "ok": true,
+      "file": "nws_active_alerts_latest.geojson",
+      "count": 89
+    },
+    {
+      "source": "sentinel2_stac",
+      "ok": true,
+      "file": "sentinel2_search_latest.json",
+      "scenes": 6
+    },
+    {
+      "source": "donki_cme",
+      "ok": true,
+      "file": "donki_cme_latest.json",
+      "count": 26
+    },
+    {
+      "source": "cisa_kev",
+      "ok": true,
+      "file": "cisa_kev_latest.json",
+      "count": 1662
+    },
+    {
+      "source": "ourairports_military_keywords",
+      "ok": true,
+      "file": "public_military_airfields_ourairports.json",
+      "count": 259
+    },
+    {
+      "source": "usaspending_defense",
+      "ok": true,
+      "file": "usaspending_defense_naics_latest.json",
+      "count": 50
+    },
+    {
+      "source": "gdelt_lastupdate",
+      "ok": true,
+      "file": "gdelt_lastupdate.json",
+      "files": 3
+    },
+    {
+      "source": "opensky_midwest",
+      "ok": true,
+      "file": "opensky_midwest_snapshot.geojson",
+      "count": 83
+    },
+    {
+      "source": "osm_military_landuse",
+      "ok": true,
+      "file": "osm_military_landuse_il_sample.geojson",
+      "count": 10
+    },
+    {
+      "source": "firms",
+      "ok": true,
+      "file": "firms_status.json",
+      "status": "awaiting_key"
+    },
+    {
+      "source": "partner_stubs",
+      "ok": true,
+      "files": 3
+    }
+  ],
+  "tier": "open"
+}

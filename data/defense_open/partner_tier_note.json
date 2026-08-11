@@ -1,5 +1,4 @@
 {
-  "message": "Restricted Aerodefener products and licensed partner datasets belong in a private repository or secured object store — not this public GIR.",
-  "suggested_private_repo": "aerostratospheric-defense-gir-restricted",
-  "examples": ["Aerodefener RF anomaly products", "ACLED under license", "partner EO"]
+  "message": "Restricted products belong in a private repo.",
+  "suggested_private_repo": "aerostratospheric-defense-gir-restricted"
 }

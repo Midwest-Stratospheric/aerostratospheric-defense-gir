@@ -1,0 +1,181 @@
+{
+  "type": "FeatureCollection",
+  "count": 10,
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3492419,
+          39.4837128
+        ]
+      },
+      "properties": {
+        "id": 160412733,
+        "landuse": "military",
+        "name": "US Army National Guard Armory",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2711136,
+          40.150644
+        ]
+      },
+      "properties": {
+        "id": 236120053,
+        "addr:city": "Champaign",
+        "addr:housenumber": "2902",
+        "addr:postcode": "61822",
+        "addr:state": "IL",
+        "addr:street": "Newmark Drive",
+        "check_date": "2025-03-30",
+        "landuse": "military",
+        "military_service": "army",
+        "name": "US Army Construction Engineering Research Laboratory",
+        "operator": "United States Army",
+        "operator:wikidata": "Q9212",
+        "website": "https://www.erdc.usace.army.mil/Locations/CERL/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.199726,
+          40.1181481
+        ]
+      },
+      "properties": {
+        "id": 332304762,
+        "building": "yes",
+        "landuse": "military",
+        "military": "office"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1990894,
+          40.1179956
+        ]
+      },
+      "properties": {
+        "id": 332305028,
+        "building": "yes",
+        "landuse": "military",
+        "military": "office"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1997813,
+          40.1177373
+        ]
+      },
+      "properties": {
+        "id": 332305029,
+        "building": "yes",
+        "landuse": "military",
+        "military": "office"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2016961,
+          40.1176004
+        ]
+      },
+      "properties": {
+        "id": 402079662,
+        "addr:city": "Urbana",
+        "addr:housenumber": "600",
+        "addr:postcode": "61801",
+        "addr:street": "East University Avenue",
+        "building": "yes",
+        "landuse": "military",
+        "military": "office",
+        "name": "Illinois National Guard"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.8699138,
+          39.8218321
+        ]
+      },
+      "properties": {
+        "id": 652988339,
+        "landuse": "military",
+        "military": "armory",
+        "military_service": "national_guard",
+        "operator": "Illinois National Guard",
+        "operator:wikidata": "Q5999581"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.8781441,
+          39.8386172
+        ]
+      },
+      "properties": {
+        "id": 653002789,
+        "building": "yes",
+        "landuse": "military",
+        "military": "checkpoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2006903,
+          40.1178525
+        ]
+      },
+      "properties": {
+        "id": 960668474,
+        "landuse": "military"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1996788,
+          40.1182367
+        ]
+      },
+      "properties": {
+        "id": 960669664,
+        "landuse": "military",
+        "military": "depot"
+      }
+    }
+  ],
+  "license": "ODbL",
+  "tier": "open"
+}

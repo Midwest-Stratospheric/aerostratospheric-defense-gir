@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="200" viewBox="0 0 700 200" role="img">
+  <title>GIR data flow</title>
+  <rect width="100%" height="100%" fill="#0a1628"/>
+<text x="24" y="36" fill="#00d4ff" font-family="system-ui,sans-serif" font-size="16" font-weight="700">GIR open data flow</text>
+<rect x="40" y="70" width="160" height="70" rx="10" fill="#0f2744" stroke="#00d4ff" stroke-width="2"/>
+<text x="120" y="110" text-anchor="middle" fill="#e2e8f0" font-family="system-ui,sans-serif" font-size="12">Public feeds</text>
+<rect x="260" y="70" width="160" height="70" rx="10" fill="#0f2744" stroke="#34d399" stroke-width="2"/>
+<text x="340" y="110" text-anchor="middle" fill="#e2e8f0" font-family="system-ui,sans-serif" font-size="12">Ingest + git</text>
+<rect x="480" y="70" width="160" height="70" rx="10" fill="#0f2744" stroke="#f59e0b" stroke-width="2"/>
+<text x="560" y="110" text-anchor="middle" fill="#e2e8f0" font-family="system-ui,sans-serif" font-size="12">GIR page / maps</text>
+<line x1="200" y1="105" x2="255" y2="105" stroke="#94a3b8" stroke-width="2"/>
+<line x1="420" y1="105" x2="475" y2="105" stroke="#94a3b8" stroke-width="2"/>
+</svg>

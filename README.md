@@ -1,232 +1,215 @@
 # Aerostratospheric Defense GIR
 
-**Geospatial Information Repository** — the open data backbone for [Aerostratospheric](https://midwestsds.com/) Defense Systems.
+**A plain-language guide to our open Geospatial Information Repository**
 
-[![Daily automation](https://img.shields.io/badge/automation-06%3A00%20%26%2018%3A00%20UTC-00d4ff)](.github/workflows/daily-gir.yml)
+[![Daily automation](https://img.shields.io/badge/updates-twice%20daily%20UTC-00d4ff)](.github/workflows/daily-gir.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-slategray.svg)](LICENSE)
-[![Open tier](https://img.shields.io/badge/tier-open%20public-34d399)](docs/DATA_POLICY.md)
-[![SAM.gov](https://img.shields.io/badge/SAM.gov-registered%20entity-0f2744)](https://midwestsds.com/)
+[![Open data only](https://img.shields.io/badge/data-public%20open%20tier-34d399)](docs/DATA_POLICY.md)
+[![SAM.gov](https://img.shields.io/badge/SAM.gov-registered-0f2744)](https://midwestsds.com/)
+
+This repository is the **public data backbone** for [Aerostratospheric](https://midwestsds.com/) Defense Systems.  
+It is written so a non-specialist can understand **what it is, why it exists, and what each piece does**.
+
+> **In one sentence:**  
+> We automatically collect free, public maps and hazard information from the internet, organize it, and save dated copies here so people and systems can use a clear, honest picture of the world — without any secret military data.
 
 ---
 
-## What is this, in plain English?
+## What is a “GIR”? (layman’s explainer)
 
-Think of this repository as a **shared filing cabinet and weather desk** for public information that helps people understand what is happening in the air, on the ground, and in related open defense-adjacent data.
+**GIR** means **Geospatial Information Repository**.
 
-- **Geospatial** means “tied to places on Earth” (latitude, longitude, maps).
-- **Information Repository** means “an organized place to keep that information, update it, and look it up later.”
-- **GIR** is simply our short name for that system.
+| Word | Everyday meaning |
+|------|------------------|
+| **Geospatial** | Information that has a place on Earth — a latitude and longitude, a region, a path |
+| **Information** | Facts and measurements: heat anomalies, storms, earthquakes, aircraft that broadcast their position, public contract records, and more |
+| **Repository** | A library or filing cabinet that stores those facts in an organized way |
 
-We do **not** store secret or classified military intelligence here.  
-Everything in this public GitHub repo is meant to be **open**: data that governments, scientists, or the public already publish, plus our tools to collect and organize it automatically.
+So this repo is a **shared digital filing cabinet of public place-based data**.
 
-**Why it exists:** Aerostratospheric builds high-altitude and related systems for awareness and communications. Those systems—and the people who evaluate them—need a trustworthy, repeatable way to pull public context (storms, fires, earthquakes, open satellite scenes, public cyber alerts, and more). This repo is that pipeline.
-
----
-
-## Who is it for?
-
-| Audience | How they might use it |
-|----------|------------------------|
-| **Curious public / researchers** | Browse open datasets, charts, and documentation |
-| **Emergency managers & analysts** | Pull public hazard and anomaly feeds in one place |
-| **Government / military evaluators** | See how open-tier data is structured before discussing partner or restricted products |
-| **Developers** | Run the scripts, fork the automation, build on the schema |
-
-If you only remember one sentence: **this is the public shelf; the sensitive shelf is separate and not on the public internet.**
+It is **not** a spy system, **not** a weapons system, and **not** a store of classified secrets.  
+It is closer to a **weather-and-world dashboard’s source folder** that updates itself on a schedule.
 
 ---
 
-## The three “doors” (access tiers)
+## Why does Aerostratospheric need this?
 
-```mermaid
-flowchart TB
-  O[Open tier — this public repo]
-  P[Partner tier — by agreement]
-  R[Restricted tier — authorized users only]
-  O --> P --> R
-```
+Aerostratospheric builds **high-altitude and related observation concepts** (for example Aerodefener — a “quiet eye” in the stratosphere idea) and tools like a **live anomaly map** and **Secure Channel** encryption demo on the defense page.
 
-### Open tier (this repository)
-**Layman’s version:** Anyone can look. It’s like a public library.
+Those products need **context data** from the public world. The GIR is where that **public context** lives, versioned by git, refreshed by automation, and open to audit.
 
-### Partner tier
-**Layman’s version:** A locked drawer shared with organizations that signed an agreement.
-
-### Restricted tier
-**Layman’s version:** A vault for authorized government and military use only. Sensitive products are **not stored here.**
-
-More detail: [docs/DATA_POLICY.md](docs/DATA_POLICY.md) · [docs/OPEN_DEFENSE_DATA.md](docs/OPEN_DEFENSE_DATA.md)
+**Layman’s analogy:** If a pilot uses both instruments *and* a public weather briefing, the GIR is more like the **weather briefing binder** — not the classified mission folder.
 
 ---
 
-## What problems does this solve?
+## The most important rule: open vs restricted
 
-Without a GIR, open data is scattered across many websites. This project **pulls many public streams into one versioned place** on a schedule so you can ask: what anomalies, quakes, alerts, or satellite scenes showed up in open sources today?
+| Tier | Who it’s for | What’s in it | In this public GitHub repo? |
+|------|----------------|--------------|------------------------------|
+| **Open** | Anyone | Free public feeds, open research, public government data | **Yes** |
+| **Partner** | Organizations with a written agreement | Extra datasets under license | **No** |
+| **Restricted** | Authorized government / military users | Sensitive products from our own sensors (when fielded) | **No** |
 
-Versioned means Git keeps history—yesterday’s pull is not silently overwritten without a record.
+**Layman’s explainer:** Think of a museum. The **open gallery** is this repo. The **members’ room** is partner data. The **vault** is restricted data. We do not put vault contents on a public website.
+
+Details: [docs/DATA_POLICY.md](docs/DATA_POLICY.md) · [docs/OPEN_DEFENSE_DATA.md](docs/OPEN_DEFENSE_DATA.md)
 
 ---
 
-## How the data flows (simple picture)
+## What “defense data” means here (and what it doesn’t)
+
+### What we *do* store
+Public weather and hazard alerts, earthquake lists, satellite *indexes*, public cyber vulnerability catalogs, public federal spending samples, public map features already published elsewhere.
+
+### What we *do not* store
+Classified material, secret unit locations, targeting folders, weapons instructions, or anything we are not allowed to republish.
+
+**Layman’s explainer:** If you could lawfully find it on a government or open-science website and share the link, it may belong in the **open** GIR. If you would need a security clearance to see it, it does **not** belong here.
+
+---
+
+## Architecture in plain language
 
 ```mermaid
 flowchart LR
-  subgraph World["Public sources on the internet"]
+  subgraph Internet["Public internet sources"]
     A[Weather and hazards]
-    B[Satellites]
-    C[Open defense-adjacent]
+    B[Satellite indexes]
+    C[Open defense-adjacent data]
   end
   subgraph GIR["This repository"]
-    S[Scripts collect data]
-    D[Folders store files]
-    M[Manifest = report card]
-    G[Git saves a snapshot]
+    S[Ingest scripts]
+    D[Organized folders]
+    M[Daily manifest]
+    G[Git history]
   end
-  subgraph Use["How people use it"]
-    MAP[Live map on defense page]
+  subgraph Use["How it is used"]
+    MAP[Public live map]
     HUB[Data Hub]
-    DEV[Analysts and developers]
+    TEAM[Aerostratospheric tools]
   end
-  World --> S --> D --> M --> G
+  A --> S
+  B --> S
+  C --> S
+  S --> D --> M --> G
   D --> MAP
   D --> HUB
-  D --> DEV
+  D --> TEAM
 ```
 
 ![GIR data flow](docs/images/gir_data_flow.png)
 
-1. **Sources** — Websites and APIs that already publish open data.  
-2. **Scripts** — Small programs that download and tidy that data.  
-3. **Folders** — Where the files land.  
-4. **Manifest** — A short summary of what succeeded or failed.  
-5. **Git commit** — A saved checkpoint with a timestamped note.
+1. **Sources** publish free data.  
+2. **Ingest scripts** download those feeds.  
+3. Files land in **folders**.  
+4. A **manifest** records success or failure.  
+5. **Git** keeps a dated history when something changes.  
+6. Websites and tools **read** the files for maps and briefings.
 
 ---
 
-## What’s inside the filing cabinet
+## Live snapshot
 
-```
-aerostratospheric-defense-gir/
-├── schema/           ← The rulebook: what fields mean
-├── catalog/          ← Lists of sources
-├── data/
-│   ├── anomalies/    ← Public anomaly flags (e.g. UOGW)
-│   ├── events/       ← Quakes, storms, space weather, natural events
-│   ├── imagery_index/← Which satellite scenes exist (not full image vaults)
-│   ├── reference/    ← Airports, ports, chokepoints (public)
-│   ├── defense_open/ ← Cyber KEV, airfield heuristics, awards, OSM sample
-│   └── manifests/    ← Each run’s report card
-├── scripts/          ← The robots that fetch and save
-├── docs/             ← Policies + charts
-└── .github/workflows/← Cloud schedule
-```
-
-### Folder explainers
-
-**`data/anomalies`** — Dashboard-style public flags (for example UOGW), not classified tracks.  
-**`data/events`** — Earthquakes, U.S. weather alerts, NASA natural events, space-weather CMEs.  
-**`data/imagery_index`** — Search results and metadata for satellite scenes; download imagery under each provider’s rules.  
-**`data/reference`** — Stable public map facts.  
-**`data/defense_open`** — Public cyber lists, keyword-heuristic airfields, USAspending samples, OSM samples, and status files for OpenSky/FIRMS/partner datasets.  
-**`data/manifests`** — JSON report card after each automated run.
-
----
-
-## Visualizations
+Updates about **06:00** and **18:00 UTC** daily, plus manual Actions runs.
 
 ![Ingest status](docs/images/ingest_status.png)
 
-**Layman’s read:** Green means that source downloaded successfully on the latest run.
+**Layman’s explainer:** The chart shows whether each “hose” of data was flowing on the last check.
+
+---
+
+## Folder tour
+
+### `data/anomalies/` — Is anything odd in the open weather picture?
+UOGW public anomaly reports. Research-style flags, not official phone alerts.
 
 ![UOGW severity](docs/images/uogw_severity.png)
 
-**Layman’s read:** How many public anomaly flags fell into alert / watch / info style buckets.
+### `data/events/` — What public hazard events are active?
+NASA EONET, USGS earthquakes, NWS alerts, NASA DONKI space weather.
 
 ![USGS magnitudes](docs/images/usgs_mags.png)
 
-**Layman’s read:** Recent quake sizes from the USGS public feed.
+### `data/imagery_index/` — Which free satellite pictures cover an area?
+Sentinel-2 catalog results (library cards), not a full planet image vault.
 
 ![Sentinel-2 clouds](docs/images/sentinel2_clouds.png)
 
-**Layman’s read:** Cloud cover for indexed Midwest Sentinel-2 scenes—lower usually means a clearer photo.
+### `data/reference/` — Fixed public landmarks
+Airports, ports, maritime chokepoints — map pins everyone can already look up.
+
+### `data/defense_open/` — Open defense-adjacent public data
+
+| Dataset | Plain meaning |
+|---------|---------------|
+| **CISA KEV** | Software holes attackers already use — patch these first |
+| **OurAirports military-keyword** | Public airport records with military-sounding names — **not** an official secret base list |
+| **USAspending NAICS** | Public federal contract samples in aerospace/defense-related codes |
+| **GDELT lastupdate** | Pointers to global public news-event data files |
+| **OpenSky** | Aircraft that broadcast ADS-B in a sample region |
+| **OSM military landuse** | Volunteer map tags in a sample region (ODbL) |
+| **FIRMS** | Satellite fire detections when `FIRMS_MAP_KEY` is set |
+| **UCDP / ACLED stubs** | Notes for academic/partner datasets that need registration or licenses |
 
 ![Airfields by country](docs/images/airfields_by_country.png)
 
-**Layman’s read:** Counts from public OurAirports using name/keyword clues. **Not an official basing list.**
-
 ---
 
-## What gets updated every day?
+## Daily automation — how the robots work
 
-Automation runs **twice daily** (06:00 and 18:00 UTC) plus manual **Run workflow**.
+1. Wake up on schedule  
+2. Run `scripts/ingest_open_tier.py`  
+3. Save files  
+4. Write a manifest  
+5. Commit to git if anything changed  
 
-| Plain-language name | Source | Folder |
-|---------------------|--------|--------|
-| Public anomaly board | UOGW | `data/anomalies/` |
-| World natural events | NASA EONET | `data/events/` |
-| Earthquakes | USGS | `data/events/` |
-| U.S. weather alerts | NWS | `data/events/` |
-| Satellite scene search | Sentinel-2 STAC | `data/imagery_index/` |
-| Space-weather CMEs | NASA DONKI | `data/events/` |
-| Known exploited bugs | CISA KEV | `data/defense_open/` |
-| Military-keyword airfields | OurAirports | `data/defense_open/` |
-| Defense-related federal awards (sample) | USAspending | `data/defense_open/` |
-| Global news-event file pointers | GDELT | `data/defense_open/` |
-| Aircraft broadcasting ADS-B (sample region) | OpenSky | best-effort |
-| Map features tagged military (sample area) | OpenStreetMap | `data/defense_open/` |
-| Active fire heat detections | NASA FIRMS | if `FIRMS_MAP_KEY` set |
-| Run report card | Manifest | `data/manifests/` |
-
-Partner-only (not auto-published here): ACLED (API key + license), UCDP full extracts, restricted Aerodefener products.
-
----
-
-## Running it yourself
+**Layman’s explainer:** A newspaper delivery route. Same stops each day. If a stop is closed, the scorecard marks failure and the route continues.
 
 ```bash
 bash scripts/daily_gir_automation.sh
 python3 scripts/ingest_open_tier.py
-python3 scripts/stac_search_sentinel2.py --bbox -88.2 39.1 -87.7 39.5 --limit 10
 ```
-
-**Bbox** = west, south, east, north map rectangle.  
-**STAC** = common card-catalog standard for satellite imagery search.
-
----
-
-## GitHub Actions — the cloud alarm clock
-
-File: [`.github/workflows/daily-gir.yml`](.github/workflows/daily-gir.yml)
-
-GitHub wakes a temporary computer twice a day, runs fetch scripts, and commits when something new appears.
 
 Optional secrets: `FIRMS_MAP_KEY`, `ACLED_API_KEY` (private/licensed use only).
 
 ---
 
-## Open defense data — careful definition
+## Schema and catalogs
 
-Here, “defense data” means **already public** information for awareness, planning, cyber hygiene, or research—**not** secret movements, targeting folders, or classified imagery.
-
-| Public GIR (here) | Private / restricted |
-|-------------------|----------------------|
-| Library newspaper rack | Sealed evidence locker |
-
-[docs/OPEN_DEFENSE_DATA.md](docs/OPEN_DEFENSE_DATA.md) · [catalog/open_defense_data_sources.json](catalog/open_defense_data_sources.json)
+- **Schema** = form template for records ([`schema/gir_schema_v1.json`](schema/gir_schema_v1.json))  
+- **Catalogs** = phone books of sources ([`catalog/`](catalog/))
 
 ---
 
-## How this connects to Aerostratospheric products
+## How this connects to products
 
-| Concept | Role | How the GIR helps |
-|---------|------|-------------------|
-| **Aerodefener** | High-altitude passive awareness and relay concept | Open context layers; sensitive detections stay restricted |
-| **Aerocombat (2027)** | Low-altitude intel + defensive obscuration concept | Shared map/time language |
-| **Defense page live map** | Public anomaly picture | Open feeds such as UOGW |
-| **Secure Channel** | In-browser encryption for notes | Protects messages; GIR organizes open data |
+| Product | How the GIR helps |
+|---------|-------------------|
+| **Aerodefener** | Public background context; sensitive sensor products stay restricted |
+| **Aerocombat (2027 concept)** | Shared map/time language for planning context |
+| **Defense page live map** | Reads open anomaly JSON for the public layer |
+| **Secure Channel** | Protects notes; GIR stores open data |
+| **Data Hub** | Human doorway into open datasets |
 
-Site: [midwestsds.com](https://midwestsds.com/) · [Contact](https://midwestsds.com/contact/index.php?a=add)
+**Layman’s explainer:** The GIR is the shared notebook of public facts. Platforms and pages are the apps that read the notebook.
+
+---
+
+## Partner and restricted data
+
+Licensed or sensitive data belongs in agreements or a **private** repo (suggested: `aerostratospheric-defense-gir-restricted`), not this public tree.
+
+---
+
+## Related links
+
+| What | Where |
+|------|--------|
+| Home | https://midwestsds.com/ |
+| Platforms | https://midwestsds.com/platforms.html |
+| Data Hub | https://midwestsds.com/msds-data-hub.html |
+| Contact | https://midwestsds.com/contact/index.php?a=add |
+| UOGW | https://github.com/Midwest-Stratospheric/Unified-Open-Global-Weather |
 
 ---
 
@@ -234,26 +217,36 @@ Site: [midwestsds.com](https://midwestsds.com/) · [Contact](https://midwestsds.
 
 | Term | Plain meaning |
 |------|----------------|
-| **API** | Machine-friendly doorway to a website’s data |
-| **ADS-B** | Radio signals many aircraft broadcast about position |
-| **CME** | Burst of solar material; space weather |
-| **GeoJSON** | Common map file shape |
-| **Heuristic** | Rule of thumb, not a perfect official definition |
-| **NAICS** | U.S. industry codes for economic/spending data |
-| **ODbL** | OpenStreetMap share-alike license |
-| **STAC** | Catalog standard for satellite items |
+| **ADS-B** | Radio signal many aircraft broadcast: “here I am” |
+| **Anomaly** | A measurement that looks unusual |
+| **API** | Machine-friendly doorway to data |
+| **Commit** | A saved checkpoint in git |
+| **Git** | Software that tracks file history |
+| **Ingest** | Download data and file it |
+| **Manifest** | Short report of a batch job |
+| **NAICS** | U.S. industry category codes |
+| **OSM** | OpenStreetMap — volunteer world map |
+| **STAC** | Standard search catalog for satellite scenes |
+| **Tier** | Access level: open, partner, or restricted |
 
 ---
 
 ## License, credit, disclaimer
 
 - Code and original docs: [MIT](LICENSE)  
-- Upstream datasets keep their own licenses—always give credit  
-- Open-tier files are for research, education, situational awareness, and authorized planning support  
-- **Not** an official warning service and **not** a substitute for classified systems  
+- Upstream data stays under original licenses — always give credit  
+- Open-tier products support research, education, awareness, and authorized planning  
+- **Not** an official life-safety alert service alone  
+- **Not** a substitute for classified command systems  
 
-Aerostratospheric is a **registered SAM.gov entity**. Passive sensing, intelligence, and communications concepts only—**no kinetic weapon systems** in this program framing.
+Aerostratospheric is a **registered SAM.gov entity**. Passive sensing, intelligence, and communications concepts only — **no kinetic weapon systems**.
 
 ---
 
-**Bottom line:** This GIR is a public, automated, honest shelf of open geospatial and defense-*adjacent* context—so humans and machines can share the same picture without crossing into classified territory.
+## Three things to remember
+
+1. **This repo is a public library of place-based open data.**  
+2. **It updates automatically and keeps history.**  
+3. **Secret and sensitive defense products stay out of the public library on purpose.**
+
+Government and military inquiries: https://midwestsds.com/contact/index.php?a=add

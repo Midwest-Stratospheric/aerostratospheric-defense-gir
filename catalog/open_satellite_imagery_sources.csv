@@ -1,0 +1,13 @@
+source_id,provider,constellation,resolution_m,revisit_days,license,stac_api,coverage,tier,notes
+sentinel-2-l2a,ESA / Copernicus,Sentinel-2,10,5,Open (Copernicus),https://earth-search.aws.element84.com/v1,Global land,open,Multispectral optical; free commercial use with attribution
+sentinel-1-grd,ESA / Copernicus,Sentinel-1,10,6,Open (Copernicus),https://earth-search.aws.element84.com/v1,Global,open,C-band SAR; all-weather
+landsat-8-9,USGS / NASA,Landsat 8/9,30,8,Public domain (USGS),https://landsatlook.usgs.gov/stac-server,Global land,open,Optical + thermal
+modis-terra-aqua,NASA,MODIS,250,1,Public domain (NASA),https://cmr.earthdata.nasa.gov/stac/LPCLOUD,Global,open,Daily global composites; fire/thermal products
+viirs-snpp-noaa20,NOAA / NASA,VIIRS,375,1,Public domain,https://cmr.earthdata.nasa.gov/stac/LPCLOUD,Global,open,Night lights, active fire, SST
+goes-16-18,NOAA,GOES-R,500,0.01,Public domain (NOAA),https://noaa-goes16.s3.amazonaws.com,Western Hemisphere,open,Geostationary weather; rapid refresh
+himawari-9,JMA,Himawari,500,0.01,Open (JMA terms),https://www.aws.amazon.com/marketplace/pp/prodview-x5xqv4k7xqv4k,Asia-Pacific,open,Geostationary; Asia-Oceania
+sentinel-3-olci,ESA / Copernicus,Sentinel-3,300,2,Open (Copernicus),https://earth-search.aws.element84.com/v1,Global,open,Ocean/land color
+sentinel-5p,ESA / Copernicus,Sentinel-5P,7000,1,Open (Copernicus),https://earth-search.aws.element84.com/v1,Global,open,Atmospheric composition / pollution
+nasadem,NASA,SRTM/NASADEM,30,,Public domain,https://cmr.earthdata.nasa.gov/stac/LPCLOUD,Near-global DEM,open,Elevation reference
+openstreetmap,OSM community,N/A,,,ODbL,https://www.openstreetmap.org,Global vector,open,Roads, ports, airports (public map features)
+openaerialmap,OpenAerialMap,Various UAV/aircraft,0.1,,Various open,https://api.openaerialmap.org/stac,Spot coverage,open,Community aerial imagery

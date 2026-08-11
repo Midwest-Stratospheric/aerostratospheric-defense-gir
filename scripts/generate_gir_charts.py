@@ -1,23 +1,14 @@
 #!/usr/bin/env python3
-"""Aerostratospheric Defense GIR — chart generator.
-Reads latest open-tier JSON under data/ and writes PNG charts to docs/images/.
-Usage: python3 scripts/generate_gir_charts.py
-"""
+"""GIR git-native chart markup (Mermaid). Writes docs/GRAPHS.md from open-tier JSON. No PNGs."""
 from __future__ import annotations
-
 import json
-import sys
 from collections import Counter
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
-IMG = ROOT / "docs" / "images"
-IMG.mkdir(parents=True, exist_ok=True)
-
-CYAN, AMBER, GREEN, RED = "#00d4ff", "#f59e0b", "#34d399", "#f87171"
-NAVY, BLUE, SLATE, WHITE = "#0a1628", "#0f2744", "#94a3b8", "#e2e8f0"
-
+OUT = ROOT / "docs" / "GRAPHS.md"
 
 def load_json(path: Path):
     if not path.exists():
@@ -28,174 +19,84 @@ def load_json(path: Path):
         print(f"skip {path.name}: {e}")
         return None
 
-
-def style_axes(ax):
-    ax.set_facecolor(BLUE)
-    for spine in ax.spines.values():
-        spine.set_color("#334155")
-    ax.tick_params(colors=SLATE)
-    ax.yaxis.label.set_color(WHITE)
-    ax.xaxis.label.set_color(WHITE)
-    ax.title.set_color(CYAN)
-
+def esc(s: str) -> str:
+    return str(s).replace('"', "'").replace("\n", " ")[:40]
 
 def main() -> int:
-    try:
-        import matplotlib
-        matplotlib.use("Agg")
-        import matplotlib.pyplot as plt
-    except ImportError:
-        print("matplotlib required: pip install matplotlib", file=sys.stderr)
-        return 1
-
-    plt.rcParams.update({
-        "figure.facecolor": NAVY, "axes.facecolor": BLUE, "axes.edgecolor": "#334155",
-        "axes.labelcolor": WHITE, "text.color": WHITE, "xtick.color": SLATE, "ytick.color": SLATE,
-        "axes.grid": True, "grid.color": "#1e293b", "grid.alpha": 0.85, "font.size": 10,
-    })
-    written = []
-
+    lines = []
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    lines += ["# GIR graphs (git markup)", "", f"_Generated {now} from open-tier data. Mermaid only — no image binaries._", "",
+              "Regenerate:", "", "```bash", "python3 scripts/generate_gir_charts.py", "```", ""]
+    lines += ["## Data flow", "", "```mermaid", "flowchart LR",
+              '  A["Public feeds"] --> B["Ingest scripts"]',
+              '  C["Open defense sources"] --> B',
+              '  B --> D["data folders"]', '  D --> E["manifest"]', '  E --> F["git commit"]',
+              '  D --> G["Defense GIR page / maps"]', "```", ""]
+    lines += ["## Access tiers", "", "```mermaid", "flowchart TB",
+              '  O["Open tier — this public repo"]', '  P["Partner tier — agreements"]',
+              '  R["Restricted — authorized only"]', "  O --> P --> R", "```", ""]
     manifest = load_json(DATA / "manifests" / "manifest_latest.json")
+    lines += ["## Daily ingest status", ""]
     if manifest and manifest.get("results"):
-        labels = [r.get("source", "?").replace("_", "\n") for r in manifest["results"]]
-        oks = [1 if r.get("ok") else 0 for r in manifest["results"]]
-        fig, ax = plt.subplots(figsize=(9, max(3.5, 0.35 * len(labels) + 1.5)))
-        style_axes(ax)
-        ax.barh(labels, [1] * len(labels), color=[GREEN if o else RED for o in oks], edgecolor=NAVY)
-        ax.set_xlim(0, 1.25)
-        ax.set_xticks([])
-        ax.set_title("Daily ingest source status (latest run)", color=CYAN, pad=12)
-        for i, r in enumerate(manifest["results"]):
-            ax.text(1.05, i, "OK" if r.get("ok") else "FAIL", va="center", fontsize=9,
-                    color=GREEN if r.get("ok") else RED)
-        fig.tight_layout()
-        fig.savefig(IMG / "ingest_status.png", dpi=140, bbox_inches="tight", facecolor=NAVY)
-        plt.close()
-        written.append("ingest_status.png")
-
+        ok = sum(1 for r in manifest["results"] if r.get("ok"))
+        total = len(manifest["results"])
+        fail = max(total - ok, 0)
+        lines += [f"**Last run:** `{manifest.get('generated_at_utc', '—')}` · **{ok}/{total} sources OK**", "",
+                  "```mermaid", "pie showData", f'  title Ingest sources OK vs failed ({ok}/{total})',
+                  f'  "OK" : {ok}', f'  "Failed or skipped" : {fail}', "```", "",
+                  "| Source | Status |", "|--------|--------|"]
+        for r in manifest["results"]:
+            st = "OK" if r.get("ok") else "FAIL"
+            lines.append(f"| `{r.get('source', '?')}` | {st} |")
+        lines.append("")
+    else:
+        lines += ["_No manifest yet — run ingest first._", ""]
     uogw = load_json(DATA / "anomalies" / "uogw_anomalies_latest.json")
+    lines += ["## UOGW anomaly severity", "", "Public anomaly flags (research-style). Not official emergency alerts.", ""]
     if uogw:
         counts = uogw.get("counts") or {}
-        keys = ["alert", "watch", "info"]
-        vals = [int(counts.get(k, 0) or 0) for k in keys]
-        fig, ax = plt.subplots(figsize=(6, 4))
-        style_axes(ax)
-        ax.bar(keys, vals, color=[RED, AMBER, CYAN], edgecolor=NAVY)
-        ax.set_title("UOGW anomaly counts by severity", color=CYAN)
-        ax.set_ylabel("Count")
-        for i, v in enumerate(vals):
-            ax.text(i, v + max(vals + [1]) * 0.03, str(v), ha="center", color=WHITE)
-        fig.tight_layout()
-        fig.savefig(IMG / "uogw_severity.png", dpi=140, bbox_inches="tight", facecolor=NAVY)
-        plt.close()
-        written.append("uogw_severity.png")
-
+        a, w, i = int(counts.get("alert", 0) or 0), int(counts.get("watch", 0) or 0), int(counts.get("info", 0) or 0)
+        lines += ["```mermaid", "pie showData", "  title UOGW counts by severity",
+                  f'  "alert" : {a}', f'  "watch" : {w}', f'  "info" : {i}', "```", "",
+                  f"| alert | watch | info |", f"|-------|-------|------|", f"| {a} | {w} | {i} |", ""]
     quakes = load_json(DATA / "events" / "usgs_quakes_2.5_day_latest.geojson")
+    lines += ["## USGS earthquakes (M2.5+, past day)", ""]
     if quakes:
         mags = []
         for f in quakes.get("features") or []:
             m = (f.get("properties") or {}).get("mag")
             if m is not None:
-                try:
-                    mags.append(float(m))
-                except (TypeError, ValueError):
-                    pass
+                try: mags.append(float(m))
+                except (TypeError, ValueError): pass
+        lines.append(f"**Events:** {len(mags)}")
+        lines.append("")
         if mags:
-            fig, ax = plt.subplots(figsize=(7, 4))
-            style_axes(ax)
-            ax.hist(mags, bins=min(12, max(5, len(set(mags)))), color=CYAN, edgecolor=NAVY, alpha=0.95)
-            ax.set_title(f"USGS M2.5+ earthquakes (past day) — n={len(mags)}", color=CYAN)
-            ax.set_xlabel("Magnitude")
-            ax.set_ylabel("Count")
-            fig.tight_layout()
-            fig.savefig(IMG / "usgs_mags.png", dpi=140, bbox_inches="tight", facecolor=NAVY)
-            plt.close()
-            written.append("usgs_mags.png")
-
+            buckets = {"2.5-3.4": 0, "3.5-4.4": 0, "4.5-5.4": 0, "5.5+": 0}
+            for m in mags:
+                if m < 3.5: buckets["2.5-3.4"] += 1
+                elif m < 4.5: buckets["3.5-4.4"] += 1
+                elif m < 5.5: buckets["4.5-5.4"] += 1
+                else: buckets["5.5+"] += 1
+            labels, vals = list(buckets.keys()), list(buckets.values())
+            lines += ["```mermaid", "xychart-beta", '  title "Quake count by magnitude band"',
+                      "  x-axis " + json.dumps(labels), '  y-axis "Count" 0 --> ' + str(max(max(vals), 1)),
+                      "  bar " + json.dumps(vals), "```", ""]
     air = load_json(DATA / "defense_open" / "public_military_airfields_ourairports.json")
+    lines += ["## Public keyword-flagged airfields by country", "",
+              "> Heuristic from public OurAirports — **not** an official basing list.", ""]
     if air:
         feats = air.get("features") or []
-        top = Counter((f.get("iso_country") or "?") for f in feats).most_common(15)
+        top = Counter((f.get("iso_country") or "?") for f in feats).most_common(12)
+        lines += [f"**Records:** {len(feats)}", ""]
         if top:
-            fig, ax = plt.subplots(figsize=(8, 5))
-            style_axes(ax)
-            ax.barh([t[0] for t in reversed(top)], [t[1] for t in reversed(top)], color=AMBER, edgecolor=NAVY)
-            ax.set_title("Public keyword-flagged military-associated airfields by country", color=CYAN, fontsize=11)
-            ax.set_xlabel("Count")
-            fig.tight_layout()
-            fig.savefig(IMG / "airfields_by_country.png", dpi=140, bbox_inches="tight", facecolor=NAVY)
-            plt.close()
-            written.append("airfields_by_country.png")
-
-    fig, ax = plt.subplots(figsize=(10, 5))
-    ax.set_xlim(0, 10)
-    ax.set_ylim(0, 5)
-    ax.set_facecolor(NAVY)
-    fig.patch.set_facecolor(NAVY)
-    ax.axis("off")
-    ax.set_title("Aerostratospheric Defense GIR — open data flow", color=CYAN, fontsize=14, pad=16)
-    from matplotlib.patches import FancyBboxPatch
-
-    def box(x, y, w, h, text, color):
-        ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.05,rounding_size=0.15",
-                                    facecolor=BLUE, edgecolor=color, linewidth=2))
-        ax.text(x + w / 2, y + h / 2, text, ha="center", va="center", fontsize=8, color=WHITE)
-
-    box(0.3, 3.2, 2.2, 1.2, "Public feeds\nUOGW · EONET · USGS\nNWS · DONKI · STAC", CYAN)
-    box(3.0, 3.2, 2.2, 1.2, "Open defense\nCISA KEV\nOurAirports · awards", AMBER)
-    box(5.7, 3.2, 2.0, 1.2, "Ingest scripts\n+ daily git\nautomation", GREEN)
-    box(8.0, 3.2, 1.7, 1.2, "GIR git\nrepo\nmanifest", CYAN)
-    box(1.5, 0.6, 3.0, 1.4, "Open tier\nPublic maps & research", GREEN)
-    box(5.5, 0.6, 3.5, 1.4, "Partner / Restricted\nNot stored in public git", AMBER)
-    fig.tight_layout()
-    fig.savefig(IMG / "gir_data_flow.png", dpi=140, bbox_inches="tight", facecolor=NAVY)
-    plt.close()
-    written.append("gir_data_flow.png")
-
-    s2 = load_json(DATA / "imagery_index" / "sentinel2_index_latest.json")
-    if s2:
-        items = s2.get("items") or []
-        clouds = [i.get("cloud_cover") for i in items if i.get("cloud_cover") is not None]
-        ids = [(i.get("id") or "")[-18:] for i in items if i.get("cloud_cover") is not None]
-        if clouds:
-            fig, ax = plt.subplots(figsize=(8, 4))
-            style_axes(ax)
-            ax.bar(range(len(clouds)), clouds, color=CYAN, edgecolor=NAVY)
-            ax.set_xticks(range(len(ids)))
-            ax.set_xticklabels(ids, rotation=45, ha="right", fontsize=7)
-            ax.set_ylabel("Cloud cover %")
-            ax.set_title("Sentinel-2 indexed scenes — cloud cover (sample region)", color=CYAN)
-            fig.tight_layout()
-            fig.savefig(IMG / "sentinel2_clouds.png", dpi=140, bbox_inches="tight", facecolor=NAVY)
-            plt.close()
-            written.append("sentinel2_clouds.png")
-
-    usa = load_json(DATA / "defense_open" / "usaspending_defense_naics_latest.json")
-    if usa and usa.get("results"):
-        names, amounts = [], []
-        for r in usa["results"][:12]:
-            name = r.get("Recipient Name") or r.get("recipient_name") or r.get("Award ID") or "?"
-            amt = r.get("Award Amount") or r.get("award_amount") or 0
-            try:
-                amt = float(amt)
-            except (TypeError, ValueError):
-                amt = 0.0
-            names.append(str(name)[:28])
-            amounts.append(amt)
-        if any(amounts):
-            fig, ax = plt.subplots(figsize=(9, 5))
-            style_axes(ax)
-            ax.barh(list(reversed(names)), list(reversed(amounts)), color=CYAN, edgecolor=NAVY)
-            ax.set_title("USAspending sample — top awards (selected NAICS, public)", color=CYAN, fontsize=11)
-            ax.set_xlabel("Award amount (USD)")
-            fig.tight_layout()
-            fig.savefig(IMG / "usaspending_top.png", dpi=140, bbox_inches="tight", facecolor=NAVY)
-            plt.close()
-            written.append("usaspending_top.png")
-
-    print(f"Done. {len(written)} chart(s) in docs/images/")
-    return 0 if written else 1
-
+            labels, vals = [t[0] for t in top], [t[1] for t in top]
+            lines += ["```mermaid", "xychart-beta", '  title "Top countries (keyword heuristic)"',
+                      "  x-axis " + json.dumps(labels), '  y-axis "Count" 0 --> ' + str(max(max(vals), 1)),
+                      "  bar " + json.dumps(vals), "```", ""]
+    lines += ["---", "", "Open tier only. See OPEN_DEFENSE_DATA.md and DATA_POLICY.md.", ""]
+    OUT.write_text("\n".join(lines), encoding="utf-8")
+    print(f"Wrote {OUT}")
+    return 0
 
 if __name__ == "__main__":
     raise SystemExit(main())

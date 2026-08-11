@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use the Aerostratospheric Defense GIR open-tier data or software, please cite it as below."
+type: software
+title: "Aerostratospheric Defense Geospatial Information Repository (GIR)"
+version: "1.4.0"
+date-released: "2026-08-11"
+url: "https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir"
+repository-code: "https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir"
+license: MIT
+authors:
+  - name: "Aerostratospheric / Midwest Stratospheric Data Systems"
+    city: "Effingham"
+    region: "IL"
+    country: "US"
+    website: "https://midwestsds.com/"
+keywords:
+  - geospatial
+  - open data
+  - situational awareness
+  - remote sensing index
+  - defense open tier
+abstract: >
+  The Aerostratospheric Defense GIR is an open-tier Geospatial Information
+  Repository that automatically collects public hazard, Earth-observation index,
+  and defense-adjacent open datasets, validates them, tracks provenance, and
+  versions them in git for reproducible awareness support at the unclassified boundary.

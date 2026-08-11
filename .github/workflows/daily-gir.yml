@@ -2,8 +2,9 @@ name: Daily GIR open-tier ingest
 
 on:
   schedule:
-    # 06:00 UTC every day
+    # 06:00 and 18:00 UTC
     - cron: "0 6 * * *"
+    - cron: "0 18 * * *"
   workflow_dispatch:
 
 permissions:
@@ -12,6 +13,7 @@ permissions:
 jobs:
   ingest:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
@@ -20,18 +22,18 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run daily automation
+      - name: Run comprehensive ingest + commit
         run: |
           chmod +x scripts/daily_gir_automation.sh scripts/*.py
-          ./scripts/daily_gir_automation.sh
+          bash scripts/daily_gir_automation.sh
 
-      - name: Push if changed
+      - name: Push updates
         run: |
           git config user.name "GIR Daily Automation"
           git config user.email "gir-automation@aerostratospheric.local"
+          git pull --rebase origin main || true
           if [ -n "$(git status --porcelain)" ]; then
             git add -A
-            git commit -m "chore(gir): daily open-tier ingest $(date -u +%Y%m%dT%H%M%SZ)" || true
+            git commit -m "chore(gir): daily open-tier data refresh $(date -u +%Y%m%dT%H%M%SZ)" || true
           fi
-          git pull --rebase origin main || true
-          git push origin HEAD:main || true
+          git push origin HEAD:main || git push origin HEAD:main --force-with-lease || true

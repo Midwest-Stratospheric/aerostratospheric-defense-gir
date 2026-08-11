@@ -1,34 +1,35 @@
-# GIR Daily Git Automation
+# GIR Daily Git Automation (comprehensive)
 
-## What runs daily
+## Schedule
 
-1. **UOGW anomaly report** → `data/anomalies/`
-2. **NASA EONET open events** → `data/events/`
-3. **Sentinel-2 STAC search** (Casey IL bbox) → `data/imagery_index/`
-4. **Git commit** only when files changed
+| Channel | When |
+|---------|------|
+| GitHub Actions | **06:00 UTC** and **18:00 UTC** daily + manual dispatch |
+| Local cron (optional) | `0 6 * * *` via `scripts/install_cron.sh` |
 
-## Local one-shot
+## What gets added every run
+
+| Source | Output |
+|--------|--------|
+| UOGW anomalies | `data/anomalies/uogw_anomalies_latest.json` |
+| NASA EONET events | `data/events/eonet_open_latest.json` + `.geojson` |
+| USGS earthquakes (M2.5+ day) | `data/events/usgs_quakes_2.5_day_latest.geojson` |
+| NWS active alerts (US) | `data/events/nws_active_alerts_latest.geojson` |
+| Sentinel-2 STAC (Casey region) | `data/imagery_index/sentinel2_*.json` |
+| NASA DONKI CME (7-day) | `data/events/donki_cme_latest.json` |
+| Run manifest | `data/manifests/manifest_latest.json` |
+
+All sources are **public open-tier** only.
+
+## Commands
 
 ```bash
-cd /path/to/gir
-./scripts/daily_gir_automation.sh
+bash scripts/daily_gir_automation.sh
+python3 scripts/ingest_open_tier.py
 ```
 
-## Install system cron (if `crontab` exists)
+## GitHub
 
-```bash
-./scripts/install_cron.sh
-# default: 0 6 * * *  (06:00 daily)
-```
+Repo: https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir
 
-## GitHub Actions (recommended for remote)
-
-Workflow: `.github/workflows/daily-gir.yml`
-
-- Runs **06:00 UTC** daily
-- Also triggerable manually (`workflow_dispatch`)
-- Commits and pushes open-tier updates to `main`
-
-## Policy
-
-Automation touches **open tier only**. Do not point these scripts at classified or restricted sources.
+Actions → **Daily GIR open-tier ingest** → **Run workflow** for an immediate refresh.

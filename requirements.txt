@@ -1,0 +1,4 @@
+# GIR open-tier scripts use Python 3.10+ stdlib only.
+# Optional helpers if you extend STAC clients:
+# pystac-client>=0.7.0
+# requests>=2.31.0

@@ -1,0 +1,29 @@
+{
+  "name": "Aerostratospheric Defense GIR",
+  "version": "1.0.0",
+  "description": "Geospatial Information Repository for Aerostratospheric Defense Systems. Open and partner tiers use public Earth-observation and OSINT-compatible reference data only. Restricted tier is defined structurally but not populated with classified content in this public repository.",
+  "access_tiers": {
+    "open": "Public science and open EO products",
+    "partner": "Controlled partner products under agreement",
+    "restricted": "Authorized government/military only — not stored in public repo"
+  },
+  "collections": {
+    "imagery_index": {
+      "description": "Catalog of worldwide open satellite / EO imagery sources and STAC-compatible endpoints",
+      "fields": ["source_id", "provider", "constellation", "resolution_m", "revisit_days", "license", "stac_api", "coverage", "tier"]
+    },
+    "anomalies": {
+      "description": "Anomaly and early-warning events (public UOGW + future partner streams)",
+      "fields": ["event_id", "timestamp_utc", "lat", "lon", "alt_m", "platform_id", "kind", "severity", "thermal_anomaly_score", "rf_anomaly_index", "ew_level", "source", "tier"]
+    },
+    "reference_features": {
+      "description": "Public reference geospatial features (ports, airports, published infrastructure). No classified sites.",
+      "fields": ["feature_id", "name", "feature_type", "lat", "lon", "country", "source", "notes", "tier"]
+    }
+  },
+  "policy": {
+    "classified_content": false,
+    "kinetic_or_targeting_products": false,
+    "public_repo_contains": "Open EO catalogs, public anomaly samples, public reference features only"
+  }
+}

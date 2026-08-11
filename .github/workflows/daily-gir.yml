@@ -1,0 +1,37 @@
+name: Daily GIR open-tier ingest
+
+on:
+  schedule:
+    # 06:00 UTC every day
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run daily automation
+        run: |
+          chmod +x scripts/daily_gir_automation.sh scripts/*.py
+          ./scripts/daily_gir_automation.sh
+
+      - name: Push if changed
+        run: |
+          git config user.name "GIR Daily Automation"
+          git config user.email "gir-automation@aerostratospheric.local"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "chore(gir): daily open-tier ingest $(date -u +%Y%m%dT%H%M%SZ)" || true
+          fi
+          git pull --rebase origin main || true
+          git push origin HEAD:main || true

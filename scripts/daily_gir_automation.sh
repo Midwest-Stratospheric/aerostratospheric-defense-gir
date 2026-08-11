@@ -1,9 +1,5 @@
 #!/bin/bash
 # Aerostratospheric Defense GIR — comprehensive daily automation
-# 1) Multi-source open-tier ingest
-# 2) Git commit when data changed
-# Cron: 0 6 * * * /path/to/gir/scripts/daily_gir_automation.sh
-
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -42,7 +38,7 @@ if git status --porcelain | grep -q .; then
       -c user.name="GIR Daily Automation" \
       commit -m "chore(gir): daily open-tier data refresh ${STAMP}
 
-Sources: UOGW anomalies, EONET, USGS quakes, NWS alerts, Sentinel-2 STAC, DONKI CME.
+Sources: UOGW, EONET, USGS, NWS, Sentinel-2, DONKI, CISA KEV, OurAirports, USAspending, GDELT, OpenSky, OSM military, FIRMS optional.
 Open tier only — no classified content."
   log "Committed: $(git log -1 --oneline)"
 else

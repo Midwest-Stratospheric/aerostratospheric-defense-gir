@@ -31,7 +31,24 @@ This repository holds **open and publicly licensed** defense-adjacent data only.
 - Controlled partner imagery  
 - Any dataset requiring government-to-government channels  
 
-## Daily automation
+## Implemented in daily ingest (public)
 
-`scripts/ingest_open_tier.py` already pulls open streams.  
-ACLED/GDELT full history and OpenSky live snapshots can be added behind API keys in a private Actions secret workflow later.
+| Source | Status |
+|--------|--------|
+| UOGW, EONET, USGS, NWS, DONKI, Sentinel-2 | Daily |
+| CISA KEV | Daily |
+| OurAirports military-keyword airfields | Daily |
+| USAspending defense NAICS (90-day) | Daily |
+| GDELT lastupdate pointers | Daily |
+| OpenSky Midwest ADS-B snapshot | Best-effort (rate limits) |
+| OSM landuse=military (IL sample bbox) | Daily sample |
+| FIRMS VIIRS USA | When FIRMS_MAP_KEY is set |
+| UCDP / ACLED | Registration / partner key — stubs only in public repo |
+
+## Partner tier private repo (suggested)
+
+Create `aerostratospheric-defense-gir-restricted` (private) for:
+
+- Aerodefener restricted products  
+- ACLED extracts under license  
+- Partner EO  

@@ -1,0 +1,6 @@
+{
+  "generated_at_utc": "2026-08-11T15:27:14Z",
+  "features_run": ["schema_validation", "provenance", "freshness_sla", "temporal_index", "aoi_filter", "statistical_baseline", "multi_source_fusion", "stac_export"],
+  "completeness_note": "Full suite ran locally; completeness ~0.93 (14/15 sources; OpenSky timeout).",
+  "pipeline": ["ingest_open_tier", "gir_quality_suite", "generate_gir_charts"]
+}

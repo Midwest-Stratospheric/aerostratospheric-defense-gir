@@ -1,17 +1,27 @@
-# GIR graphs
+# GIR graphs (all categories)
 
-Visual charts are **SVG files** in [`docs/charts/`](charts/) (render on GitHub).
+Git-native **SVG** visuals for every open-tier data category.
 
-![data flow](charts/gir_data_flow.svg)
+Full gallery: [docs/charts/README.md](charts/README.md)
 
-![ingest](charts/ingest_status.svg)
+```bash
+python3 scripts/generate_gir_charts.py
+```
 
-![uogw](charts/uogw_severity.svg)
+![overview](charts/cat_overview_all.svg)
 
-![usgs](charts/usgs_mags.svg)
+![architecture](charts/cat_architecture.svg)
 
-![airfields](charts/airfields_by_country.svg)
+![ingest](charts/cat_manifest_ingest_status.svg)
 
-![sentinel](charts/sentinel2_clouds.svg)
+![uogw](charts/cat_anomalies_uogw_severity.svg)
 
-![spending](charts/usaspending_top.svg)
+![usgs](charts/cat_events_usgs_mags.svg)
+
+![nws](charts/cat_events_nws_types.svg)
+
+![sentinel](charts/cat_imagery_sentinel_clouds.svg)
+
+![airfields](charts/cat_defense_airfields_country.svg)
+
+![quality](charts/cat_quality_features_run.svg)

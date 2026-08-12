@@ -1,14 +1,494 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786528117000,
+    "generated": 1786565455000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 50
+    "count": 45
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.04,
+        "place": "52 km N of Hatillo, Puerto Rico",
+        "time": 1786547497860,
+        "updated": 1786553791670,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528298",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71528298.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 142,
+        "net": "pr",
+        "code": "71528298",
+        "ids": ",pr71528298,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.5383,
+        "rms": 0.21,
+        "gap": 293,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 52 km N of Hatillo, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8641666666667,
+          18.9548333333333,
+          35.12
+        ]
+      },
+      "id": "pr71528298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "9 km NW of Kodiak, Alaska",
+        "time": 1786547496119,
+        "updated": 1786565036013,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pxbhdx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pxbhdx.geojson",
+        "felt": 71,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 175,
+        "net": "ak",
+        "code": "a2026pxbhdx",
+        "ids": ",aka2026pxbhdx,us6000tk7y,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 76,
+        "dmin": 0.7,
+        "rms": 0.8,
+        "gap": 153,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 9 km NW of Kodiak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.521,
+          57.841,
+          5
+        ]
+      },
+      "id": "aka2026pxbhdx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.22,
+        "place": "48 km SE of P\u0101hala, Hawaii",
+        "time": 1786545916750,
+        "updated": 1786555524590,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75018581",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75018581.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 160,
+        "net": "hv",
+        "code": "75018581",
+        "ids": ",us6000tk7u,hv75018581,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.3949,
+        "rms": 0.15,
+        "gap": 277,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 48 km SE of P\u0101hala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.154333333333,
+          18.8871666666667,
+          10.89
+        ]
+      },
+      "id": "hv75018581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.82,
+        "place": "17 km NW of San Antonio, Puerto Rico",
+        "time": 1786539576650,
+        "updated": 1786540431570,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528278",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71528278.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 122,
+        "net": "pr",
+        "code": "71528278",
+        "ids": ",pr71528278,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.1734,
+        "rms": 0.19,
+        "gap": 232,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 17 km NW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.2101666666667,
+          18.614,
+          82.29
+        ]
+      },
+      "id": "pr71528278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.46,
+        "place": "2 km NE of Magas Arriba, Puerto Rico",
+        "time": 1786538673400,
+        "updated": 1786539617510,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528273",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71528273.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 93,
+        "net": "pr",
+        "code": "71528273",
+        "ids": ",pr71528273,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.03871,
+        "rms": 0.22,
+        "gap": 123,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 2 km NE of Magas Arriba, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7521666666667,
+          18.0298333333333,
+          11.77
+        ]
+      },
+      "id": "pr71528273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "south of the Fiji Islands",
+        "time": 1786538546674,
+        "updated": 1786540966040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk7a",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tk7a.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000tk7a",
+        "ids": ",us6000tk7a,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 6.021,
+        "rms": 1.01,
+        "gap": 145,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.7774,
+          -23.4416,
+          526.828
+        ]
+      },
+      "id": "us6000tk7a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "55 km SW of Champerico, Guatemala",
+        "time": 1786535789774,
+        "updated": 1786547588040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk75",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tk75.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000tk75",
+        "ids": ",us6000tk75,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 68,
+        "dmin": 2.31,
+        "rms": 1.15,
+        "gap": 185,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 55 km SW of Champerico, Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.3028,
+          13.9641,
+          35
+        ]
+      },
+      "id": "us6000tk75"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.04,
+        "place": "23 km S of Cruz Bay, U.S. Virgin Islands",
+        "time": 1786535431190,
+        "updated": 1786541970060,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528248",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71528248.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 142,
+        "net": "pr",
+        "code": "71528248",
+        "ids": ",pr71528248,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.3028,
+        "rms": 0.37,
+        "gap": 141,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 23 km S of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.752,
+          18.119,
+          12.26
+        ]
+      },
+      "id": "pr71528248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6,
+        "place": "South Sandwich Islands region",
+        "time": 1786535232117,
+        "updated": 1786546548041,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk74",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tk74.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": 3.402,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 554,
+        "net": "us",
+        "code": "6000tk74",
+        "ids": ",us6000tk74,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 76,
+        "dmin": 7.224,
+        "rms": 0.56,
+        "gap": 64,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.0 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -28.9899,
+          -60.2445,
+          10
+        ]
+      },
+      "id": "us6000tk74"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.22,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1786530610120,
+        "updated": 1786559884836,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75416682",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75416682.geojson",
+        "felt": 13,
+        "cdi": 3.9,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 165,
+        "net": "nc",
+        "code": "75416682",
+        "ids": ",nc75416682,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 79,
+        "dmin": 0.01089,
+        "rms": 0.08,
+        "gap": 22,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 6 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.808166503906,
+          38.8121681213379,
+          2.89000010490417
+        ]
+      },
+      "id": "nc75416682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1786530501440,
+        "updated": 1786546165529,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75416672",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75416672.geojson",
+        "felt": 6,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 160,
+        "net": "nc",
+        "code": "75416672",
+        "ids": ",nc75416672,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 87,
+        "dmin": 0.01042,
+        "rms": 0.09,
+        "gap": 23,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 6 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.806335449219,
+          38.813835144043,
+          2.78999996185303
+        ]
+      },
+      "id": "nc75416672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "125 km NNW of Ambon, Indonesia",
+        "time": 1786529728554,
+        "updated": 1786541704040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk6n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tk6n.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000tk6n",
+        "ids": ",us6000tk6n,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 2.833,
+        "rms": 0.52,
+        "gap": 65,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 125 km NNW of Ambon, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7768,
+          -2.6342,
+          10
+        ]
+      },
+      "id": "us6000tk6n"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -48,6 +528,46 @@
         ]
       },
       "id": "nc75416622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.61,
+        "place": "14 km SSE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1786523962130,
+        "updated": 1786530870770,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528233",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71528233.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "pr",
+        "code": "71528233",
+        "ids": ",pr71528233,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.2343,
+        "rms": 0.13,
+        "gap": 232,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 14 km SSE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.765,
+          18.204,
+          13.99
+        ]
+      },
+      "id": "pr71528233"
     },
     {
       "type": "Feature",
@@ -132,82 +652,82 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.71,
+        "mag": 3.04,
         "place": "10 km WSW of Corona, CA",
-        "time": 1786515453170,
-        "updated": 1786527473877,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670930",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40670930.geojson",
-        "felt": 10,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 117,
-        "net": "ci",
-        "code": "40670930",
-        "ids": ",ci40670930,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 50,
-        "dmin": 0.05246,
-        "rms": 0.2,
-        "gap": 44,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 10 km WSW of Corona, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.662666666667,
-          33.8335,
-          2.96
-        ]
-      },
-      "id": "ci40670930"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.10943572112956,
-        "place": "9 km WSW of Corona, CA",
-        "time": 1786515426410,
-        "updated": 1786527124241,
+        "time": 1786515426400,
+        "updated": 1786560927323,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670922",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40670922.geojson",
-        "felt": 374,
+        "felt": 397,
         "cdi": 3.4,
-        "mmi": 3.372,
+        "mmi": 3.317,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 276,
+        "sig": 277,
         "net": "ci",
         "code": "40670922",
         "ids": ",ci40670922,us6000tk5r,",
         "sources": ",ci,us,",
         "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 125,
-        "dmin": 0.05327,
-        "rms": 0.25999999,
-        "gap": 18,
+        "nst": 151,
+        "dmin": 0.05309,
+        "rms": 0.21,
+        "gap": 16,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 9 km WSW of Corona, CA"
+        "title": "M 3.0 - 10 km WSW of Corona, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.656997680664,
-          33.8306655883789,
-          2.4300000667572
+          -117.661833333333,
+          33.8333333333333,
+          2.8
         ]
       },
       "id": "ci40670922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.43,
+        "place": "65 km E of Cruz Bay, U.S. Virgin Islands",
+        "time": 1786511770420,
+        "updated": 1786534121570,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528243",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71528243.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 181,
+        "net": "pr",
+        "code": "71528243",
+        "ids": ",pr71528243,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.3068,
+        "rms": 0.68,
+        "gap": 305,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 65 km E of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.1811666666667,
+          18.2653333333333,
+          25.9
+        ]
+      },
+      "id": "pr71528243"
     },
     {
       "type": "Feature",
@@ -252,10 +772,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.36,
+        "place": "31 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1786509618130,
+        "updated": 1786530434080,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528198",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71528198.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 174,
+        "net": "pr",
+        "code": "71528198",
+        "ids": ",pr71528198,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.2774,
+        "rms": 0.32,
+        "gap": 199,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.4 - 31 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.9201666666667,
+          18.6291666666667,
+          41.64
+        ]
+      },
+      "id": "pr71528198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.62,
-        "place": "29 km SSE of Mina, Nevada",
-        "time": 1786507830329,
-        "updated": 1786510207040,
+        "place": "30 km SSE of Mina, Nevada",
+        "time": 1786507831556,
+        "updated": 1786551374372,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923208",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00923208.geojson",
@@ -263,7 +823,7 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 106,
         "net": "nn",
@@ -271,20 +831,20 @@
         "ids": ",us6000tk5d,nn00923208,",
         "sources": ",us,nn,",
         "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.435,
-        "rms": 0.2652,
-        "gap": 83,
+        "nst": 16,
+        "dmin": 0.41,
+        "rms": 0.1437,
+        "gap": 54,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 29 km SSE of Mina, Nevada"
+        "title": "M 2.6 - 30 km SSE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.9664,
-          38.1496,
-          0.0349
+          -117.977,
+          38.1362,
+          10.9858
         ]
       },
       "id": "nn00923208"
@@ -295,12 +855,12 @@
         "mag": 4.9,
         "place": "14 km WSW of Honmachi, Japan",
         "time": 1786507551903,
-        "updated": 1786508517298,
+        "updated": 1786531146523,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk5c",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tk5c.geojson",
-        "felt": 1,
-        "cdi": 3.4,
+        "felt": 2,
+        "cdi": 4.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -335,17 +895,17 @@
         "mag": 5.2,
         "place": "42 km ESE of Naalehu, Hawaii",
         "time": 1786506513980,
-        "updated": 1786523384188,
+        "updated": 1786560900126,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75018296",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75018296.geojson",
-        "felt": 64,
+        "felt": 66,
         "cdi": 3.8,
-        "mmi": 3.853,
+        "mmi": 3.862,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 440,
+        "sig": 441,
         "net": "hv",
         "code": "75018296",
         "ids": ",hv75018296,us6000tk56,",
@@ -492,42 +1052,122 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "65 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1786499483634,
-        "updated": 1786499748040,
+        "mag": 3.2,
+        "place": "231 km ESE of Attu Station, Alaska",
+        "time": 1786503783227,
+        "updated": 1786562199961,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk4r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tk4r.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pwczln",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pwczln.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "6000tk4r",
-        "ids": ",us6000tk4r,",
-        "sources": ",us,",
+        "sig": 158,
+        "net": "ak",
+        "code": "a2026pwczln",
+        "ids": ",aka2026pwczln,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.457,
-        "rms": 0.59,
-        "gap": 288,
+        "nst": 8,
+        "dmin": 1.4,
+        "rms": 0.6,
+        "gap": 190,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 65 km NNE of Cruz Bay, U.S. Virgin Islands"
+        "title": "M 3.2 - 231 km ESE of Attu Station, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.5367,
-          18.8722,
-          29.679
+          176.32,
+          52.024,
+          10
         ]
       },
-      "id": "us6000tk4r"
+      "id": "aka2026pwczln"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "55 km ESE of Atka, Alaska",
+        "time": 1786500147485,
+        "updated": 1786530698824,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pwazcq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pwazcq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "a2026pwazcq",
+        "ids": ",aka2026pwazcq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.5,
+        "rms": 0.7,
+        "gap": 313,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 55 km ESE of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.446,
+          52.019,
+          89.1
+        ]
+      },
+      "id": "aka2026pwazcq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.65,
+        "place": "63 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1786499484670,
+        "updated": 1786529595956,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026224000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026224000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 205,
+        "net": "pr",
+        "code": "2026224000",
+        "ids": ",us6000tk4r,pr2026224000,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.3906,
+        "rms": 0.26,
+        "gap": 257,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 63 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.542,
+          18.8553,
+          8
+        ]
+      },
+      "id": "pr2026224000"
     },
     {
       "type": "Feature",
@@ -1168,854 +1808,14 @@
         ]
       },
       "id": "us6000tk1y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "149 km SSE of Port Blair, India",
-        "time": 1786478141269,
-        "updated": 1786479155040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk1m",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tk1m.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000tk1m",
-        "ids": ",us6000tk1m,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 67,
-        "dmin": 6.472,
-        "rms": 0.81,
-        "gap": 43,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 149 km SSE of Port Blair, India"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          93.4884,
-          10.5351,
-          113.482
-        ]
-      },
-      "id": "us6000tk1m"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "118 km ESE of Neiafu, Tonga",
-        "time": 1786473919680,
-        "updated": 1786477899040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk14",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tk14.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000tk14",
-        "ids": ",us6000tk14,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 2.86,
-        "rms": 0.92,
-        "gap": 104,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 118 km ESE of Neiafu, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -172.9513,
-          -19.0842,
-          10
-        ]
-      },
-      "id": "us6000tk14"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Western Australia",
-        "time": 1786471825542,
-        "updated": 1786477015040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk0u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tk0u.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000tk0u",
-        "ids": ",us6000tk0u,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 1.505,
-        "rms": 0.37,
-        "gap": 122,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Western Australia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.5708,
-          -31.5799,
-          10
-        ]
-      },
-      "id": "us6000tk0u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "7 km W of Lunca Jari\u0219tei, Romania",
-        "time": 1786468875884,
-        "updated": 1786473927650,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk0c",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tk0c.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000tk0c",
-        "ids": ",us6000tk0c,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 84,
-        "dmin": 1.901,
-        "rms": 0.91,
-        "gap": 34,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 7 km W of Lunca Jari\u0219tei, Romania"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.1598,
-          45.487,
-          140.003
-        ]
-      },
-      "id": "us6000tk0c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "96 km SE of Akutan, Alaska",
-        "time": 1786468541586,
-        "updated": 1786496189530,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pvjken",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pvjken.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026pvjken",
-        "ids": ",aka2026pvjken,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.8,
-        "rms": 0.8,
-        "gap": 238,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 96 km SE of Akutan, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -164.741,
-          53.524,
-          23.5
-        ]
-      },
-      "id": "aka2026pvjken"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "107 km WNW of Kerema, Papua New Guinea",
-        "time": 1786467978902,
-        "updated": 1786469649040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk0a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tk0a.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000tk0a",
-        "ids": ",us6000tk0a,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 2.877,
-        "rms": 0.89,
-        "gap": 98,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 107 km WNW of Kerema, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.8583,
-          -7.6341,
-          10
-        ]
-      },
-      "id": "us6000tk0a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.09,
-        "place": "5 km WSW of Harrah, Washington",
-        "time": 1786465432580,
-        "updated": 1786521167333,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714075502",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714075502.geojson",
-        "felt": 44,
-        "cdi": 3.2,
-        "mmi": 2.728,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 161,
-        "net": "uw",
-        "code": "714075502",
-        "ids": ",uw714075502,",
-        "sources": ",uw,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 100,
-        "dmin": 0.1743,
-        "rms": 0.24,
-        "gap": 46,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 5 km WSW of Harrah, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.609,
-          46.3901666666667,
-          11.81
-        ]
-      },
-      "id": "uw714075502"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "30 km SW of Trapper Creek, Alaska",
-        "time": 1786463037428,
-        "updated": 1786485848448,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pvgipq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pvgipq.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026pvgipq",
-        "ids": ",aka2026pvgipq,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 81,
-        "dmin": 0.3,
-        "rms": 1.2,
-        "gap": 27,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 30 km SW of Trapper Creek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.626,
-          62.109,
-          10
-        ]
-      },
-      "id": "aka2026pvgipq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "39 km SSW of Karluk, Alaska",
-        "time": 1786458494360,
-        "updated": 1786485043301,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pvduzh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pvduzh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "a2026pvduzh",
-        "ids": ",aka2026pvduzh,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 117,
-        "dmin": 0.4,
-        "rms": 1,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 39 km SSW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.773,
-          57.256,
-          43.6
-        ]
-      },
-      "id": "aka2026pvduzh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.88,
-        "place": "47 km ESE of Naalehu, Hawaii",
-        "time": 1786457721660,
-        "updated": 1786486214040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75017881",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75017881.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "hv",
-        "code": "75017881",
-        "ids": ",us6000tjxk,hv75017881,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 0.4063,
-        "rms": 0.200000003,
-        "gap": 269,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 47 km ESE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.20100402832,
-          18.8311672210693,
-          9.23999977111816
-        ]
-      },
-      "id": "hv75017881"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.32,
-        "place": "44 km ESE of Naalehu, Hawaii",
-        "time": 1786456555630,
-        "updated": 1786485384040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75017861",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75017861.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 170,
-        "net": "hv",
-        "code": "75017861",
-        "ids": ",hv75017861,us6000tjxi,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 53,
-        "dmin": 0.3697,
-        "rms": 0.13,
-        "gap": 260,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 44 km ESE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.217833333333,
-          18.8653333333333,
-          11.66
-        ]
-      },
-      "id": "hv75017861"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.08,
-        "place": "46 km ESE of Naalehu, Hawaii",
-        "time": 1786455060470,
-        "updated": 1786483101040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75017846",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75017846.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 146,
-        "net": "hv",
-        "code": "75017846",
-        "ids": ",us6000tjxg,hv75017846,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 0.3868,
-        "rms": 0.200000003,
-        "gap": 262,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 46 km ESE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.205337524414,
-          18.8528327941895,
-          11.1899995803833
-        ]
-      },
-      "id": "hv75017846"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Pulau Pulau Tanimbar, Indonesia",
-        "time": 1786452312884,
-        "updated": 1786455088040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjxa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tjxa.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000tjxa",
-        "ids": ",us6000tjxa,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 2.897,
-        "rms": 0.74,
-        "gap": 86,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Pulau Pulau Tanimbar, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          130.3922,
-          -7.397,
-          30.609
-        ]
-      },
-      "id": "us6000tjxa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "140 km S of Unalaska, Alaska",
-        "time": 1786452236091,
-        "updated": 1786483906300,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pvailr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pvailr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "ak",
-        "code": "a2026pvailr",
-        "ids": ",aka2026pvailr,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 1.1,
-        "rms": 0.7,
-        "gap": 238,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 140 km S of Unalaska, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -166.596,
-          52.61,
-          20.6
-        ]
-      },
-      "id": "aka2026pvailr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "264 km SW of Severo-Kuril\u2019sk, Russia",
-        "time": 1786450421963,
-        "updated": 1786463740040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjx7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tjx7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000tjx7",
-        "ids": ",us6000tjx7,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 78,
-        "dmin": 4.781,
-        "rms": 0.63,
-        "gap": 143,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 264 km SW of Severo-Kuril\u2019sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.1425,
-          49.2842,
-          174.304
-        ]
-      },
-      "id": "us6000tjx7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.66,
-        "place": "5 km NW of Pinnacles, CA",
-        "time": 1786450169580,
-        "updated": 1786455254017,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415817",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75415817.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 109,
-        "net": "nc",
-        "code": "75415817",
-        "ids": ",nc75415817,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 59,
-        "dmin": 0.008745,
-        "rms": 0.25,
-        "gap": 40,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 5 km NW of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.175003051758,
-          36.5691680908203,
-          0.509999990463257
-        ]
-      },
-      "id": "nc75415817"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Banda Sea",
-        "time": 1786445392149,
-        "updated": 1786450277040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjx1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tjx1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000tjx1",
-        "ids": ",us6000tjx1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 84,
-        "dmin": 2.195,
-        "rms": 0.4,
-        "gap": 83,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Banda Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.7317,
-          -6.7252,
-          170.699
-        ]
-      },
-      "id": "us6000tjx1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "5 km NNW of Pinnacles, CA",
-        "time": 1786443661710,
-        "updated": 1786518143040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415722",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75415722.geojson",
-        "felt": 2,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "nc",
-        "code": "75415722",
-        "ids": ",nc75415722,us6000tjwv,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 9,
-        "dmin": 0.01238,
-        "rms": 0.12,
-        "gap": 121,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 5 km NNW of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.171165466309,
-          36.5670013427734,
-          4.23000001907349
-        ]
-      },
-      "id": "nc75415722"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "6 km NW of Pinnacles, CA",
-        "time": 1786443641080,
-        "updated": 1786517196040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415712",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75415712.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "nc",
-        "code": "75415712",
-        "ids": ",nc75415712,us6000tjwu,",
-        "sources": ",nc,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.1026,
-        "rms": 0.11,
-        "gap": 99,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 6 km NW of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.200500488281,
-          36.5651664733887,
-          2.64000010490417
-        ]
-      },
-      "id": "nc75415712"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.94,
-        "place": "6 km NW of Pinnacles, CA",
-        "time": 1786443548180,
-        "updated": 1786507953754,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415717",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75415717.geojson",
-        "felt": 34,
-        "cdi": 4.3,
-        "mmi": 4.49,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 253,
-        "net": "nc",
-        "code": "75415717",
-        "ids": ",ew1786443550,nc75415717,us6000tjws,",
-        "sources": ",ew,nc,us,",
-        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
-        "nst": 85,
-        "dmin": 0.0066,
-        "rms": 0.15,
-        "gap": 40,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 3.9 - 6 km NW of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.182333333333,
-          36.5778333333333,
-          4.62
-        ]
-      },
-      "id": "nc75415717"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "232 km ESE of Attu Station, Alaska",
-        "time": 1786442255452,
-        "updated": 1786481928723,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026puuuog",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026puuuog.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "a2026puuuog",
-        "ids": ",aka2026puuuog,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 1.4,
-        "rms": 1.2,
-        "gap": 190,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 232 km ESE of Attu Station, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.332,
-          52.025,
-          20
-        ]
-      },
-      "id": "aka2026puuuog"
     }
   ],
   "bbox": [
-    -172.9513,
-    -55.9202,
-    0.0349,
-    176.332,
-    62.109,
-    207.202
+    -179.7774,
+    -60.2445,
+    2.18,
+    176.32,
+    60.105,
+    526.828
   ]
 }

@@ -6,8 +6,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43,
-          36.7
+          -131.9,
+          18.1
+        ]
+      },
+      "properties": {
+        "id": "EONET_22562",
+        "title": "Tropical Storm Hernan",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151,
+          28
+        ]
+      },
+      "properties": {
+        "id": "EONET_22561",
+        "title": "Tropical Storm Nangka",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145,
+          14.9
+        ]
+      },
+      "properties": {
+        "id": "EONET_22563",
+        "title": "Tropical Storm 01C",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.2,
+          38.6
         ]
       },
       "properties": {
@@ -366,8 +411,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          166.6,
-          31.1
+          169.1,
+          32.9
         ]
       },
       "properties": {
@@ -1455,52 +1500,7 @@
         "title": "Wildfire Tartar, Washington, Idaho",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.510133,
-          45.252967
-        ]
-      },
-      "properties": {
-        "id": "EONET_21842",
-        "title": "Wildfire GRASSHOPPER, Wasco, Oregon",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.212967,
-          44.523917
-        ]
-      },
-      "properties": {
-        "id": "EONET_21826",
-        "title": "Wildfire FOX, Baker, Oregon",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.116167,
-          45.8805
-        ]
-      },
-      "properties": {
-        "id": "EONET_22441",
-        "title": "Wildfire HIGH LAVA, Skamania, Washington",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-08-13T09:46:21.466888+00:00"
+  "updated_utc": "2026-08-13T20:03:14.398121+00:00"
 }

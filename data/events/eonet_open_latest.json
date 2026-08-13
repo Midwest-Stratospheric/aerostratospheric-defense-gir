@@ -4,6 +4,37 @@
   "link": "https://eonet.gsfc.nasa.gov/api/v3/events",
   "events": [
     {
+      "id": "EONET_22560",
+      "title": "Tropical Storm Cristobal",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22560",
+      "closed": null,
+      "categories": [
+        {
+          "id": "severeStorms",
+          "title": "Severe Storms"
+        }
+      ],
+      "sources": [
+        {
+          "id": "NOAA_NHC",
+          "url": "https://www.nhc.noaa.gov/archive/2026/CRISTOBAL.shtml"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 40.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-08-12T15:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -43,
+            36.7
+          ]
+        }
+      ]
+    },
+    {
       "id": "EONET_22386",
       "title": "Tropical Storm 15W",
       "description": null,
@@ -1313,6 +1344,26 @@
           "coordinates": [
             163.5,
             30.3
+          ]
+        },
+        {
+          "magnitudeValue": 30.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-08-12T18:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            165.1,
+            30.4
+          ]
+        },
+        {
+          "magnitudeValue": 30.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-08-13T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            166.6,
+            31.1
           ]
         }
       ]
@@ -4168,37 +4219,6 @@
           "coordinates": [
             -122.116167,
             45.8805
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_21860",
-      "title": "Wildfire DUNCAN, Owyhee, Idaho",
-      "description": "50 Miles SW from MOUNTAIN HOME, ID",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21860",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-IDBOD-000742"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 16362.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-07-23T21:59:00Z",
-          "type": "Point",
-          "coordinates": [
-            -116.087768,
-            42.579329
           ]
         }
       ]

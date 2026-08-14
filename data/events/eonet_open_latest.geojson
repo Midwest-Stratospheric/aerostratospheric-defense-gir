@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -131.9,
-          18.1
+          -132.1,
+          17.8
         ]
       },
       "properties": {
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151,
-          28
+          153.4,
+          28.5
         ]
       },
       "properties": {
@@ -36,14 +36,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -145,
-          14.9
+          -145.7,
+          15.2
         ]
       },
       "properties": {
         "id": "EONET_22563",
-        "title": "Tropical Storm 01C",
+        "title": "Tropical Storm Lala",
         "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.001456,
+          35.416592
+        ]
+      },
+      "properties": {
+        "id": "EONET_22614",
+        "title": "Wildfire PLAINS, San Luis Obispo, California",
+        "categories": "Wildfires"
       }
     },
     {
@@ -59,6 +74,156 @@
         "id": "EONET_22560",
         "title": "Tropical Storm Cristobal",
         "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.285535,
+          37.075637
+        ]
+      },
+      "properties": {
+        "id": "EONET_22607",
+        "title": "Wildfire Sheep Pen, Las Animas, Colorado",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.3327778,
+          43.3141667
+        ]
+      },
+      "properties": {
+        "id": "EONET_22619",
+        "title": "Wildfire Rancher fire, Oglala Lakota, South Dakota",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.421389,
+          37.081944
+        ]
+      },
+      "properties": {
+        "id": "EONET_22609",
+        "title": "Wildfire Post, Las Animas, Colorado",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.4230758,
+          43.62272514
+        ]
+      },
+      "properties": {
+        "id": "EONET_22616",
+        "title": "Wildfire XU Hill, Oglala Lakota, South Dakota",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.35722222,
+          27.10444444
+        ]
+      },
+      "properties": {
+        "id": "EONET_22610",
+        "title": "Wildfire Dos Pistolas, Brooks, Texas",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.24742,
+          46.40578
+        ]
+      },
+      "properties": {
+        "id": "EONET_22613",
+        "title": "Wildfire ALPOWA, Asotin, Washington",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.491389,
+          42.724444
+        ]
+      },
+      "properties": {
+        "id": "EONET_22617",
+        "title": "Wildfire Cold Springs, Converse, Wyoming",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.4636111,
+          31.15027778
+        ]
+      },
+      "properties": {
+        "id": "EONET_22622",
+        "title": "Prescribed Fire RX Tom Green 6687, Tom Green, Texas",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.82243696,
+          32.7971975
+        ]
+      },
+      "properties": {
+        "id": "EONET_22618",
+        "title": "Wildfire Bufford Creek, Stephens, Texas",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.525167,
+          39.822833
+        ]
+      },
+      "properties": {
+        "id": "EONET_22612",
+        "title": "Wildfire Stallion, Washoe, Nevada",
+        "categories": "Wildfires"
       }
     },
     {
@@ -103,6 +268,21 @@
       "properties": {
         "id": "EONET_22424",
         "title": "Wildfire WEISER KNOLL, Fremont, Wyoming",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.944872,
+          45.025216
+        ]
+      },
+      "properties": {
+        "id": "EONET_22611",
+        "title": "Wildfire AUSTIN, Clackamas, Oregon",
         "categories": "Wildfires"
       }
     },
@@ -411,8 +591,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          169.1,
-          32.9
+          170.2,
+          33.8
         ]
       },
       "properties": {
@@ -838,6 +1018,21 @@
       "properties": {
         "id": "EONET_22448",
         "title": "Wildfire Lake Channel, Power, Idaho",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.093667,
+          46.2559
+        ]
+      },
+      "properties": {
+        "id": "EONET_22608",
+        "title": "Wildfire Grotto, Idaho, Idaho",
         "categories": "Wildfires"
       }
     },
@@ -1305,202 +1500,7 @@
         "title": "Wildfire 4-May, Inyo, California",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.284,
-          36.996167
-        ]
-      },
-      "properties": {
-        "id": "EONET_21854",
-        "title": "Wildfire 3-May, Inyo, California",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.955667,
-          43.045
-        ]
-      },
-      "properties": {
-        "id": "EONET_21839",
-        "title": "Wildfire Jackass Butte, Harney, Oregon",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.1411111,
-          46.1497222
-        ]
-      },
-      "properties": {
-        "id": "EONET_21862",
-        "title": "Wildfire Locust Grove, Benton, Washington",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.859033,
-          44.325217
-        ]
-      },
-      "properties": {
-        "id": "EONET_22098",
-        "title": "Wildfire Doublesprings, Custer, Idaho",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.439167,
-          43.608667
-        ]
-      },
-      "properties": {
-        "id": "EONET_21844",
-        "title": "Wildfire Second Flat, Harney, Oregon",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.732219,
-          46.362281
-        ]
-      },
-      "properties": {
-        "id": "EONET_21823",
-        "title": "Wildfire Signal Peak, Yakima, Washington",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.1498,
-          43.274667
-        ]
-      },
-      "properties": {
-        "id": "EONET_21836",
-        "title": "Wildfire HAT, Malheur, Oregon",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.320867,
-          46.94
-        ]
-      },
-      "properties": {
-        "id": "EONET_21970",
-        "title": "Wildfire Elder 1, Missoula, Montana",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.2735,
-          47.8355
-        ]
-      },
-      "properties": {
-        "id": "EONET_21975",
-        "title": "Wildfire Silvertip, Flathead, Montana",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.245917,
-          45.462631
-        ]
-      },
-      "properties": {
-        "id": "EONET_21864",
-        "title": "Wildfire 8 MILE, Wasco, Oregon",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.157567,
-          37.2667
-        ]
-      },
-      "properties": {
-        "id": "EONET_22102",
-        "title": "Wildfire MOUSE MEADOW, Nye, Nevada",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.691883,
-          44.441967
-        ]
-      },
-      "properties": {
-        "id": "EONET_21843",
-        "title": "Wildfire 0611 GREEN MOUNTAIN, Crook, Oregon",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.093,
-          44.541333
-        ]
-      },
-      "properties": {
-        "id": "EONET_21822",
-        "title": "Wildfire Tartar, Washington, Idaho",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-08-13T20:03:14.398121+00:00"
+  "updated_utc": "2026-08-14T09:39:30.826475+00:00"
 }

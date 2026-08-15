@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-08-15T07:18:47.991438+00:00",
-  "count": 17,
+  "updated_utc": "2026-08-15T19:01:05.609811+00:00",
+  "count": 18,
   "events": [
     {
       "activityID": "2026-08-08T00:36:00-CME-001",
@@ -1764,6 +1764,71 @@
               "impactList": null,
               "cmeIDs": [
                 "2026-08-14T22:24:00-CME-001"
+              ]
+            }
+          ]
+        }
+      ],
+      "linkedEvents": null,
+      "sentNotifications": null
+    },
+    {
+      "activityID": "2026-08-15T03:09:00-CME-001",
+      "catalog": "M2M_CATALOG",
+      "startTime": "2026-08-15T03:09Z",
+      "instruments": [
+        {
+          "displayName": "STEREO A: SECCHI/COR2"
+        },
+        {
+          "displayName": "SOHO: LASCO/C2"
+        },
+        {
+          "displayName": "GOES: CCOR-1"
+        }
+      ],
+      "sourceLocation": "",
+      "activeRegionNum": null,
+      "note": "This CME is visible to the NW in STEREO A COR2 imagery and to the NE in SOHO LASCO C2 imagery before a real-time data gap starting around 2026-08-15T04:24Z. This CME is not yet visible in SOHO LASCO C3 due to the aforementioned data gap. In GOES CCOR-1, there is an Earth-shine imaging artifact preventing from seeing the CME initially, but is likely seen to the NE following the imaging artifact. There is no clear source for this CME, but it is believed to be far sided. This CME follows in the same path of the CME first seen in SOHO LASCO C2 imagery starting at 2026-08-14T22:24Z.",
+      "submissionTime": "2026-08-15T16:05Z",
+      "versionId": 1,
+      "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CME/48106/-1",
+      "cmeAnalyses": [
+        {
+          "isMostAccurate": true,
+          "time21_5": "2026-08-15T09:22Z",
+          "latitude": 18.0,
+          "longitude": -168.0,
+          "halfAngle": 28.0,
+          "speed": 511.0,
+          "type": "C",
+          "featureCode": "LE",
+          "imageType": "running difference",
+          "measurementTechnique": "SWPC_CAT",
+          "note": "Parameters based on best fit using SOHO LASCO C2 and STEREO A COR2 imagery. There is a more narrow feature ahead of the front tracked in SOHO LASCO C2 which may adjust the associated longitude by +/- 10 degrees.",
+          "levelOfData": 0,
+          "tilt": null,
+          "minorHalfWidth": null,
+          "speedMeasuredAtHeight": 11.3,
+          "submissionTime": "2026-08-15T16:07Z",
+          "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/48107/-1",
+          "enlilList": [
+            {
+              "modelCompletionTime": "2026-08-15T16:21Z",
+              "au": 2.0,
+              "estimatedShockArrivalTime": null,
+              "estimatedDuration": null,
+              "rmin_re": null,
+              "kp_18": null,
+              "kp_90": null,
+              "kp_135": null,
+              "kp_180": null,
+              "isEarthGB": false,
+              "isEarthMinorImpact": false,
+              "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/48108/-1",
+              "impactList": null,
+              "cmeIDs": [
+                "2026-08-15T03:09:00-CME-001"
               ]
             }
           ]

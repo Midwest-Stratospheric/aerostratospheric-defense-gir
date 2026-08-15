@@ -7,7 +7,7 @@
         "type": "Point",
         "coordinates": [
           -132.1,
-          17.8
+          16.1
         ]
       },
       "properties": {
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.4,
-          28.5
+          154.5,
+          28.3
         ]
       },
       "properties": {
@@ -36,8 +36,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -145.7,
-          15.2
+          -151.9,
+          17.4
         ]
       },
       "properties": {
@@ -66,8 +66,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -38.2,
-          38.6
+          -36.8,
+          39.4
         ]
       },
       "properties": {
@@ -1206,21 +1206,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.6,
-          27.9
-        ]
-      },
-      "properties": {
-        "id": "EONET_21776",
-        "title": "Super Typhoon Dolphin",
-        "categories": "Severe Storms"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -101.8215463,
           45.50605836
         ]
@@ -1500,7 +1485,22 @@
         "title": "Wildfire 4-May, Inyo, California",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.284,
+          36.996167
+        ]
+      },
+      "properties": {
+        "id": "EONET_21854",
+        "title": "Wildfire 3-May, Inyo, California",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-08-14T09:39:30.826475+00:00"
+  "updated_utc": "2026-08-15T07:18:46.133007+00:00"
 }

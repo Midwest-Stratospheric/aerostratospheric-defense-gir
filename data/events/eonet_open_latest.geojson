@@ -12,7 +12,7 @@
       },
       "properties": {
         "id": "EONET_22562",
-        "title": "Tropical Storm Hernan",
+        "title": "Cyclone Hernan",
         "categories": "Severe Storms"
       }
     },
@@ -36,8 +36,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.7,
-          18.3
+          -157.6,
+          19.9
         ]
       },
       "properties": {
@@ -224,21 +224,6 @@
         "id": "EONET_22612",
         "title": "Wildfire Stallion, Washoe, Nevada",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.8,
-          28.4
-        ]
-      },
-      "properties": {
-        "id": "EONET_22386",
-        "title": "Tropical Storm 15W",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire 3-May, Inyo, California",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.955667,
+          43.045
+        ]
+      },
+      "properties": {
+        "id": "EONET_21839",
+        "title": "Wildfire Jackass Butte, Harney, Oregon",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-08-16T07:20:50.677542+00:00"
+  "updated_utc": "2026-08-16T19:00:09.497769+00:00"
 }

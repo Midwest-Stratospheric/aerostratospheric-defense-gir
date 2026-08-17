@@ -427,6 +427,26 @@
             -160.9,
             20.8
           ]
+        },
+        {
+          "magnitudeValue": 50.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-08-17T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -162,
+            20.7
+          ]
+        },
+        {
+          "magnitudeValue": 50.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-08-17T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -162.9,
+            20.5
+          ]
         }
       ]
     },
@@ -1286,13 +1306,13 @@
       ],
       "geometry": [
         {
-          "magnitudeValue": 4936.0,
+          "magnitudeValue": 5070.4,
           "magnitudeUnit": "acres",
           "date": "2026-08-07T17:42:00Z",
           "type": "Point",
           "coordinates": [
-            -115.447144,
-            43.302
+            -115.447008,
+            43.30195
           ]
         }
       ]

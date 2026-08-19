@@ -1,27 +1,106 @@
-# GIR graphs (all categories)
+# GIR graphs (git markup)
 
-Git-native **SVG** visuals for every open-tier data category.
+_Generated 2026-08-19 21:12 UTC from open-tier data. Mermaid only — no image binaries._
 
-Full gallery: [docs/charts/README.md](charts/README.md)
+Regenerate:
 
 ```bash
 python3 scripts/generate_gir_charts.py
 ```
 
-![overview](charts/cat_overview_all.svg)
+## Data flow
 
-![architecture](charts/cat_architecture.svg)
+```mermaid
+flowchart LR
+  A["Public feeds"] --> B["Ingest scripts"]
+  C["Open defense sources"] --> B
+  B --> D["data folders"]
+  D --> E["manifest"]
+  E --> F["git commit"]
+  D --> G["Defense GIR page / maps"]
+```
 
-![ingest](charts/cat_manifest_ingest_status.svg)
+## Access tiers
 
-![uogw](charts/cat_anomalies_uogw_severity.svg)
+```mermaid
+flowchart TB
+  O["Open tier — this public repo"]
+  P["Partner tier — agreements"]
+  R["Restricted — authorized only"]
+  O --> P --> R
+```
 
-![usgs](charts/cat_events_usgs_mags.svg)
+## Daily ingest status
 
-![nws](charts/cat_events_nws_types.svg)
+**Last run:** `2026-08-19T21:12:39.490014+00:00` · **15/15 sources OK**
 
-![sentinel](charts/cat_imagery_sentinel_clouds.svg)
+```mermaid
+pie showData
+  title Ingest sources OK vs failed (15/15)
+  "OK" : 15
+  "Failed or skipped" : 0
+```
 
-![airfields](charts/cat_defense_airfields_country.svg)
+| Source | Status |
+|--------|--------|
+| `uogw_anomalies` | OK |
+| `eonet_events` | OK |
+| `eonet_geojson` | OK |
+| `usgs_quakes` | OK |
+| `nws_alerts` | OK |
+| `sentinel2_stac` | OK |
+| `donki_cme` | OK |
+| `cisa_kev` | OK |
+| `ourairports_military_keywords` | OK |
+| `usaspending_defense` | OK |
+| `gdelt_lastupdate` | OK |
+| `opensky_midwest` | OK |
+| `osm_military_landuse` | OK |
+| `firms` | OK |
+| `partner_stubs` | OK |
 
-![quality](charts/cat_quality_features_run.svg)
+## UOGW anomaly severity
+
+Public anomaly flags (research-style). Not official emergency alerts.
+
+```mermaid
+pie showData
+  title UOGW counts by severity
+  "alert" : 2
+  "watch" : 1
+  "info" : 0
+```
+
+| alert | watch | info |
+|-------|-------|------|
+| 2 | 1 | 0 |
+
+## USGS earthquakes (M2.5+, past day)
+
+**Events:** 61
+
+```mermaid
+xychart-beta
+  title "Quake count by magnitude band"
+  x-axis ["2.5-3.4", "3.5-4.4", "4.5-5.4", "5.5+"]
+  y-axis "Count" 0 --> 29
+  bar [29, 14, 16, 2]
+```
+
+## Public keyword-flagged airfields by country
+
+> Heuristic from public OurAirports — **not** an official basing list.
+
+**Records:** 259
+
+```mermaid
+xychart-beta
+  title "Top countries (keyword heuristic)"
+  x-axis ["US", "IN", "RO", "ZA", "RU", "TW", "KR", "CA", "BR", "NL", "AU", "IL"]
+  y-axis "Count" 0 --> 130
+  bar [130, 40, 8, 5, 4, 4, 4, 3, 3, 3, 3, 3]
+```
+
+---
+
+Open tier only. See OPEN_DEFENSE_DATA.md and DATA_POLICY.md.

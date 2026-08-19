@@ -1,22 +1,30 @@
 {
-  "generated_at_utc": "2026-08-11T17:45:56Z",
+  "generated_at_utc": "2026-08-19T21:12:39Z",
   "tier": "open",
-  "scope": "United States — public open-tier indicators only",
-  "disclaimer": "This banner is NOT military DEFCON, FPCON, or classified defense readiness. It aggregates free public feeds (weather alerts, earthquakes, research anomalies, space-weather notices, cyber KEV size, public flight-log status) for awareness only.",
+  "scope": "United States \u2014 public open-tier indicators only",
+  "disclaimer": "NOT military DEFCON/FPCON or classified readiness.",
   "overall_level": "YELLOW",
-  "overall_message": "Open-tier US picture: elevated public alerts or research flags — monitor official sources.",
+  "overall_message": "Open-tier US picture: elevated public alerts or research flags \u2014 monitor official sources.",
   "factors": [
-    {"id": "nws_alerts", "level": "YELLOW", "detail": "138 active NWS alerts"},
-    {"id": "usgs", "level": "YELLOW", "detail": "Max M5.1; ~24 US-tagged events"},
-    {"id": "uogw", "level": "YELLOW", "detail": "2 alert / 0 watch (research flags)"},
-    {"id": "space_weather", "level": "GREEN", "detail": "26 CME entries in DONKI window"},
-    {"id": "cyber_kev", "level": "GREEN", "detail": "CISA KEV catalog size 1662 (hygiene list, not attack status)"},
-    {"id": "flight_ops", "level": "GREEN", "detail": "No public research flights marked active"}
-  ],
-  "official_links": [
-    {"name": "NWS alerts", "url": "https://www.weather.gov/"},
-    {"name": "USGS earthquakes", "url": "https://earthquake.usgs.gov/"},
-    {"name": "CISA KEV", "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"},
-    {"name": "SWPC space weather", "url": "https://www.swpc.noaa.gov/"}
+    {
+      "id": "nws_alerts",
+      "level": "YELLOW",
+      "detail": "138 active NWS alerts"
+    },
+    {
+      "id": "usgs",
+      "level": "YELLOW",
+      "detail": "Max M5.9"
+    },
+    {
+      "id": "uogw",
+      "level": "YELLOW",
+      "detail": "2 alert / 1 watch"
+    },
+    {
+      "id": "flight_ops",
+      "level": "GREEN",
+      "detail": "No active public research flights"
+    }
   ]
 }

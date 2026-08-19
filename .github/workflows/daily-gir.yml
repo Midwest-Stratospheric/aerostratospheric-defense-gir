@@ -13,7 +13,7 @@ permissions:
 jobs:
   ingest:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
 
@@ -37,3 +37,45 @@ jobs:
             git commit -m "chore(gir): daily open-tier data refresh $(date -u +%Y%m%dT%H%M%SZ)" || true
           fi
           git push origin HEAD:main || git push origin HEAD:main --force-with-lease || true
+
+      - name: Prepare email body
+        id: mail
+        run: |
+          DATE_UTC=$(date -u +%Y-%m-%d)
+          REPORT="reports/daily/${DATE_UTC}-gir-exec.md"
+          if [ ! -f "$REPORT" ]; then
+            REPORT="reports/latest.md"
+          fi
+          echo "report_path=$REPORT" >> "$GITHUB_OUTPUT"
+          echo "date_utc=$DATE_UTC" >> "$GITHUB_OUTPUT"
+          {
+            echo "Aerostratospheric Defense GIR — daily open-tier executive summary"
+            echo "Generated (UTC): $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            echo "Report file: $REPORT"
+            echo "GitHub: https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir/blob/main/$REPORT"
+            echo ""
+            echo "────────────────────────────────────────"
+            echo ""
+            cat "$REPORT" 2>/dev/null || echo "(report file not found on this run)"
+            echo ""
+            echo "────────────────────────────────────────"
+            echo "Open-tier public data only. Research screening — not an official product."
+            echo "Aerostratospheric Defense GIR · launchcontrol@midwestsds.com"
+          } > /tmp/gir-email-body.txt
+
+      - name: Email daily executive summary
+        if: ${{ secrets.SMTP_PASSWORD != '' }}
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.hostinger.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: GIR Daily Exec — ${{ steps.mail.outputs.date_utc }}
+          to: launchcontrol@midwestsds.com
+          from: Aerostratospheric GIR <launchcontrol@midwestsds.com>
+          reply_to: launchcontrol@midwestsds.com
+          body: file:///tmp/gir-email-body.txt
+          content_type: text/plain
+          ignore_cert: false

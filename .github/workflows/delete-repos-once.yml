@@ -1,0 +1,78 @@
+# ONE-SHOT: delete allow-listed non-core repos via GitHub API.
+# Requires repository secret GH_DELETE_TOKEN = classic PAT with "delete_repo" scope
+# (or fine-grained token with Administration: Read and write on each target repo).
+# Default Actions GITHUB_TOKEN cannot delete repositories.
+#
+# After a successful run, delete this workflow file and revoke the PAT.
+name: Delete allow-listed repos (one-shot)
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type DELETE-WEBSITE-REPOS to confirm'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  delete:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate confirmation
+        run: |
+          if [ "${{ github.event.inputs.confirm }}" != "DELETE-WEBSITE-REPOS" ]; then
+            echo "Confirmation string mismatch. Aborting."
+            exit 1
+          fi
+
+      - name: Require delete token
+        env:
+          GH_DELETE_TOKEN: ${{ secrets.GH_DELETE_TOKEN }}
+        run: |
+          if [ -z "$GH_DELETE_TOKEN" ]; then
+            echo "Missing secret GH_DELETE_TOKEN."
+            echo "Create a classic PAT with delete_repo scope and add it as GH_DELETE_TOKEN."
+            exit 1
+          fi
+
+      - name: Delete allow-listed repositories only
+        env:
+          GH_DELETE_TOKEN: ${{ secrets.GH_DELETE_TOKEN }}
+          OWNER: Midwest-Stratospheric
+        run: |
+          set -euo pipefail
+          # STRICT allow-list — never includes UOGW, GIR, msds-data, x2griffon, IGDR, sondehub
+          TARGETS=(
+            "msds-website"
+            "nearspace-kids"
+            "msds-docs"
+          )
+
+          for REPO in "${TARGETS[@]}"; do
+            echo "=== Deleting ${OWNER}/${REPO} ==="
+            CODE=$(curl -sS -o /tmp/del-out.txt -w "%{http_code}" -X DELETE \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: Bearer ${GH_DELETE_TOKEN}" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "https://api.github.com/repos/${OWNER}/${REPO}")
+            echo "HTTP $CODE"
+            cat /tmp/del-out.txt || true
+            echo ""
+            case "$CODE" in
+              204)
+                echo "Deleted ${OWNER}/${REPO}"
+                ;;
+              404)
+                echo "Already gone or not found: ${OWNER}/${REPO}"
+                ;;
+              *)
+                echo "Failed to delete ${OWNER}/${REPO} (HTTP $CODE)"
+                exit 1
+                ;;
+            esac
+          done
+
+          echo "Done. Revoke GH_DELETE_TOKEN and remove this workflow."

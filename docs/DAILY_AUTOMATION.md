@@ -16,6 +16,7 @@
 3. **Mermaid / SVG charts** (`scripts/generate_gir_charts.py`)
 4. **Daily executive summary** (`scripts/generate_daily_exec_summary.py`)
 5. **Git commit** of all refreshed data + reports
+6. **Email** the summary via Hostinger SMTP (if secrets are set)
 
 ## Data outputs
 
@@ -42,7 +43,31 @@ Daily open-tier executive summaries are written automatically:
 | **Latest summary** | [reports/latest.md](../reports/latest.md) |
 | **Daily archive** | [reports/daily/](../reports/daily/) |
 
-Each file is named `YYYY-MM-DD-gir-exec.md`. Content covers data quality / completeness, key open-source counts, notable anomalies/events, and short recommended actions. Weekly roll-ups can be added to the same pipeline later if desired.
+Each file is named `YYYY-MM-DD-gir-exec.md`.
+
+## Daily email (Hostinger SMTP)
+
+After each successful run, the workflow can email the executive summary.
+
+| Setting | Value |
+|---------|--------|
+| From / To | `launchcontrol@midwestsds.com` |
+| SMTP host | `smtp.hostinger.com` |
+| SMTP port | `465` (SSL) |
+
+### Required GitHub Actions secrets
+
+Add these under **Settings → Secrets and variables → Actions** (repository or org):
+
+| Secret name | Value |
+|-------------|--------|
+| `SMTP_USERNAME` | `launchcontrol@midwestsds.com` |
+| `SMTP_PASSWORD` | Hostinger mailbox password for that address |
+
+If `SMTP_PASSWORD` is missing, the email step is skipped (ingest/report still run).
+
+Subject line example: `GIR Daily Exec — 2026-08-19`  
+Body: full text of the day’s `reports/daily/YYYY-MM-DD-gir-exec.md` plus a GitHub link.
 
 ## Commands
 
@@ -59,4 +84,4 @@ python3 scripts/generate_daily_exec_summary.py
 
 Repo: https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir
 
-Actions → **Daily GIR open-tier ingest** → **Run workflow** for an immediate refresh.
+Actions → **Daily GIR open-tier ingest** → **Run workflow** for an immediate refresh (and test email once secrets are set).

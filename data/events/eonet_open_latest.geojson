@@ -156,8 +156,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -166.6,
-          20.4
+          -168.5,
+          20.5
         ]
       },
       "properties": {
@@ -674,21 +674,6 @@
         "id": "EONET_22429",
         "title": "Wildfire Frijoles, Santa Fe, New Mexico",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          170.2,
-          33.8
-        ]
-      },
-      "properties": {
-        "id": "EONET_22385",
-        "title": "Tropical Storm Peilou",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire QUAIL SPRINGS, Lincoln, Nevada",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.114443,
+          48.312618
+        ]
+      },
+      "properties": {
+        "id": "EONET_21832",
+        "title": "Wildfire BRADEEN HILL, Stevens, Washington",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-08-18T19:18:15.431120+00:00"
+  "updated_utc": "2026-08-19T07:57:29.018809+00:00"
 }

@@ -10,7 +10,7 @@
 
 > **In one sentence:** We automatically collect free, public map and hazard information, organize it, and save dated copies here — without secret military data.
 
-**Live web page:** [Defense GIR on midwestsds.com](https://midwestsds.com/aerostratospheric-defense-gir.html) · **Charts:** [docs/charts/](docs/charts/) · **Status JSON:** [data/status/](data/status/)
+**Live web page:** [Defense GIR on midwestsds.com](https://midwestsds.com/aerostratospheric-defense-gir.html) · **Charts:** [docs/charts/](docs/charts/) · **Status JSON:** [data/status/](data/status/) · **Latest report:** [reports/latest.md](reports/latest.md)
 
 ---
 
@@ -56,17 +56,30 @@ A developer runs:
 
 ```bash
 python3 scripts/ingest_open_tier.py
-python3 scripts/gir_quality_suite.py
 python3 scripts/compute_us_open_status.py
 python3 scripts/generate_gir_charts.py
+python3 scripts/generate_daily_exec_summary.py
 ```
 
-Use case: prove that yesterday’s charts and status can be rebuilt from scripts + public sources, with git history as the audit trail.
+Use case: prove that yesterday’s charts, status, and executive summary can be rebuilt from scripts + public sources, with git history as the audit trail.
 
 ### 7. Grant / SAM.gov narrative support
 Because Aerostratospheric is a **registered SAM.gov entity**, open GIR materials can illustrate a responsible open-data posture: public inputs, clear tiers, disclaimers, and no claim to replace NWS, USGS, or military command systems.
 
 **Non-use cases (on purpose):** sole life-safety alerting, classified basing lists, targeting folders, or kinetic system control.
+
+---
+
+## Executive reports
+
+Open-tier **daily executive summaries** are generated automatically by the same GitHub Actions pipeline that refreshes the data. They focus on data quality / completeness, key open-source counts (NWS, USGS, EONET, UOGW, OpenSky, CISA KEV, etc.), notable anomalies, and short recommended actions.
+
+| Resource | Link |
+|----------|------|
+| **Latest summary** | [reports/latest.md](reports/latest.md) |
+| **Daily archive** | [reports/daily/](reports/daily/) |
+
+Each file is named `YYYY-MM-DD-gir-exec.md`. The pipeline also keeps the US open-status banner and Mermaid charts in sync. Weekly roll-up reports can be added to the same automation later if needed.
 
 ---
 
@@ -101,6 +114,7 @@ flowchart TB
 | **Cyber & spending** | CISA KEV + USAspending samples |
 | **Flight logs** | Public research balloon / test summaries |
 | **US open status** | Banner levels from public feeds only — **not** DEFCON |
+| **Executive reports** | Daily (and optional weekly) open-tier briefing summaries |
 
 ---
 
@@ -112,6 +126,8 @@ bash scripts/daily_gir_automation.sh
 
 Schedule: **06:00** and **18:00 UTC** (plus manual Actions dispatch).
 
+The automation runs open-tier ingest → US open-status → charts → daily executive summary → git commit.
+
 ---
 
 ## Links
@@ -120,6 +136,8 @@ Schedule: **06:00** and **18:00 UTC** (plus manual Actions dispatch).
 |----------|-----|
 | Defense GIR page | https://midwestsds.com/aerostratospheric-defense-gir.html |
 | Defense Systems | https://midwestsds.com/aerostratospheric-defense-systems.html |
+| Latest exec report | [reports/latest.md](reports/latest.md) |
+| Daily report archive | [reports/daily/](reports/daily/) |
 | Contact | https://midwestsds.com/contact/index.php?a=add |
 
 Aerostratospheric is a **registered SAM.gov entity**. Passive sensing · intelligence support · communications — **no kinetic weapons**. Open-tier data is not an official warning service alone.

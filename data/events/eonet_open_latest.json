@@ -31,6 +31,46 @@
             154.2,
             8.6
           ]
+        },
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-08-19T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            154.2,
+            8.6
+          ]
+        },
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-08-19T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            153.7,
+            9.4
+          ]
+        },
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-08-19T18:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            152.8,
+            10.5
+          ]
+        },
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-08-20T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            151.6,
+            11.4
+          ]
         }
       ]
     },
@@ -418,97 +458,6 @@
       ]
     },
     {
-      "id": "EONET_22561",
-      "title": "Tropical Storm Nangka",
-      "description": null,
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22561",
-      "closed": null,
-      "categories": [
-        {
-          "id": "severeStorms",
-          "title": "Severe Storms"
-        }
-      ],
-      "sources": [
-        {
-          "id": "JTWC",
-          "url": "https://www.metoc.navy.mil/jtwc/products/wp1626.tcw"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-08-13T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            148,
-            26.5
-          ]
-        },
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-08-13T06:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            149.6,
-            27.5
-          ]
-        },
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-08-13T12:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            151,
-            28
-          ]
-        },
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-08-13T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            152.4,
-            28.3
-          ]
-        },
-        {
-          "magnitudeValue": 30.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-08-14T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            153.4,
-            28.5
-          ]
-        },
-        {
-          "magnitudeValue": 30.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-08-14T06:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            153.7,
-            28.4
-          ]
-        },
-        {
-          "magnitudeValue": 25.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-08-14T12:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            154.5,
-            28.3
-          ]
-        }
-      ]
-    },
-    {
       "id": "EONET_22563",
       "title": "Tropical Storm Lala",
       "description": null,
@@ -805,6 +754,26 @@
           "coordinates": [
             -169.9,
             21
+          ]
+        },
+        {
+          "magnitudeValue": 110.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-08-19T18:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -170.7,
+            21.9
+          ]
+        },
+        {
+          "magnitudeValue": 100.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-08-20T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -171.3,
+            22.4
           ]
         }
       ]
@@ -3563,6 +3532,37 @@
           "coordinates": [
             -115.71,
             37.4123
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_21832",
+      "title": "Wildfire BRADEEN HILL, Stevens, Washington",
+      "description": "17 Miles SW from COLVILLE, WA",
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21832",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-WANES-001782"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 2595.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-07-25T17:15:00Z",
+          "type": "Point",
+          "coordinates": [
+            -118.114443,
+            48.312618
           ]
         }
       ]

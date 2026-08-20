@@ -1,0 +1,65 @@
+{
+  "schema": "gir.coverage_report.v1",
+  "generated_at_utc": "2026-08-20T08:05:01Z",
+  "tier": "open",
+  "purpose": "Observing-system style inventory of open-tier GIR source groups",
+  "layers": [
+    {
+      "layer": "hazards_alerts",
+      "sources_configured": 5,
+      "sources_present": 5,
+      "sources_ok": 5,
+      "coverage_pct": 100.0,
+      "sources": [
+        "nws_alerts",
+        "usgs_quakes",
+        "eonet_events",
+        "eonet_geojson",
+        "donki_cme"
+      ]
+    },
+    {
+      "layer": "atmosphere_anomalies",
+      "sources_configured": 1,
+      "sources_present": 1,
+      "sources_ok": 1,
+      "coverage_pct": 100.0,
+      "sources": [
+        "uogw_anomalies"
+      ]
+    },
+    {
+      "layer": "eo_imagery",
+      "sources_configured": 2,
+      "sources_present": 2,
+      "sources_ok": 2,
+      "coverage_pct": 100.0,
+      "sources": [
+        "sentinel2_stac",
+        "firms"
+      ]
+    },
+    {
+      "layer": "defense_open",
+      "sources_configured": 7,
+      "sources_present": 7,
+      "sources_ok": 7,
+      "coverage_pct": 100.0,
+      "sources": [
+        "cisa_kev",
+        "ourairports_military_keywords",
+        "usaspending_defense",
+        "opensky_midwest",
+        "osm_military_landuse",
+        "gdelt_lastupdate",
+        "partner_stubs"
+      ]
+    }
+  ],
+  "overall_ok": 15,
+  "overall_total": 15,
+  "notes": [
+    "Coverage is source-success based, not spatial grid completeness",
+    "FIRMS may report ok while status=awaiting_key"
+  ]
+}

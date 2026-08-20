@@ -1,0 +1,58 @@
+{
+  "schema": "gir.fair_package_card.v1",
+  "generated_at_utc": "2026-08-20T08:05:01Z",
+  "title": "Aerostratospheric Defense GIR open-tier daily package",
+  "version_hint": "See GitHub Releases (vMAJOR.MINOR)",
+  "repository": "https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir",
+  "license_software": "MIT",
+  "license_data": "Retain upstream provider terms (NWS, USGS, NASA, CISA, OSM ODbL, etc.)",
+  "findable": {
+    "identifiers": [
+      "reports/latest.md",
+      "data/manifests/manifest_latest.json"
+    ],
+    "keywords": [
+      "geospatial",
+      "open data",
+      "hazards",
+      "EO index",
+      "defense open tier"
+    ]
+  },
+  "accessible": {
+    "access": "public git + raw.githubusercontent.com",
+    "formats": [
+      "JSON",
+      "GeoJSON",
+      "Markdown",
+      "SVG"
+    ]
+  },
+  "interoperable": {
+    "schemas": [
+      "gir.scientific_scorecard.v1",
+      "manifest open-tier"
+    ],
+    "related": [
+      "Unified-Open-Global-Weather anomaly report"
+    ]
+  },
+  "reusable": {
+    "citation": "CITATION.cff",
+    "intended_use": "Research screening, education, open situational context",
+    "not_for": "Sole life-safety alerting or classified operations"
+  },
+  "quality_snapshot": {
+    "grade": "A",
+    "composite_score": 100.0,
+    "completeness_pct": 100.0
+  },
+  "coverage_snapshot": {
+    "layers": [
+      "hazards_alerts",
+      "atmosphere_anomalies",
+      "eo_imagery",
+      "defense_open"
+    ]
+  }
+}

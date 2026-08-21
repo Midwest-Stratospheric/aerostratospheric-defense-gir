@@ -51,8 +51,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.2,
-          12.8
+          149,
+          14.7
         ]
       },
       "properties": {
@@ -231,23 +231,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -135.4,
-          15.8
-        ]
-      },
-      "properties": {
-        "id": "EONET_22562",
-        "title": "Cyclone Hernan",
-        "categories": "Severe Storms"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -172,
-          23.8
+          -172.4,
+          25.2
         ]
       },
       "properties": {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire SR - Buffalo, Sheridan, Wyoming",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.681482,
+          33.279651
+        ]
+      },
+      "properties": {
+        "id": "EONET_21861",
+        "title": "Wildfire Island, La Paz, Arizona",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-08-20T19:45:54.113902+00:00"
+  "updated_utc": "2026-08-21T08:05:22.807440+00:00"
 }

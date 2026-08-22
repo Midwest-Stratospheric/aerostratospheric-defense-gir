@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-22T07:46:14Z",
+  "generated_at_utc": "2026-08-22T19:02:54Z",
   "tier": "open",
   "scope": "United States \u2014 public open-tier indicators only",
   "disclaimer": "NOT military DEFCON/FPCON or classified readiness.",
@@ -9,17 +9,17 @@
     {
       "id": "nws_alerts",
       "level": "YELLOW",
-      "detail": "157 active NWS alerts"
+      "detail": "192 active NWS alerts"
     },
     {
       "id": "usgs",
       "level": "YELLOW",
-      "detail": "Max M5.7"
+      "detail": "Max M6.2"
     },
     {
       "id": "uogw",
-      "level": "GREEN",
-      "detail": "UOGW quiet"
+      "level": "YELLOW",
+      "detail": "1 alert / 0 watch"
     },
     {
       "id": "flight_ops",

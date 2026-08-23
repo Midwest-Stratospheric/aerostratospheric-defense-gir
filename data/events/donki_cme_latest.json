@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-23T07:48:23.182842+00:00",
+  "updated_utc": "2026-08-23T19:02:39.678003+00:00",
   "count": 17,
   "events": [
     {
@@ -1693,6 +1693,64 @@
       "cmeAnalyses": [
         {
           "isMostAccurate": true,
+          "time21_5": "2026-08-23T04:06Z",
+          "latitude": 10.0,
+          "longitude": 95.0,
+          "halfAngle": 16.0,
+          "speed": 959.0,
+          "type": "C",
+          "featureCode": "LE",
+          "imageType": "running difference",
+          "measurementTechnique": "SWPC_CAT",
+          "note": "UPDATED measurement based on best fit among SOHO LASCO C2/C3, GOES CCOR-1, and STEREO A COR2. This updated measurement relies more on later frames as there appears to be some northward deflection later in the propagation of the CME.",
+          "levelOfData": 0,
+          "tilt": null,
+          "minorHalfWidth": null,
+          "speedMeasuredAtHeight": 18.4,
+          "submissionTime": "2026-08-23T13:06Z",
+          "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/48214/-1",
+          "enlilList": [
+            {
+              "modelCompletionTime": "2026-08-23T13:20Z",
+              "au": 2.0,
+              "estimatedShockArrivalTime": null,
+              "estimatedDuration": null,
+              "rmin_re": null,
+              "kp_18": null,
+              "kp_90": null,
+              "kp_135": null,
+              "kp_180": null,
+              "isEarthGB": false,
+              "isEarthMinorImpact": false,
+              "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/48215/-1",
+              "impactList": [
+                {
+                  "isGlancingBlow": false,
+                  "isMinorImpact": false,
+                  "location": "Mars",
+                  "arrivalTime": "2026-08-26T10:03Z"
+                },
+                {
+                  "isGlancingBlow": false,
+                  "isMinorImpact": false,
+                  "location": "Psyche",
+                  "arrivalTime": "2026-08-26T14:53Z"
+                },
+                {
+                  "isGlancingBlow": true,
+                  "isMinorImpact": false,
+                  "location": "STEREO A",
+                  "arrivalTime": "2026-08-25T08:00Z"
+                }
+              ],
+              "cmeIDs": [
+                "2026-08-23T00:12:00-CME-001"
+              ]
+            }
+          ]
+        },
+        {
+          "isMostAccurate": false,
           "time21_5": "2026-08-23T03:22Z",
           "latitude": 7.0,
           "longitude": 90.0,
@@ -1756,6 +1814,11 @@
           "messageID": "20260823-AL-001",
           "messageIssueTime": "2026-08-23T02:19Z",
           "messageURL": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/Alert/48213/1"
+        },
+        {
+          "messageID": "20260823-AL-002",
+          "messageIssueTime": "2026-08-23T14:20Z",
+          "messageURL": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/Alert/48216/1"
         }
       ]
     }

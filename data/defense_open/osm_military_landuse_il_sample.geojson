@@ -105,11 +105,15 @@
         "addr:city": "Urbana",
         "addr:housenumber": "600",
         "addr:postcode": "61801",
+        "addr:state": "IL",
         "addr:street": "East University Avenue",
         "building": "yes",
         "landuse": "military",
         "military": "office",
-        "name": "Illinois National Guard"
+        "military_service": "national_guard",
+        "name": "Illinois National Guard",
+        "operator": "Illinois National Guard",
+        "operator:wikidata": "Q5999581"
       }
     },
     {

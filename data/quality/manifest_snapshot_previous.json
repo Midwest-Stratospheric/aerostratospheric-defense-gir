@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-24T08:28:14.989681+00:00",
+  "generated_at_utc": "2026-08-24T19:41:29.242641+00:00",
   "ok": 15,
   "total": 15,
   "results": [
@@ -9,8 +9,8 @@
       "file": "uogw_anomalies_latest.json",
       "counts": {
         "total": 1,
-        "alert": 0,
-        "watch": 1,
+        "alert": 1,
+        "watch": 0,
         "info": 0
       }
     },
@@ -36,7 +36,7 @@
       "source": "nws_alerts",
       "ok": true,
       "file": "nws_active_alerts_latest.geojson",
-      "count": 124
+      "count": 175
     },
     {
       "source": "sentinel2_stac",
@@ -48,13 +48,13 @@
       "source": "donki_cme",
       "ok": true,
       "file": "donki_cme_latest.json",
-      "count": 16
+      "count": 21
     },
     {
       "source": "cisa_kev",
       "ok": true,
       "file": "cisa_kev_latest.json",
-      "count": 1674
+      "count": 1675
     },
     {
       "source": "ourairports_military_keywords",
@@ -78,7 +78,7 @@
       "source": "opensky_midwest",
       "ok": true,
       "file": "opensky_midwest_snapshot.geojson",
-      "count": 19
+      "count": 195
     },
     {
       "source": "osm_military_landuse",

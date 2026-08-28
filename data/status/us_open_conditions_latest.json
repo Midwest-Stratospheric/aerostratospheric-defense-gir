@@ -1,25 +1,25 @@
 {
-  "generated_at_utc": "2026-08-26T08:10:31Z",
+  "generated_at_utc": "2026-08-28T01:37:54Z",
   "tier": "open",
   "scope": "United States \u2014 public open-tier indicators only",
   "disclaimer": "NOT military DEFCON/FPCON or classified readiness.",
-  "overall_level": "YELLOW",
-  "overall_message": "Open-tier US picture: elevated public alerts or research flags \u2014 monitor official sources.",
+  "overall_level": "ORANGE",
+  "overall_message": "Open-tier US picture: significant public hazard indicators \u2014 rely on NWS/USGS/CISA official channels.",
   "factors": [
     {
       "id": "nws_alerts",
-      "level": "YELLOW",
-      "detail": "126 active NWS alerts"
+      "level": "ORANGE",
+      "detail": "250 active NWS alerts (high volume)"
     },
     {
       "id": "usgs",
       "level": "YELLOW",
-      "detail": "Max M5.5"
+      "detail": "Max M6.0"
     },
     {
       "id": "uogw",
       "level": "YELLOW",
-      "detail": "2 alert / 1 watch"
+      "detail": "3 alert / 0 watch"
     },
     {
       "id": "flight_ops",

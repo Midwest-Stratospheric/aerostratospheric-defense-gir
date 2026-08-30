@@ -366,21 +366,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -163.5,
-          16.2
-        ]
-      },
-      "properties": {
-        "id": "EONET_23206",
-        "title": "Tropical Storm Moke",
-        "categories": "Severe Storms"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -80.836833,
           25.545083
         ]
@@ -1500,7 +1485,22 @@
         "title": "Wildfire HUDSPETH, Stevens, Washington",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.612833,
+          47.7945
+        ]
+      },
+      "properties": {
+        "id": "EONET_22104",
+        "title": "Wildfire AUTUMN LANE, Spokane, Washington",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-08-30T06:06:37.380817+00:00"
+  "updated_utc": "2026-08-30T18:06:02.915654+00:00"
 }

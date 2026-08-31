@@ -6,6 +6,66 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -123.3,
+          17.1
+        ]
+      },
+      "properties": {
+        "id": "EONET_23611",
+        "title": "Hurricane Karina",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -142.8,
+          13.2
+        ]
+      },
+      "properties": {
+        "id": "EONET_23612",
+        "title": "Tropical Storm Lowell",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165.9,
+          34.1
+        ]
+      },
+      "properties": {
+        "id": "EONET_23613",
+        "title": "Tropical Storm Bang-Lang",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.8,
+          31.7
+        ]
+      },
+      "properties": {
+        "id": "EONET_23614",
+        "title": "Tropical Storm Etau",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -117.3563,
           41.86665
         ]
@@ -59,21 +119,6 @@
         "id": "EONET_23456",
         "title": "Wildfire MUSTANG, Malheur, Oregon",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.8,
-          19.5
-        ]
-      },
-      "properties": {
-        "id": "EONET_23286",
-        "title": "Tropical Storm Julio",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -419,21 +464,6 @@
         "id": "EONET_23217",
         "title": "Wildfire Salt Wells, Box Elder, Utah",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          109.6,
-          20
-        ]
-      },
-      "properties": {
-        "id": "EONET_23207",
-        "title": "Tropical Storm Narra",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1470,37 +1500,7 @@
         "title": "Wildfire Eggo, Wallowa, Oregon",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.158917,
-          48.08845
-        ]
-      },
-      "properties": {
-        "id": "EONET_22125",
-        "title": "Wildfire HUDSPETH, Stevens, Washington",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.612833,
-          47.7945
-        ]
-      },
-      "properties": {
-        "id": "EONET_22104",
-        "title": "Wildfire AUTUMN LANE, Spokane, Washington",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-08-30T18:06:02.915654+00:00"
+  "updated_utc": "2026-08-31T06:07:38.245190+00:00"
 }

@@ -161,6 +161,26 @@
             -123.3,
             17.1
           ]
+        },
+        {
+          "magnitudeValue": 120.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-08-31T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -124,
+            17.2
+          ]
+        },
+        {
+          "magnitudeValue": 120.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-08-31T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -124.7,
+            17.3
+          ]
         }
       ]
     },
@@ -321,6 +341,26 @@
           "coordinates": [
             -142.8,
             13.2
+          ]
+        },
+        {
+          "magnitudeValue": 50.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-08-31T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -143.7,
+            13
+          ]
+        },
+        {
+          "magnitudeValue": 55.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-08-31T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -145.2,
+            12.8
           ]
         }
       ]
@@ -3420,67 +3460,6 @@
       ]
     },
     {
-      "id": "EONET_22560",
-      "title": "Tropical Storm Cristobal",
-      "description": null,
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22560",
-      "closed": null,
-      "categories": [
-        {
-          "id": "severeStorms",
-          "title": "Severe Storms"
-        }
-      ],
-      "sources": [
-        {
-          "id": "NOAA_NHC",
-          "url": "https://www.nhc.noaa.gov/archive/2026/CRISTOBAL.shtml"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 40.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-08-12T15:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -43,
-            36.7
-          ]
-        },
-        {
-          "magnitudeValue": 40.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-08-12T21:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -41,
-            37.2
-          ]
-        },
-        {
-          "magnitudeValue": 30.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-08-13T09:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -38.2,
-            38.6
-          ]
-        },
-        {
-          "magnitudeValue": 25.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-08-13T15:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -36.8,
-            39.4
-          ]
-        }
-      ]
-    },
-    {
       "id": "EONET_22802",
       "title": "Wildfire Austin Non-Stat, Clackamas, Oregon",
       "description": null,
@@ -4809,6 +4788,37 @@
           "coordinates": [
             -117.0871,
             45.6696
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_22125",
+      "title": "Wildfire HUDSPETH, Stevens, Washington",
+      "description": "3 Miles SE from HUNTERS, WA",
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22125",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-WANES-001860"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 4211.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-08-01T19:32:00Z",
+          "type": "Point",
+          "coordinates": [
+            -118.158917,
+            48.08845
           ]
         }
       ]

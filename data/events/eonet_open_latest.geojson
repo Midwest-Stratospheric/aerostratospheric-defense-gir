@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.3,
-          17.1
+          -124.7,
+          17.3
         ]
       },
       "properties": {
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -142.8,
-          13.2
+          -145.2,
+          12.8
         ]
       },
       "properties": {
@@ -846,21 +846,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -36.8,
-          39.4
-        ]
-      },
-      "properties": {
-        "id": "EONET_22560",
-        "title": "Tropical Storm Cristobal",
-        "categories": "Severe Storms"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -121.9549232,
           45.02547389
         ]
@@ -1500,7 +1485,22 @@
         "title": "Wildfire Eggo, Wallowa, Oregon",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.158917,
+          48.08845
+        ]
+      },
+      "properties": {
+        "id": "EONET_22125",
+        "title": "Wildfire HUDSPETH, Stevens, Washington",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-08-31T06:07:38.245190+00:00"
+  "updated_utc": "2026-08-31T22:34:16.516880+00:00"
 }

@@ -156,8 +156,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -126.3,
-          17.7
+          -128.5,
+          18
         ]
       },
       "properties": {
@@ -171,13 +171,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147,
-          12.9
+          -149,
+          13.4
         ]
       },
       "properties": {
         "id": "EONET_23612",
-        "title": "Tropical Storm Lowell",
+        "title": "Hurricane Lowell",
         "categories": "Severe Storms"
       }
     },
@@ -636,21 +636,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -125.5,
-          22.8
-        ]
-      },
-      "properties": {
-        "id": "EONET_23205",
-        "title": "Tropical Storm Iselle",
-        "categories": "Severe Storms"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -121.4353,
           48.652417
         ]
@@ -951,8 +936,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.4,
-          20
+          115.7,
+          20.8
         ]
       },
       "properties": {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire Bug, Lassen, California",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.51,
+          47.24
+        ]
+      },
+      "properties": {
+        "id": "EONET_22436",
+        "title": "Wildfire WELLS ROAD, Whitman, Washington",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-09-01T11:14:20.249862+00:00"
+  "updated_utc": "2026-09-01T20:39:43.704907+00:00"
 }

@@ -6,6 +6,51 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -111.3,
+          16.8
+        ]
+      },
+      "properties": {
+        "id": "EONET_23800",
+        "title": "Tropical Storm Marie",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95,
+          30.8
+        ]
+      },
+      "properties": {
+        "id": "EONET_23739",
+        "title": "Tropical Storm Edouard",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.7,
+          23.9
+        ]
+      },
+      "properties": {
+        "id": "EONET_23738",
+        "title": "Tropical Storm Krovanh",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -119.69069,
           45.253405
         ]
@@ -156,8 +201,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -130.3,
-          18.2
+          -132.3,
+          18.7
         ]
       },
       "properties": {
@@ -171,8 +216,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.8,
-          13.5
+          -152.7,
+          13.4
         ]
       },
       "properties": {
@@ -936,8 +981,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.7,
-          22.1
+          117.9,
+          22.9
         ]
       },
       "properties": {
@@ -1169,21 +1214,6 @@
         "id": "EONET_22796",
         "title": "Wildfire Fielder Mtn, Jackson, Oregon",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.1,
-          38.1
-        ]
-      },
-      "properties": {
-        "id": "EONET_22563",
-        "title": "Tropical Storm Lala",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1470,37 +1500,7 @@
         "title": "Wildfire PALOUSE RIVER, Whitman, Washington",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.038117,
-          39.727883
-        ]
-      },
-      "properties": {
-        "id": "EONET_22432",
-        "title": "Wildfire Bug, Lassen, California",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.51,
-          47.24
-        ]
-      },
-      "properties": {
-        "id": "EONET_22436",
-        "title": "Wildfire WELLS ROAD, Whitman, Washington",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-09-02T10:47:50.242400+00:00"
+  "updated_utc": "2026-09-02T20:36:55.005851+00:00"
 }

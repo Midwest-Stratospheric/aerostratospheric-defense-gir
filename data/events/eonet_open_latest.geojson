@@ -6,8 +6,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.4,
-          19
+          -117.74215,
+          41.517567
+        ]
+      },
+      "properties": {
+        "id": "EONET_23868",
+        "title": "Emergency Stabilization BAER McConnell, Humboldt, Nevada",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.83045,
+          46.65069
+        ]
+      },
+      "properties": {
+        "id": "EONET_23869",
+        "title": "Wildfire Ayers Pond, Prairie, Montana",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.185017,
+          46.48575
+        ]
+      },
+      "properties": {
+        "id": "EONET_23870",
+        "title": "Wildfire Snow, Custer, Montana",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.9,
+          19.5
         ]
       },
       "properties": {
@@ -36,8 +81,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          128.9,
-          28
+          128,
+          29.5
         ]
       },
       "properties": {
@@ -103,6 +148,21 @@
       "properties": {
         "id": "EONET_23673",
         "title": "Wildfire Alexander Trail Fire, Pushmataha, Oklahoma",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2966667,
+          34.4777778
+        ]
+      },
+      "properties": {
+        "id": "EONET_23871",
+        "title": "Wildfire Alexander Trail, Pushmataha, Oklahoma",
         "categories": "Wildfires"
       }
     },
@@ -201,8 +261,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -136.2,
-          19.7
+          -138,
+          20
         ]
       },
       "properties": {
@@ -216,8 +276,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.7,
-          13.4
+          -158.4,
+          13.5
         ]
       },
       "properties": {
@@ -1440,67 +1500,7 @@
         "title": "Wildfire AUSTIN, Clackamas, Oregon",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.989,
-          35.3735
-        ]
-      },
-      "properties": {
-        "id": "EONET_22428",
-        "title": "Wildfire Brown, Oldham, Texas",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.8492,
-          39.762667
-        ]
-      },
-      "properties": {
-        "id": "EONET_22427",
-        "title": "Wildfire Fred Mt, Washoe, Nevada",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.717508,
-          36.215894
-        ]
-      },
-      "properties": {
-        "id": "EONET_22431",
-        "title": "Wildfire Timber, Monterey, California",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.307978,
-          46.870892
-        ]
-      },
-      "properties": {
-        "id": "EONET_22434",
-        "title": "Wildfire PALOUSE RIVER, Whitman, Washington",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-09-03T20:36:09.594206+00:00"
+  "updated_utc": "2026-09-04T10:47:10.386681+00:00"
 }

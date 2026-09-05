@@ -51,8 +51,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.6,
-          19.9
+          -118.7,
+          20.6
         ]
       },
       "properties": {
@@ -81,8 +81,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          127.4,
-          28.7
+          126.7,
+          27.8
         ]
       },
       "properties": {
@@ -261,8 +261,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -139.9,
-          20.3
+          -141.6,
+          20.6
         ]
       },
       "properties": {
@@ -276,28 +276,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -159.8,
-          13.3
+          -161.1,
+          13.2
         ]
       },
       "properties": {
         "id": "EONET_23612",
         "title": "Hurricane Lowell",
-        "categories": "Severe Storms"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          165.9,
-          34.1
-        ]
-      },
-      "properties": {
-        "id": "EONET_23613",
-        "title": "Tropical Storm Bang-Lang",
         "categories": "Severe Storms"
       }
     },
@@ -314,21 +299,6 @@
         "id": "EONET_23668",
         "title": "Wildfire Brushy Canyon, Box Elder, Utah",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          166.8,
-          31.7
-        ]
-      },
-      "properties": {
-        "id": "EONET_23614",
-        "title": "Tropical Storm Etau",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1500,7 +1470,37 @@
         "title": "Wildfire AUSTIN, Clackamas, Oregon",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.989,
+          35.3735
+        ]
+      },
+      "properties": {
+        "id": "EONET_22428",
+        "title": "Wildfire Brown, Oldham, Texas",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8492,
+          39.762667
+        ]
+      },
+      "properties": {
+        "id": "EONET_22427",
+        "title": "Wildfire Fred Mt, Washoe, Nevada",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-09-04T20:22:18.148082+00:00"
+  "updated_utc": "2026-09-05T10:04:47.278063+00:00"
 }

@@ -1,19 +1,19 @@
 {
   "type": "FeatureCollection",
-  "count": 120,
+  "count": 30,
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -86.099,
-          38.7785
+          -86.5753,
+          40.4908
         ]
       },
       "properties": {
-        "icao24": "ab1644",
-        "callsign": "UAL1244 ",
+        "icao24": "a0f4a2",
+        "callsign": "DAL915  ",
         "origin_country": "United States"
       }
     },
@@ -22,13 +22,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.5913,
-          40.7141
+          -86.6948,
+          39.9188
         ]
       },
       "properties": {
-        "icao24": "ab0356",
-        "callsign": "ASA500  ",
+        "icao24": "a1f116",
+        "callsign": "ENY3987 ",
         "origin_country": "United States"
       }
     },
@@ -37,13 +37,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.8743,
-          40.4362
+          -90.5517,
+          38.1183
         ]
       },
       "properties": {
-        "icao24": "a9ea96",
-        "callsign": "AAL2362 ",
+        "icao24": "a5d2f9",
+        "callsign": "UAL1508 ",
         "origin_country": "United States"
       }
     },
@@ -52,13 +52,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -86.0883,
-          39.2764
+          -90.3634,
+          38.7427
         ]
       },
       "properties": {
-        "icao24": "a45051",
-        "callsign": "DAL1166 ",
+        "icao24": "aa4e80",
+        "callsign": "AAL1308 ",
         "origin_country": "United States"
       }
     },
@@ -67,13 +67,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.3603,
-          38.747
+          -89.4434,
+          40.7339
         ]
       },
       "properties": {
-        "icao24": "a2bb10",
-        "callsign": "SWA2456 ",
+        "icao24": "a9fb4e",
+        "callsign": "AAL1926 ",
         "origin_country": "United States"
       }
     },
@@ -82,13 +82,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -86.1974,
-          40.298
+          -86.2505,
+          37.2156
         ]
       },
       "properties": {
-        "icao24": "ad68dd",
-        "callsign": "N963SB  ",
+        "icao24": "aae5f7",
+        "callsign": "DAL3105 ",
         "origin_country": "United States"
       }
     },
@@ -97,208 +97,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -86.1092,
-          40.0678
-        ]
-      },
-      "properties": {
-        "icao24": "a1bcda",
-        "callsign": "N2107L  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.094,
-          39.6394
-        ]
-      },
-      "properties": {
-        "icao24": "aa0759",
-        "callsign": "RPA3487 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.2494,
-          39.5262
-        ]
-      },
-      "properties": {
-        "icao24": "a41e94",
-        "callsign": "UAL2091 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.3602,
-          38.7432
-        ]
-      },
-      "properties": {
-        "icao24": "a12731",
-        "callsign": "UAL2000 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.9131,
-          40.4094
-        ]
-      },
-      "properties": {
-        "icao24": "abbefa",
-        "callsign": "PDU56   ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.6119,
-          40.219
-        ]
-      },
-      "properties": {
-        "icao24": "a7cf10",
-        "callsign": "DAL532  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.3593,
-          38.7383
-        ]
-      },
-      "properties": {
-        "icao24": "ac011d",
-        "callsign": "SWA4082 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.375,
-          40.4319
-        ]
-      },
-      "properties": {
-        "icao24": "a56073",
-        "callsign": "N44560  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.7013,
-          39.3018
-        ]
-      },
-      "properties": {
-        "icao24": "a63e93",
-        "callsign": "N501KL  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.2741,
-          39.6
-        ]
-      },
-      "properties": {
-        "icao24": "776664",
-        "callsign": "N9187C  ",
-        "origin_country": "Sri Lanka"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.5466,
-          39.459
-        ]
-      },
-      "properties": {
-        "icao24": "a26f37",
-        "callsign": "EJA256  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.0309,
-          37.3413
-        ]
-      },
-      "properties": {
-        "icao24": "a466d2",
-        "callsign": "DAL1983 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.7543,
-          39.8177
-        ]
-      },
-      "properties": {
-        "icao24": "a02efb",
-        "callsign": "N1103G  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.1518,
-          39.6808
+          -90.5745,
+          38.7125
         ]
       },
       "properties": {
         "icao24": "a693aa",
-        "callsign": "SCX3097 ",
+        "callsign": "SCX3002 ",
         "origin_country": "United States"
       }
     },
@@ -307,13 +112,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.5169,
-          37.8018
+          -87.2962,
+          40.3716
         ]
       },
       "properties": {
-        "icao24": "ab4f7b",
-        "callsign": "N828KG  ",
+        "icao24": "a6e131",
+        "callsign": "AAL2984 ",
         "origin_country": "United States"
       }
     },
@@ -322,13 +127,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -88.2212,
-          38.5036
+          -88.4833,
+          37.4639
         ]
       },
       "properties": {
-        "icao24": "a44212",
-        "callsign": "UAL2367 ",
+        "icao24": "ab58b2",
+        "callsign": "DAL395  ",
         "origin_country": "United States"
       }
     },
@@ -337,13 +142,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.9372,
-          40.3618
+          -88.4416,
+          37.6221
         ]
       },
       "properties": {
-        "icao24": "a4b41c",
-        "callsign": "AAL1057 ",
+        "icao24": "a613e0",
+        "callsign": "ASA464  ",
         "origin_country": "United States"
       }
     },
@@ -352,13 +157,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -86.4737,
-          39.7071
+          -88.4931,
+          40.4957
         ]
       },
       "properties": {
-        "icao24": "ac6c2c",
-        "callsign": "N9TJ    ",
+        "icao24": "ad646e",
+        "callsign": "JBU1224 ",
         "origin_country": "United States"
       }
     },
@@ -367,13 +172,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.9197,
-          38.6488
+          -89.8632,
+          39.0905
         ]
       },
       "properties": {
-        "icao24": "adefcd",
-        "callsign": "CAP2359 ",
+        "icao24": "aaafd8",
+        "callsign": "SKW5076 ",
         "origin_country": "United States"
       }
     },
@@ -382,13 +187,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.1856,
-          38.6624
+          -90.6972,
+          40.8086
         ]
       },
       "properties": {
-        "icao24": "a60852",
-        "callsign": "SWA155  ",
+        "icao24": "a24573",
+        "callsign": "UAL729  ",
         "origin_country": "United States"
       }
     },
@@ -397,13 +202,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.8388,
-          39.8348
+          -90.7994,
+          38.5597
         ]
       },
       "properties": {
-        "icao24": "adca9b",
-        "callsign": "KOW988  ",
+        "icao24": "a0dab2",
+        "callsign": "SKW5468 ",
         "origin_country": "United States"
       }
     },
@@ -412,13 +217,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.5731,
-          37.6838
+          -87.4681,
+          40.9604
         ]
       },
       "properties": {
-        "icao24": "ac24e4",
-        "callsign": "SWA4467 ",
+        "icao24": "a70c67",
+        "callsign": "AAL2842 ",
         "origin_country": "United States"
       }
     },
@@ -427,13 +232,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -88.601,
-          39.5068
+          -86.2792,
+          39.8345
         ]
       },
       "properties": {
-        "icao24": "abf29f",
-        "callsign": "SWA384  ",
+        "icao24": "a437b5",
+        "callsign": "EDV4924 ",
         "origin_country": "United States"
       }
     },
@@ -442,13 +247,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.3364,
-          39.0407
+          -88.0822,
+          40.8145
         ]
       },
       "properties": {
-        "icao24": "a92d6d",
-        "callsign": "UAL160  ",
+        "icao24": "a1db3a",
+        "callsign": "ABX814  ",
         "origin_country": "United States"
       }
     },
@@ -457,13 +262,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.5624,
-          39.3989
+          -86.7425,
+          39.217
         ]
       },
       "properties": {
-        "icao24": "ac668d",
-        "callsign": "SWA3167 ",
+        "icao24": "acd5ad",
+        "callsign": "AAL1240 ",
         "origin_country": "United States"
       }
     },
@@ -472,13 +277,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -88.1617,
-          40.1509
+          -86.2268,
+          39.4573
         ]
       },
       "properties": {
-        "icao24": "a6bb18",
-        "callsign": "ILU26U  ",
+        "icao24": "ac72f0",
+        "callsign": "AAL2938 ",
         "origin_country": "United States"
       }
     },
@@ -487,13 +292,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -88.0529,
-          39.2178
+          -90.5786,
+          39.6559
         ]
       },
       "properties": {
-        "icao24": "a4f5a7",
-        "callsign": "ATN3398 ",
+        "icao24": "a2602c",
+        "callsign": "AAY4757 ",
         "origin_country": "United States"
       }
     },
@@ -502,13 +307,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -88.0103,
-          39.5286
+          -88.1517,
+          39.198
         ]
       },
       "properties": {
-        "icao24": "aaac8d",
-        "callsign": "N787WT  ",
+        "icao24": "a87199",
+        "callsign": "JIA5193 ",
         "origin_country": "United States"
       }
     },
@@ -517,13 +322,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -86.974,
-          40.4159
+          -90.3679,
+          38.6893
         ]
       },
       "properties": {
-        "icao24": "abdf0b",
-        "callsign": "PDU64   ",
+        "icao24": "a6981a",
+        "callsign": "DAL652  ",
         "origin_country": "United States"
       }
     },
@@ -532,13 +337,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.1013,
-          39.4633
+          -86.2528,
+          37.7554
         ]
       },
       "properties": {
-        "icao24": "a8d5a4",
-        "callsign": "UAL1196 ",
+        "icao24": "aa1e03",
+        "callsign": "CSB1821 ",
         "origin_country": "United States"
       }
     },
@@ -547,13 +352,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -88.1283,
-          40.3759
+          -87.4343,
+          38.0026
         ]
       },
       "properties": {
-        "icao24": "a26434",
-        "callsign": "N253SA  ",
+        "icao24": "a944b9",
+        "callsign": "PDT5916 ",
         "origin_country": "United States"
       }
     },
@@ -562,958 +367,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.1097,
-          38.7817
+          -88.3299,
+          37.5845
         ]
       },
       "properties": {
-        "icao24": "acc768",
-        "callsign": "UPS2978 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.1172,
-          40.8565
-        ]
-      },
-      "properties": {
-        "icao24": "aa7f2b",
-        "callsign": "UAL2664 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.7346,
-          40.7241
-        ]
-      },
-      "properties": {
-        "icao24": "a80d09",
-        "callsign": "LXJ618  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.905,
-          38.6238
-        ]
-      },
-      "properties": {
-        "icao24": "aabbc9",
-        "callsign": "AAL240P ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.3612,
-          39.3741
-        ]
-      },
-      "properties": {
-        "icao24": "a9d5e7",
-        "callsign": "UAL479  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.0479,
-          37.3883
-        ]
-      },
-      "properties": {
-        "icao24": "a8fdb4",
-        "callsign": "FFT2198 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.053,
-          38.6385
-        ]
-      },
-      "properties": {
-        "icao24": "a0af7c",
-        "callsign": "SKW593W ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.952,
-          40.1059
-        ]
-      },
-      "properties": {
-        "icao24": "a3a18d",
-        "callsign": "N333GC  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.2966,
-          38.5863
-        ]
-      },
-      "properties": {
-        "icao24": "ac5765",
-        "callsign": "SWA2317 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.6636,
-          40.6542
-        ]
-      },
-      "properties": {
-        "icao24": "a866d9",
-        "callsign": "N640SP  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.1324,
-          40.7834
-        ]
-      },
-      "properties": {
-        "icao24": "a1bc92",
-        "callsign": "JBU1548 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.7925,
-          40.8441
-        ]
-      },
-      "properties": {
-        "icao24": "a28bc9",
-        "callsign": "SKW4097 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.189,
-          39.3095
-        ]
-      },
-      "properties": {
-        "icao24": "a364cc",
-        "callsign": "N318CS  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.2999,
-          38.719
-        ]
-      },
-      "properties": {
-        "icao24": "ad61de",
-        "callsign": "SWA3471 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.9953,
-          40.5864
-        ]
-      },
-      "properties": {
-        "icao24": "a06ecf",
-        "callsign": "N127MJ  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.1958,
-          39.9048
-        ]
-      },
-      "properties": {
-        "icao24": "ac54d8",
-        "callsign": "N894GT  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.4764,
-          37.6089
-        ]
-      },
-      "properties": {
-        "icao24": "a1226e",
-        "callsign": "AAL2255 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.674,
-          39.9104
-        ]
-      },
-      "properties": {
-        "icao24": "a3627d",
-        "callsign": "ENY4330 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.66,
-          37.8216
-        ]
-      },
-      "properties": {
-        "icao24": "a3b1a0",
-        "callsign": "UPS5948 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.939,
-          38.5641
-        ]
-      },
-      "properties": {
-        "icao24": "a62667",
-        "callsign": "N496AE  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.4229,
-          38.7759
-        ]
-      },
-      "properties": {
-        "icao24": "ac5697",
-        "callsign": "SWA3181 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.29,
-          38.9971
-        ]
-      },
-      "properties": {
-        "icao24": "ac3053",
-        "callsign": "SWA4133 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.134,
-          37.146
-        ]
-      },
-      "properties": {
-        "icao24": "a9607d",
-        "callsign": "JBU281  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.1736,
-          38.1883
-        ]
-      },
-      "properties": {
-        "icao24": "aaef89",
-        "callsign": "AAL1049 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.0454,
-          39.6775
-        ]
-      },
-      "properties": {
-        "icao24": "a2d2eb",
-        "callsign": "ENY3392 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.5601,
-          38.2859
-        ]
-      },
-      "properties": {
-        "icao24": "a8f5d1",
-        "callsign": "ABX3126 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.7042,
-          40.0482
-        ]
-      },
-      "properties": {
-        "icao24": "a7878f",
-        "callsign": "ASA2614 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.2153,
-          38.5139
-        ]
-      },
-      "properties": {
-        "icao24": "aadd3f",
-        "callsign": "N8AV    ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.6928,
-          39.0544
-        ]
-      },
-      "properties": {
-        "icao24": "ab9a32",
-        "callsign": "DAL2825 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.5482,
-          40.3787
-        ]
-      },
-      "properties": {
-        "icao24": "abfd39",
-        "callsign": "SWA2677 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.1654,
-          37.8948
-        ]
-      },
-      "properties": {
-        "icao24": "abb59e",
-        "callsign": "ASH6310 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.2771,
-          39.8415
-        ]
-      },
-      "properties": {
-        "icao24": "a76235",
-        "callsign": "JIA5197 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.8237,
-          39.3449
-        ]
-      },
-      "properties": {
-        "icao24": "a58c29",
-        "callsign": "AAL2944 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.0629,
-          38.2068
-        ]
-      },
-      "properties": {
-        "icao24": "a06815",
-        "callsign": "UPS471  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.8817,
-          38.0499
-        ]
-      },
-      "properties": {
-        "icao24": "0d0cce",
-        "callsign": "VOI7831 ",
-        "origin_country": "Mexico"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.2916,
-          38.05
-        ]
-      },
-      "properties": {
-        "icao24": "a1621b",
-        "callsign": "N189A   ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.0747,
-          39.8747
-        ]
-      },
-      "properties": {
-        "icao24": "aa9d45",
-        "callsign": "SKW6087 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.3477,
-          39.4362
-        ]
-      },
-      "properties": {
-        "icao24": "a0b848",
-        "callsign": "UAL1126 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.6798,
-          37.5777
-        ]
-      },
-      "properties": {
-        "icao24": "ab6229",
-        "callsign": "SWA8800 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.7592,
-          38.7538
-        ]
-      },
-      "properties": {
-        "icao24": "ac2bc6",
-        "callsign": "SWA3564 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.5814,
-          40.5101
-        ]
-      },
-      "properties": {
-        "icao24": "0d0d92",
-        "callsign": "VOI7771 ",
-        "origin_country": "Mexico"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.774,
-          38.874
-        ]
-      },
-      "properties": {
-        "icao24": "a1d93b",
-        "callsign": "SWA1678 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.7144,
-          38.1541
-        ]
-      },
-      "properties": {
-        "icao24": "a0b8fb",
-        "callsign": "AAL2664 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.2443,
-          40.313
-        ]
-      },
-      "properties": {
-        "icao24": "aa4322",
-        "callsign": "SKW4900 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.9343,
-          38.145
-        ]
-      },
-      "properties": {
-        "icao24": "a94f82",
-        "callsign": "N6997R  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.4123,
-          40.8893
-        ]
-      },
-      "properties": {
-        "icao24": "ac754d",
-        "callsign": "SWA1271 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.0092,
-          39.895
-        ]
-      },
-      "properties": {
-        "icao24": "a19d56",
-        "callsign": "N203BW  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.846,
-          38.7797
-        ]
-      },
-      "properties": {
-        "icao24": "ac508b",
-        "callsign": "DAL1557 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.3597,
-          38.7385
-        ]
-      },
-      "properties": {
-        "icao24": "ac75b0",
-        "callsign": "SWA3813 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.8602,
-          39.6793
-        ]
-      },
-      "properties": {
-        "icao24": "a1a697",
-        "callsign": "SWA559  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.7479,
-          38.1502
-        ]
-      },
-      "properties": {
-        "icao24": "a05940",
-        "callsign": "AAL2962 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.493,
-          38.4479
-        ]
-      },
-      "properties": {
-        "icao24": "a56a18",
-        "callsign": "UAL1510 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.0585,
-          37.4153
-        ]
-      },
-      "properties": {
-        "icao24": "a45e17",
-        "callsign": "N3803M  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.7176,
-          38.9054
-        ]
-      },
-      "properties": {
-        "icao24": "aa3417",
-        "callsign": "AAL37   ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.1695,
-          37.6452
-        ]
-      },
-      "properties": {
-        "icao24": "a53774",
-        "callsign": "UAL2142 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.499,
-          38.9375
-        ]
-      },
-      "properties": {
-        "icao24": "a046fe",
-        "callsign": "N117JB  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.8531,
-          37.8673
-        ]
-      },
-      "properties": {
-        "icao24": "a2e9fd",
-        "callsign": "SWA961  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.7327,
-          38.2736
-        ]
-      },
-      "properties": {
-        "icao24": "a6318c",
-        "callsign": "N499AE  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.9688,
-          39.4156
-        ]
-      },
-      "properties": {
-        "icao24": "a0c3fc",
-        "callsign": "ABX3130 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.4839,
-          38.6608
-        ]
-      },
-      "properties": {
-        "icao24": "ac5f42",
-        "callsign": "SWA4585 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.4534,
-          39.3914
-        ]
-      },
-      "properties": {
-        "icao24": "a44544",
-        "callsign": "UAL377  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.2559,
-          38.8592
-        ]
-      },
-      "properties": {
-        "icao24": "aac5a7",
-        "callsign": "N7931B  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.6689,
-          40.3284
-        ]
-      },
-      "properties": {
-        "icao24": "a791c0",
-        "callsign": "AAL2339 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.7475,
-          40.5527
-        ]
-      },
-      "properties": {
-        "icao24": "c00586",
-        "callsign": "CJT489  ",
+        "icao24": "c0150d",
+        "callsign": "ACA1232 ",
         "origin_country": "Canada"
       }
     },
@@ -1522,13 +382,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.5217,
-          40.1592
+          -86.9832,
+          40.5018
         ]
       },
       "properties": {
-        "icao24": "a19679",
-        "callsign": "KOW201  ",
+        "icao24": "ab09b4",
+        "callsign": "DAL2752 ",
         "origin_country": "United States"
       }
     },
@@ -1537,13 +397,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -86.6488,
-          38.288
+          -90.3671,
+          38.7438
         ]
       },
       "properties": {
-        "icao24": "a5ea5c",
-        "callsign": "UAL1976 ",
+        "icao24": "a01f13",
+        "callsign": "DAL1609 ",
         "origin_country": "United States"
       }
     },
@@ -1552,13 +412,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.748,
-          39.6622
+          -87.3902,
+          40.0108
         ]
       },
       "properties": {
-        "icao24": "adcca0",
-        "callsign": "AAL1431 ",
+        "icao24": "a84d25",
+        "callsign": "FFT4392 ",
         "origin_country": "United States"
       }
     },
@@ -1567,13 +427,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.7198,
-          40.7628
+          -87.2321,
+          39.3668
         ]
       },
       "properties": {
-        "icao24": "aa0a6e",
-        "callsign": "SKW4907 ",
+        "icao24": "ad5d5f",
+        "callsign": "AAL2782 ",
         "origin_country": "United States"
       }
     },
@@ -1582,223 +442,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.369,
-          38.7455
+          -86.3102,
+          39.7464
         ]
       },
       "properties": {
-        "icao24": "a79088",
-        "callsign": "GJS3395 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.4334,
-          38.7211
-        ]
-      },
-      "properties": {
-        "icao24": "a5b2b0",
-        "callsign": "ASA2921 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.1772,
-          39.6251
-        ]
-      },
-      "properties": {
-        "icao24": "a3244f",
-        "callsign": "AAL310  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.743,
-          39.9356
-        ]
-      },
-      "properties": {
-        "icao24": "a24ad1",
-        "callsign": "TWY983  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.8484,
-          39.9503
-        ]
-      },
-      "properties": {
-        "icao24": "aad5f2",
-        "callsign": "ENY4285 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.1658,
-          37.0733
-        ]
-      },
-      "properties": {
-        "icao24": "a8f235",
-        "callsign": "EDV5431 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.7327,
-          38.8156
-        ]
-      },
-      "properties": {
-        "icao24": "ae6a88",
-        "callsign": "G21154  ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.6517,
-          37.6905
-        ]
-      },
-      "properties": {
-        "icao24": "aa9a7a",
-        "callsign": "SWA1639 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.4045,
-          39.1831
-        ]
-      },
-      "properties": {
-        "icao24": "a7c00f",
-        "callsign": "JIA5543 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.2076,
-          39.7762
-        ]
-      },
-      "properties": {
-        "icao24": "ab6162",
-        "callsign": "EDV4984 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.5467,
-          38.2225
-        ]
-      },
-      "properties": {
-        "icao24": "ac3e5d",
-        "callsign": "SWA4527 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.8834,
-          38.2724
-        ]
-      },
-      "properties": {
-        "icao24": "a79386",
-        "callsign": "ASA2605 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.0723,
-          40.159
-        ]
-      },
-      "properties": {
-        "icao24": "a3be8f",
-        "callsign": "DAL1728 ",
-        "origin_country": "United States"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.0051,
-          38.8701
-        ]
-      },
-      "properties": {
-        "icao24": "c018c8",
-        "callsign": "JZA888  ",
-        "origin_country": "Canada"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.918,
-          40.41
-        ]
-      },
-      "properties": {
-        "icao24": "a84c2a",
-        "callsign": "N63366  ",
+        "icao24": "a8e069",
+        "callsign": "LTA6710 ",
         "origin_country": "United States"
       }
     }

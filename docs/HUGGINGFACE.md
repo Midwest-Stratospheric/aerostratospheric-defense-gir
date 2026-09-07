@@ -1,6 +1,9 @@
 # Hugging Face daily mirror (GIR)
 
-GIR and UOGW publish to **separate** Hugging Face datasets and model suites.
+Published by **[Aerostratospheric](https://www.midwestsds.com/)**.  
+Midwest Stratospheric Data Systems operates as a limited partnership under Aerostratospheric.
+
+GIR and UOGW publish to **separate** Hugging Face datasets and model suites under [`aerostratospheric`](https://huggingface.co/aerostratospheric).
 
 | Artifact | URL |
 |---------|-----|
@@ -9,6 +12,20 @@ GIR and UOGW publish to **separate** Hugging Face datasets and model suites.
 | UOGW dataset (sibling) | https://huggingface.co/datasets/aerostratospheric/uogw |
 | UOGW models (sibling) | https://huggingface.co/aerostratospheric/uogw-scientific-suite |
 | Hub card | https://huggingface.co/aerostratospheric/msds-open-models |
+
+## Aerostratospheric
+
+| Resource | Link |
+|----------|------|
+| Home | https://www.midwestsds.com/ |
+| About | https://midwestsds.com/about.html |
+| xDataHub | https://midwestsds.com/msds-data-hub.html |
+| Defense GIR | https://midwestsds.com/aerostratospheric-defense-gir.html |
+| Contact | https://midwestsds.com/contact/ |
+| GitHub | https://github.com/Midwest-Stratospheric |
+| Hugging Face | https://huggingface.co/aerostratospheric |
+
+Casey, Illinois · NASA GLOBE **GO-4VW9B** · Ham **KE9CFY** · launchcontrol@midwestsds.com
 
 ## Data automation
 

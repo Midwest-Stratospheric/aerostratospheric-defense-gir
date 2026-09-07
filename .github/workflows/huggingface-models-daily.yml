@@ -1,0 +1,41 @@
+name: Daily Hugging Face model retrain (GIR)
+
+on:
+  schedule:
+    - cron: "0 20 * * *"
+  workflow_run:
+    workflows: ["Daily Hugging Face sync (GIR)"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gir-huggingface-models-daily
+  cancel-in-progress: false
+
+jobs:
+  retrain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install trainers
+        run: pip install --quiet scikit-learn joblib numpy huggingface_hub
+
+      - name: Retrain and push GIR suite
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_REPO: aerostratospheric/gir-open-tier-suite
+          GIR_ROOT: ${{ github.workspace }}
+          OUT_DIR: ${{ github.workspace }}/gir-open-tier-suite
+        run: python3 scripts/train_hf_models.py

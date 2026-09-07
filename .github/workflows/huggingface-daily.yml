@@ -1,0 +1,32 @@
+name: Daily Hugging Face sync (GIR)
+
+# Separate from UOGW. Runs after the 18:00 UTC ingest.
+on:
+  schedule:
+    - cron: "30 19 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gir-huggingface-daily
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Sync GIR packages to Hugging Face
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_REPO: aerostratospheric/gir
+          HF_USER: aerostratospheric
+        run: |
+          chmod +x scripts/sync_to_huggingface.sh
+          bash scripts/sync_to_huggingface.sh

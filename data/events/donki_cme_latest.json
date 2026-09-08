@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-09-08T10:45:01.569246+00:00",
-  "count": 37,
+  "updated_utc": "2026-09-08T20:48:42.901839+00:00",
+  "count": 38,
   "events": [
     {
       "activityID": "2026-09-01T06:00:00-CME-001",
@@ -436,7 +436,11 @@
           ]
         }
       ],
-      "linkedEvents": null,
+      "linkedEvents": [
+        {
+          "activityID": "2026-09-06T17:38:00-IPS-001"
+        }
+      ],
       "sentNotifications": null
     },
     {
@@ -2041,6 +2045,12 @@
       "linkedEvents": [
         {
           "activityID": "2026-09-05T10:24:00-FLR-001"
+        },
+        {
+          "activityID": "2026-09-07T06:07:00-IPS-001"
+        },
+        {
+          "activityID": "2026-09-08T15:50:00-RBE-001"
         }
       ],
       "sentNotifications": [
@@ -2277,37 +2287,6 @@
               ]
             },
             {
-              "modelCompletionTime": "2026-09-05T16:49Z",
-              "au": 2.0,
-              "estimatedShockArrivalTime": null,
-              "estimatedDuration": null,
-              "rmin_re": null,
-              "kp_18": null,
-              "kp_90": null,
-              "kp_135": null,
-              "kp_180": null,
-              "isEarthGB": false,
-              "isEarthMinorImpact": false,
-              "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/48568/-1",
-              "impactList": [
-                {
-                  "isGlancingBlow": false,
-                  "isMinorImpact": false,
-                  "location": "Mars",
-                  "arrivalTime": "2026-09-09T08:29Z"
-                },
-                {
-                  "isGlancingBlow": false,
-                  "isMinorImpact": false,
-                  "location": "STEREO A",
-                  "arrivalTime": "2026-09-07T20:58Z"
-                }
-              ],
-              "cmeIDs": [
-                "2026-09-05T15:36:00-CME-001"
-              ]
-            },
-            {
               "modelCompletionTime": "2026-09-05T17:39Z",
               "au": 5.5,
               "estimatedShockArrivalTime": null,
@@ -2380,6 +2359,9 @@
         },
         {
           "activityID": "2026-09-05T16:30:00-SEP-004"
+        },
+        {
+          "activityID": "2026-09-08T04:28:00-IPS-001"
         }
       ],
       "sentNotifications": [
@@ -2526,6 +2508,12 @@
       "linkedEvents": [
         {
           "activityID": "2026-09-05T17:32:00-FLR-001"
+        },
+        {
+          "activityID": "2026-09-07T06:07:00-IPS-001"
+        },
+        {
+          "activityID": "2026-09-08T15:50:00-RBE-001"
         }
       ],
       "sentNotifications": [
@@ -2715,11 +2703,6 @@
           "messageID": "20260906-AL-004",
           "messageIssueTime": "2026-09-06T16:15Z",
           "messageURL": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/Alert/48595/1"
-        },
-        {
-          "messageID": "20260906-AL-006",
-          "messageIssueTime": "2026-09-06T19:25Z",
-          "messageURL": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/Alert/48597/1"
         }
       ]
     },
@@ -3117,6 +3100,84 @@
               ],
               "cmeIDs": [
                 "2026-09-07T09:23:00-CME-001"
+              ]
+            }
+          ]
+        }
+      ],
+      "linkedEvents": null,
+      "sentNotifications": null
+    },
+    {
+      "activityID": "2026-09-08T13:59:00-CME-001",
+      "catalog": "M2M_CATALOG",
+      "startTime": "2026-09-08T13:59Z",
+      "instruments": [
+        {
+          "displayName": "SOHO: LASCO/C2"
+        },
+        {
+          "displayName": "SOHO: LASCO/C3"
+        },
+        {
+          "displayName": "STEREO A: SECCHI/COR2"
+        }
+      ],
+      "sourceLocation": "N10W35",
+      "activeRegionNum": 14521,
+      "note": "This CME is visible to the west in SOHO LASCO C2 and GOES CCOR-1, and to the east in STEREO A COR2 imagery. The source is a C2.4 flare from Active Region 14521 (N10W35) starting around 2026-09-08T12:20Z as seen in SDO AIA 131/171/193/304, GOES SUVI 131/171/195/284/304, and STEREO A EUVI 195/304 imagery.",
+      "submissionTime": "2026-09-08T17:44Z",
+      "versionId": 1,
+      "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CME/48622/-1",
+      "cmeAnalyses": [
+        {
+          "isMostAccurate": true,
+          "time21_5": "2026-09-08T21:47Z",
+          "latitude": 19.0,
+          "longitude": 35.0,
+          "halfAngle": 21.0,
+          "speed": 365.0,
+          "type": "S",
+          "featureCode": "LE",
+          "imageType": "running difference",
+          "measurementTechnique": "SWPC_CAT",
+          "note": "Measurement based on the source location and best fit between SOHO LASCO C2 and STEREO A COR2 imagery.",
+          "levelOfData": 0,
+          "tilt": null,
+          "minorHalfWidth": null,
+          "speedMeasuredAtHeight": 8.4,
+          "submissionTime": "2026-09-08T17:48Z",
+          "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/48623/-1",
+          "enlilList": [
+            {
+              "modelCompletionTime": "2026-09-08T18:04Z",
+              "au": 2.0,
+              "estimatedShockArrivalTime": null,
+              "estimatedDuration": null,
+              "rmin_re": null,
+              "kp_18": null,
+              "kp_90": null,
+              "kp_135": null,
+              "kp_180": null,
+              "isEarthGB": false,
+              "isEarthMinorImpact": false,
+              "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/48624/-1",
+              "impactList": [
+                {
+                  "isGlancingBlow": false,
+                  "isMinorImpact": false,
+                  "location": "Solar Orbiter",
+                  "arrivalTime": "2026-09-10T12:33Z"
+                },
+                {
+                  "isGlancingBlow": true,
+                  "isMinorImpact": false,
+                  "location": "STEREO A",
+                  "arrivalTime": "2026-09-11T23:00Z"
+                }
+              ],
+              "cmeIDs": [
+                "2026-09-08T13:59:00-CME-001"
               ]
             }
           ]

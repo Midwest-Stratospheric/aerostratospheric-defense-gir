@@ -126,23 +126,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95,
-          30.8
-        ]
-      },
-      "properties": {
-        "id": "EONET_23739",
-        "title": "Tropical Storm Edouard",
-        "categories": "Severe Storms"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          134.4,
-          33.6
+          135.9,
+          34.3
         ]
       },
       "properties": {
@@ -336,8 +321,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -160.9,
-          25.7
+          -161.7,
+          27.7
         ]
       },
       "properties": {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire AUSTIN, Clackamas, Oregon",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.989,
+          35.3735
+        ]
+      },
+      "properties": {
+        "id": "EONET_22428",
+        "title": "Wildfire Brown, Oldham, Texas",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-09-09T10:52:39.870082+00:00"
+  "updated_utc": "2026-09-09T20:33:29.764790+00:00"
 }

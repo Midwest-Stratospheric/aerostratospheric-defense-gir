@@ -546,87 +546,6 @@
       ]
     },
     {
-      "id": "EONET_23739",
-      "title": "Tropical Storm Edouard",
-      "description": null,
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23739",
-      "closed": null,
-      "categories": [
-        {
-          "id": "severeStorms",
-          "title": "Severe Storms"
-        }
-      ],
-      "sources": [
-        {
-          "id": "NOAA_NHC",
-          "url": "https://www.nhc.noaa.gov/archive/2026/EDOUARD.shtml"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-09-01T03:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -91.8,
-            28.6
-          ]
-        },
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-09-01T09:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -92.8,
-            29
-          ]
-        },
-        {
-          "magnitudeValue": 45.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-09-01T15:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -93.3,
-            29.4
-          ]
-        },
-        {
-          "magnitudeValue": 45.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-09-01T21:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -94,
-            29.945
-          ]
-        },
-        {
-          "magnitudeValue": 30.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-09-02T03:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -94.6,
-            30.5
-          ]
-        },
-        {
-          "magnitudeValue": 30.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-09-02T09:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -95,
-            30.8
-          ]
-        }
-      ]
-    },
-    {
       "id": "EONET_23738",
       "title": "Tropical Storm Krovanh",
       "description": null,
@@ -973,6 +892,16 @@
           "coordinates": [
             134.4,
             33.6
+          ]
+        },
+        {
+          "magnitudeValue": 25.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-09-09T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            135.9,
+            34.3
           ]
         }
       ]
@@ -2284,6 +2213,26 @@
           "coordinates": [
             -160.9,
             25.7
+          ]
+        },
+        {
+          "magnitudeValue": 55.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-09-09T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -161.1,
+            26.9
+          ]
+        },
+        {
+          "magnitudeValue": 50.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-09-09T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -161.7,
+            27.7
           ]
         }
       ]
@@ -4671,6 +4620,37 @@
           "coordinates": [
             -121.944872,
             45.025216
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_22428",
+      "title": "Wildfire Brown, Oldham, Texas",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22428",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-266753"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 800.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-08-09T14:21:00Z",
+          "type": "Point",
+          "coordinates": [
+            -102.989,
+            35.3735
           ]
         }
       ]

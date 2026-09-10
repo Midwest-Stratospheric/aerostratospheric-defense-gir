@@ -1,9 +1,10 @@
 name: Daily Hugging Face sync (GIR)
 
-# Separate from UOGW. Runs after the 18:00 UTC ingest.
+# Scheduled runs removed: this repo has no HF_TOKEN secret (confirmed empty in
+# Actions logs). Mirror now runs from Unified-Open-Global-Weather workflow
+# "Daily Hugging Face sync (GIR via UOGW secrets)".
+# Re-enable the cron after adding repository secret HF_TOKEN here.
 on:
-  schedule:
-    - cron: "30 19 * * *"
   workflow_dispatch:
 
 permissions:

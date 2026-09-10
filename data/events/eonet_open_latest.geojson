@@ -6,6 +6,81 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -118.6,
+          16.5
+        ]
+      },
+      "properties": {
+        "id": "EONET_24184",
+        "title": "Tropical Storm Norbert",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.67792,
+          34.840579
+        ]
+      },
+      "properties": {
+        "id": "EONET_24189",
+        "title": "Wildfire MEERS, Comanche, Oklahoma",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.653084,
+          31.060181
+        ]
+      },
+      "properties": {
+        "id": "EONET_24185",
+        "title": "Wildfire Kurk, San Saba, Texas",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5925,
+          34.413611
+        ]
+      },
+      "properties": {
+        "id": "EONET_24192",
+        "title": "Wildfire PINTO, Stephens, Oklahoma",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.321617,
+          41.95365
+        ]
+      },
+      "properties": {
+        "id": "EONET_24187",
+        "title": "Wildfire Moonshine, Albany, Wyoming",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -80.4997222,
           26.3258333
         ]
@@ -321,7 +396,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -164.4,
+          -166.9,
           29.1
         ]
       },
@@ -1425,82 +1500,7 @@
         "title": "Wildfire Bufford Creek, Stephens, Texas",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.525167,
-          39.822833
-        ]
-      },
-      "properties": {
-        "id": "EONET_22612",
-        "title": "Wildfire Stallion, Washoe, Nevada",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.634317,
-          45.195183
-        ]
-      },
-      "properties": {
-        "id": "EONET_22430",
-        "title": "Wildfire Harris, Rosebud, Montana",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -108.607547,
-          42.636437
-        ]
-      },
-      "properties": {
-        "id": "EONET_22424",
-        "title": "Wildfire WEISER KNOLL, Fremont, Wyoming",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.944872,
-          45.025216
-        ]
-      },
-      "properties": {
-        "id": "EONET_22611",
-        "title": "Wildfire AUSTIN, Clackamas, Oregon",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.989,
-          35.3735
-        ]
-      },
-      "properties": {
-        "id": "EONET_22428",
-        "title": "Wildfire Brown, Oldham, Texas",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-09-10T10:48:18.687279+00:00"
+  "updated_utc": "2026-09-10T20:29:55.619229+00:00"
 }

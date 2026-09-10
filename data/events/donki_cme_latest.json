@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-09-10T10:48:20.598457+00:00",
-  "count": 34,
+  "updated_utc": "2026-09-10T20:29:57.734796+00:00",
+  "count": 35,
   "events": [
     {
       "activityID": "2026-09-03T01:37:00-CME-001",
@@ -2726,6 +2726,55 @@
           "speedMeasuredAtHeight": 8.9,
           "submissionTime": "2026-09-10T00:00Z",
           "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/48639/-1",
+          "enlilList": []
+        }
+      ],
+      "linkedEvents": null,
+      "sentNotifications": null
+    },
+    {
+      "activityID": "2026-09-10T05:24:00-CME-001",
+      "catalog": "M2M_CATALOG",
+      "startTime": "2026-09-10T05:24Z",
+      "instruments": [
+        {
+          "displayName": "SOHO: LASCO/C2"
+        },
+        {
+          "displayName": "SOHO: LASCO/C3"
+        },
+        {
+          "displayName": "STEREO A: SECCHI/COR2"
+        },
+        {
+          "displayName": "GOES: CCOR-1"
+        }
+      ],
+      "sourceLocation": "",
+      "activeRegionNum": null,
+      "note": "Faint CME visible to the SW in SOHO LASCO C2, C3, GOES CCOR-1, and to the SE in STEREO A COR2 imagery. The potential source is a filament eruption located around W30 to W50 stretching longitudes between S10 to S20 based on SDO/AIA 193 imagery. This eruption starts around 2026-09-10T03:00Z with filament liftoff around 2026-09-10T04:00Z as seen in SDO/AIA 193 and 304. Dimming is also visible to SDO/AIA 193.",
+      "submissionTime": "2026-09-10T18:16Z",
+      "versionId": 1,
+      "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CME/48642/-1",
+      "cmeAnalyses": [
+        {
+          "isMostAccurate": true,
+          "time21_5": "2026-09-10T20:45Z",
+          "latitude": -22.0,
+          "longitude": 49.0,
+          "halfAngle": 23.0,
+          "speed": 231.0,
+          "type": "S",
+          "featureCode": "LE",
+          "imageType": "running difference",
+          "measurementTechnique": "StereoCAT",
+          "note": "Parameters based on best fit using SOHO LASCO C2 white-light and STEREO A COR2 difference imagery in StereoCAT.",
+          "levelOfData": 0,
+          "tilt": null,
+          "minorHalfWidth": null,
+          "speedMeasuredAtHeight": null,
+          "submissionTime": "2026-09-10T18:17Z",
+          "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/48643/-1",
           "enlilList": []
         }
       ],

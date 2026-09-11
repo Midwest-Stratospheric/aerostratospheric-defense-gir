@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-10T20:30:02.187281+00:00",
-  "ok": 15,
+  "generated_at_utc": "2026-09-11T10:44:54.219250+00:00",
+  "ok": 13,
   "total": 15,
   "results": [
     {
@@ -16,27 +16,25 @@
     },
     {
       "source": "eonet_events",
-      "ok": true,
-      "file": "eonet_open_latest.json",
-      "events": 100
+      "ok": false,
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "source": "eonet_geojson",
-      "ok": true,
-      "file": "eonet_open_latest.geojson",
-      "features": 100
+      "ok": false,
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "source": "usgs_quakes",
       "ok": true,
       "file": "usgs_quakes_2.5_day_latest.geojson",
-      "features": 29
+      "features": 26
     },
     {
       "source": "nws_alerts",
       "ok": true,
       "file": "nws_active_alerts_latest.geojson",
-      "count": 250
+      "count": 174
     },
     {
       "source": "sentinel2_stac",
@@ -48,7 +46,7 @@
       "source": "donki_cme",
       "ok": true,
       "file": "donki_cme_latest.json",
-      "count": 35
+      "count": 27
     },
     {
       "source": "cisa_kev",
@@ -78,7 +76,7 @@
       "source": "opensky_midwest",
       "ok": true,
       "file": "opensky_midwest_snapshot.geojson",
-      "count": 177
+      "count": 45
     },
     {
       "source": "osm_military_landuse",

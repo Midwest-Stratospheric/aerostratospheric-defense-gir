@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-09-12T10:13:38.563589+00:00",
-  "count": 29,
+  "updated_utc": "2026-09-12T20:15:53.156480+00:00",
+  "count": 31,
   "events": [
     {
       "activityID": "2026-09-05T06:38:00-CME-001",
@@ -2243,6 +2243,86 @@
           "speedMeasuredAtHeight": 4.5,
           "submissionTime": "2026-09-12T01:33Z",
           "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/48676/-1",
+          "enlilList": []
+        }
+      ],
+      "linkedEvents": null,
+      "sentNotifications": null
+    },
+    {
+      "activityID": "2026-09-12T01:26:00-CME-001",
+      "catalog": "M2M_CATALOG",
+      "startTime": "2026-09-12T01:26Z",
+      "instruments": [
+        {
+          "displayName": "SOHO: LASCO/C2"
+        }
+      ],
+      "sourceLocation": "",
+      "activeRegionNum": null,
+      "note": "Slow, narrow feature first seen to the NNW in SOHO LASCO C2. Is it only seen in SOHO LASCO C2 and fades before leaving the FOV of SOHO LASCO C2. The source is possibly related to some rising filamentary structures best seen in GOES SUVI 304. This activity begins several hours prior to the CME start time and persists after.",
+      "submissionTime": "2026-09-12T16:26Z",
+      "versionId": 1,
+      "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CME/48679/-1",
+      "cmeAnalyses": [
+        {
+          "isMostAccurate": true,
+          "time21_5": "2026-09-12T14:42Z",
+          "latitude": 66.0,
+          "longitude": null,
+          "halfAngle": 10.0,
+          "speed": 268.0,
+          "type": "S",
+          "featureCode": "LE",
+          "imageType": "running difference",
+          "measurementTechnique": "Plane-of-sky",
+          "note": "Plane-of-sky measurement chosen due to single coronagraph view and on/beyond limb source candidate.",
+          "levelOfData": 0,
+          "tilt": null,
+          "minorHalfWidth": null,
+          "speedMeasuredAtHeight": null,
+          "submissionTime": "2026-09-12T16:28Z",
+          "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/48680/-1",
+          "enlilList": []
+        }
+      ],
+      "linkedEvents": null,
+      "sentNotifications": null
+    },
+    {
+      "activityID": "2026-09-12T08:38:00-CME-001",
+      "catalog": "M2M_CATALOG",
+      "startTime": "2026-09-12T08:38Z",
+      "instruments": [
+        {
+          "displayName": "STEREO A: SECCHI/COR2"
+        }
+      ],
+      "sourceLocation": "",
+      "activeRegionNum": null,
+      "note": "Faint CME first seen to the WSW in STEREO A COR2 starting at 2026-09-12T08:38Z. This feature is only seen in STEREO A COR2. No good source candidate can be seen in SDO AIA or STA EUVI, so the source is most likely far-sided.",
+      "submissionTime": "2026-09-12T16:05Z",
+      "versionId": 1,
+      "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CME/48677/-1",
+      "cmeAnalyses": [
+        {
+          "isMostAccurate": true,
+          "time21_5": "2026-09-12T18:23Z",
+          "latitude": -17.0,
+          "longitude": null,
+          "halfAngle": 13.0,
+          "speed": 337.0,
+          "type": "S",
+          "featureCode": "LE",
+          "imageType": "running difference",
+          "measurementTechnique": "Plane-of-sky",
+          "note": "Plane-of-sky measurement chosen do to single coronagraph viewpoint and lack of source candidate.",
+          "levelOfData": 0,
+          "tilt": null,
+          "minorHalfWidth": null,
+          "speedMeasuredAtHeight": null,
+          "submissionTime": "2026-09-12T16:06Z",
+          "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/48678/-1",
           "enlilList": []
         }
       ],

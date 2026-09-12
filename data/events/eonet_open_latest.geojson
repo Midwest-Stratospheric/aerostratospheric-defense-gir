@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -126.1,
-          17.1
+          -127.8,
+          17.2
         ]
       },
       "properties": {
@@ -374,21 +374,6 @@
         "id": "EONET_23669",
         "title": "Wildfire Roe 2, Beaverhead, Montana",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -145.7,
-          23
-        ]
-      },
-      "properties": {
-        "id": "EONET_23611",
-        "title": "Hurricane Karina",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire Bufford Creek, Stephens, Texas",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.525167,
+          39.822833
+        ]
+      },
+      "properties": {
+        "id": "EONET_22612",
+        "title": "Wildfire Stallion, Washoe, Nevada",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-09-12T10:13:36.633130+00:00"
+  "updated_utc": "2026-09-12T20:15:51.028692+00:00"
 }

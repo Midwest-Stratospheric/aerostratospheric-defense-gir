@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-13T11:14:22.058655+00:00",
-  "ok": 15,
+  "generated_at_utc": "2026-09-13T20:26:00.003013+00:00",
+  "ok": 14,
   "total": 15,
   "results": [
     {
@@ -8,9 +8,9 @@
       "ok": true,
       "file": "uogw_anomalies_latest.json",
       "counts": {
-        "total": 1,
-        "alert": 1,
-        "watch": 0,
+        "total": 2,
+        "alert": 0,
+        "watch": 2,
         "info": 0
       }
     },
@@ -30,13 +30,13 @@
       "source": "usgs_quakes",
       "ok": true,
       "file": "usgs_quakes_2.5_day_latest.geojson",
-      "features": 34
+      "features": 38
     },
     {
       "source": "nws_alerts",
       "ok": true,
       "file": "nws_active_alerts_latest.geojson",
-      "count": 141
+      "count": 153
     },
     {
       "source": "sentinel2_stac",
@@ -48,7 +48,7 @@
       "source": "donki_cme",
       "ok": true,
       "file": "donki_cme_latest.json",
-      "count": 26
+      "count": 29
     },
     {
       "source": "cisa_kev",
@@ -78,13 +78,12 @@
       "source": "opensky_midwest",
       "ok": true,
       "file": "opensky_midwest_snapshot.geojson",
-      "count": 61
+      "count": 215
     },
     {
       "source": "osm_military_landuse",
-      "ok": true,
-      "file": "osm_military_landuse_il_sample.geojson",
-      "count": 10
+      "ok": false,
+      "error": "HTTP Error 504: Gateway Timeout"
     },
     {
       "source": "firms",

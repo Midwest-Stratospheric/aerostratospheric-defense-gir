@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-12T20:15:56.541387+00:00",
+  "generated_at_utc": "2026-09-13T11:14:22.058655+00:00",
   "ok": 15,
   "total": 15,
   "results": [
@@ -30,13 +30,13 @@
       "source": "usgs_quakes",
       "ok": true,
       "file": "usgs_quakes_2.5_day_latest.geojson",
-      "features": 54
+      "features": 34
     },
     {
       "source": "nws_alerts",
       "ok": true,
       "file": "nws_active_alerts_latest.geojson",
-      "count": 170
+      "count": 141
     },
     {
       "source": "sentinel2_stac",
@@ -48,7 +48,7 @@
       "source": "donki_cme",
       "ok": true,
       "file": "donki_cme_latest.json",
-      "count": 31
+      "count": 26
     },
     {
       "source": "cisa_kev",
@@ -78,7 +78,7 @@
       "source": "opensky_midwest",
       "ok": true,
       "file": "opensky_midwest_snapshot.geojson",
-      "count": 161
+      "count": 61
     },
     {
       "source": "osm_military_landuse",

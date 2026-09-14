@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -132.1,
-          18.1
+          -135.8,
+          19.2
         ]
       },
       "properties": {
@@ -179,21 +179,6 @@
         "id": "EONET_24098",
         "title": "Wildfire Fowl, Harding, New Mexico",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -127.1,
-          25.5
-        ]
-      },
-      "properties": {
-        "id": "EONET_23800",
-        "title": "Cyclone Marie",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire Stallion, Washoe, Nevada",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.634317,
+          45.195183
+        ]
+      },
+      "properties": {
+        "id": "EONET_22430",
+        "title": "Wildfire Harris, Rosebud, Montana",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-09-13T20:25:44.005049+00:00"
+  "updated_utc": "2026-09-14T12:01:21.834443+00:00"
 }

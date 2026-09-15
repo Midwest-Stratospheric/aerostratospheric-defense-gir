@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-09-15T11:15:56.035306+00:00",
-  "count": 27,
+  "updated_utc": "2026-09-15T20:56:35.112442+00:00",
+  "count": 28,
   "events": [
     {
       "activityID": "2026-09-08T13:59:00-CME-001",
@@ -1347,7 +1347,11 @@
           ]
         }
       ],
-      "linkedEvents": null,
+      "linkedEvents": [
+        {
+          "activityID": "2026-09-15T11:28:00-IPS-001"
+        }
+      ],
       "sentNotifications": [
         {
           "messageID": "20260913-AL-001",
@@ -1509,7 +1513,7 @@
               "kp_18": null,
               "kp_90": 3,
               "kp_135": 4,
-              "kp_180": null,
+              "kp_180": 4,
               "isEarthGB": true,
               "isEarthMinorImpact": false,
               "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/48705/-1",
@@ -1679,6 +1683,46 @@
               ]
             }
           ]
+        }
+      ],
+      "linkedEvents": null,
+      "sentNotifications": null
+    },
+    {
+      "activityID": "2026-09-15T08:36:00-CME-001",
+      "catalog": "M2M_CATALOG",
+      "startTime": "2026-09-15T08:36Z",
+      "instruments": [
+        {
+          "displayName": "SOHO: LASCO/C2"
+        }
+      ],
+      "sourceLocation": "",
+      "activeRegionNum": null,
+      "note": "Very faint CME/outflow with a fuzzy, unclear front seen to the NE in early images of SOHO LASCO C2 only. It is not seen in SOHO LASCO C3, STEREO A COR2 and GOES CCOR-1, likely because of its faintness. No source for this feature has been found in EUV imagery.",
+      "submissionTime": "2026-09-15T16:29Z",
+      "versionId": 2,
+      "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CME/48718/-1",
+      "cmeAnalyses": [
+        {
+          "isMostAccurate": true,
+          "time21_5": "2026-09-15T17:26Z",
+          "latitude": 45.0,
+          "longitude": null,
+          "halfAngle": 16.0,
+          "speed": 395.0,
+          "type": "S",
+          "featureCode": "LE",
+          "imageType": "running difference",
+          "measurementTechnique": "Plane-of-sky",
+          "note": "Plane of sky measurement using SOHO LASCO C2 running difference imagery in SWPC_CAT.",
+          "levelOfData": 0,
+          "tilt": null,
+          "minorHalfWidth": null,
+          "speedMeasuredAtHeight": 6.0,
+          "submissionTime": "2026-09-15T19:02Z",
+          "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/48719/-1",
+          "enlilList": []
         }
       ],
       "linkedEvents": null,

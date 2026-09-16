@@ -29,11 +29,16 @@ copy_tree() {
     find "${WORKDIR}/${src}" -type f \
       ! -iname '*.png' ! -iname '*.jpg' ! -iname '*.jpeg' ! -iname '*.gif' \
       ! -iname '*.webp' ! -iname '*.zip' ! -iname '*.gz' ! -iname '*.bin' \
+      ! -iname '*.nc' ! -iname '*.hdf' ! -iname '*.h5' ! -iname '*.tif' \
+      ! -iname '*.tiff' ! -iname '*.mp4' ! -iname '*.mov' \
       -print0 | while IFS= read -r -d '' f; do
         rel="${f#${WORKDIR}/${src}/}"
         mkdir -p "${dest}/$(dirname "${rel}")"
         cp -a "$f" "${dest}/${rel}"
       done
+  elif [[ -f "${WORKDIR}/${src}" ]]; then
+    mkdir -p "$(dirname "${dest}")"
+    cp -a "${WORKDIR}/${src}" "${dest}"
   fi
 }
 
@@ -41,13 +46,19 @@ copy_tree data data
 copy_tree catalog catalog
 copy_tree reports reports
 copy_tree samples samples
+copy_tree docs docs
+copy_tree schema schema
+copy_tree config config
+copy_tree README.md README.md
+copy_tree CITATION.cff CITATION.cff
 
 cat > sync-status.json << JSON
 {
   "source": "https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir",
   "hf_repo": "https://huggingface.co/datasets/${HF_REPO}",
   "synced_utc": "${STAMP}",
-  "github_commit": "${COMMIT}"
+  "github_commit": "${COMMIT}",
+  "trees": ["data", "catalog", "reports", "samples", "docs", "schema", "config"]
 }
 JSON
 

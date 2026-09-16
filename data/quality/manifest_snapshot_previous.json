@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-16T10:58:11.518762+00:00",
-  "ok": 14,
+  "generated_at_utc": "2026-09-16T20:57:27.026016+00:00",
+  "ok": 15,
   "total": 15,
   "results": [
     {
@@ -30,13 +30,13 @@
       "source": "usgs_quakes",
       "ok": true,
       "file": "usgs_quakes_2.5_day_latest.geojson",
-      "features": 35
+      "features": 31
     },
     {
       "source": "nws_alerts",
       "ok": true,
       "file": "nws_active_alerts_latest.geojson",
-      "count": 262
+      "count": 254
     },
     {
       "source": "sentinel2_stac",
@@ -54,7 +54,7 @@
       "source": "cisa_kev",
       "ok": true,
       "file": "cisa_kev_latest.json",
-      "count": 1710
+      "count": 1713
     },
     {
       "source": "ourairports_military_keywords",
@@ -78,12 +78,13 @@
       "source": "opensky_midwest",
       "ok": true,
       "file": "opensky_midwest_snapshot.geojson",
-      "count": 57
+      "count": 198
     },
     {
       "source": "osm_military_landuse",
-      "ok": false,
-      "error": "HTTP Error 504: Gateway Timeout"
+      "ok": true,
+      "file": "osm_military_landuse_il_sample.geojson",
+      "count": 10
     },
     {
       "source": "firms",

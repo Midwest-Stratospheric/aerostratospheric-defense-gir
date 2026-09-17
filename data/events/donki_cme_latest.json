@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-17T11:08:26.257149+00:00",
+  "updated_utc": "2026-09-17T21:00:27.457827+00:00",
   "count": 21,
   "events": [
     {
@@ -1060,7 +1060,11 @@
           ]
         }
       ],
-      "linkedEvents": null,
+      "linkedEvents": [
+        {
+          "activityID": "2026-09-17T01:24:00-IPS-001"
+        }
+      ],
       "sentNotifications": [
         {
           "messageID": "20260914-AL-001",
@@ -1217,7 +1221,11 @@
           ]
         }
       ],
-      "linkedEvents": null,
+      "linkedEvents": [
+        {
+          "activityID": "2026-09-17T01:24:00-IPS-001"
+        }
+      ],
       "sentNotifications": [
         {
           "messageID": "20260914-AL-002",

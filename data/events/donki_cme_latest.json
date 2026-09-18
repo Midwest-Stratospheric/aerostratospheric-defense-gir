@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-09-18T10:42:26.374626+00:00",
-  "count": 17,
+  "updated_utc": "2026-09-18T20:30:55.761165+00:00",
+  "count": 18,
   "events": [
     {
       "activityID": "2026-09-11T02:24:00-CME-001",
@@ -949,6 +949,9 @@
       "linkedEvents": [
         {
           "activityID": "2026-09-17T01:24:00-IPS-001"
+        },
+        {
+          "activityID": "2026-09-17T15:10:00-IPS-001"
         }
       ],
       "sentNotifications": [
@@ -1058,6 +1061,52 @@
           "speedMeasuredAtHeight": 6.0,
           "submissionTime": "2026-09-15T19:02Z",
           "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/48719/-1",
+          "enlilList": []
+        }
+      ],
+      "linkedEvents": null,
+      "sentNotifications": null
+    },
+    {
+      "activityID": "2026-09-18T03:24:00-CME-001",
+      "catalog": "M2M_CATALOG",
+      "startTime": "2026-09-18T03:24Z",
+      "instruments": [
+        {
+          "displayName": "SOHO: LASCO/C2"
+        },
+        {
+          "displayName": "SOHO: LASCO/C3"
+        },
+        {
+          "displayName": "GOES: CCOR-1"
+        }
+      ],
+      "sourceLocation": "",
+      "activeRegionNum": null,
+      "note": "CME visible to the NE in SOHO LASCO C2/C3. The CME is also faintly visible to the NE in GOES CCOR-1 following a data gap due to Earthshine from 2026-09-18T03:45Z to 2026-09-18T06:10Z. The CME is not visible in STEREO A COR2 imagery. The source is beyond the NE limb and is seen as moving field lines starting at 2026-09-18T02:35Z in GOES SUVI 284 and SDO AIA 171/193 imagery.",
+      "submissionTime": "2026-09-18T11:47Z",
+      "versionId": 1,
+      "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CME/48726/-1",
+      "cmeAnalyses": [
+        {
+          "isMostAccurate": true,
+          "time21_5": "2026-09-18T13:29Z",
+          "latitude": 17.0,
+          "longitude": null,
+          "halfAngle": 41.0,
+          "speed": 371.0,
+          "type": "S",
+          "featureCode": "LE",
+          "imageType": "running difference",
+          "measurementTechnique": "Plane-of-sky",
+          "note": "Plane of sky measurement based on SOHO LASCO C2/C3 running difference imagery in SWPC_CAT.",
+          "levelOfData": 0,
+          "tilt": null,
+          "minorHalfWidth": null,
+          "speedMeasuredAtHeight": 7.8,
+          "submissionTime": "2026-09-18T11:48Z",
+          "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/48727/-1",
           "enlilList": []
         }
       ],

@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-19T20:09:10.499929+00:00",
-  "ok": 15,
+  "generated_at_utc": "2026-09-20T10:47:51.688896+00:00",
+  "ok": 14,
   "total": 15,
   "results": [
     {
@@ -30,13 +30,13 @@
       "source": "usgs_quakes",
       "ok": true,
       "file": "usgs_quakes_2.5_day_latest.geojson",
-      "features": 40
+      "features": 46
     },
     {
       "source": "nws_alerts",
       "ok": true,
       "file": "nws_active_alerts_latest.geojson",
-      "count": 377
+      "count": 312
     },
     {
       "source": "sentinel2_stac",
@@ -78,13 +78,12 @@
       "source": "opensky_midwest",
       "ok": true,
       "file": "opensky_midwest_snapshot.geojson",
-      "count": 144
+      "count": 36
     },
     {
       "source": "osm_military_landuse",
-      "ok": true,
-      "file": "osm_military_landuse_il_sample.geojson",
-      "count": 10
+      "ok": false,
+      "error": "HTTP Error 504: Gateway Timeout"
     },
     {
       "source": "firms",

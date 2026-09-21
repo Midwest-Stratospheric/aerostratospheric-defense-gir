@@ -36,8 +36,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          137.6,
-          30.4
+          139.8,
+          33.7
         ]
       },
       "properties": {
@@ -314,21 +314,6 @@
         "id": "EONET_24510",
         "title": "Wildfire LUCAS, Lake, California",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -142.4,
-          20.4
-        ]
-      },
-      "properties": {
-        "id": "EONET_24184",
-        "title": "Cyclone Norbert",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire CATO 2, Chaves, New Mexico",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7516667,
+          26.3688889
+        ]
+      },
+      "properties": {
+        "id": "EONET_22791",
+        "title": "Wildfire THE H1, Palm Beach, Florida",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-09-20T20:25:48.359192+00:00"
+  "updated_utc": "2026-09-21T12:11:39.379101+00:00"
 }

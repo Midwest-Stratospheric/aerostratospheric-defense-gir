@@ -4,6 +4,87 @@
   "link": "https://eonet.gsfc.nasa.gov/api/v3/events",
   "events": [
     {
+      "id": "EONET_24785",
+      "title": "Tropical Cyclone 01B",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24785",
+      "closed": null,
+      "categories": [
+        {
+          "id": "severeStorms",
+          "title": "Severe Storms"
+        }
+      ],
+      "sources": [
+        {
+          "id": "JTWC",
+          "url": "https://www.metoc.navy.mil/jtwc/products/io0126.tcw"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-09-22T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            85,
+            17.5
+          ]
+        },
+        {
+          "magnitudeValue": 30.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-09-22T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            85.2,
+            17.5
+          ]
+        },
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-09-22T18:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            85,
+            17.5
+          ]
+        },
+        {
+          "magnitudeValue": 40.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-09-23T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            84.8,
+            17.7
+          ]
+        },
+        {
+          "magnitudeValue": 45.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-09-23T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            84.6,
+            17.8
+          ]
+        },
+        {
+          "magnitudeValue": 45.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-09-23T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            84,
+            17.8
+          ]
+        }
+      ]
+    },
+    {
       "id": "EONET_24721",
       "title": "Hurricane Polo",
       "description": null,
@@ -114,6 +195,26 @@
           "coordinates": [
             -101.4,
             14.6
+          ]
+        },
+        {
+          "magnitudeValue": 140.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-09-23T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -101.3,
+            14.8
+          ]
+        },
+        {
+          "magnitudeValue": 130.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-09-23T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -101.5,
+            15.2
           ]
         }
       ]
@@ -242,7 +343,7 @@
     },
     {
       "id": "EONET_24720",
-      "title": "Tropical Storm Odalys",
+      "title": "Hurricane Odalys",
       "description": null,
       "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24720",
       "closed": null,
@@ -381,6 +482,26 @@
           "coordinates": [
             -129.4,
             15.3
+          ]
+        },
+        {
+          "magnitudeValue": 65.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-09-23T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -128.7,
+            15.8
+          ]
+        },
+        {
+          "magnitudeValue": 65.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-09-23T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -128.2,
+            15.9
           ]
         }
       ]
@@ -3556,37 +3677,6 @@
           "coordinates": [
             -92.49237337,
             33.16826652
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23210",
-      "title": "Wildfire Deer Creek, Lincoln, Montana",
-      "description": "18 Miles W from Marion, MT",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23210",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-MTNWS-000387"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 949.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-20T16:42:00Z",
-          "type": "Point",
-          "coordinates": [
-            -115.08586,
-            48.16151
           ]
         }
       ]

@@ -6,6 +6,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -156,
+          14.8
+        ]
+      },
+      "properties": {
+        "id": "EONET_24786",
+        "title": "Tropical Storm Nolo",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.5,
+          18.6
+        ]
+      },
+      "properties": {
+        "id": "EONET_24787",
+        "title": "Tropical Storm Surigae",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           83.7,
           18.1
         ]
@@ -21,8 +51,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.3,
-          15.8
+          -103.9,
+          16.7
         ]
       },
       "properties": {
@@ -51,8 +81,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -32.2,
-          33.1
+          -40.5,
+          29.8
         ]
       },
       "properties": {
@@ -66,8 +96,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -126.9,
-          15.6
+          -125.8,
+          16.2
         ]
       },
       "properties": {
@@ -1470,37 +1500,7 @@
         "title": "Wildfire 2690, Caddo, Oklahoma",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.677817,
-          41.80951
-        ]
-      },
-      "properties": {
-        "id": "EONET_23217",
-        "title": "Wildfire Salt Wells, Box Elder, Utah",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.49237337,
-          33.16826652
-        ]
-      },
-      "properties": {
-        "id": "EONET_23213",
-        "title": "Wildfire Pine Tree Rd, Union, Arkansas",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-09-24T11:15:11.633822+00:00"
+  "updated_utc": "2026-09-24T21:13:34.451052+00:00"
 }

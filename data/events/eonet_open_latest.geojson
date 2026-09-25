@@ -6,13 +6,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156,
-          14.9
+          -22.4,
+          14.2
         ]
       },
       "properties": {
-        "id": "EONET_24786",
-        "title": "Tropical Storm Nolo",
+        "id": "EONET_24811",
+        "title": "Tropical Storm Gonzalo",
         "categories": "Severe Storms"
       }
     },
@@ -21,8 +21,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.7,
-          19.9
+          -155.6,
+          15.8
+        ]
+      },
+      "properties": {
+        "id": "EONET_24786",
+        "title": "Hurricane Nolo",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.2,
+          21.4
         ]
       },
       "properties": {
@@ -66,8 +81,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.9,
-          16.9
+          -108,
+          17.1
         ]
       },
       "properties": {
@@ -96,7 +111,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -40.5,
+          -42.8,
           29.8
         ]
       },
@@ -111,8 +126,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.4,
-          16.9
+          -123.8,
+          17.7
         ]
       },
       "properties": {
@@ -1485,22 +1500,7 @@
         "title": "Wildfire WHISKEY, Torrance, New Mexico",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.836833,
-          25.545083
-        ]
-      },
-      "properties": {
-        "id": "EONET_23224",
-        "title": "Wildfire Chipmunk, Miami-Dade, Florida",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-09-25T11:20:07.405702+00:00"
+  "updated_utc": "2026-09-25T21:10:49.418224+00:00"
 }

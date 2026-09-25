@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-25T11:21:13.285981+00:00",
+  "generated_at_utc": "2026-09-25T21:11:52.887677+00:00",
   "ok": 14,
   "total": 15,
   "results": [
@@ -8,9 +8,9 @@
       "ok": true,
       "file": "uogw_anomalies_latest.json",
       "counts": {
-        "total": 4,
-        "alert": 1,
-        "watch": 3,
+        "total": 2,
+        "alert": 0,
+        "watch": 2,
         "info": 0
       }
     },
@@ -30,13 +30,13 @@
       "source": "usgs_quakes",
       "ok": true,
       "file": "usgs_quakes_2.5_day_latest.geojson",
-      "features": 38
+      "features": 30
     },
     {
       "source": "nws_alerts",
       "ok": true,
       "file": "nws_active_alerts_latest.geojson",
-      "count": 278
+      "count": 238
     },
     {
       "source": "sentinel2_stac",
@@ -48,13 +48,13 @@
       "source": "donki_cme",
       "ok": true,
       "file": "donki_cme_latest.json",
-      "count": 14
+      "count": 17
     },
     {
       "source": "cisa_kev",
       "ok": true,
       "file": "cisa_kev_latest.json",
-      "count": 1723
+      "count": 1726
     },
     {
       "source": "ourairports_military_keywords",
@@ -65,7 +65,7 @@
     {
       "source": "usaspending_defense",
       "ok": false,
-      "error": "The read operation timed out"
+      "error": "HTTP Error 502: Bad Gateway"
     },
     {
       "source": "gdelt_lastupdate",
@@ -77,7 +77,7 @@
       "source": "opensky_midwest",
       "ok": true,
       "file": "opensky_midwest_snapshot.geojson",
-      "count": 87
+      "count": 206
     },
     {
       "source": "osm_military_landuse",

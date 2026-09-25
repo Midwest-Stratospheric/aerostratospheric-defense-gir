@@ -7,7 +7,7 @@
         "type": "Point",
         "coordinates": [
           -156,
-          14.8
+          14.9
         ]
       },
       "properties": {
@@ -21,14 +21,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          132.5,
-          18.6
+          130.7,
+          19.9
         ]
       },
       "properties": {
         "id": "EONET_24787",
         "title": "Tropical Storm Surigae",
         "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.83785,
+          31.052583
+        ]
+      },
+      "properties": {
+        "id": "EONET_24809",
+        "title": "Wildfire Merit Creek, Greene, Mississippi",
+        "categories": "Wildfires"
       }
     },
     {
@@ -51,8 +66,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.9,
-          16.7
+          -104.9,
+          16.9
         ]
       },
       "properties": {
@@ -96,14 +111,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -125.8,
-          16.2
+          -124.4,
+          16.9
         ]
       },
       "properties": {
         "id": "EONET_24720",
         "title": "Hurricane Odalys",
         "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9721,
+          36.601661
+        ]
+      },
+      "properties": {
+        "id": "EONET_24810",
+        "title": "Prescribed Fire CRAWFORD CORRAL RX, Tulare, California",
+        "categories": "Wildfires"
       }
     },
     {
@@ -1470,37 +1500,7 @@
         "title": "Wildfire Chipmunk, Miami-Dade, Florida",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.338449,
-          36.876944
-        ]
-      },
-      "properties": {
-        "id": "EONET_23228",
-        "title": "Wildfire BISON, Osage, Oklahoma",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.185052,
-          35.164635
-        ]
-      },
-      "properties": {
-        "id": "EONET_23230",
-        "title": "Wildfire 2690, Caddo, Oklahoma",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-09-24T21:13:34.451052+00:00"
+  "updated_utc": "2026-09-25T11:20:07.405702+00:00"
 }

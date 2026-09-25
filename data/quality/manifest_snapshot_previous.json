@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-24T21:13:40.294838+00:00",
-  "ok": 15,
+  "generated_at_utc": "2026-09-25T11:21:13.285981+00:00",
+  "ok": 14,
   "total": 15,
   "results": [
     {
@@ -30,13 +30,13 @@
       "source": "usgs_quakes",
       "ok": true,
       "file": "usgs_quakes_2.5_day_latest.geojson",
-      "features": 39
+      "features": 38
     },
     {
       "source": "nws_alerts",
       "ok": true,
       "file": "nws_active_alerts_latest.geojson",
-      "count": 301
+      "count": 278
     },
     {
       "source": "sentinel2_stac",
@@ -64,9 +64,8 @@
     },
     {
       "source": "usaspending_defense",
-      "ok": true,
-      "file": "usaspending_defense_naics_latest.json",
-      "count": 50
+      "ok": false,
+      "error": "The read operation timed out"
     },
     {
       "source": "gdelt_lastupdate",
@@ -78,7 +77,7 @@
       "source": "opensky_midwest",
       "ok": true,
       "file": "opensky_midwest_snapshot.geojson",
-      "count": 204
+      "count": 87
     },
     {
       "source": "osm_military_landuse",

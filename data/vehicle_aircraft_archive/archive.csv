@@ -1,0 +1,13 @@
+id,name,kind,archive_id,source,hub
+AERO-X2GRIFFON-001,"X2Griffon",stratospheric_platform,AERO-X2GRIFFON-001,https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir/blob/main/data/flight_logs/flight_logs_latest.json,https://midwestsds.com/msds-data-hub.html#sec-flight
+AERO-X1ALBATROSS-001,"x1Albatross",mid_altitude_drift_platform,AERO-X1ALBATROSS-001,https://midwestsds.com/platforms.html,https://midwestsds.com/msds-data-hub.html#sec-flight
+AERO-MADAP-001,"MAD-AP",mid_altitude_payload,AERO-MADAP-001,https://midwestsds.com/platforms.html,https://midwestsds.com/msds-data-hub.html#sec-flight
+AERO-XFALL2-001,"xFall2",recovery_tracker,AERO-XFALL2-001,https://midwestsds.com/,https://midwestsds.com/msds-data-hub.html#sec-flight
+AERO-AERODEFENDER-001,"Aerodefender",defense_concept_platform,AERO-AERODEFENDER-001,https://midwestsds.com/aerostratospheric-defense-systems.html,https://midwestsds.com/msds-data-hub.html#gir-space
+AERO-KILCASEY47,"Aerostratospheric Fixed Weather Station",ground_station,AERO-KILCASEY47,https://www.wunderground.com/dashboard/pws/KILCASEY47,https://midwestsds.com/msds-data-hub.html#sec-ground
+OA-KBLV,"Scott AFB / Midamerica Airport",public_airfield,OA-KBLV,https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir/blob/main/data/defense_open/public_military_airfields_ourairports.json,https://midwestsds.com/msds-data-hub.html#gir-space
+OA-KFFO,"Wright-Patterson Air Force Base",public_airfield,OA-KFFO,https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir/blob/main/data/defense_open/public_military_airfields_ourairports.json,https://midwestsds.com/msds-data-hub.html#gir-space
+OA-KSZL,"Whiteman Air Force Base",public_airfield,OA-KSZL,https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir/blob/main/data/defense_open/public_military_airfields_ourairports.json,https://midwestsds.com/msds-data-hub.html#gir-space
+OA-KTIP,"Rantoul National Aviation Center",public_airfield,OA-KTIP,https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir/blob/main/data/defense_open/public_military_airfields_ourairports.json,https://midwestsds.com/msds-data-hub.html#gir-space
+TYPE-C17,"C-17 Globemaster III",aircraft_type,C-17,https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104523/c-17-globemaster-iii/,https://midwestsds.com/msds-data-hub.html#gir-space
+TYPE-C130,"C-130 Hercules",aircraft_type,C-130,https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/,https://midwestsds.com/msds-data-hub.html#gir-space

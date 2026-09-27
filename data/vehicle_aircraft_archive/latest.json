@@ -1,8 +1,8 @@
 {
   "title": "GIR vehicle and aircraft archive",
   "tier": "open",
-  "updated_utc": "2026-09-27T19:15:00Z",
-  "description": "Open identifiers for Aerostratospheric platforms and public airfields/aircraft types used with Defense GIR. No classified tracks or tail numbers.",
+  "updated_utc": "2026-09-27T19:46:00Z",
+  "description": "Open identifiers for Aerostratospheric platforms and public airfields/aircraft types. Each row has a look-like link and the Hugging Face models that use this open-tier family.",
   "count": 12,
   "items": [
     {
@@ -21,7 +21,23 @@
       "notes": "Flagship ~1.01 lb stratospheric profiler. Maiden science flight 19 September 2026, Casey / Farmersburg area.",
       "source": "https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir/blob/main/data/flight_logs/flight_logs_latest.json",
       "hub": "https://midwestsds.com/msds-data-hub.html#sec-flight",
-      "page": "https://midwestsds.com/x2.html"
+      "page": "https://midwestsds.com/x2.html",
+      "look_image": "https://midwestsds.com/images/x2griffon.png",
+      "look_url": "https://midwestsds.com/x2.html",
+      "models": [
+        {
+          "id": "aerostratospheric/uogw-scientific-suite",
+          "url": "https://huggingface.co/aerostratospheric/uogw-scientific-suite"
+        },
+        {
+          "id": "aerostratospheric/uogw-aerostratospheric-forecast",
+          "url": "https://huggingface.co/aerostratospheric/uogw-aerostratospheric-forecast"
+        },
+        {
+          "id": "aerostratospheric/msds-open-models",
+          "url": "https://huggingface.co/aerostratospheric/msds-open-models"
+        }
+      ]
     },
     {
       "id": "AERO-X1ALBATROSS-001",
@@ -36,7 +52,19 @@
       "notes": "MAD-AP mid-altitude host for jetstream equilibrium and multi-day drift.",
       "source": "https://midwestsds.com/platforms.html",
       "hub": "https://midwestsds.com/msds-data-hub.html#sec-flight",
-      "page": "https://midwestsds.com/platforms.html"
+      "page": "https://midwestsds.com/platforms.html",
+      "look_image": "https://midwestsds.com/images/x2griffon.png",
+      "look_url": "https://midwestsds.com/platforms.html",
+      "models": [
+        {
+          "id": "aerostratospheric/uogw-scientific-suite",
+          "url": "https://huggingface.co/aerostratospheric/uogw-scientific-suite"
+        },
+        {
+          "id": "aerostratospheric/uogw-aerostratospheric-forecast",
+          "url": "https://huggingface.co/aerostratospheric/uogw-aerostratospheric-forecast"
+        }
+      ]
     },
     {
       "id": "AERO-MADAP-001",
@@ -50,7 +78,19 @@
       "notes": "Modular Advanced Data Acquisition Payload flown on x1Albatross-class balloons.",
       "source": "https://midwestsds.com/platforms.html",
       "hub": "https://midwestsds.com/msds-data-hub.html#sec-flight",
-      "page": "https://midwestsds.com/platforms.html"
+      "page": "https://midwestsds.com/platforms.html",
+      "look_image": "https://midwestsds.com/images/x2griffon.png",
+      "look_url": "https://midwestsds.com/platforms.html",
+      "models": [
+        {
+          "id": "aerostratospheric/msds-open-models",
+          "url": "https://huggingface.co/aerostratospheric/msds-open-models"
+        },
+        {
+          "id": "aerostratospheric/uogw-scientific-suite",
+          "url": "https://huggingface.co/aerostratospheric/uogw-scientific-suite"
+        }
+      ]
     },
     {
       "id": "AERO-XFALL2-001",
@@ -64,7 +104,15 @@
       "notes": "Independent black-box tracker flown on missions: offline log plus dual-path tracking.",
       "source": "https://midwestsds.com/",
       "hub": "https://midwestsds.com/msds-data-hub.html#sec-flight",
-      "page": "https://midwestsds.com/"
+      "page": "https://midwestsds.com/",
+      "look_image": "https://midwestsds.com/images/xfall2.png",
+      "look_url": "https://midwestsds.com/",
+      "models": [
+        {
+          "id": "aerostratospheric/msds-open-models",
+          "url": "https://huggingface.co/aerostratospheric/msds-open-models"
+        }
+      ]
     },
     {
       "id": "AERO-AERODEFENDER-001",
@@ -78,7 +126,15 @@
       "notes": "Public concept name for a passive stratospheric sensing/relay platform. Open-tier listing only.",
       "source": "https://midwestsds.com/aerostratospheric-defense-systems.html",
       "hub": "https://midwestsds.com/msds-data-hub.html#gir-space",
-      "page": "https://midwestsds.com/aerostratospheric-defense-systems.html"
+      "page": "https://midwestsds.com/aerostratospheric-defense-systems.html",
+      "look_image": "https://midwestsds.com/images/xdatahub.png",
+      "look_url": "https://midwestsds.com/aerostratospheric-defense-systems.html",
+      "models": [
+        {
+          "id": "aerostratospheric/gir-open-tier-suite",
+          "url": "https://huggingface.co/aerostratospheric/gir-open-tier-suite"
+        }
+      ]
     },
     {
       "id": "AERO-KILCASEY47",
@@ -94,7 +150,19 @@
       "notes": "Casey, Illinois fixed ground station. Feeds Weather Underground and NASA GLOBE.",
       "source": "https://www.wunderground.com/dashboard/pws/KILCASEY47",
       "hub": "https://midwestsds.com/msds-data-hub.html#sec-ground",
-      "page": "https://www.wunderground.com/dashboard/pws/KILCASEY47"
+      "page": "https://www.wunderground.com/dashboard/pws/KILCASEY47",
+      "look_image": "https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/latest.jpg",
+      "look_url": "https://www.wunderground.com/dashboard/pws/KILCASEY47",
+      "models": [
+        {
+          "id": "aerostratospheric/uogw-weather-forecast",
+          "url": "https://huggingface.co/aerostratospheric/uogw-weather-forecast"
+        },
+        {
+          "id": "aerostratospheric/uogw-tornado-trends",
+          "url": "https://huggingface.co/aerostratospheric/uogw-tornado-trends"
+        }
+      ]
     },
     {
       "id": "OA-KBLV",
@@ -109,7 +177,15 @@
       "notes": "Public OurAirports record in the GIR open airfield set.",
       "source": "https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir/blob/main/data/defense_open/public_military_airfields_ourairports.json",
       "hub": "https://midwestsds.com/msds-data-hub.html#gir-space",
-      "page": "https://ourairports.com/airports/KBLV/"
+      "page": "https://ourairports.com/airports/KBLV/",
+      "look_image": "https://images-assets.nasa.gov/image/PIA18033/PIA18033~medium.jpg",
+      "look_url": "https://ourairports.com/airports/KBLV/",
+      "models": [
+        {
+          "id": "aerostratospheric/gir-open-tier-suite",
+          "url": "https://huggingface.co/aerostratospheric/gir-open-tier-suite"
+        }
+      ]
     },
     {
       "id": "OA-KFFO",
@@ -124,7 +200,15 @@
       "notes": "Public OurAirports record in the GIR open airfield set.",
       "source": "https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir/blob/main/data/defense_open/public_military_airfields_ourairports.json",
       "hub": "https://midwestsds.com/msds-data-hub.html#gir-space",
-      "page": "https://ourairports.com/airports/KFFO/"
+      "page": "https://ourairports.com/airports/KFFO/",
+      "look_image": "https://images-assets.nasa.gov/image/PIA18033/PIA18033~medium.jpg",
+      "look_url": "https://ourairports.com/airports/KFFO/",
+      "models": [
+        {
+          "id": "aerostratospheric/gir-open-tier-suite",
+          "url": "https://huggingface.co/aerostratospheric/gir-open-tier-suite"
+        }
+      ]
     },
     {
       "id": "OA-KSZL",
@@ -139,7 +223,15 @@
       "notes": "Public OurAirports record in the GIR open airfield set.",
       "source": "https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir/blob/main/data/defense_open/public_military_airfields_ourairports.json",
       "hub": "https://midwestsds.com/msds-data-hub.html#gir-space",
-      "page": "https://ourairports.com/airports/KSZL/"
+      "page": "https://ourairports.com/airports/KSZL/",
+      "look_image": "https://images-assets.nasa.gov/image/PIA18033/PIA18033~medium.jpg",
+      "look_url": "https://ourairports.com/airports/KSZL/",
+      "models": [
+        {
+          "id": "aerostratospheric/gir-open-tier-suite",
+          "url": "https://huggingface.co/aerostratospheric/gir-open-tier-suite"
+        }
+      ]
     },
     {
       "id": "OA-KTIP",
@@ -154,7 +246,15 @@
       "notes": "Public OurAirports record. Former Chanute Field area.",
       "source": "https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir/blob/main/data/defense_open/public_military_airfields_ourairports.json",
       "hub": "https://midwestsds.com/msds-data-hub.html#gir-space",
-      "page": "https://ourairports.com/airports/KTIP/"
+      "page": "https://ourairports.com/airports/KTIP/",
+      "look_image": "https://images-assets.nasa.gov/image/PIA18033/PIA18033~medium.jpg",
+      "look_url": "https://ourairports.com/airports/KTIP/",
+      "models": [
+        {
+          "id": "aerostratospheric/gir-open-tier-suite",
+          "url": "https://huggingface.co/aerostratospheric/gir-open-tier-suite"
+        }
+      ]
     },
     {
       "id": "TYPE-C17",
@@ -169,7 +269,15 @@
       "notes": "Aircraft type reference only. No tail number. Not an operational track.",
       "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104523/c-17-globemaster-iii/",
       "hub": "https://midwestsds.com/msds-data-hub.html#gir-space",
-      "page": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104523/c-17-globemaster-iii/"
+      "page": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104523/c-17-globemaster-iii/",
+      "look_image": "https://images-assets.nasa.gov/image/PIA18033/PIA18033~medium.jpg",
+      "look_url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104523/c-17-globemaster-iii/",
+      "models": [
+        {
+          "id": "aerostratospheric/gir-open-tier-suite",
+          "url": "https://huggingface.co/aerostratospheric/gir-open-tier-suite"
+        }
+      ]
     },
     {
       "id": "TYPE-C130",
@@ -184,7 +292,41 @@
       "notes": "Aircraft type reference only. No tail number.",
       "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/",
       "hub": "https://midwestsds.com/msds-data-hub.html#gir-space",
-      "page": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/"
+      "page": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/",
+      "look_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lockheed_C-130_Hercules.jpg",
+      "look_url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/",
+      "models": [
+        {
+          "id": "aerostratospheric/gir-open-tier-suite",
+          "url": "https://huggingface.co/aerostratospheric/gir-open-tier-suite"
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "id": "aerostratospheric/uogw-scientific-suite",
+      "url": "https://huggingface.co/aerostratospheric/uogw-scientific-suite"
+    },
+    {
+      "id": "aerostratospheric/gir-open-tier-suite",
+      "url": "https://huggingface.co/aerostratospheric/gir-open-tier-suite"
+    },
+    {
+      "id": "aerostratospheric/msds-open-models",
+      "url": "https://huggingface.co/aerostratospheric/msds-open-models"
+    },
+    {
+      "id": "aerostratospheric/uogw-weather-forecast",
+      "url": "https://huggingface.co/aerostratospheric/uogw-weather-forecast"
+    },
+    {
+      "id": "aerostratospheric/uogw-tornado-trends",
+      "url": "https://huggingface.co/aerostratospheric/uogw-tornado-trends"
+    },
+    {
+      "id": "aerostratospheric/uogw-aerostratospheric-forecast",
+      "url": "https://huggingface.co/aerostratospheric/uogw-aerostratospheric-forecast"
     }
   ]
 }

@@ -1,0 +1,190 @@
+{
+  "title": "GIR vehicle and aircraft archive",
+  "tier": "open",
+  "updated_utc": "2026-09-27T19:15:00Z",
+  "description": "Open identifiers for Aerostratospheric platforms and public airfields/aircraft types used with Defense GIR. No classified tracks or tail numbers.",
+  "count": 12,
+  "items": [
+    {
+      "id": "AERO-X2GRIFFON-001",
+      "name": "X2Griffon",
+      "kind": "stratospheric_platform",
+      "operator": "Aerostratospheric",
+      "identifiers": {
+        "archive_id": "AERO-X2GRIFFON-001",
+        "flight_id": "MSDS-X2-2026-001",
+        "radio": "KE9CFY",
+        "globe_site": "422147",
+        "globe_org": "GO-4VW9B"
+      },
+      "status": "flown",
+      "notes": "Flagship ~1.01 lb stratospheric profiler. Maiden science flight 19 September 2026, Casey / Farmersburg area.",
+      "source": "https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir/blob/main/data/flight_logs/flight_logs_latest.json",
+      "hub": "https://midwestsds.com/msds-data-hub.html#sec-flight",
+      "page": "https://midwestsds.com/x2.html"
+    },
+    {
+      "id": "AERO-X1ALBATROSS-001",
+      "name": "x1Albatross",
+      "kind": "mid_altitude_drift_platform",
+      "operator": "Aerostratospheric",
+      "identifiers": {
+        "archive_id": "AERO-X1ALBATROSS-001",
+        "host": "MAD-AP"
+      },
+      "status": "active_design",
+      "notes": "MAD-AP mid-altitude host for jetstream equilibrium and multi-day drift.",
+      "source": "https://midwestsds.com/platforms.html",
+      "hub": "https://midwestsds.com/msds-data-hub.html#sec-flight",
+      "page": "https://midwestsds.com/platforms.html"
+    },
+    {
+      "id": "AERO-MADAP-001",
+      "name": "MAD-AP",
+      "kind": "mid_altitude_payload",
+      "operator": "Aerostratospheric",
+      "identifiers": {
+        "archive_id": "AERO-MADAP-001"
+      },
+      "status": "active_design",
+      "notes": "Modular Advanced Data Acquisition Payload flown on x1Albatross-class balloons.",
+      "source": "https://midwestsds.com/platforms.html",
+      "hub": "https://midwestsds.com/msds-data-hub.html#sec-flight",
+      "page": "https://midwestsds.com/platforms.html"
+    },
+    {
+      "id": "AERO-XFALL2-001",
+      "name": "xFall2",
+      "kind": "recovery_tracker",
+      "operator": "Aerostratospheric",
+      "identifiers": {
+        "archive_id": "AERO-XFALL2-001"
+      },
+      "status": "active",
+      "notes": "Independent black-box tracker flown on missions: offline log plus dual-path tracking.",
+      "source": "https://midwestsds.com/",
+      "hub": "https://midwestsds.com/msds-data-hub.html#sec-flight",
+      "page": "https://midwestsds.com/"
+    },
+    {
+      "id": "AERO-AERODEFENDER-001",
+      "name": "Aerodefender",
+      "kind": "defense_concept_platform",
+      "operator": "Aerostratospheric",
+      "identifiers": {
+        "archive_id": "AERO-AERODEFENDER-001"
+      },
+      "status": "concept",
+      "notes": "Public concept name for a passive stratospheric sensing/relay platform. Open-tier listing only.",
+      "source": "https://midwestsds.com/aerostratospheric-defense-systems.html",
+      "hub": "https://midwestsds.com/msds-data-hub.html#gir-space",
+      "page": "https://midwestsds.com/aerostratospheric-defense-systems.html"
+    },
+    {
+      "id": "AERO-KILCASEY47",
+      "name": "Aerostratospheric Fixed Weather Station",
+      "kind": "ground_station",
+      "operator": "Aerostratospheric",
+      "identifiers": {
+        "pws": "KILCASEY47",
+        "globe_site": "422147",
+        "radiation": "MSDS-GMC800-CASEY"
+      },
+      "status": "active",
+      "notes": "Casey, Illinois fixed ground station. Feeds Weather Underground and NASA GLOBE.",
+      "source": "https://www.wunderground.com/dashboard/pws/KILCASEY47",
+      "hub": "https://midwestsds.com/msds-data-hub.html#sec-ground",
+      "page": "https://www.wunderground.com/dashboard/pws/KILCASEY47"
+    },
+    {
+      "id": "OA-KBLV",
+      "name": "Scott AFB / Midamerica Airport",
+      "kind": "public_airfield",
+      "operator": "public listing",
+      "identifiers": {
+        "feature_id": "OA-KBLV",
+        "icao": "KBLV"
+      },
+      "status": "listed",
+      "notes": "Public OurAirports record in the GIR open airfield set.",
+      "source": "https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir/blob/main/data/defense_open/public_military_airfields_ourairports.json",
+      "hub": "https://midwestsds.com/msds-data-hub.html#gir-space",
+      "page": "https://ourairports.com/airports/KBLV/"
+    },
+    {
+      "id": "OA-KFFO",
+      "name": "Wright-Patterson Air Force Base",
+      "kind": "public_airfield",
+      "operator": "public listing",
+      "identifiers": {
+        "feature_id": "OA-KFFO",
+        "icao": "KFFO"
+      },
+      "status": "listed",
+      "notes": "Public OurAirports record in the GIR open airfield set.",
+      "source": "https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir/blob/main/data/defense_open/public_military_airfields_ourairports.json",
+      "hub": "https://midwestsds.com/msds-data-hub.html#gir-space",
+      "page": "https://ourairports.com/airports/KFFO/"
+    },
+    {
+      "id": "OA-KSZL",
+      "name": "Whiteman Air Force Base",
+      "kind": "public_airfield",
+      "operator": "public listing",
+      "identifiers": {
+        "feature_id": "OA-KSZL",
+        "icao": "KSZL"
+      },
+      "status": "listed",
+      "notes": "Public OurAirports record in the GIR open airfield set.",
+      "source": "https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir/blob/main/data/defense_open/public_military_airfields_ourairports.json",
+      "hub": "https://midwestsds.com/msds-data-hub.html#gir-space",
+      "page": "https://ourairports.com/airports/KSZL/"
+    },
+    {
+      "id": "OA-KTIP",
+      "name": "Rantoul National Aviation Center",
+      "kind": "public_airfield",
+      "operator": "public listing",
+      "identifiers": {
+        "feature_id": "OA-KTIP",
+        "icao": "KTIP"
+      },
+      "status": "listed",
+      "notes": "Public OurAirports record. Former Chanute Field area.",
+      "source": "https://github.com/Midwest-Stratospheric/aerostratospheric-defense-gir/blob/main/data/defense_open/public_military_airfields_ourairports.json",
+      "hub": "https://midwestsds.com/msds-data-hub.html#gir-space",
+      "page": "https://ourairports.com/airports/KTIP/"
+    },
+    {
+      "id": "TYPE-C17",
+      "name": "C-17 Globemaster III",
+      "kind": "aircraft_type",
+      "operator": "type listing",
+      "identifiers": {
+        "type": "C-17",
+        "source_id": "USAF-fact-C17"
+      },
+      "status": "type_only",
+      "notes": "Aircraft type reference only. No tail number. Not an operational track.",
+      "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104523/c-17-globemaster-iii/",
+      "hub": "https://midwestsds.com/msds-data-hub.html#gir-space",
+      "page": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104523/c-17-globemaster-iii/"
+    },
+    {
+      "id": "TYPE-C130",
+      "name": "C-130 Hercules",
+      "kind": "aircraft_type",
+      "operator": "type listing",
+      "identifiers": {
+        "type": "C-130",
+        "source_id": "USAF-fact-C130"
+      },
+      "status": "type_only",
+      "notes": "Aircraft type reference only. No tail number.",
+      "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/",
+      "hub": "https://midwestsds.com/msds-data-hub.html#gir-space",
+      "page": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/"
+    }
+  ]
+}

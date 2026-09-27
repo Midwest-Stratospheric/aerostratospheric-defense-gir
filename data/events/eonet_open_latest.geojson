@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.9,
-          16.6
+          -157.8,
+          16.2
         ]
       },
       "properties": {
@@ -36,8 +36,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          128.3,
-          25.4
+          129.1,
+          25.9
         ]
       },
       "properties": {
@@ -81,8 +81,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -113.4,
-          19.8
+          -113.7,
+          20.8
         ]
       },
       "properties": {
@@ -126,8 +126,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.5,
-          21.6
+          -123.4,
+          22.4
         ]
       },
       "properties": {
@@ -209,21 +209,6 @@
         "id": "EONET_24488",
         "title": "Wildfire FLORISTON, Nevada, California",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.2,
-          39
-        ]
-      },
-      "properties": {
-        "id": "EONET_24317",
-        "title": "Typhoon Dujuan",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire WHISKEY, Torrance, New Mexico",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.836833,
+          25.545083
+        ]
+      },
+      "properties": {
+        "id": "EONET_23224",
+        "title": "Wildfire Chipmunk, Miami-Dade, Florida",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-09-27T11:33:18.083224+00:00"
+  "updated_utc": "2026-09-27T20:59:44.556151+00:00"
 }

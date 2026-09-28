@@ -6,14 +6,59 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100,
-          13.2
+          -50.4,
+          36.6
+        ]
+      },
+      "properties": {
+        "id": "EONET_24909",
+        "title": "Tropical Storm Hanna",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.8,
+          13.6
         ]
       },
       "properties": {
         "id": "EONET_24875",
         "title": "Tropical Storm Rachel",
         "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.49806,
+          30.76633
+        ]
+      },
+      "properties": {
+        "id": "EONET_24904",
+        "title": "Wildfire Rafter 4B, Schleicher, Texas",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.470139,
+          46.253671
+        ]
+      },
+      "properties": {
+        "id": "EONET_24905",
+        "title": "Wildfire SECOND STREET, Benton, Washington",
+        "categories": "Wildfires"
       }
     },
     {
@@ -36,8 +81,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -160.8,
-          16.4
+          -111.7702,
+          46.2447
+        ]
+      },
+      "properties": {
+        "id": "EONET_24908",
+        "title": "Prescribed Fire Bonanza Ridge RX, Broadwater, Montana",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -161.9,
+          16.8
         ]
       },
       "properties": {
@@ -51,7 +111,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          131.6,
+          132.8,
           27.5
         ]
       },
@@ -81,6 +141,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -111.726667,
+          46.735
+        ]
+      },
+      "properties": {
+        "id": "EONET_24907",
+        "title": "Prescribed Fire Kelly Gulch RX, Lewis and Clark, Montana",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           83.7,
           18.1
         ]
@@ -96,8 +171,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.1,
-          22.4
+          -113.7,
+          23.9
         ]
       },
       "properties": {
@@ -163,6 +238,21 @@
       "properties": {
         "id": "EONET_24810",
         "title": "Prescribed Fire CRAWFORD CORRAL RX, Tulare, California",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.314683,
+          41.4797
+        ]
+      },
+      "properties": {
+        "id": "EONET_24906",
+        "title": "Prescribed Fire Bear River MBR Unit 2c RX, Box Elder, Utah",
         "categories": "Wildfires"
       }
     },
@@ -1410,97 +1500,7 @@
         "title": "Wildfire Thunder Creek, Skagit, Washington",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.280776,
-          44.827902
-        ]
-      },
-      "properties": {
-        "id": "EONET_23211",
-        "title": "Wildfire McCulley, Baker, Oregon",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.952333,
-          39.5425
-        ]
-      },
-      "properties": {
-        "id": "EONET_23218",
-        "title": "Wildfire Hawk, Washoe, Nevada",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.952333,
-          39.5425
-        ]
-      },
-      "properties": {
-        "id": "EONET_23460",
-        "title": "Wildfire Hawk, Washoe, Nevada",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.19615,
-          46.17514
-        ]
-      },
-      "properties": {
-        "id": "EONET_23214",
-        "title": "Wildfire Colwash, Yakima, Washington",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.099333,
-          47.427667
-        ]
-      },
-      "properties": {
-        "id": "EONET_23451",
-        "title": "Wildfire Camp Creek, Powell, Montana",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.431885,
-          34.678749
-        ]
-      },
-      "properties": {
-        "id": "EONET_24492",
-        "title": "Wildfire WHISKEY, Torrance, New Mexico",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-09-28T13:07:24.993791+00:00"
+  "updated_utc": "2026-09-28T22:59:38.677586+00:00"
 }

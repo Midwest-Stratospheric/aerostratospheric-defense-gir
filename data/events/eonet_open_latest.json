@@ -126,6 +126,16 @@
             -103.8,
             14.5
           ]
+        },
+        {
+          "magnitudeValue": 55.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-09-29T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -104.8,
+            15.1
+          ]
         }
       ]
     },
@@ -561,6 +571,16 @@
             -164.2,
             19.5
           ]
+        },
+        {
+          "magnitudeValue": 100.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-09-29T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -164.2,
+            20.1
+          ]
         }
       ]
     },
@@ -812,6 +832,16 @@
             135,
             29
           ]
+        },
+        {
+          "magnitudeValue": 45.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-09-29T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            136.3,
+            29.2
+          ]
         }
       ]
     },
@@ -873,107 +903,6 @@
           "coordinates": [
             -111.726667,
             46.735
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_24785",
-      "title": "Tropical Cyclone 01B",
-      "description": null,
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24785",
-      "closed": null,
-      "categories": [
-        {
-          "id": "severeStorms",
-          "title": "Severe Storms"
-        }
-      ],
-      "sources": [
-        {
-          "id": "JTWC",
-          "url": "https://www.metoc.navy.mil/jtwc/products/io0126.tcw"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-09-22T06:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            85,
-            17.5
-          ]
-        },
-        {
-          "magnitudeValue": 30.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-09-22T12:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            85.2,
-            17.5
-          ]
-        },
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-09-22T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            85,
-            17.5
-          ]
-        },
-        {
-          "magnitudeValue": 40.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-09-23T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            84.8,
-            17.7
-          ]
-        },
-        {
-          "magnitudeValue": 45.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-09-23T06:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            84.6,
-            17.8
-          ]
-        },
-        {
-          "magnitudeValue": 45.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-09-23T12:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            84,
-            17.8
-          ]
-        },
-        {
-          "magnitudeValue": 40.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-09-23T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            83.7,
-            17.8
-          ]
-        },
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-09-24T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            83.7,
-            18.1
           ]
         }
       ]
@@ -1343,6 +1272,16 @@
           "coordinates": [
             -112.2,
             25.8
+          ]
+        },
+        {
+          "magnitudeValue": 65.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-09-29T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -111.5,
+            26.9
           ]
         }
       ]
@@ -4645,6 +4584,37 @@
           "coordinates": [
             -121.0287,
             48.549617
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_23211",
+      "title": "Wildfire McCulley, Baker, Oregon",
+      "description": "22 Miles SW from Baker City, OR",
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23211",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-ORWWF-000531"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 1201.8,
+          "magnitudeUnit": "acres",
+          "date": "2026-08-22T18:38:00Z",
+          "type": "Point",
+          "coordinates": [
+            -118.280776,
+            44.827902
           ]
         }
       ]

@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-01T12:36:06.511463+00:00",
-  "ok": 14,
+  "generated_at_utc": "2026-10-01T22:24:34.011842+00:00",
+  "ok": 15,
   "total": 15,
   "results": [
     {
@@ -9,8 +9,8 @@
       "file": "uogw_anomalies_latest.json",
       "counts": {
         "total": 3,
-        "alert": 1,
-        "watch": 2,
+        "alert": 0,
+        "watch": 3,
         "info": 0
       }
     },
@@ -30,13 +30,13 @@
       "source": "usgs_quakes",
       "ok": true,
       "file": "usgs_quakes_2.5_day_latest.geojson",
-      "features": 41
+      "features": 42
     },
     {
       "source": "nws_alerts",
       "ok": true,
       "file": "nws_active_alerts_latest.geojson",
-      "count": 251
+      "count": 193
     },
     {
       "source": "sentinel2_stac",
@@ -54,7 +54,7 @@
       "source": "cisa_kev",
       "ok": true,
       "file": "cisa_kev_latest.json",
-      "count": 1730
+      "count": 1731
     },
     {
       "source": "ourairports_military_keywords",
@@ -82,8 +82,9 @@
     },
     {
       "source": "osm_military_landuse",
-      "ok": false,
-      "error": "HTTP Error 504: Gateway Timeout"
+      "ok": true,
+      "file": "osm_military_landuse_il_sample.geojson",
+      "count": 10
     },
     {
       "source": "firms",

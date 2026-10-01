@@ -6,6 +6,66 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          145.8,
+          16.5
+        ]
+      },
+      "properties": {
+        "id": "EONET_24962",
+        "title": "Tropical Storm Choi-wan",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.692222,
+          26.286667
+        ]
+      },
+      "properties": {
+        "id": "EONET_24964",
+        "title": "Wildfire SAN FRANCISCO 2, Starr, Texas",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.8588,
+          46.0322
+        ]
+      },
+      "properties": {
+        "id": "EONET_24963",
+        "title": "Wildfire Hatch Grade, Walla Walla, Washington",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5952778,
+          26.1341667
+        ]
+      },
+      "properties": {
+        "id": "EONET_24965",
+        "title": "Wildfire 3 ALPHA SIERRA, Broward, Florida",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -50.4,
           36.6
         ]
@@ -21,8 +81,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -109.1,
-          19.3
+          -109.5,
+          19.5
         ]
       },
       "properties": {
@@ -96,8 +156,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -165,
-          21.7
+          -165.3,
+          21.8
         ]
       },
       "properties": {
@@ -1440,67 +1500,7 @@
         "title": "Wildfire Electric, Whatcom, Washington",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.052783,
-          47.458917
-        ]
-      },
-      "properties": {
-        "id": "EONET_23679",
-        "title": "Wildfire GOAT, Kittitas, Washington",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.8483,
-          42.961617
-        ]
-      },
-      "properties": {
-        "id": "EONET_23219",
-        "title": "Wildfire Shale Butte, Lincoln, Idaho",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.0287,
-          48.549617
-        ]
-      },
-      "properties": {
-        "id": "EONET_23684",
-        "title": "Wildfire Thunder Creek, Skagit, Washington",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.280776,
-          44.827902
-        ]
-      },
-      "properties": {
-        "id": "EONET_23211",
-        "title": "Wildfire McCulley, Baker, Oregon",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-10-01T12:35:47.466185+00:00"
+  "updated_utc": "2026-10-01T22:24:29.616381+00:00"
 }

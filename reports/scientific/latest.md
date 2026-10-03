@@ -1,6 +1,6 @@
 # GIR Scientific Features Digest — 2026-10-03
 
-Generated: 2026-10-03T11:13:32Z
+Generated: 2026-10-03T20:40:38Z
 
 ## 1. Quality scorecard
 

@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.6,
-          17.7
+          145.9,
+          19.4
         ]
       },
       "properties": {
@@ -81,7 +81,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -110.6,
+          -111.6,
           19.3
         ]
       },
@@ -156,8 +156,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -167,
-          23.2
+          -169,
+          23.3
         ]
       },
       "properties": {
@@ -253,21 +253,6 @@
       "properties": {
         "id": "EONET_24722",
         "title": "Tropical Storm Fay",
-        "categories": "Severe Storms"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.2,
-          22.7
-        ]
-      },
-      "properties": {
-        "id": "EONET_24720",
-        "title": "Hurricane Odalys",
         "categories": "Severe Storms"
       }
     },
@@ -1500,7 +1485,22 @@
         "title": "Wildfire Electric, Whatcom, Washington",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.052783,
+          47.458917
+        ]
+      },
+      "properties": {
+        "id": "EONET_23679",
+        "title": "Wildfire GOAT, Kittitas, Washington",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-10-02T21:53:42.079228+00:00"
+  "updated_utc": "2026-10-03T11:13:22.074763+00:00"
 }

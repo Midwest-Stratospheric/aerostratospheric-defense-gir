@@ -1,5 +1,5 @@
 # Latest GIR Daily Executive Summary
 
-**Pointer:** [2026-10-04](daily/2026-10-04-gir-exec.md)
+**Pointer:** [2026-10-05](daily/2026-10-05-gir-exec.md)
 
 See `reports/daily/` for dated archives.

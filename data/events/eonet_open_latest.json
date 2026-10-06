@@ -4,6 +4,87 @@
   "link": "https://eonet.gsfc.nasa.gov/api/v3/events",
   "events": [
     {
+      "id": "EONET_25046",
+      "title": "Tropical Storm Koguma",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25046",
+      "closed": null,
+      "categories": [
+        {
+          "id": "severeStorms",
+          "title": "Severe Storms"
+        }
+      ],
+      "sources": [
+        {
+          "id": "JTWC",
+          "url": "https://www.metoc.navy.mil/jtwc/products/wp2726.tcw"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-05T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            168.2,
+            10.9
+          ]
+        },
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-05T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            168,
+            11.5
+          ]
+        },
+        {
+          "magnitudeValue": 40.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-05T18:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            167.6,
+            12.2
+          ]
+        },
+        {
+          "magnitudeValue": 45.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-06T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            167,
+            12.8
+          ]
+        },
+        {
+          "magnitudeValue": 45.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-06T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            166.4,
+            13.4
+          ]
+        },
+        {
+          "magnitudeValue": 45.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-06T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            165.8,
+            14
+          ]
+        }
+      ]
+    },
+    {
       "id": "EONET_25043",
       "title": "Prescribed Fire D3 Bear RX, Greenlee, Arizona",
       "description": null,
@@ -353,6 +434,16 @@
           "coordinates": [
             146.4,
             31.6
+          ]
+        },
+        {
+          "magnitudeValue": 80.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-06T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            147.6,
+            33.7
           ]
         }
       ]
@@ -952,6 +1043,26 @@
           "type": "Point",
           "coordinates": [
             -117.5,
+            20.4
+          ]
+        },
+        {
+          "magnitudeValue": 80.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-06T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -118.2,
+            20.3
+          ]
+        },
+        {
+          "magnitudeValue": 75.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-06T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -119.1,
             20.4
           ]
         }
@@ -1699,6 +1810,16 @@
           "coordinates": [
             171.1,
             25.6
+          ]
+        },
+        {
+          "magnitudeValue": 100.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-06T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            169.1,
+            25.4
           ]
         }
       ]
@@ -4622,37 +4743,6 @@
           "coordinates": [
             -113.10128,
             34.6253
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23680",
-      "title": "Wildfire Silver, Boundary, Idaho",
-      "description": "8 Miles NW from SANDPOINT, ID",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23680",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-IDIPF-000697"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 2424.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-23T14:02:00Z",
-          "type": "Point",
-          "coordinates": [
-            -116.660283,
-            48.628867
           ]
         }
       ]

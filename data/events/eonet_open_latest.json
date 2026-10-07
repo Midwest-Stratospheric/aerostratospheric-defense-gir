@@ -4,6 +4,37 @@
   "link": "https://eonet.gsfc.nasa.gov/api/v3/events",
   "events": [
     {
+      "id": "EONET_25063",
+      "title": "Tropical Storm Isaias",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25063",
+      "closed": null,
+      "categories": [
+        {
+          "id": "severeStorms",
+          "title": "Severe Storms"
+        }
+      ],
+      "sources": [
+        {
+          "id": "NOAA_NHC",
+          "url": "https://www.nhc.noaa.gov/archive/2026/ISAIAS.shtml"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-07T09:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -94.1,
+            22
+          ]
+        }
+      ]
+    },
+    {
       "id": "EONET_25046",
       "title": "Tropical Storm Koguma",
       "description": null,
@@ -110,6 +141,16 @@
           "coordinates": [
             163.2,
             15.5
+          ]
+        },
+        {
+          "magnitudeValue": 50.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-07T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            162.6,
+            15.7
           ]
         }
       ]
@@ -1135,6 +1176,16 @@
             -120.9,
             20.5
           ]
+        },
+        {
+          "magnitudeValue": 70.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-07T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -121.5,
+            20.7
+          ]
         }
       ]
     },
@@ -1920,6 +1971,16 @@
           "coordinates": [
             162,
             25.9
+          ]
+        },
+        {
+          "magnitudeValue": 65.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-07T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            160.3,
+            25.8
           ]
         }
       ]
@@ -4812,37 +4873,6 @@
           "coordinates": [
             -116.6247,
             48.870133
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23662",
-      "title": "Wildfire Campwood, Yavapai, Arizona",
-      "description": "5 Miles NE from Bagdad, AZ",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23662",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-AZA5S-261347"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 1215.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-23T15:34:00Z",
-          "type": "Point",
-          "coordinates": [
-            -113.10128,
-            34.6253
           ]
         }
       ]

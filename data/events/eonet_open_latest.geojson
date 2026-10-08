@@ -6,13 +6,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.1,
-          22
+          -103.1,
+          15.4
         ]
       },
       "properties": {
-        "id": "EONET_25063",
-        "title": "Tropical Storm Isaias",
+        "id": "EONET_25094",
+        "title": "Tropical Storm Simon",
         "categories": "Severe Storms"
       }
     },
@@ -21,14 +21,74 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          160.1,
-          17.5
+          -86.526643,
+          31.124246
+        ]
+      },
+      "properties": {
+        "id": "EONET_25119",
+        "title": "Prescribed Fire CON BSE13 RX, Covington, Alabama",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.2,
+          23.3
+        ]
+      },
+      "properties": {
+        "id": "EONET_25063",
+        "title": "Hurricane Isaias",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.20765,
+          41.02195
+        ]
+      },
+      "properties": {
+        "id": "EONET_25117",
+        "title": "Wildfire Jones, Elko, Nevada",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159,
+          17.7
         ]
       },
       "properties": {
         "id": "EONET_25046",
-        "title": "Tropical Storm Koguma",
+        "title": "Typhoon Koguma",
         "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.40183,
+          34.561835
+        ]
+      },
+      "properties": {
+        "id": "EONET_25118",
+        "title": "Wildfire BOUQUET, Los Angeles, California",
+        "categories": "Wildfires"
       }
     },
     {
@@ -171,8 +231,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.3,
-          21.6
+          -124,
+          22
         ]
       },
       "properties": {
@@ -261,8 +321,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          154.1,
-          27.4
+          152.7,
+          27.6
         ]
       },
       "properties": {
@@ -1440,67 +1500,7 @@
         "title": "Wildfire Mitchell, Ware, Georgia",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.217,
-          35.4635
-        ]
-      },
-      "properties": {
-        "id": "EONET_23209",
-        "title": "Wildfire Old Deer, Carson, Texas",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.924333,
-          46.1535
-        ]
-      },
-      "properties": {
-        "id": "EONET_23661",
-        "title": "Wildfire Nature Grove, Ravalli, Montana",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.5444444,
-          25.9427778
-        ]
-      },
-      "properties": {
-        "id": "EONET_23225",
-        "title": "Wildfire 22, Miami-Dade, Florida",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.6247,
-          48.870133
-        ]
-      },
-      "properties": {
-        "id": "EONET_23665",
-        "title": "Wildfire Parker Lake, Boundary, Idaho",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-10-08T12:56:56.176210+00:00"
+  "updated_utc": "2026-10-08T23:00:24.220844+00:00"
 }

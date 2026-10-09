@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.4,
-          15.7
+          -104.5,
+          15.9
         ]
       },
       "properties": {
@@ -36,8 +36,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -91.2,
-          23.3
+          -88,
+          26.4
         ]
       },
       "properties": {
@@ -66,8 +66,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          155.5,
-          19.3
+          154.1,
+          20.1
         ]
       },
       "properties": {
@@ -231,7 +231,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -125,
+          -124.9,
           22.6
         ]
       },
@@ -321,8 +321,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.7,
-          28.8
+          147.8,
+          29.4
         ]
       },
       "properties": {
@@ -374,21 +374,6 @@
         "id": "EONET_24710",
         "title": "Wildfire Round Prarie, Morehouse, Louisiana",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.2,
-          23.7
-        ]
-      },
-      "properties": {
-        "id": "EONET_24722",
-        "title": "Tropical Storm Fay",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire Mitchell, Ware, Georgia",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.217,
+          35.4635
+        ]
+      },
+      "properties": {
+        "id": "EONET_23209",
+        "title": "Wildfire Old Deer, Carson, Texas",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-10-09T12:42:49.636454+00:00"
+  "updated_utc": "2026-10-09T22:21:31.427272+00:00"
 }

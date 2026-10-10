@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-10T12:02:17Z",
+  "generated_at_utc": "2026-10-10T21:15:30Z",
   "tier": "open",
   "scope": "United States \u2014 public open-tier indicators only",
   "disclaimer": "NOT military DEFCON/FPCON or classified readiness.",
@@ -13,13 +13,13 @@
     },
     {
       "id": "usgs",
-      "level": "ORANGE",
-      "detail": "Max M7.7 in past-day open feed"
+      "level": "YELLOW",
+      "detail": "Max M6.0"
     },
     {
       "id": "uogw",
       "level": "YELLOW",
-      "detail": "3 alert / 3 watch"
+      "detail": "2 alert / 4 watch"
     },
     {
       "id": "flight_ops",

@@ -171,6 +171,16 @@
             -105,
             18.4
           ]
+        },
+        {
+          "magnitudeValue": 130.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-11T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -105.2,
+            18.9
+          ]
         }
       ]
     },
@@ -654,6 +664,16 @@
           "coordinates": [
             147.8,
             25.3
+          ]
+        },
+        {
+          "magnitudeValue": 110.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-11T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            147.4,
+            26.2
           ]
         }
       ]
@@ -1300,7 +1320,7 @@
     },
     {
       "id": "EONET_24875",
-      "title": "Hurricane Rachel",
+      "title": "Cyclone Rachel",
       "description": null,
       "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24875",
       "closed": null,
@@ -1869,6 +1889,16 @@
           "coordinates": [
             -116.3,
             31.8
+          ]
+        },
+        {
+          "magnitudeValue": 30.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-11T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -115.4,
+            33.9
           ]
         }
       ]

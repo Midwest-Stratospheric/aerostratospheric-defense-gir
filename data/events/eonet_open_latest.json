@@ -128,6 +128,37 @@
       ]
     },
     {
+      "id": "EONET_25268",
+      "title": "Iceberg B52",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25268",
+      "closed": null,
+      "categories": [
+        {
+          "id": "seaLakeIce",
+          "title": "Sea and Lake Ice"
+        }
+      ],
+      "sources": [
+        {
+          "id": "NATICE",
+          "url": "https://usicecenter.gov/pub/Iceberg_Tabular.csv"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 48.88,
+          "magnitudeUnit": "NM^2",
+          "date": "2026-10-09T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -130.24,
+            -74.4
+          ]
+        }
+      ]
+    },
+    {
       "id": "EONET_25235",
       "title": "Prescribed Fire COOPER UNIT - KPERP RX NKRD  CY26, Coconino, Arizona",
       "description": null,
@@ -405,6 +436,16 @@
           "coordinates": [
             -107.1,
             20.5
+          ]
+        },
+        {
+          "magnitudeValue": 80.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-13T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -107.2,
+            20.3
           ]
         }
       ]
@@ -1081,6 +1122,16 @@
           "coordinates": [
             153.7,
             35.4
+          ]
+        },
+        {
+          "magnitudeValue": 60.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-13T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            155.5,
+            36.8
           ]
         }
       ]
@@ -5146,37 +5197,6 @@
           "coordinates": [
             -116.822,
             42.882167
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23659",
-      "title": "Wildfire Forleen, Elko, Nevada",
-      "description": "23 Miles N from Wells, NV",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23659",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-NVEKD-010519"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 667.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-24T17:28:00Z",
-          "type": "Point",
-          "coordinates": [
-            -115.036467,
-            41.445417
           ]
         }
       ]

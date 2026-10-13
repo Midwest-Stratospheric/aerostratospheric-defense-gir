@@ -66,6 +66,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -130.24,
+          -74.4
+        ]
+      },
+      "properties": {
+        "id": "EONET_25268",
+        "title": "Iceberg B52",
+        "categories": "Sea and Lake Ice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -112.214205,
           36.754175
         ]
@@ -81,8 +96,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -107.1,
-          20.5
+          -107.2,
+          20.3
         ]
       },
       "properties": {
@@ -171,8 +186,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.7,
-          35.4
+          155.5,
+          36.8
         ]
       },
       "properties": {
@@ -1485,22 +1500,7 @@
         "title": "Wildfire FLINT, Owyhee, Idaho",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.036467,
-          41.445417
-        ]
-      },
-      "properties": {
-        "id": "EONET_23659",
-        "title": "Wildfire Forleen, Elko, Nevada",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-10-13T13:42:38.316519+00:00"
+  "updated_utc": "2026-10-13T22:21:59.095827+00:00"
 }

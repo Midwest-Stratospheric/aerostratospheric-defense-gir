@@ -6,6 +6,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -99.2,
+          11.3
+        ]
+      },
+      "properties": {
+        "id": "EONET_25290",
+        "title": "Tropical Storm Trudy",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -114.102967,
           42.337217
         ]
@@ -96,8 +111,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -107.5,
-          20.2
+          -108,
+          19.8
         ]
       },
       "properties": {
@@ -1485,22 +1500,7 @@
         "title": "Wildfire California  Creek, Elko, Nevada",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.822,
-          42.882167
-        ]
-      },
-      "properties": {
-        "id": "EONET_23667",
-        "title": "Wildfire FLINT, Owyhee, Idaho",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-10-14T11:21:19.653087+00:00"
+  "updated_utc": "2026-10-14T21:20:35.707110+00:00"
 }

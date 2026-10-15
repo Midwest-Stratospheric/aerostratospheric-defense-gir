@@ -6,14 +6,59 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.5,
-          12.1
+          -111.65,
+          35.016667
+        ]
+      },
+      "properties": {
+        "id": "EONET_25310",
+        "title": "Prescribed Fire Newman Piles RX, Coconino, Arizona",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6,
+          12.9
         ]
       },
       "properties": {
         "id": "EONET_25290",
-        "title": "Tropical Storm Trudy",
+        "title": "Hurricane Trudy",
         "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.766432,
+          44.025847
+        ]
+      },
+      "properties": {
+        "id": "EONET_25311",
+        "title": "Prescribed Fire Jane 102 RX, Harney, Oregon",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.540573,
+          41.300685
+        ]
+      },
+      "properties": {
+        "id": "EONET_25312",
+        "title": "Prescribed Fire SRF 2026 Rx Implementation, Humboldt, California",
+        "categories": "Wildfires"
       }
     },
     {
@@ -96,6 +141,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -88.16960353,
+          46.63331342
+        ]
+      },
+      "properties": {
+        "id": "EONET_25309",
+        "title": "Wildfire Craig Lake 1, Baraga, Michigan",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -112.214205,
           36.754175
         ]
@@ -111,7 +171,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.5,
+          -108,
           19.2
         ]
       },
@@ -1440,67 +1500,7 @@
         "title": "Wildfire MUSTANG, Malheur, Oregon",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.69345,
-          39.751733
-        ]
-      },
-      "properties": {
-        "id": "EONET_23663",
-        "title": "Wildfire Blue Eagle, Churchill, Nevada",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.649486,
-          33.620704
-        ]
-      },
-      "properties": {
-        "id": "EONET_23682",
-        "title": "Wildfire Paddy Creek, Apache, Arizona",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.6938889,
-          34.4980556
-        ]
-      },
-      "properties": {
-        "id": "EONET_23677",
-        "title": "Wildfire Buck Creek, Pushmataha, Oklahoma",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.93761,
-          41.82602
-        ]
-      },
-      "properties": {
-        "id": "EONET_23462",
-        "title": "Wildfire California  Creek, Elko, Nevada",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-10-15T10:58:24.165249+00:00"
+  "updated_utc": "2026-10-15T21:00:00.944480+00:00"
 }

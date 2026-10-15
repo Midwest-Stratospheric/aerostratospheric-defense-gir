@@ -4,8 +4,39 @@
   "link": "https://eonet.gsfc.nasa.gov/api/v3/events",
   "events": [
     {
+      "id": "EONET_25310",
+      "title": "Prescribed Fire Newman Piles RX, Coconino, Arizona",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25310",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001566"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 751.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-10-14T10:42:00Z",
+          "type": "Point",
+          "coordinates": [
+            -111.65,
+            35.016667
+          ]
+        }
+      ]
+    },
+    {
       "id": "EONET_25290",
-      "title": "Tropical Storm Trudy",
+      "title": "Hurricane Trudy",
       "description": null,
       "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25290",
       "closed": null,
@@ -80,6 +111,88 @@
           "coordinates": [
             -100.5,
             12.1
+          ]
+        },
+        {
+          "magnitudeValue": 65.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-15T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -101.2,
+            12.6
+          ]
+        },
+        {
+          "magnitudeValue": 80.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-15T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -101.6,
+            12.9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_25311",
+      "title": "Prescribed Fire Jane 102 RX, Harney, Oregon",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25311",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-ORMAF-002746"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 3000.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-10-13T10:24:00Z",
+          "type": "Point",
+          "coordinates": [
+            -118.766432,
+            44.025847
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_25312",
+      "title": "Prescribed Fire SRF 2026 Rx Implementation, Humboldt, California",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25312",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-CASRF-000982"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 500.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-10-12T16:27:00Z",
+          "type": "Point",
+          "coordinates": [
+            -123.540573,
+            41.300685
           ]
         }
       ]
@@ -235,6 +348,37 @@
           "coordinates": [
             -130.24,
             -74.4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_25309",
+      "title": "Wildfire Craig Lake 1, Baraga, Michigan",
+      "description": "7 Miles NW from Michigamme, MI",
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25309",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-MIMIS-070006"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 604.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-10-08T18:05:00Z",
+          "type": "Point",
+          "coordinates": [
+            -88.16960353,
+            46.63331342
           ]
         }
       ]
@@ -586,6 +730,26 @@
           "type": "Point",
           "coordinates": [
             -108.5,
+            19.2
+          ]
+        },
+        {
+          "magnitudeValue": 55.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-15T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -108.5,
+            19.2
+          ]
+        },
+        {
+          "magnitudeValue": 50.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-15T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -108,
             19.2
           ]
         }
@@ -5193,130 +5357,6 @@
           "coordinates": [
             -117.442833,
             42.667167
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23663",
-      "title": "Wildfire Blue Eagle, Churchill, Nevada",
-      "description": "28 Miles NW from Austin, NV",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23663",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030758"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 9218.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-25T14:39:00Z",
-          "type": "Point",
-          "coordinates": [
-            -117.69345,
-            39.751733
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23682",
-      "title": "Wildfire Paddy Creek, Apache, Arizona",
-      "description": "22 Miles SE from White River, AZ",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23682",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-AZFTA-000812"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 668.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-25T11:13:00Z",
-          "type": "Point",
-          "coordinates": [
-            -109.649486,
-            33.620704
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23677",
-      "title": "Wildfire Buck Creek, Pushmataha, Oklahoma",
-      "description": "3 Miles SE from Daisy, OK",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23677",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-OKOKS-260920"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 597.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-25T10:34:00Z",
-          "type": "Point",
-          "coordinates": [
-            -95.6938889,
-            34.4980556
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23462",
-      "title": "Wildfire California  Creek, Elko, Nevada",
-      "description": "1 Miles SE from Mountain City, NV",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23462",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-NVHTF-010537"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 984.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-25T00:18:00Z",
-          "type": "Point",
-          "coordinates": [
-            -115.93761,
-            41.82602
           ]
         }
       ]

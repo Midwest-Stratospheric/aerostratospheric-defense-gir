@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.6,
-          12.9
+          -101.9,
+          14.1
         ]
       },
       "properties": {
@@ -171,8 +171,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108,
-          19.2
+          -108.3,
+          19.3
         ]
       },
       "properties": {
@@ -524,21 +524,6 @@
         "id": "EONET_24908",
         "title": "Prescribed Fire Bonanza Ridge RX, Broadwater, Montana",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.6,
-          31
-        ]
-      },
-      "properties": {
-        "id": "EONET_24786",
-        "title": "Hurricane Nolo",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire MUSTANG, Malheur, Oregon",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.69345,
+          39.751733
+        ]
+      },
+      "properties": {
+        "id": "EONET_23663",
+        "title": "Wildfire Blue Eagle, Churchill, Nevada",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-10-15T21:00:00.944480+00:00"
+  "updated_utc": "2026-10-16T10:52:22.241188+00:00"
 }

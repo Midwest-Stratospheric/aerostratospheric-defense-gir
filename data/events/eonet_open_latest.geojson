@@ -6,6 +6,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -163.3,
+          -10.8
+        ]
+      },
+      "properties": {
+        "id": "EONET_25340",
+        "title": "Tropical Cyclone 01P",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.4,
+          11.4
+        ]
+      },
+      "properties": {
+        "id": "EONET_25339",
+        "title": "Tropical Storm Champi",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -111.65,
           35.016667
         ]
@@ -21,8 +51,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.9,
-          14.1
+          -102.4,
+          14.4
         ]
       },
       "properties": {
@@ -171,8 +201,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.3,
-          19.3
+          -109.2,
+          20.4
         ]
       },
       "properties": {
@@ -1470,37 +1500,7 @@
         "title": "Wildfire LAUGHLIN, Colfax, New Mexico",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.442833,
-          42.667167
-        ]
-      },
-      "properties": {
-        "id": "EONET_23456",
-        "title": "Wildfire MUSTANG, Malheur, Oregon",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.69345,
-          39.751733
-        ]
-      },
-      "properties": {
-        "id": "EONET_23663",
-        "title": "Wildfire Blue Eagle, Churchill, Nevada",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-10-16T10:52:22.241188+00:00"
+  "updated_utc": "2026-10-16T20:35:31.714220+00:00"
 }

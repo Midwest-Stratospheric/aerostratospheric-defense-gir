@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -163.3,
-          -10.8
+          -163.4,
+          -12.7
         ]
       },
       "properties": {
@@ -21,13 +21,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.4,
-          11.4
+          148.6,
+          12.4
         ]
       },
       "properties": {
         "id": "EONET_25339",
-        "title": "Tropical Storm Champi",
+        "title": "Typhoon Champi",
         "categories": "Severe Storms"
       }
     },
@@ -51,8 +51,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.4,
-          14.4
+          -102.5,
+          15.1
         ]
       },
       "properties": {
@@ -201,8 +201,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -109.2,
-          20.4
+          -110,
+          21.3
         ]
       },
       "properties": {
@@ -464,21 +464,6 @@
         "id": "EONET_25041",
         "title": "Prescribed Fire Walker Hill Piles RX, Coconino, Arizona",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.4,
-          33.9
-        ]
-      },
-      "properties": {
-        "id": "EONET_24875",
-        "title": "Cyclone Rachel",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire LAUGHLIN, Colfax, New Mexico",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.442833,
+          42.667167
+        ]
+      },
+      "properties": {
+        "id": "EONET_23456",
+        "title": "Wildfire MUSTANG, Malheur, Oregon",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-10-16T20:35:31.714220+00:00"
+  "updated_utc": "2026-10-17T10:15:40.861315+00:00"
 }

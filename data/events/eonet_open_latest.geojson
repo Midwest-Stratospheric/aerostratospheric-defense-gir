@@ -6,13 +6,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -162.4,
-          -16.1
+          -156.8,
+          -20.7
         ]
       },
       "properties": {
         "id": "EONET_25340",
-        "title": "Tropical Cyclone 01P",
+        "title": "Tropical Cyclone Wati",
         "categories": "Severe Storms"
       }
     },
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.4,
-          13.5
+          138.4,
+          14.3
         ]
       },
       "properties": {
@@ -51,8 +51,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.6,
-          18.9
+          -107.8,
+          19.7
         ]
       },
       "properties": {
@@ -284,21 +284,6 @@
         "id": "EONET_25239",
         "title": "Prescribed Fire West Fork RX, Wasatch, Utah",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          157.2,
-          38.3
-        ]
-      },
-      "properties": {
-        "id": "EONET_25046",
-        "title": "Typhoon Koguma",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire MUSTANG, Malheur, Oregon",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.69345,
+          39.751733
+        ]
+      },
+      "properties": {
+        "id": "EONET_23663",
+        "title": "Wildfire Blue Eagle, Churchill, Nevada",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-10-18T20:11:36.476967+00:00"
+  "updated_utc": "2026-10-19T12:22:22.435723+00:00"
 }

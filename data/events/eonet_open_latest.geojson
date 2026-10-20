@@ -6,6 +6,81 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          53.8,
+          -4.5
+        ]
+      },
+      "properties": {
+        "id": "EONET_25457",
+        "title": "Tropical Cyclone 02S",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.376511,
+          36.948746
+        ]
+      },
+      "properties": {
+        "id": "EONET_25455",
+        "title": "Prescribed Fire STE - Goodin Ridge RX, McCreary, Kentucky",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.188056,
+          38.819722
+        ]
+      },
+      "properties": {
+        "id": "EONET_25450",
+        "title": "Wildfire COOLEY, Mendocino, California",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.63483,
+          33.47965118
+        ]
+      },
+      "properties": {
+        "id": "EONET_25452",
+        "title": "Wildfire NORTE, Orange, California",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.72916667,
+          30.57111111
+        ]
+      },
+      "properties": {
+        "id": "EONET_25454",
+        "title": "Prescribed Fire Rx Polk 9275, Polk, Texas",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -156.8,
           -20.7
         ]
@@ -21,14 +96,44 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.6,
-          15.9
+          -117.40938,
+          33.34329
+        ]
+      },
+      "properties": {
+        "id": "EONET_25451",
+        "title": "Wildfire HENDERSON, San Diego, California",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133,
+          17
         ]
       },
       "properties": {
         "id": "EONET_25339",
         "title": "Super Typhoon Champi",
         "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.65,
+          35.016667
+        ]
+      },
+      "properties": {
+        "id": "EONET_25456",
+        "title": "Prescribed Fire Newman 2 Piles RX, Coconino, Arizona",
+        "categories": "Wildfires"
       }
     },
     {
@@ -231,21 +336,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84,
-          37.5
-        ]
-      },
-      "properties": {
-        "id": "EONET_25063",
-        "title": "Hurricane Isaias",
-        "categories": "Severe Storms"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -114.2,
           43.9
         ]
@@ -426,21 +516,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.6,
-          33.4
-        ]
-      },
-      "properties": {
-        "id": "EONET_24909",
-        "title": "Tropical Storm Hanna",
-        "categories": "Severe Storms"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -111.847278,
           35.281778
         ]
@@ -479,21 +554,6 @@
         "id": "EONET_24905",
         "title": "Wildfire SECOND STREET, Benton, Washington",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -23.3,
-          19.3
-        ]
-      },
-      "properties": {
-        "id": "EONET_24811",
-        "title": "Tropical Storm Gonzalo",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1440,67 +1500,7 @@
         "title": "Wildfire Plaskett, Monterey, California",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.74215,
-          41.517567
-        ]
-      },
-      "properties": {
-        "id": "EONET_23455",
-        "title": "Wildfire McConnell, Humboldt, Nevada",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.4530556,
-          36.5230556
-        ]
-      },
-      "properties": {
-        "id": "EONET_23466",
-        "title": "Wildfire LAUGHLIN, Colfax, New Mexico",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.442833,
-          42.667167
-        ]
-      },
-      "properties": {
-        "id": "EONET_23456",
-        "title": "Wildfire MUSTANG, Malheur, Oregon",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.69345,
-          39.751733
-        ]
-      },
-      "properties": {
-        "id": "EONET_23663",
-        "title": "Wildfire Blue Eagle, Churchill, Nevada",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-10-20T11:01:42.241915+00:00"
+  "updated_utc": "2026-10-20T21:19:39.012029+00:00"
 }

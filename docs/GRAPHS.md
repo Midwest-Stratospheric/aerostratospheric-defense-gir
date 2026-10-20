@@ -1,6 +1,6 @@
 # GIR graphs (git markup)
 
-_Generated 2026-10-20 11:01 UTC from open-tier data. Mermaid only — no image binaries._
+_Generated 2026-10-20 21:19 UTC from open-tier data. Mermaid only — no image binaries._
 
 Regenerate:
 
@@ -32,7 +32,7 @@ flowchart TB
 
 ## Daily ingest status
 
-**Last run:** `2026-10-20T11:01:45.937198+00:00` · **14/15 sources OK**
+**Last run:** `2026-10-20T21:19:42.661508+00:00` · **14/15 sources OK**
 
 ```mermaid
 pie showData
@@ -67,13 +67,13 @@ Public anomaly flags (research-style). Not official emergency alerts.
 pie showData
   title UOGW counts by severity
   "alert" : 1
-  "watch" : 0
-  "info" : 0
+  "watch" : 3
+  "info" : 1
 ```
 
 | alert | watch | info |
 |-------|-------|------|
-| 1 | 0 | 0 |
+| 1 | 3 | 1 |
 
 ## USGS earthquakes (M2.5+, past day)
 
@@ -83,8 +83,8 @@ pie showData
 xychart-beta
   title "Quake count by magnitude band"
   x-axis ["2.5-3.4", "3.5-4.4", "4.5-5.4", "5.5+"]
-  y-axis "Count" 0 --> 21
-  bar [21, 6, 20, 3]
+  y-axis "Count" 0 --> 24
+  bar [24, 3, 22, 1]
 ```
 
 ## Public keyword-flagged airfields by country

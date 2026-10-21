@@ -1,6 +1,6 @@
 # GIR Scientific Features Digest — 2026-10-21
 
-Generated: 2026-10-21T11:19:04Z
+Generated: 2026-10-21T21:20:39Z
 
 ## 1. Quality scorecard
 
@@ -11,7 +11,7 @@ Generated: 2026-10-21T11:19:04Z
 
 ## 2. Change detection
 
-- Composite score Δ 3.0
+- Composite score Δ 0.0
 - Status flips: 0
 - Count deltas: 0
 

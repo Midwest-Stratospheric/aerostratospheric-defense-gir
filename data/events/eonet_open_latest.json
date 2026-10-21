@@ -5,7 +5,7 @@
   "events": [
     {
       "id": "EONET_25457",
-      "title": "Tropical Cyclone 02S",
+      "title": "Tropical Cyclone Agueda",
       "description": null,
       "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25457",
       "closed": null,
@@ -50,6 +50,26 @@
           "coordinates": [
             52.7,
             -5.1
+          ]
+        },
+        {
+          "magnitudeValue": 45.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-21T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            52.5,
+            -5.1
+          ]
+        },
+        {
+          "magnitudeValue": 45.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-21T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            52.2,
+            -5.3
           ]
         }
       ]
@@ -607,6 +627,26 @@
           "coordinates": [
             130.1,
             18.1
+          ]
+        },
+        {
+          "magnitudeValue": 150.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-21T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            128.9,
+            18.7
+          ]
+        },
+        {
+          "magnitudeValue": 145.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-21T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            127.9,
+            19.3
           ]
         }
       ]

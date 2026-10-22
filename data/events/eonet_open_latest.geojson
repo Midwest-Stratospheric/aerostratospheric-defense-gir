@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.2,
-          -5.3
+          50.8,
+          -6
         ]
       },
       "properties": {
@@ -111,8 +111,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          127.9,
-          19.3
+          126,
+          20.3
         ]
       },
       "properties": {
@@ -299,21 +299,6 @@
         "id": "EONET_25235",
         "title": "Prescribed Fire COOPER UNIT - KPERP RX NKRD  CY26, Coconino, Arizona",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -110,
-          21.3
-        ]
-      },
-      "properties": {
-        "id": "EONET_25094",
-        "title": "Hurricane Simon",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire Plaskett, Monterey, California",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.74215,
+          41.517567
+        ]
+      },
+      "properties": {
+        "id": "EONET_23455",
+        "title": "Wildfire McConnell, Humboldt, Nevada",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-10-21T21:19:57.099281+00:00"
+  "updated_utc": "2026-10-22T11:17:48.015840+00:00"
 }

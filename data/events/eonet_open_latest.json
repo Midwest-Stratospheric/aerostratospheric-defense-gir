@@ -4,6 +4,138 @@
   "link": "https://eonet.gsfc.nasa.gov/api/v3/events",
   "events": [
     {
+      "id": "EONET_25590",
+      "title": "Wildfire BEE HAVEN (2) (24-06), Hamilton, Florida",
+      "description": "28 Miles NW from LAKE CITY, FL",
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25590",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-FLFLS-260601105"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 2060.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-10-22T21:45:00Z",
+          "type": "Point",
+          "coordinates": [
+            -82.8577778,
+            30.4952778
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_25589",
+      "title": "Hurricane Vance",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25589",
+      "closed": null,
+      "categories": [
+        {
+          "id": "severeStorms",
+          "title": "Severe Storms"
+        }
+      ],
+      "sources": [
+        {
+          "id": "JTWC",
+          "url": "https://www.metoc.navy.mil/jtwc/products/ep2226.tcw"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-21T18:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -99.5,
+            9.4
+          ]
+        },
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-22T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -100,
+            9.5
+          ]
+        },
+        {
+          "magnitudeValue": 40.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-22T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -100.5,
+            9.6
+          ]
+        },
+        {
+          "magnitudeValue": 45.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-22T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -100.9,
+            9.7
+          ]
+        },
+        {
+          "magnitudeValue": 55.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-22T18:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -101.3,
+            9.8
+          ]
+        },
+        {
+          "magnitudeValue": 60.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-23T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -101.6,
+            10.4
+          ]
+        },
+        {
+          "magnitudeValue": 70.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-23T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -101.9,
+            10.7
+          ]
+        },
+        {
+          "magnitudeValue": 75.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-23T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -102.1,
+            10.6
+          ]
+        }
+      ]
+    },
+    {
       "id": "EONET_25457",
       "title": "Tropical Cyclone Agueda",
       "description": null,
@@ -131,6 +263,26 @@
             49.7,
             -6.7
           ]
+        },
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-23T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            49.9,
+            -5.8
+          ]
+        },
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-23T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            49.5,
+            -5.7
+          ]
         }
       ]
     },
@@ -161,6 +313,37 @@
           "coordinates": [
             -84.376511,
             36.948746
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_25591",
+      "title": "Wildfire Bras, Sanders, Montana",
+      "description": "2 Miles E from HOT SPRINGS, MT",
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25591",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-MTFHA-000179"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 1688.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-10-17T23:28:00Z",
+          "type": "Point",
+          "coordinates": [
+            -114.5861111,
+            47.2780556
           ]
         }
       ]
@@ -767,6 +950,26 @@
           "coordinates": [
             123.8,
             22.7
+          ]
+        },
+        {
+          "magnitudeValue": 105.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-23T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            123.4,
+            23.7
+          ]
+        },
+        {
+          "magnitudeValue": 100.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-23T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            122.7,
+            25
           ]
         }
       ]
@@ -1482,6 +1685,37 @@
           "coordinates": [
             -115.20765,
             41.02195
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_25592",
+      "title": "Prescribed Fire RX MFD Morrison Peak, Missoula, Montana",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25592",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-MTMFD-260508"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 672.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-10-05T17:33:00Z",
+          "type": "Point",
+          "coordinates": [
+            -113.615933,
+            46.930733
           ]
         }
       ]
@@ -3745,130 +3979,6 @@
           "coordinates": [
             -112.4795,
             41.288667
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23453",
-      "title": "Wildfire Calico, Humboldt, Nevada",
-      "description": "71 Miles N from Winnemucca, NV",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23453",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-NVHTF-020624"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 10000.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-26T17:29:00Z",
-          "type": "Point",
-          "coordinates": [
-            -117.3563,
-            41.86665
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23672",
-      "title": "Wildfire Dudley, Shoshone, Idaho",
-      "description": "5 Miles N from Wallace, ID",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23672",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-IDIPF-000730"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 553.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-26T16:46:00Z",
-          "type": "Point",
-          "coordinates": [
-            -115.920767,
-            47.539417
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23681",
-      "title": "Wildfire Plaskett, Monterey, California",
-      "description": "34 Miles SW from Big Sur, CA",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23681",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-CALPF-002475"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 15479.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-26T12:46:00Z",
-          "type": "Point",
-          "coordinates": [
-            -121.4125,
-            35.905667
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23455",
-      "title": "Wildfire McConnell, Humboldt, Nevada",
-      "description": "3 Miles E from Orovada, NV",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23455",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-NVWID-020620"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 5000.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-25T20:43:00Z",
-          "type": "Point",
-          "coordinates": [
-            -117.74215,
-            41.517567
           ]
         }
       ]

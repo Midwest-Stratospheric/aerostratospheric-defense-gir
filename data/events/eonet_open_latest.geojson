@@ -6,8 +6,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          49.7,
-          -6.7
+          -82.8577778,
+          30.4952778
+        ]
+      },
+      "properties": {
+        "id": "EONET_25590",
+        "title": "Wildfire BEE HAVEN (2) (24-06), Hamilton, Florida",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.1,
+          10.6
+        ]
+      },
+      "properties": {
+        "id": "EONET_25589",
+        "title": "Hurricane Vance",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.5,
+          -5.7
         ]
       },
       "properties": {
@@ -28,6 +58,21 @@
       "properties": {
         "id": "EONET_25455",
         "title": "Prescribed Fire STE - Goodin Ridge RX, McCreary, Kentucky",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5861111,
+          47.2780556
+        ]
+      },
+      "properties": {
+        "id": "EONET_25591",
+        "title": "Wildfire Bras, Sanders, Montana",
         "categories": "Wildfires"
       }
     },
@@ -111,8 +156,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          123.8,
-          22.7
+          122.7,
+          25
         ]
       },
       "properties": {
@@ -343,6 +388,21 @@
       "properties": {
         "id": "EONET_25117",
         "title": "Wildfire Jones, Elko, Nevada",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.615933,
+          46.930733
+        ]
+      },
+      "properties": {
+        "id": "EONET_25592",
+        "title": "Prescribed Fire RX MFD Morrison Peak, Missoula, Montana",
         "categories": "Wildfires"
       }
     },
@@ -1440,67 +1500,7 @@
         "title": "Wildfire Brushy Canyon, Box Elder, Utah",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3563,
-          41.86665
-        ]
-      },
-      "properties": {
-        "id": "EONET_23453",
-        "title": "Wildfire Calico, Humboldt, Nevada",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.920767,
-          47.539417
-        ]
-      },
-      "properties": {
-        "id": "EONET_23672",
-        "title": "Wildfire Dudley, Shoshone, Idaho",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.4125,
-          35.905667
-        ]
-      },
-      "properties": {
-        "id": "EONET_23681",
-        "title": "Wildfire Plaskett, Monterey, California",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.74215,
-          41.517567
-        ]
-      },
-      "properties": {
-        "id": "EONET_23455",
-        "title": "Wildfire McConnell, Humboldt, Nevada",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-10-23T11:08:40.366778+00:00"
+  "updated_utc": "2026-10-23T21:04:38.917147+00:00"
 }

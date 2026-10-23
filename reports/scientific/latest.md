@@ -1,17 +1,17 @@
-# GIR Scientific Features Digest — 2026-10-22
+# GIR Scientific Features Digest — 2026-10-23
 
-Generated: 2026-10-22T21:16:29Z
+Generated: 2026-10-23T11:08:44Z
 
 ## 1. Quality scorecard
 
-- Grade: **A** (composite 100.0)
-- Completeness: 100.0% (15/15)
+- Grade: **A** (composite 97.0)
+- Completeness: 93.3% (14/15)
 - Freshness: fresh (0.0 h)
 - Integrity: 100.0%
 
 ## 2. Change detection
 
-- Composite score Δ 3.0
+- Composite score Δ -3.0
 - Status flips: 0
 - Count deltas: 0
 
@@ -20,7 +20,7 @@ Generated: 2026-10-22T21:16:29Z
 - **hazards_alerts**: 5/5 ok (100.0%)
 - **atmosphere_anomalies**: 1/1 ok (100.0%)
 - **eo_imagery**: 2/2 ok (100.0%)
-- **defense_open**: 7/7 ok (100.0%)
+- **defense_open**: 6/7 ok (85.7%)
 
 ## 4. FAIR package card
 

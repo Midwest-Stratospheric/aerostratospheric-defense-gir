@@ -152,6 +152,26 @@
             -102.4,
             11.7
           ]
+        },
+        {
+          "magnitudeValue": 95.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-24T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -102.7,
+            12.1
+          ]
+        },
+        {
+          "magnitudeValue": 90.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-24T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -102.9,
+            12.6
+          ]
         }
       ]
     },
@@ -477,157 +497,6 @@
           "coordinates": [
             -94.72916667,
             30.57111111
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_25340",
-      "title": "Tropical Cyclone Wati",
-      "description": null,
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25340",
-      "closed": null,
-      "categories": [
-        {
-          "id": "severeStorms",
-          "title": "Severe Storms"
-        }
-      ],
-      "sources": [
-        {
-          "id": "JTWC",
-          "url": "https://www.metoc.navy.mil/jtwc/products/sh0127.tcw"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-16T06:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -163.3,
-            -10.8
-          ]
-        },
-        {
-          "magnitudeValue": 40.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-16T12:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -163.3,
-            -11.7
-          ]
-        },
-        {
-          "magnitudeValue": 40.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-16T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -163.4,
-            -12.7
-          ]
-        },
-        {
-          "magnitudeValue": 55.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-17T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -163.6,
-            -12.1
-          ]
-        },
-        {
-          "magnitudeValue": 60.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-17T06:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -163.2,
-            -13.2
-          ]
-        },
-        {
-          "magnitudeValue": 60.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-17T12:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -163.1,
-            -14.4
-          ]
-        },
-        {
-          "magnitudeValue": 65.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-17T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -163.2,
-            -14.8
-          ]
-        },
-        {
-          "magnitudeValue": 65.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-18T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -162.8,
-            -15.6
-          ]
-        },
-        {
-          "magnitudeValue": 65.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-18T06:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -162.4,
-            -16.1
-          ]
-        },
-        {
-          "magnitudeValue": 60.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-18T12:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -161.4,
-            -17.4
-          ]
-        },
-        {
-          "magnitudeValue": 55.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-18T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -160.2,
-            -18.6
-          ]
-        },
-        {
-          "magnitudeValue": 50.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-19T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -158.9,
-            -19.9
-          ]
-        },
-        {
-          "magnitudeValue": 45.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-19T06:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -156.8,
-            -20.7
           ]
         }
       ]
@@ -1040,6 +909,26 @@
           "coordinates": [
             123.3,
             24.8
+          ]
+        },
+        {
+          "magnitudeValue": 55.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-24T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            123.3,
+            26.8
+          ]
+        },
+        {
+          "magnitudeValue": 50.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-24T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            123.3,
+            27.8
           ]
         }
       ]
@@ -4049,6 +3938,37 @@
           "coordinates": [
             -112.4795,
             41.288667
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_23453",
+      "title": "Wildfire Calico, Humboldt, Nevada",
+      "description": "71 Miles N from Winnemucca, NV",
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23453",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-NVHTF-020624"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 10000.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-08-26T17:29:00Z",
+          "type": "Point",
+          "coordinates": [
+            -117.3563,
+            41.86665
           ]
         }
       ]

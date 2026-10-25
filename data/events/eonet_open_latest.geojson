@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.3,
-          13.5
+          -103.8,
+          14.6
         ]
       },
       "properties": {
@@ -141,8 +141,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          124.7,
-          29
+          126.3,
+          30.7
         ]
       },
       "properties": {
@@ -179,21 +179,6 @@
         "id": "EONET_25310",
         "title": "Prescribed Fire Newman Piles RX, Coconino, Arizona",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -108,
-          19.4
-        ]
-      },
-      "properties": {
-        "id": "EONET_25290",
-        "title": "Hurricane Trudy",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire Calico, Humboldt, Nevada",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.920767,
+          47.539417
+        ]
+      },
+      "properties": {
+        "id": "EONET_23672",
+        "title": "Wildfire Dudley, Shoshone, Idaho",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-10-25T10:53:03.616245+00:00"
+  "updated_utc": "2026-10-25T20:28:09.213682+00:00"
 }

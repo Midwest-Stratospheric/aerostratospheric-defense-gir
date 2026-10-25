@@ -192,6 +192,26 @@
             -103.3,
             13.5
           ]
+        },
+        {
+          "magnitudeValue": 75.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-25T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -103.3,
+            14.1
+          ]
+        },
+        {
+          "magnitudeValue": 65.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-25T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -103.8,
+            14.6
+          ]
         }
       ]
     },
@@ -970,6 +990,26 @@
             124.7,
             29
           ]
+        },
+        {
+          "magnitudeValue": 45.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-25T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            125.5,
+            30.1
+          ]
+        },
+        {
+          "magnitudeValue": 40.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-25T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            126.3,
+            30.7
+          ]
         }
       ]
     },
@@ -1031,287 +1071,6 @@
           "coordinates": [
             -111.65,
             35.016667
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_25290",
-      "title": "Hurricane Trudy",
-      "description": null,
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25290",
-      "closed": null,
-      "categories": [
-        {
-          "id": "severeStorms",
-          "title": "Severe Storms"
-        }
-      ],
-      "sources": [
-        {
-          "id": "JTWC",
-          "url": "https://www.metoc.navy.mil/jtwc/products/ep2126.tcw"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-13T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -95.9,
-            10.3
-          ]
-        },
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-14T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -96.9,
-            10.5
-          ]
-        },
-        {
-          "magnitudeValue": 40.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-14T06:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -98.6,
-            10.8
-          ]
-        },
-        {
-          "magnitudeValue": 45.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-14T12:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -99.2,
-            11.3
-          ]
-        },
-        {
-          "magnitudeValue": 55.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-14T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -99.7,
-            11.7
-          ]
-        },
-        {
-          "magnitudeValue": 55.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-15T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -100.5,
-            12.1
-          ]
-        },
-        {
-          "magnitudeValue": 65.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-15T06:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -101.2,
-            12.6
-          ]
-        },
-        {
-          "magnitudeValue": 80.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-15T12:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -101.6,
-            12.9
-          ]
-        },
-        {
-          "magnitudeValue": 80.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-15T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -101.6,
-            13.5
-          ]
-        },
-        {
-          "magnitudeValue": 85.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-16T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -101.9,
-            14.1
-          ]
-        },
-        {
-          "magnitudeValue": 105.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-16T06:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -102.4,
-            14
-          ]
-        },
-        {
-          "magnitudeValue": 105.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-16T12:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -102.4,
-            14.4
-          ]
-        },
-        {
-          "magnitudeValue": 75.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-16T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -102.4,
-            14.6
-          ]
-        },
-        {
-          "magnitudeValue": 75.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-17T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -102.5,
-            15.1
-          ]
-        },
-        {
-          "magnitudeValue": 80.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-17T06:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -103.2,
-            15.7
-          ]
-        },
-        {
-          "magnitudeValue": 80.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-17T12:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -103.7,
-            16.3
-          ]
-        },
-        {
-          "magnitudeValue": 85.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-17T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -105,
-            17
-          ]
-        },
-        {
-          "magnitudeValue": 85.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-18T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -105.5,
-            17.9
-          ]
-        },
-        {
-          "magnitudeValue": 90.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-18T06:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -106.1,
-            18.4
-          ]
-        },
-        {
-          "magnitudeValue": 90.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-18T12:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -106.6,
-            18.9
-          ]
-        },
-        {
-          "magnitudeValue": 85.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-18T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -106.9,
-            19.3
-          ]
-        },
-        {
-          "magnitudeValue": 75.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-19T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -107.4,
-            19.6
-          ]
-        },
-        {
-          "magnitudeValue": 55.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-19T06:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -107.8,
-            19.7
-          ]
-        },
-        {
-          "magnitudeValue": 50.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-19T12:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -108.3,
-            19.6
-          ]
-        },
-        {
-          "magnitudeValue": 40.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-19T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -107.9,
-            19.5
-          ]
-        },
-        {
-          "magnitudeValue": 30.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-20T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -108,
-            19.4
           ]
         }
       ]
@@ -4009,6 +3768,37 @@
           "coordinates": [
             -117.3563,
             41.86665
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_23672",
+      "title": "Wildfire Dudley, Shoshone, Idaho",
+      "description": "5 Miles N from Wallace, ID",
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23672",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-IDIPF-000730"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 553.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-08-26T16:46:00Z",
+          "type": "Point",
+          "coordinates": [
+            -115.920767,
+            47.539417
           ]
         }
       ]

@@ -4,6 +4,273 @@
   "link": "https://eonet.gsfc.nasa.gov/api/v3/events",
   "events": [
     {
+      "id": "EONET_25729",
+      "title": "Tropical Cyclone Arnab",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25729",
+      "closed": null,
+      "categories": [
+        {
+          "id": "severeStorms",
+          "title": "Severe Storms"
+        }
+      ],
+      "sources": [
+        {
+          "id": "JTWC",
+          "url": "https://www.metoc.navy.mil/jtwc/products/io0226.tcw"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-25T18:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            89.3,
+            15.6
+          ]
+        },
+        {
+          "magnitudeValue": 50.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-26T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            88.8,
+            15.3
+          ]
+        },
+        {
+          "magnitudeValue": 65.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-26T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            88.4,
+            15.3
+          ]
+        },
+        {
+          "magnitudeValue": 80.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-26T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            87.2,
+            15.9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_25730",
+      "title": "Tropical Storm Olana",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25730",
+      "closed": null,
+      "categories": [
+        {
+          "id": "severeStorms",
+          "title": "Severe Storms"
+        }
+      ],
+      "sources": [
+        {
+          "id": "JTWC",
+          "url": "https://www.metoc.navy.mil/jtwc/products/cp0326.tcw"
+        },
+        {
+          "id": "NOAA_NHC",
+          "url": "https://www.nhc.noaa.gov/archive/2026/OLANA.shtml"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-25T18:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -178.5,
+            14.7
+          ]
+        },
+        {
+          "magnitudeValue": 40.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-26T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -177.2,
+            15.1
+          ]
+        },
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-26T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -176.9,
+            14.8
+          ]
+        },
+        {
+          "magnitudeValue": 30.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-26T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -176.8,
+            14.1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_25728",
+      "title": "Typhoon In-fa",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25728",
+      "closed": null,
+      "categories": [
+        {
+          "id": "severeStorms",
+          "title": "Severe Storms"
+        }
+      ],
+      "sources": [
+        {
+          "id": "JTWC",
+          "url": "https://www.metoc.navy.mil/jtwc/products/wp3026.tcw"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-23T18:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            166.1,
+            10.5
+          ]
+        },
+        {
+          "magnitudeValue": 45.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-24T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            166.1,
+            10.4
+          ]
+        },
+        {
+          "magnitudeValue": 45.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-24T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            166.1,
+            10.3
+          ]
+        },
+        {
+          "magnitudeValue": 50.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-24T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            166,
+            10.6
+          ]
+        },
+        {
+          "magnitudeValue": 50.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-24T18:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            165.6,
+            11.1
+          ]
+        },
+        {
+          "magnitudeValue": 55.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-25T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            165.3,
+            11.5
+          ]
+        },
+        {
+          "magnitudeValue": 65.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-25T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            165,
+            12.2
+          ]
+        },
+        {
+          "magnitudeValue": 75.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-25T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            164.5,
+            12.8
+          ]
+        },
+        {
+          "magnitudeValue": 80.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-25T18:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            163.9,
+            13.3
+          ]
+        },
+        {
+          "magnitudeValue": 90.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-26T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            163.3,
+            13.8
+          ]
+        },
+        {
+          "magnitudeValue": 115.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-26T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            163,
+            14
+          ]
+        },
+        {
+          "magnitudeValue": 115.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-26T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            162.7,
+            14.1
+          ]
+        }
+      ]
+    },
+    {
       "id": "EONET_25590",
       "title": "Wildfire BEE HAVEN (2) (24-06), Hamilton, Florida",
       "description": "28 Miles NW from LAKE CITY, FL",
@@ -245,6 +512,16 @@
           "coordinates": [
             -105,
             15.2
+          ]
+        },
+        {
+          "magnitudeValue": 55.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-26T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -105.5,
+            15.4
           ]
         }
       ]
@@ -3750,99 +4027,6 @@
           "coordinates": [
             -112.77825,
             44.921867
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23668",
-      "title": "Wildfire Brushy Canyon, Box Elder, Utah",
-      "description": "4 Miles N from Promontory, UT",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23668",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-UTBRS-200695"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 10002.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-27T01:42:00Z",
-          "type": "Point",
-          "coordinates": [
-            -112.4795,
-            41.288667
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23453",
-      "title": "Wildfire Calico, Humboldt, Nevada",
-      "description": "71 Miles N from Winnemucca, NV",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23453",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-NVHTF-020624"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 10000.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-26T17:29:00Z",
-          "type": "Point",
-          "coordinates": [
-            -117.3563,
-            41.86665
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23672",
-      "title": "Wildfire Dudley, Shoshone, Idaho",
-      "description": "5 Miles N from Wallace, ID",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23672",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-IDIPF-000730"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 553.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-26T16:46:00Z",
-          "type": "Point",
-          "coordinates": [
-            -115.920767,
-            47.539417
           ]
         }
       ]

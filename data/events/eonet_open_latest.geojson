@@ -6,6 +6,51 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          87.2,
+          15.9
+        ]
+      },
+      "properties": {
+        "id": "EONET_25729",
+        "title": "Tropical Cyclone Arnab",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.8,
+          14.1
+        ]
+      },
+      "properties": {
+        "id": "EONET_25730",
+        "title": "Tropical Storm Olana",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          162.7,
+          14.1
+        ]
+      },
+      "properties": {
+        "id": "EONET_25728",
+        "title": "Typhoon In-fa",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -82.8577778,
           30.4952778
         ]
@@ -21,8 +66,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -105,
-          15.2
+          -105.5,
+          15.4
         ]
       },
       "properties": {
@@ -1455,52 +1500,7 @@
         "title": "Wildfire Roe 2, Beaverhead, Montana",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.4795,
-          41.288667
-        ]
-      },
-      "properties": {
-        "id": "EONET_23668",
-        "title": "Wildfire Brushy Canyon, Box Elder, Utah",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3563,
-          41.86665
-        ]
-      },
-      "properties": {
-        "id": "EONET_23453",
-        "title": "Wildfire Calico, Humboldt, Nevada",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.920767,
-          47.539417
-        ]
-      },
-      "properties": {
-        "id": "EONET_23672",
-        "title": "Wildfire Dudley, Shoshone, Idaho",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-10-26T12:23:57.647886+00:00"
+  "updated_utc": "2026-10-26T22:21:39.553384+00:00"
 }

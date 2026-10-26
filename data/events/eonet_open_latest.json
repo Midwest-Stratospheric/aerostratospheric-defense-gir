@@ -50,6 +50,10 @@
         {
           "id": "JTWC",
           "url": "https://www.metoc.navy.mil/jtwc/products/ep2226.tcw"
+        },
+        {
+          "id": "NOAA_NHC",
+          "url": "https://www.nhc.noaa.gov/archive/2026/VANCE.shtml"
         }
       ],
       "geometry": [
@@ -211,6 +215,36 @@
           "coordinates": [
             -103.8,
             14.6
+          ]
+        },
+        {
+          "magnitudeValue": 60.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-25T18:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -104,
+            14.6
+          ]
+        },
+        {
+          "magnitudeValue": 55.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-26T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -104.5,
+            14.9
+          ]
+        },
+        {
+          "magnitudeValue": 55.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-26T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -105,
+            15.2
           ]
         }
       ]
@@ -1009,6 +1043,16 @@
           "coordinates": [
             126.3,
             30.7
+          ]
+        },
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-25T18:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            127.4,
+            31.2
           ]
         }
       ]

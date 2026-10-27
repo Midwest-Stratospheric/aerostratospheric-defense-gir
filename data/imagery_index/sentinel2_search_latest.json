@@ -4,10 +4,10 @@
   "stac_extensions": [],
   "context": {
     "limit": 10,
-    "matched": 13,
+    "matched": 11,
     "returned": 10
   },
-  "numberMatched": 13,
+  "numberMatched": 11,
   "numberReturned": 10,
   "features": [
     {
@@ -14622,7 +14622,7 @@
       "href": "https://earth-search.aws.element84.com/v1/search",
       "merge": false,
       "body": {
-        "datetime": "2026-10-06T11:42:54Z/2026-10-27T11:42:54Z",
+        "datetime": "2026-10-06T21:53:19Z/2026-10-27T21:53:19Z",
         "query": {
           "eo:cloud_cover": {
             "lt": 40

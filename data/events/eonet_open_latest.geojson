@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          84.8,
-          16
+          82.7,
+          16.3
         ]
       },
       "properties": {
@@ -36,8 +36,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          162.4,
-          14.3
+          -89.161,
+          31.099
+        ]
+      },
+      "properties": {
+        "id": "EONET_25769",
+        "title": "Wildfire Range  47B, Forrest, Mississippi",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          161.6,
+          14.5
         ]
       },
       "properties": {
@@ -66,14 +81,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -105.9,
-          15.4
+          -107.3,
+          16.1
         ]
       },
       "properties": {
         "id": "EONET_25589",
         "title": "Hurricane Vance",
         "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.657083,
+          34.962583
+        ]
+      },
+      "properties": {
+        "id": "EONET_25768",
+        "title": "Prescribed Fire Frog Tank 2 Piles RX, Coconino, Arizona",
+        "categories": "Wildfires"
       }
     },
     {
@@ -1470,37 +1500,7 @@
         "title": "Wildfire McKee Draw, Edwards, Texas",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.1516574,
-          30.36872624
-        ]
-      },
-      "properties": {
-        "id": "EONET_23664",
-        "title": "Wildfire West Fork, Sutton, Texas",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.77825,
-          44.921867
-        ]
-      },
-      "properties": {
-        "id": "EONET_23669",
-        "title": "Wildfire Roe 2, Beaverhead, Montana",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-10-27T11:42:54.223681+00:00"
+  "updated_utc": "2026-10-27T21:53:19.337164+00:00"
 }

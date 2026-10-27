@@ -81,6 +81,26 @@
             84.8,
             16
           ]
+        },
+        {
+          "magnitudeValue": 115.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-27T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            83.8,
+            16.2
+          ]
+        },
+        {
+          "magnitudeValue": 120.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-27T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            82.7,
+            16.3
+          ]
         }
       ]
     },
@@ -165,6 +185,37 @@
           "coordinates": [
             -176.2,
             13.2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_25769",
+      "title": "Wildfire Range  47B, Forrest, Mississippi",
+      "description": "3 Miles NE from Brooklyn, MS",
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25769",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-MSMNF-000672"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 636.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-10-24T17:10:00Z",
+          "type": "Point",
+          "coordinates": [
+            -89.161,
+            31.099
           ]
         }
       ]
@@ -326,6 +377,26 @@
           "coordinates": [
             162.4,
             14.3
+          ]
+        },
+        {
+          "magnitudeValue": 105.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-27T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            162.1,
+            14.5
+          ]
+        },
+        {
+          "magnitudeValue": 105.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-27T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            161.6,
+            14.5
           ]
         }
       ]
@@ -592,6 +663,67 @@
           "coordinates": [
             -105.9,
             15.4
+          ]
+        },
+        {
+          "magnitudeValue": 45.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-27T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -106.1,
+            15.3
+          ]
+        },
+        {
+          "magnitudeValue": 45.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-27T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -106.7,
+            15.8
+          ]
+        },
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-27T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -107.3,
+            16.1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_25768",
+      "title": "Prescribed Fire Frog Tank 2 Piles RX, Coconino, Arizona",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25768",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001589"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 1989.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-10-21T15:57:00Z",
+          "type": "Point",
+          "coordinates": [
+            -111.657083,
+            34.962583
           ]
         }
       ]
@@ -4035,68 +4167,6 @@
           "coordinates": [
             -100.3149,
             30.18416667
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23664",
-      "title": "Wildfire West Fork, Sutton, Texas",
-      "description": "25 Miles SW from Junction, TX",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23664",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-267801"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 961.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-28T19:23:00Z",
-          "type": "Point",
-          "coordinates": [
-            -100.1516574,
-            30.36872624
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23669",
-      "title": "Wildfire Roe 2, Beaverhead, Montana",
-      "description": "20 Miles S from Dillon, MT",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23669",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-MTCES-266405"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 978.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-27T19:48:00Z",
-          "type": "Point",
-          "coordinates": [
-            -112.77825,
-            44.921867
           ]
         }
       ]

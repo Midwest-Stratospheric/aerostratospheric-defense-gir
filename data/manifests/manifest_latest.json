@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-27T21:54:45.270805+00:00",
-  "ok": 15,
+  "generated_at_utc": "2026-10-28T12:16:55.603453+00:00",
+  "ok": 14,
   "total": 15,
   "results": [
     {
@@ -30,13 +30,13 @@
       "source": "usgs_quakes",
       "ok": true,
       "file": "usgs_quakes_2.5_day_latest.geojson",
-      "features": 37
+      "features": 44
     },
     {
       "source": "nws_alerts",
       "ok": true,
       "file": "nws_active_alerts_latest.geojson",
-      "count": 194
+      "count": 316
     },
     {
       "source": "sentinel2_stac",
@@ -60,7 +60,7 @@
       "source": "ourairports_military_keywords",
       "ok": true,
       "file": "public_military_airfields_ourairports.json",
-      "count": 259
+      "count": 260
     },
     {
       "source": "usaspending_defense",
@@ -78,13 +78,12 @@
       "source": "opensky_midwest",
       "ok": true,
       "file": "opensky_midwest_snapshot.geojson",
-      "count": 183
+      "count": 129
     },
     {
       "source": "osm_military_landuse",
-      "ok": true,
-      "file": "osm_military_landuse_il_sample.geojson",
-      "count": 10
+      "ok": false,
+      "error": "HTTP Error 502: Bad Gateway"
     },
     {
       "source": "firms",

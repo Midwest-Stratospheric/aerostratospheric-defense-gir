@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-29T12:27:10.647290+00:00",
+  "generated_at_utc": "2026-10-29T22:30:53.864514+00:00",
   "ok": 14,
   "total": 15,
   "results": [
@@ -30,13 +30,13 @@
       "source": "usgs_quakes",
       "ok": true,
       "file": "usgs_quakes_2.5_day_latest.geojson",
-      "features": 43
+      "features": 40
     },
     {
       "source": "nws_alerts",
       "ok": true,
       "file": "nws_active_alerts_latest.geojson",
-      "count": 339
+      "count": 334
     },
     {
       "source": "sentinel2_stac",
@@ -54,7 +54,7 @@
       "source": "cisa_kev",
       "ok": true,
       "file": "cisa_kev_latest.json",
-      "count": 1762
+      "count": 1764
     },
     {
       "source": "ourairports_military_keywords",
@@ -78,12 +78,12 @@
       "source": "opensky_midwest",
       "ok": true,
       "file": "opensky_midwest_snapshot.geojson",
-      "count": 161
+      "count": 213
     },
     {
       "source": "osm_military_landuse",
       "ok": false,
-      "error": "HTTP Error 504: Gateway Timeout"
+      "error": "HTTP Error 502: Bad Gateway"
     },
     {
       "source": "firms",

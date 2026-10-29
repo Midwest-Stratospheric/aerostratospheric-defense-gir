@@ -4,6 +4,130 @@
   "link": "https://eonet.gsfc.nasa.gov/api/v3/events",
   "events": [
     {
+      "id": "EONET_25827",
+      "title": "Wildfire South Tank Trail, Perry, Mississippi",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25827",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-MSMNF-000680"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 1000.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-10-28T18:02:00Z",
+          "type": "Point",
+          "coordinates": [
+            -89.097783,
+            31.085833
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_25829",
+      "title": "Prescribed Fire Walker Hill 3 Piles RX, Coconino, Arizona",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25829",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001563"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 784.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-10-28T11:22:00Z",
+          "type": "Point",
+          "coordinates": [
+            -111.835978,
+            35.259781
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_25830",
+      "title": "Prescribed Fire Brie Slash Piles RX, Coconino, Arizona",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25830",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001597"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 700.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-10-28T11:21:00Z",
+          "type": "Point",
+          "coordinates": [
+            -111.315915,
+            34.545833
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_25828",
+      "title": "Prescribed Fire Newman 3 Piles RX, Coconino, Arizona",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25828",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001600"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 756.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-10-28T10:09:00Z",
+          "type": "Point",
+          "coordinates": [
+            -111.639444,
+            35.017139
+          ]
+        }
+      ]
+    },
+    {
       "id": "EONET_25729",
       "title": "Tropical Cyclone Arnab",
       "description": null,
@@ -498,6 +622,16 @@
             152.9,
             16.3
           ]
+        },
+        {
+          "magnitudeValue": 130.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-29T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            151.3,
+            16.6
+          ]
         }
       ]
     },
@@ -863,6 +997,16 @@
           "coordinates": [
             -108.5,
             20.6
+          ]
+        },
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-10-29T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -108.7,
+            21.4
           ]
         }
       ]
@@ -4073,130 +4217,6 @@
           "coordinates": [
             -104.295,
             35.535
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23674",
-      "title": "Wildfire WRIGHT, Hughes, Oklahoma",
-      "description": "5 Miles SW from Dustin, OK",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23674",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-OKOMA-002688"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 608.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-29T18:05:00Z",
-          "type": "Point",
-          "coordinates": [
-            -96.1149,
-            35.224667
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23676",
-      "title": "Wildfire RAILROAD SOUTH, Comanche, Oklahoma",
-      "description": "3 Miles E from Indiahoma, OK",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23676",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-OKANA-002686"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 515.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-29T16:31:00Z",
-          "type": "Point",
-          "coordinates": [
-            -98.7205,
-            34.6084
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23666",
-      "title": "Wildfire McKee Draw, Edwards, Texas",
-      "description": "13 Miles NW from Rocksprings, TX",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23666",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-267823"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 4416.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-29T14:17:00Z",
-          "type": "Point",
-          "coordinates": [
-            -100.3149,
-            30.18416667
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23664",
-      "title": "Wildfire West Fork, Sutton, Texas",
-      "description": "25 Miles SW from Junction, TX",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23664",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-267801"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 961.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-28T19:23:00Z",
-          "type": "Point",
-          "coordinates": [
-            -100.1516574,
-            30.36872624
           ]
         }
       ]

@@ -111,8 +111,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.5,
-          19.7
+          142.8,
+          21.5
         ]
       },
       "properties": {
@@ -254,21 +254,6 @@
         "id": "EONET_25451",
         "title": "Wildfire HENDERSON, San Diego, California",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.4,
-          31.2
-        ]
-      },
-      "properties": {
-        "id": "EONET_25339",
-        "title": "Super Typhoon Champi",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire 4V, San Miguel, New Mexico",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.1149,
+          35.224667
+        ]
+      },
+      "properties": {
+        "id": "EONET_23674",
+        "title": "Wildfire WRIGHT, Hughes, Oklahoma",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-10-30T21:58:57.244067+00:00"
+  "updated_utc": "2026-10-31T11:48:08.248955+00:00"
 }

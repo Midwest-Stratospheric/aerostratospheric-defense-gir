@@ -259,91 +259,6 @@
       ]
     },
     {
-      "id": "EONET_25730",
-      "title": "Tropical Storm Olana",
-      "description": null,
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25730",
-      "closed": null,
-      "categories": [
-        {
-          "id": "severeStorms",
-          "title": "Severe Storms"
-        }
-      ],
-      "sources": [
-        {
-          "id": "JTWC",
-          "url": "https://www.metoc.navy.mil/jtwc/products/cp0326.tcw"
-        },
-        {
-          "id": "NOAA_NHC",
-          "url": "https://www.nhc.noaa.gov/archive/2026/OLANA.shtml"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-25T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -178.5,
-            14.7
-          ]
-        },
-        {
-          "magnitudeValue": 40.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-26T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -177.2,
-            15.1
-          ]
-        },
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-26T06:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -176.9,
-            14.8
-          ]
-        },
-        {
-          "magnitudeValue": 30.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-26T12:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -176.8,
-            14.1
-          ]
-        },
-        {
-          "magnitudeValue": 30.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-26T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -176.7,
-            13.7
-          ]
-        },
-        {
-          "magnitudeValue": 25.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-10-27T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            -176.2,
-            13.2
-          ]
-        }
-      ]
-    },
-    {
       "id": "EONET_25769",
       "title": "Wildfire Range  47B, Forrest, Mississippi",
       "description": "3 Miles NE from Brooklyn, MS",
@@ -741,6 +656,16 @@
           "coordinates": [
             144.1,
             22.3
+          ]
+        },
+        {
+          "magnitudeValue": 85.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-11-01T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            143.6,
+            22.1
           ]
         }
       ]
@@ -3927,6 +3852,37 @@
           "coordinates": [
             -96.1149,
             35.224667
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_23676",
+      "title": "Wildfire RAILROAD SOUTH, Comanche, Oklahoma",
+      "description": "3 Miles E from Indiahoma, OK",
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23676",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-OKANA-002686"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 515.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-08-29T16:31:00Z",
+          "type": "Point",
+          "coordinates": [
+            -98.7205,
+            34.6084
           ]
         }
       ]

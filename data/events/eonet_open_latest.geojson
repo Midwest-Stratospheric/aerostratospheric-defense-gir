@@ -81,21 +81,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -176.2,
-          13.2
-        ]
-      },
-      "properties": {
-        "id": "EONET_25730",
-        "title": "Tropical Storm Olana",
-        "categories": "Severe Storms"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -89.161,
           31.099
         ]
@@ -111,8 +96,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.1,
-          22.3
+          143.6,
+          22.1
         ]
       },
       "properties": {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire WRIGHT, Hughes, Oklahoma",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7205,
+          34.6084
+        ]
+      },
+      "properties": {
+        "id": "EONET_23676",
+        "title": "Wildfire RAILROAD SOUTH, Comanche, Oklahoma",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-11-01T12:47:44.672945+00:00"
+  "updated_utc": "2026-11-01T21:45:32.847401+00:00"
 }

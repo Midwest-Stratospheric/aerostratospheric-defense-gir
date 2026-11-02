@@ -6,6 +6,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          86.2,
+          11.4
+        ]
+      },
+      "properties": {
+        "id": "EONET_25964",
+        "title": "Tropical Cyclone Murasu",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -89.097783,
           31.085833
         ]
@@ -66,21 +81,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          81.8,
-          16.4
-        ]
-      },
-      "properties": {
-        "id": "EONET_25729",
-        "title": "Tropical Cyclone Arnab",
-        "categories": "Severe Storms"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -89.161,
           31.099
         ]
@@ -96,8 +96,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.6,
-          22.1
+          140.9,
+          22.6
         ]
       },
       "properties": {
@@ -1502,5 +1502,5 @@
       }
     }
   ],
-  "updated_utc": "2026-11-01T21:45:32.847401+00:00"
+  "updated_utc": "2026-11-02T14:56:38.344681+00:00"
 }

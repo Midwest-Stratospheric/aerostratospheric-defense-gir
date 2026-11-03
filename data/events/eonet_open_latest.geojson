@@ -6,14 +6,59 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          86.2,
-          11.4
+          80.5,
+          15.1
         ]
       },
       "properties": {
         "id": "EONET_25964",
         "title": "Tropical Cyclone Murasu",
         "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.616667,
+          35.266667
+        ]
+      },
+      "properties": {
+        "id": "EONET_25984",
+        "title": "Prescribed Fire Dry Lake Hills Piles RX, Coconino, Arizona",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.262694,
+          34.513944
+        ]
+      },
+      "properties": {
+        "id": "EONET_25986",
+        "title": "Prescribed Fire McCarty Piles RX, Coconino, Arizona",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.666667,
+          35.283333
+        ]
+      },
+      "properties": {
+        "id": "EONET_25985",
+        "title": "Prescribed Fire Freidland-Chimney Piles RX, Coconino, Arizona",
+        "categories": "Wildfires"
       }
     },
     {
@@ -96,8 +141,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.9,
-          22.6
+          139.9,
+          23.2
         ]
       },
       "properties": {
@@ -1455,52 +1500,7 @@
         "title": "Wildfire Alexander Trail, Pushmataha, Oklahoma",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.295,
-          35.535
-        ]
-      },
-      "properties": {
-        "id": "EONET_23683",
-        "title": "Wildfire 4V, San Miguel, New Mexico",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.1149,
-          35.224667
-        ]
-      },
-      "properties": {
-        "id": "EONET_23674",
-        "title": "Wildfire WRIGHT, Hughes, Oklahoma",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.7205,
-          34.6084
-        ]
-      },
-      "properties": {
-        "id": "EONET_23676",
-        "title": "Wildfire RAILROAD SOUTH, Comanche, Oklahoma",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-11-02T14:56:38.344681+00:00"
+  "updated_utc": "2026-11-03T00:38:01.352787+00:00"
 }

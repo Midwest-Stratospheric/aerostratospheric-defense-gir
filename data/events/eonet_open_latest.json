@@ -31,6 +31,169 @@
             86.2,
             11.4
           ]
+        },
+        {
+          "magnitudeValue": 40.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-11-01T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            84.8,
+            12.3
+          ]
+        },
+        {
+          "magnitudeValue": 55.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-11-01T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            83.6,
+            12.9
+          ]
+        },
+        {
+          "magnitudeValue": 60.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-11-01T18:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            82.6,
+            13.3
+          ]
+        },
+        {
+          "magnitudeValue": 60.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-11-02T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            81.5,
+            13.9
+          ]
+        },
+        {
+          "magnitudeValue": 65.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-11-02T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            80.9,
+            14.2
+          ]
+        },
+        {
+          "magnitudeValue": 65.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-11-02T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            80.7,
+            14.7
+          ]
+        },
+        {
+          "magnitudeValue": 85.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-11-02T18:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            80.5,
+            15.1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_25984",
+      "title": "Prescribed Fire Dry Lake Hills Piles RX, Coconino, Arizona",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25984",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001612"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 902.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-10-30T10:13:00Z",
+          "type": "Point",
+          "coordinates": [
+            -111.616667,
+            35.266667
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_25986",
+      "title": "Prescribed Fire McCarty Piles RX, Coconino, Arizona",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25986",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001609"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 832.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-10-29T12:16:00Z",
+          "type": "Point",
+          "coordinates": [
+            -111.262694,
+            34.513944
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_25985",
+      "title": "Prescribed Fire Freidland-Chimney Piles RX, Coconino, Arizona",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25985",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001608"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 1029.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-10-29T11:37:00Z",
+          "type": "Point",
+          "coordinates": [
+            -111.666667,
+            35.283333
+          ]
         }
       ]
     },
@@ -596,6 +759,26 @@
           "coordinates": [
             140.9,
             22.6
+          ]
+        },
+        {
+          "magnitudeValue": 65.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-11-02T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            140.2,
+            23
+          ]
+        },
+        {
+          "magnitudeValue": 65.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-11-02T18:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            139.9,
+            23.2
           ]
         }
       ]
@@ -3720,99 +3903,6 @@
           "coordinates": [
             -95.2966667,
             34.4777778
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23683",
-      "title": "Wildfire 4V, San Miguel, New Mexico",
-      "description": "40 Miles NW from Tucumcari, NM",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23683",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-NMN4S-000549"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 1000.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-29T19:02:00Z",
-          "type": "Point",
-          "coordinates": [
-            -104.295,
-            35.535
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23674",
-      "title": "Wildfire WRIGHT, Hughes, Oklahoma",
-      "description": "5 Miles SW from Dustin, OK",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23674",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-OKOMA-002688"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 608.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-29T18:05:00Z",
-          "type": "Point",
-          "coordinates": [
-            -96.1149,
-            35.224667
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23676",
-      "title": "Wildfire RAILROAD SOUTH, Comanche, Oklahoma",
-      "description": "3 Miles E from Indiahoma, OK",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23676",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-OKANA-002686"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 515.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-29T16:31:00Z",
-          "type": "Point",
-          "coordinates": [
-            -98.7205,
-            34.6084
           ]
         }
       ]

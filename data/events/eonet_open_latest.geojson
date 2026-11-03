@@ -36,6 +36,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          163.35,
+          -69.76
+        ]
+      },
+      "properties": {
+        "id": "EONET_25990",
+        "title": "Iceberg B22K",
+        "categories": "Sea and Lake Ice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -111.262694,
           34.513944
         ]
@@ -141,8 +156,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.1,
-          23.1
+          138.8,
+          23.3
         ]
       },
       "properties": {
@@ -1485,22 +1500,7 @@
         "title": "Wildfire Alexander Trail Fire, Pushmataha, Oklahoma",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.2966667,
-          34.4777778
-        ]
-      },
-      "properties": {
-        "id": "EONET_23871",
-        "title": "Wildfire Alexander Trail, Pushmataha, Oklahoma",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-11-03T13:44:35.867543+00:00"
+  "updated_utc": "2026-11-03T22:57:51.150913+00:00"
 }

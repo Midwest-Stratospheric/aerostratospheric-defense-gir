@@ -156,6 +156,37 @@
       ]
     },
     {
+      "id": "EONET_25990",
+      "title": "Iceberg B22K",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25990",
+      "closed": null,
+      "categories": [
+        {
+          "id": "seaLakeIce",
+          "title": "Sea and Lake Ice"
+        }
+      ],
+      "sources": [
+        {
+          "id": "NATICE",
+          "url": "https://usicecenter.gov/pub/Iceberg_Tabular.csv"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 19.62,
+          "magnitudeUnit": "NM^2",
+          "date": "2026-10-30T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            163.35,
+            -69.76
+          ]
+        }
+      ]
+    },
+    {
       "id": "EONET_25986",
       "title": "Prescribed Fire McCarty Piles RX, Coconino, Arizona",
       "description": null,
@@ -819,6 +850,16 @@
           "coordinates": [
             139.1,
             23.1
+          ]
+        },
+        {
+          "magnitudeValue": 75.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-11-03T12:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            138.8,
+            23.3
           ]
         }
       ]
@@ -3906,37 +3947,6 @@
       "geometry": [
         {
           "magnitudeValue": 1400.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-30T09:04:00Z",
-          "type": "Point",
-          "coordinates": [
-            -95.2966667,
-            34.4777778
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23871",
-      "title": "Wildfire Alexander Trail, Pushmataha, Oklahoma",
-      "description": "5 Miles W from Nashoba, OK",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23871",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-OKOKS-260966"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 1600.0,
           "magnitudeUnit": "acres",
           "date": "2026-08-30T09:04:00Z",
           "type": "Point",

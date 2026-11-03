@@ -1,6 +1,6 @@
 # GIR graphs (git markup)
 
-_Generated 2026-11-03 00:38 UTC from open-tier data. Mermaid only — no image binaries._
+_Generated 2026-11-03 13:45 UTC from open-tier data. Mermaid only — no image binaries._
 
 Regenerate:
 
@@ -32,7 +32,7 @@ flowchart TB
 
 ## Daily ingest status
 
-**Last run:** `2026-11-03T00:38:50.141268+00:00` · **14/15 sources OK**
+**Last run:** `2026-11-03T13:45:24.536881+00:00` · **14/15 sources OK**
 
 ```mermaid
 pie showData
@@ -77,14 +77,14 @@ pie showData
 
 ## USGS earthquakes (M2.5+, past day)
 
-**Events:** 50
+**Events:** 37
 
 ```mermaid
 xychart-beta
   title "Quake count by magnitude band"
   x-axis ["2.5-3.4", "3.5-4.4", "4.5-5.4", "5.5+"]
-  y-axis "Count" 0 --> 22
-  bar [22, 11, 17, 0]
+  y-axis "Count" 0 --> 19
+  bar [19, 7, 11, 0]
 ```
 
 ## Public keyword-flagged airfields by country

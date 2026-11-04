@@ -156,8 +156,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          138.8,
-          23.3
+          138.3,
+          25
         ]
       },
       "properties": {
@@ -179,21 +179,6 @@
         "id": "EONET_25590",
         "title": "Wildfire BEE HAVEN (2) (24-06), Hamilton, Florida",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -107.8,
-          22.6
-        ]
-      },
-      "properties": {
-        "id": "EONET_25589",
-        "title": "Hurricane Vance",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire Alexander Trail Fire, Pushmataha, Oklahoma",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2966667,
+          34.4777778
+        ]
+      },
+      "properties": {
+        "id": "EONET_23871",
+        "title": "Wildfire Alexander Trail, Pushmataha, Oklahoma",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-11-03T22:57:51.150913+00:00"
+  "updated_utc": "2026-11-04T13:53:13.401242+00:00"
 }

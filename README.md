@@ -16,6 +16,12 @@
 
 ---
 
+## Operation Canis Major
+
+<img src="https://www.midwestsds.com/images/operation-canis-major-patch.png" alt="Operation Canis Major patch" width="120" align="right">
+
+This project is part of [Operation Canis Major](https://www.midwestsds.com/operation-canis-major.html), often called Project Canis: Aerostratospheric's mission objective to provide open stratospheric and atmospheric research and data, unrestricted, to the public. Learn more: https://www.midwestsds.com/operation-canis-major.html
+
 ## What is this, in plain English?
 
 Imagine you need a **shared notebook of public facts about the world**—storms that were already warned about, earthquakes that already happened, free satellite “library cards,” public cyber patch lists, and open research balloon flight summaries. You do **not** want secrets. You want something you can audit, re-run, and explain to a non-specialist.

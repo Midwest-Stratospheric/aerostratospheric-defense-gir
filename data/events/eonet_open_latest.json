@@ -4,6 +4,37 @@
   "link": "https://eonet.gsfc.nasa.gov/api/v3/events",
   "events": [
     {
+      "id": "EONET_26057",
+      "title": "Wildfire Wild River, Coos, New Hampshire",
+      "description": "5 Miles SW from Shelburne, NH",
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26057",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-NHWMF-000182"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 982.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-11-02T07:58:00Z",
+          "type": "Point",
+          "coordinates": [
+            -71.031283,
+            44.330583
+          ]
+        }
+      ]
+    },
+    {
       "id": "EONET_25964",
       "title": "Tropical Cyclone Murasu",
       "description": null,
@@ -244,6 +275,37 @@
           "coordinates": [
             -111.666667,
             35.283333
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_26056",
+      "title": "Prescribed Fire TON RX - BAILEY LOST HP, Okanogan, Washington",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26056",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-WACOF-002153"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 740.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-10-29T11:08:00Z",
+          "type": "Point",
+          "coordinates": [
+            -119.055205,
+            48.532726
           ]
         }
       ]
@@ -3627,68 +3689,6 @@
           "coordinates": [
             -98.7205,
             34.6084
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23673",
-      "title": "Wildfire Alexander Trail Fire, Pushmataha, Oklahoma",
-      "description": "5 Miles W from Nashoba, OK",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23673",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-OKOKSC-260966"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 1400.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-30T09:04:00Z",
-          "type": "Point",
-          "coordinates": [
-            -95.2966667,
-            34.4777778
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23871",
-      "title": "Wildfire Alexander Trail, Pushmataha, Oklahoma",
-      "description": "5 Miles W from Nashoba, OK",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23871",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-OKOKS-260966"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 1600.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-30T09:04:00Z",
-          "type": "Point",
-          "coordinates": [
-            -95.2966667,
-            34.4777778
           ]
         }
       ]

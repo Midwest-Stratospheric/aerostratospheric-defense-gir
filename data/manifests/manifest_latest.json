@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-05T14:10:08.473026+00:00",
-  "ok": 15,
+  "generated_at_utc": "2026-11-06T13:53:12.327530+00:00",
+  "ok": 14,
   "total": 15,
   "results": [
     {
@@ -36,7 +36,7 @@
       "source": "nws_alerts",
       "ok": true,
       "file": "nws_active_alerts_latest.geojson",
-      "count": 366
+      "count": 491
     },
     {
       "source": "sentinel2_stac",
@@ -78,13 +78,12 @@
       "source": "opensky_midwest",
       "ok": true,
       "file": "opensky_midwest_snapshot.geojson",
-      "count": 168
+      "count": 127
     },
     {
       "source": "osm_military_landuse",
-      "ok": true,
-      "file": "osm_military_landuse_il_sample.geojson",
-      "count": 10
+      "ok": false,
+      "error": "The read operation timed out"
     },
     {
       "source": "firms",

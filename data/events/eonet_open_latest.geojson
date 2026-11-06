@@ -6,6 +6,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -71.031283,
+          44.330583
+        ]
+      },
+      "properties": {
+        "id": "EONET_26057",
+        "title": "Wildfire Wild River, Coos, New Hampshire",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           80.2,
           15.8
         ]
@@ -73,6 +88,21 @@
       "properties": {
         "id": "EONET_25985",
         "title": "Prescribed Fire Freidland-Chimney Piles RX, Coconino, Arizona",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.055205,
+          48.532726
+        ]
+      },
+      "properties": {
+        "id": "EONET_26056",
+        "title": "Prescribed Fire TON RX - BAILEY LOST HP, Okanogan, Washington",
         "categories": "Wildfires"
       }
     },
@@ -1470,37 +1500,7 @@
         "title": "Wildfire SOUTH RAILROAD, Comanche, Oklahoma",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.2966667,
-          34.4777778
-        ]
-      },
-      "properties": {
-        "id": "EONET_23673",
-        "title": "Wildfire Alexander Trail Fire, Pushmataha, Oklahoma",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.2966667,
-          34.4777778
-        ]
-      },
-      "properties": {
-        "id": "EONET_23871",
-        "title": "Wildfire Alexander Trail, Pushmataha, Oklahoma",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-11-05T14:08:40.165693+00:00"
+  "updated_utc": "2026-11-06T13:51:28.575705+00:00"
 }

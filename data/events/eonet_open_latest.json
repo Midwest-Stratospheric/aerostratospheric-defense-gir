@@ -4,6 +4,37 @@
   "link": "https://eonet.gsfc.nasa.gov/api/v3/events",
   "events": [
     {
+      "id": "EONET_26157",
+      "title": "Typhoon Cempaka",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26157",
+      "closed": null,
+      "categories": [
+        {
+          "id": "severeStorms",
+          "title": "Severe Storms"
+        }
+      ],
+      "sources": [
+        {
+          "id": "JTWC",
+          "url": "https://www.metoc.navy.mil/jtwc/products/wp3126.tcw"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-11-07T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            144.2,
+            19.1
+          ]
+        }
+      ]
+    },
+    {
       "id": "EONET_26057",
       "title": "Wildfire Wild River, Coos, New Hampshire",
       "description": "5 Miles SW from Shelburne, NH",
@@ -3568,37 +3599,6 @@
           "coordinates": [
             -98.7205,
             34.6084
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_23673",
-      "title": "Wildfire Alexander Trail Fire, Pushmataha, Oklahoma",
-      "description": "5 Miles W from Nashoba, OK",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23673",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-OKOKSC-260966"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 1400.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-08-30T09:04:00Z",
-          "type": "Point",
-          "coordinates": [
-            -95.2966667,
-            34.4777778
           ]
         }
       ]

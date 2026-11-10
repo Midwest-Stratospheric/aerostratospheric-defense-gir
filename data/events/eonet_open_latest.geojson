@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.6,
-          24.6
+          139.9,
+          25.4
         ]
       },
       "properties": {
@@ -36,8 +36,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -160.7,
-          11.5
+          -163.3,
+          11.7
         ]
       },
       "properties": {
@@ -254,21 +254,6 @@
         "id": "EONET_25769",
         "title": "Wildfire Range  47B, Forrest, Mississippi",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.5,
-          29.4
-        ]
-      },
-      "properties": {
-        "id": "EONET_25728",
-        "title": "Super Typhoon In-fa",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire Ayers Pond, Prairie, Montana",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.185017,
+          46.48575
+        ]
+      },
+      "properties": {
+        "id": "EONET_23870",
+        "title": "Wildfire Snow, Custer, Montana",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-11-10T01:14:47.997237+00:00"
+  "updated_utc": "2026-11-10T14:27:29.891439+00:00"
 }

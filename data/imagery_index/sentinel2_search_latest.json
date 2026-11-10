@@ -10237,7 +10237,11 @@
       "href": "https://earth-search.aws.element84.com/v1/search",
       "merge": false,
       "body": {
+<<<<<<< HEAD
         "datetime": "2026-10-20T14:27:30Z/2026-11-10T14:27:30Z",
+=======
+        "datetime": "2026-10-20T14:29:11Z/2026-11-10T14:29:11Z",
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
         "query": {
           "eo:cloud_cover": {
             "lt": 40

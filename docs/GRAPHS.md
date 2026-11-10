@@ -1,6 +1,10 @@
 # GIR graphs (git markup)
 
+<<<<<<< HEAD
 _Generated 2026-11-10 14:28 UTC from open-tier data. Mermaid only — no image binaries._
+=======
+_Generated 2026-11-10 14:29 UTC from open-tier data. Mermaid only — no image binaries._
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
 
 Regenerate:
 
@@ -32,13 +36,17 @@ flowchart TB
 
 ## Daily ingest status
 
+<<<<<<< HEAD
 **Last run:** `2026-11-10T14:28:39.210878+00:00` · **15/15 sources OK**
+=======
+**Last run:** `2026-11-10T14:29:59.783031+00:00` · **14/15 sources OK**
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
 
 ```mermaid
 pie showData
-  title Ingest sources OK vs failed (15/15)
-  "OK" : 15
-  "Failed or skipped" : 0
+  title Ingest sources OK vs failed (14/15)
+  "OK" : 14
+  "Failed or skipped" : 1
 ```
 
 | Source | Status |
@@ -55,7 +63,7 @@ pie showData
 | `usaspending_defense` | OK |
 | `gdelt_lastupdate` | OK |
 | `opensky_midwest` | OK |
-| `osm_military_landuse` | OK |
+| `osm_military_landuse` | FAIL |
 | `firms` | OK |
 | `partner_stubs` | OK |
 

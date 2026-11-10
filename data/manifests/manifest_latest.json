@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "generated_at_utc": "2026-11-10T14:28:39.210878+00:00",
   "ok": 15,
+=======
+  "generated_at_utc": "2026-11-10T14:29:59.783031+00:00",
+  "ok": 14,
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
   "total": 15,
   "results": [
     {
@@ -78,13 +83,16 @@
       "source": "opensky_midwest",
       "ok": true,
       "file": "opensky_midwest_snapshot.geojson",
+<<<<<<< HEAD
       "count": 207
+=======
+      "count": 215
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
     },
     {
       "source": "osm_military_landuse",
-      "ok": true,
-      "file": "osm_military_landuse_il_sample.geojson",
-      "count": 10
+      "ok": false,
+      "error": "HTTP Error 502: Bad Gateway"
     },
     {
       "source": "firms",

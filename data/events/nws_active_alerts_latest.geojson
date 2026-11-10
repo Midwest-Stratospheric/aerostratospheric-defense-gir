@@ -1,6 +1,10 @@
 {
   "type": "FeatureCollection",
+<<<<<<< HEAD
   "updated_utc": "2026-11-10T14:27:30.273439+00:00",
+=======
+  "updated_utc": "2026-11-10T14:29:11.720404+00:00",
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
   "count": 303,
   "features": [
     {
@@ -259,6 +263,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.270efbf779d6cea263bf2ba5347129a227c6ddbd.028.1",
       "type": "Feature",
       "geometry": null,
@@ -277,16 +282,41 @@
         },
         "affectedZones": [
           "https://api.weather.gov/zones/forecast/PKZ786"
+=======
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.270efbf779d6cea263bf2ba5347129a227c6ddbd.019.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.270efbf779d6cea263bf2ba5347129a227c6ddbd.019.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.270efbf779d6cea263bf2ba5347129a227c6ddbd.019.1",
+        "areaDesc": "Nikolski to Seguam Bering Side from 15 to 85 NM",
+        "geocode": {
+          "SAME": [
+            "058776"
+          ],
+          "UGC": [
+            "PKZ776"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ776"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
         ],
         "references": [],
         "sent": "2026-11-10T05:13:00-09:00",
         "effective": "2026-11-10T05:13:00-09:00",
+<<<<<<< HEAD
         "onset": "2026-11-10T05:00:00-09:00",
+=======
+        "onset": "2026-11-11T05:00:00-09:00",
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
         "expires": "2026-11-10T17:30:00-09:00",
         "ends": "2026-11-11T17:00:00-09:00",
         "status": "Actual",
         "messageType": "Alert",
         "category": "Met",
+<<<<<<< HEAD
         "severity": "Minor",
         "certainty": "Likely",
         "urgency": "Expected",
@@ -295,6 +325,16 @@
         "senderName": "NWS Anchorage AK",
         "headline": "Small Craft Advisory issued November 10 at 5:13AM AKST until November 11 at 5:00PM AKST by NWS Anchorage AK",
         "description": "Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The\nAlaska Peninsula Waters and the Aleutian Islands up to 100 nm out.\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent an average of the highest\none-third of the combined wind wave and swell height.\n\n.TODAY...Variable wind 10 kt becoming SE 15 kt in the afternoon.\nSeas 10 ft.\n.TONIGHT...E wind 20 kt becoming NE 30 kt after midnight. Seas 9\nft. Rain and snow.\n.WED...N wind 30 kt. Seas 11 ft.\n.WED NIGHT...W wind 20 kt. Seas 10 ft.\n.THU...SW wind 25 kt. Seas 8 ft.\n.FRI...SW wind 40 kt. Seas 18 ft.\n.SAT...W wind 40 kt. Seas 18 ft.",
+=======
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Gale Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Anchorage AK",
+        "headline": "Gale Warning issued November 10 at 5:13AM AKST until November 11 at 5:00PM AKST by NWS Anchorage AK",
+        "description": "Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The\nAlaska Peninsula Waters and the Aleutian Islands up to 100 nm out.\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent an average of the highest\none-third of the combined wind wave and swell height.\n\n.TODAY...NW wind 20 kt. Seas 7 ft.\n.TONIGHT...W wind 15 kt becoming SE after midnight. Seas 6 ft.\nRain.\n.WED...E wind 35 kt. Seas 13 ft. Rain and snow.\n.WED NIGHT...N wind 30 kt. Seas 17 ft.\n.THU...NW wind 25 kt. Seas 12 ft.\n.FRI...W wind 30 kt. Seas 9 ft.\n.SAT...SW wind 30 kt. Seas 18 ft.",
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
         "instruction": null,
         "response": "Avoid",
         "note": null,
@@ -306,7 +346,11 @@
             "FZAK52 PAFC 101413"
           ],
           "NWSheadline": [
+<<<<<<< HEAD
             "SMALL CRAFT ADVISORY THROUGH WEDNESDAY"
+=======
+            "GALE WARNING WEDNESDAY"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
           ],
           "BLOCKCHANNEL": [
             "EAS",
@@ -314,7 +358,11 @@
             "CMAS"
           ],
           "VTEC": [
+<<<<<<< HEAD
             "/O.NEW.PAFC.SC.Y.7119.261110T1400Z-261112T0200Z/"
+=======
+            "/O.NEW.PAFC.GL.W.7110.261111T1400Z-261112T0200Z/"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
           ],
           "eventEndingTime": [
             "2026-11-11T17:00:00-09:00"
@@ -329,7 +377,11 @@
             "NWS"
           ],
           "NationalWeatherService": [
+<<<<<<< HEAD
             "SCY"
+=======
+            "GLW"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
           ]
         }
       }
@@ -411,6 +463,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.270efbf779d6cea263bf2ba5347129a227c6ddbd.019.1",
       "type": "Feature",
       "geometry": null,
@@ -429,16 +482,41 @@
         },
         "affectedZones": [
           "https://api.weather.gov/zones/forecast/PKZ776"
+=======
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.270efbf779d6cea263bf2ba5347129a227c6ddbd.028.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.270efbf779d6cea263bf2ba5347129a227c6ddbd.028.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.270efbf779d6cea263bf2ba5347129a227c6ddbd.028.1",
+        "areaDesc": "Kiska to Attu Bering Side",
+        "geocode": {
+          "SAME": [
+            "058786"
+          ],
+          "UGC": [
+            "PKZ786"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ786"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
         ],
         "references": [],
         "sent": "2026-11-10T05:13:00-09:00",
         "effective": "2026-11-10T05:13:00-09:00",
+<<<<<<< HEAD
         "onset": "2026-11-11T05:00:00-09:00",
+=======
+        "onset": "2026-11-10T05:00:00-09:00",
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
         "expires": "2026-11-10T17:30:00-09:00",
         "ends": "2026-11-11T17:00:00-09:00",
         "status": "Actual",
         "messageType": "Alert",
         "category": "Met",
+<<<<<<< HEAD
         "severity": "Moderate",
         "certainty": "Likely",
         "urgency": "Expected",
@@ -447,6 +525,16 @@
         "senderName": "NWS Anchorage AK",
         "headline": "Gale Warning issued November 10 at 5:13AM AKST until November 11 at 5:00PM AKST by NWS Anchorage AK",
         "description": "Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The\nAlaska Peninsula Waters and the Aleutian Islands up to 100 nm out.\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent an average of the highest\none-third of the combined wind wave and swell height.\n\n.TODAY...NW wind 20 kt. Seas 7 ft.\n.TONIGHT...W wind 15 kt becoming SE after midnight. Seas 6 ft.\nRain.\n.WED...E wind 35 kt. Seas 13 ft. Rain and snow.\n.WED NIGHT...N wind 30 kt. Seas 17 ft.\n.THU...NW wind 25 kt. Seas 12 ft.\n.FRI...W wind 30 kt. Seas 9 ft.\n.SAT...SW wind 30 kt. Seas 18 ft.",
+=======
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Small Craft Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Anchorage AK",
+        "headline": "Small Craft Advisory issued November 10 at 5:13AM AKST until November 11 at 5:00PM AKST by NWS Anchorage AK",
+        "description": "Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The\nAlaska Peninsula Waters and the Aleutian Islands up to 100 nm out.\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent an average of the highest\none-third of the combined wind wave and swell height.\n\n.TODAY...Variable wind 10 kt becoming SE 15 kt in the afternoon.\nSeas 10 ft.\n.TONIGHT...E wind 20 kt becoming NE 30 kt after midnight. Seas 9\nft. Rain and snow.\n.WED...N wind 30 kt. Seas 11 ft.\n.WED NIGHT...W wind 20 kt. Seas 10 ft.\n.THU...SW wind 25 kt. Seas 8 ft.\n.FRI...SW wind 40 kt. Seas 18 ft.\n.SAT...W wind 40 kt. Seas 18 ft.",
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
         "instruction": null,
         "response": "Avoid",
         "note": null,
@@ -458,7 +546,11 @@
             "FZAK52 PAFC 101413"
           ],
           "NWSheadline": [
+<<<<<<< HEAD
             "GALE WARNING WEDNESDAY"
+=======
+            "SMALL CRAFT ADVISORY THROUGH WEDNESDAY"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
           ],
           "BLOCKCHANNEL": [
             "EAS",
@@ -466,7 +558,11 @@
             "CMAS"
           ],
           "VTEC": [
+<<<<<<< HEAD
             "/O.NEW.PAFC.GL.W.7110.261111T1400Z-261112T0200Z/"
+=======
+            "/O.NEW.PAFC.SC.Y.7119.261110T1400Z-261112T0200Z/"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
           ],
           "eventEndingTime": [
             "2026-11-11T17:00:00-09:00"
@@ -481,7 +577,11 @@
             "NWS"
           ],
           "NationalWeatherService": [
+<<<<<<< HEAD
             "GLW"
+=======
+            "SCY"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
           ]
         }
       }
@@ -2691,6 +2791,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.270efbf779d6cea263bf2ba5347129a227c6ddbd.027.1",
       "type": "Feature",
       "geometry": null,
@@ -2767,6 +2868,8 @@
       }
     },
     {
+=======
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.270efbf779d6cea263bf2ba5347129a227c6ddbd.018.1",
       "type": "Feature",
       "geometry": null,
@@ -2843,6 +2946,85 @@
       }
     },
     {
+<<<<<<< HEAD
+=======
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.270efbf779d6cea263bf2ba5347129a227c6ddbd.027.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.270efbf779d6cea263bf2ba5347129a227c6ddbd.027.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.270efbf779d6cea263bf2ba5347129a227c6ddbd.027.1",
+        "areaDesc": "Adak to Kiska Pacific Side",
+        "geocode": {
+          "SAME": [
+            "058785"
+          ],
+          "UGC": [
+            "PKZ785"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ785"
+        ],
+        "references": [],
+        "sent": "2026-11-10T05:13:00-09:00",
+        "effective": "2026-11-10T05:13:00-09:00",
+        "onset": "2026-11-10T17:00:00-09:00",
+        "expires": "2026-11-10T17:30:00-09:00",
+        "ends": "2026-11-11T17:00:00-09:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Gale Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Anchorage AK",
+        "headline": "Gale Warning issued November 10 at 5:13AM AKST until November 11 at 5:00PM AKST by NWS Anchorage AK",
+        "description": "Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The\nAlaska Peninsula Waters and the Aleutian Islands up to 100 nm out.\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent an average of the highest\none-third of the combined wind wave and swell height.\n\n.TODAY...W wind 20 kt. Seas 13 ft. Rain.\n.TONIGHT...E wind 35 kt. Seas 12 ft. Rain.\n.WED...N wind 35 kt. Seas 18 ft.\n.WED NIGHT...NW wind 30 kt. Seas 15 ft.\n.THU...W wind 20 kt. Seas 11 ft.\n.FRI THROUGH SAT...W wind 35 kt. Seas 22 ft.",
+        "instruction": null,
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "CWFALU"
+          ],
+          "WMOidentifier": [
+            "FZAK52 PAFC 101413"
+          ],
+          "NWSheadline": [
+            "GALE WARNING TONIGHT AND WEDNESDAY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.PAFC.GL.W.7118.261111T0200Z-261112T0200Z/"
+          ],
+          "eventEndingTime": [
+            "2026-11-11T17:00:00-09:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "GLW"
+          ]
+        }
+      }
+    },
+    {
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.270efbf779d6cea263bf2ba5347129a227c6ddbd.021.1",
       "type": "Feature",
       "geometry": null,
@@ -4828,6 +5010,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9cc464f9d079a22326edb39d685de264913dfaf.014.2",
       "type": "Feature",
       "geometry": null,
@@ -4846,11 +5029,38 @@
         },
         "affectedZones": [
           "https://api.weather.gov/zones/forecast/PKZ031"
+=======
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9cc464f9d079a22326edb39d685de264913dfaf.005.4",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9cc464f9d079a22326edb39d685de264913dfaf.005.4",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.b9cc464f9d079a22326edb39d685de264913dfaf.005.4",
+        "areaDesc": "Icy Cape to Cape Suckling out to 15 NM; Icy Cape to Cape Suckling from 15 to 80 NM",
+        "geocode": {
+          "SAME": [
+            "058652",
+            "058672"
+          ],
+          "UGC": [
+            "PKZ652",
+            "PKZ672"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ652",
+          "https://api.weather.gov/zones/forecast/PKZ672"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
         ],
         "references": [],
         "sent": "2026-11-10T04:20:00-09:00",
         "effective": "2026-11-10T04:20:00-09:00",
+<<<<<<< HEAD
         "onset": "2026-11-11T03:00:00-09:00",
+=======
+        "onset": "2026-11-11T00:00:00-09:00",
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
         "expires": "2026-11-10T12:30:00-09:00",
         "ends": "2026-11-11T06:00:00-09:00",
         "status": "Actual",
@@ -4863,8 +5073,13 @@
         "sender": "w-nws.webmaster@noaa.gov",
         "senderName": "NWS Juneau AK",
         "headline": "Small Craft Advisory issued November 10 at 4:20AM AKST until November 11 at 6:00AM AKST by NWS Juneau AK",
+<<<<<<< HEAD
         "description": "* WHAT...For the first Small Craft Advisory, east winds 20 to 30\nkt with gusts up to 40 kt expected. For the second Small Craft\nAdvisory, southeast winds 20 to 30 kt expected.\n\n* WHERE...Stephens Passage.\n\n* WHEN...For the first Small Craft Advisory, from 9 AM this\nmorning to 6 PM AKST this evening. For the second Small Craft\nAdvisory, from 3 AM to 6 AM AKST Wednesday.\n\n* IMPACTS...Conditions will be hazardous to small craft.",
         "instruction": "Inexperienced mariners, especially those operating smaller\nvessels, should avoid navigating in hazardous conditions.",
+=======
+        "description": "* WHAT...For the first Gale Warning, southeast winds 35 to 45 kt\nwith gusts up to 60 kt and seas 25 to 30 ft. For the first\nSmall Craft Advisory, east winds 25 to 35 kt with gusts up to\n40 kt and seas 21 to 26 ft expected. For the second Gale\nWarning, east winds 30 to 40 kt with gusts up to 50 kt and\nseas 14 to 17 ft expected. For the second Small Craft\nAdvisory, southeast winds 20 to 30 kt with gusts up to 40 kt\nand seas 12 to 16 ft expected.\n\n* WHERE...Icy Cape to Cape Suckling out to 15 NM and Icy Cape to\nCape Suckling from 15 to 80 NM.\n\n* WHEN...For the first Gale Warning, until 9 AM AKST this\nmorning. For the first Small Craft Advisory, from 9 AM this\nmorning to 9 PM AKST this evening. For the second Gale\nWarning, from 9 PM this evening to midnight AKST tonight. For\nthe second Small Craft Advisory, from midnight tonight to 6 AM\nAKST Wednesday.\n\n* IMPACTS...Strong winds will cause hazardous seas which could\ncapsize or damage vessels and reduce visibility.",
+        "instruction": "Mariners should alter plans to avoid these hazardous conditions.\nRemain in port, seek safe harbor, alter course, and/or secure the\nvessel for hazardous conditions.",
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
         "response": "Avoid",
         "note": null,
         "parameters": {
@@ -4875,7 +5090,11 @@
             "WHAK77 PAJK 101320"
           ],
           "NWSheadline": [
+<<<<<<< HEAD
             "SMALL CRAFT ADVISORY REMAINS IN EFFECT FROM 9 AM THIS MORNING TO 6 PM AKST THIS EVENING... ...SMALL CRAFT ADVISORY IN EFFECT FROM 3 AM TO 6 AM AKST WEDNESDAY"
+=======
+            "GALE WARNING REMAINS IN EFFECT UNTIL 9 AM AKST THIS MORNING... ...SMALL CRAFT ADVISORY NOW IN EFFECT FROM 9 AM THIS MORNING TO 9 PM AKST THIS EVENING... ...GALE WARNING IN EFFECT FROM 9 PM THIS EVENING TO MIDNIGHT AKST TONIGHT... ...SMALL CRAFT ADVISORY IN EFFECT FROM MIDNIGHT TONIGHT TO 6 AM AKST WEDNESDAY"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
           ],
           "BLOCKCHANNEL": [
             "EAS",
@@ -4883,7 +5102,11 @@
             "CMAS"
           ],
           "VTEC": [
+<<<<<<< HEAD
             "/O.NEW.PAJK.SC.Y.0374.261111T1200Z-261111T1500Z/"
+=======
+            "/O.NEW.PAJK.SC.Y.0374.261111T0900Z-261111T1500Z/"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
           ],
           "eventEndingTime": [
             "2026-11-11T06:00:00-09:00"
@@ -5211,6 +5434,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9cc464f9d079a22326edb39d685de264913dfaf.005.4",
       "type": "Feature",
       "geometry": null,
@@ -5232,11 +5456,35 @@
         "affectedZones": [
           "https://api.weather.gov/zones/forecast/PKZ652",
           "https://api.weather.gov/zones/forecast/PKZ672"
+=======
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9cc464f9d079a22326edb39d685de264913dfaf.014.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9cc464f9d079a22326edb39d685de264913dfaf.014.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.b9cc464f9d079a22326edb39d685de264913dfaf.014.2",
+        "areaDesc": "Stephens Passage",
+        "geocode": {
+          "SAME": [
+            "058031"
+          ],
+          "UGC": [
+            "PKZ031"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ031"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
         ],
         "references": [],
         "sent": "2026-11-10T04:20:00-09:00",
         "effective": "2026-11-10T04:20:00-09:00",
+<<<<<<< HEAD
         "onset": "2026-11-11T00:00:00-09:00",
+=======
+        "onset": "2026-11-11T03:00:00-09:00",
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
         "expires": "2026-11-10T12:30:00-09:00",
         "ends": "2026-11-11T06:00:00-09:00",
         "status": "Actual",
@@ -5249,8 +5497,13 @@
         "sender": "w-nws.webmaster@noaa.gov",
         "senderName": "NWS Juneau AK",
         "headline": "Small Craft Advisory issued November 10 at 4:20AM AKST until November 11 at 6:00AM AKST by NWS Juneau AK",
+<<<<<<< HEAD
         "description": "* WHAT...For the first Gale Warning, southeast winds 35 to 45 kt\nwith gusts up to 60 kt and seas 25 to 30 ft. For the first\nSmall Craft Advisory, east winds 25 to 35 kt with gusts up to\n40 kt and seas 21 to 26 ft expected. For the second Gale\nWarning, east winds 30 to 40 kt with gusts up to 50 kt and\nseas 14 to 17 ft expected. For the second Small Craft\nAdvisory, southeast winds 20 to 30 kt with gusts up to 40 kt\nand seas 12 to 16 ft expected.\n\n* WHERE...Icy Cape to Cape Suckling out to 15 NM and Icy Cape to\nCape Suckling from 15 to 80 NM.\n\n* WHEN...For the first Gale Warning, until 9 AM AKST this\nmorning. For the first Small Craft Advisory, from 9 AM this\nmorning to 9 PM AKST this evening. For the second Gale\nWarning, from 9 PM this evening to midnight AKST tonight. For\nthe second Small Craft Advisory, from midnight tonight to 6 AM\nAKST Wednesday.\n\n* IMPACTS...Strong winds will cause hazardous seas which could\ncapsize or damage vessels and reduce visibility.",
         "instruction": "Mariners should alter plans to avoid these hazardous conditions.\nRemain in port, seek safe harbor, alter course, and/or secure the\nvessel for hazardous conditions.",
+=======
+        "description": "* WHAT...For the first Small Craft Advisory, east winds 20 to 30\nkt with gusts up to 40 kt expected. For the second Small Craft\nAdvisory, southeast winds 20 to 30 kt expected.\n\n* WHERE...Stephens Passage.\n\n* WHEN...For the first Small Craft Advisory, from 9 AM this\nmorning to 6 PM AKST this evening. For the second Small Craft\nAdvisory, from 3 AM to 6 AM AKST Wednesday.\n\n* IMPACTS...Conditions will be hazardous to small craft.",
+        "instruction": "Inexperienced mariners, especially those operating smaller\nvessels, should avoid navigating in hazardous conditions.",
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
         "response": "Avoid",
         "note": null,
         "parameters": {
@@ -5261,7 +5514,11 @@
             "WHAK77 PAJK 101320"
           ],
           "NWSheadline": [
+<<<<<<< HEAD
             "GALE WARNING REMAINS IN EFFECT UNTIL 9 AM AKST THIS MORNING... ...SMALL CRAFT ADVISORY NOW IN EFFECT FROM 9 AM THIS MORNING TO 9 PM AKST THIS EVENING... ...GALE WARNING IN EFFECT FROM 9 PM THIS EVENING TO MIDNIGHT AKST TONIGHT... ...SMALL CRAFT ADVISORY IN EFFECT FROM MIDNIGHT TONIGHT TO 6 AM AKST WEDNESDAY"
+=======
+            "SMALL CRAFT ADVISORY REMAINS IN EFFECT FROM 9 AM THIS MORNING TO 6 PM AKST THIS EVENING... ...SMALL CRAFT ADVISORY IN EFFECT FROM 3 AM TO 6 AM AKST WEDNESDAY"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
           ],
           "BLOCKCHANNEL": [
             "EAS",
@@ -5269,7 +5526,11 @@
             "CMAS"
           ],
           "VTEC": [
+<<<<<<< HEAD
             "/O.NEW.PAJK.SC.Y.0374.261111T0900Z-261111T1500Z/"
+=======
+            "/O.NEW.PAJK.SC.Y.0374.261111T1200Z-261111T1500Z/"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
           ],
           "eventEndingTime": [
             "2026-11-11T06:00:00-09:00"
@@ -5518,6 +5779,88 @@
       }
     },
     {
+<<<<<<< HEAD
+=======
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9cc464f9d079a22326edb39d685de264913dfaf.010.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9cc464f9d079a22326edb39d685de264913dfaf.010.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.b9cc464f9d079a22326edb39d685de264913dfaf.010.2",
+        "areaDesc": "Cape Spencer to Cape Fairweather out to 15 NM; Cape Spencer to Cape Fairweather from 15 to 85 NM",
+        "geocode": {
+          "SAME": [
+            "058644",
+            "058664"
+          ],
+          "UGC": [
+            "PKZ644",
+            "PKZ664"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ644",
+          "https://api.weather.gov/zones/forecast/PKZ664"
+        ],
+        "references": [],
+        "sent": "2026-11-10T04:20:00-09:00",
+        "effective": "2026-11-10T04:20:00-09:00",
+        "onset": "2026-11-10T21:00:00-09:00",
+        "expires": "2026-11-10T12:30:00-09:00",
+        "ends": "2026-11-11T06:00:00-09:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Small Craft Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Juneau AK",
+        "headline": "Small Craft Advisory issued November 10 at 4:20AM AKST until November 11 at 6:00AM AKST by NWS Juneau AK",
+        "description": "* WHAT...For the Gale Warning, east winds 30 to 40 kt with gusts\nup to 55 kt and seas 19 to 24 ft. For the Small Craft\nAdvisory, east winds 25 to 35 kt with gusts up to 40 kt and\nseas 12 to 17 ft expected.\n\n* WHERE...Cape Spencer to Cape Fairweather out to 15 NM and Cape\nSpencer to Cape Fairweather from 15 to 85 NM.\n\n* WHEN...For the Gale Warning, until 9 PM AKST this evening. For\nthe Small Craft Advisory, from 9 PM this evening to 6 AM AKST\nWednesday.\n\n* IMPACTS...Strong winds will cause hazardous seas which could\ncapsize or damage vessels and reduce visibility.",
+        "instruction": "Mariners should alter plans to avoid these hazardous conditions.\nRemain in port, seek safe harbor, alter course, and/or secure the\nvessel for hazardous conditions.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "MWWAJK"
+          ],
+          "WMOidentifier": [
+            "WHAK77 PAJK 101320"
+          ],
+          "NWSheadline": [
+            "GALE WARNING NOW IN EFFECT UNTIL 9 PM AKST THIS EVENING... ...SMALL CRAFT ADVISORY IN EFFECT FROM 9 PM THIS EVENING TO 6 AM AKST WEDNESDAY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.PAJK.SC.Y.0374.261111T0600Z-261111T1500Z/"
+          ],
+          "eventEndingTime": [
+            "2026-11-11T06:00:00-09:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "SCY"
+          ]
+        }
+      }
+    },
+    {
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9cc464f9d079a22326edb39d685de264913dfaf.007.3",
       "type": "Feature",
       "geometry": null,
@@ -5670,6 +6013,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9cc464f9d079a22326edb39d685de264913dfaf.010.2",
       "type": "Feature",
       "geometry": null,
@@ -5825,6 +6169,8 @@
       }
     },
     {
+=======
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9cc464f9d079a22326edb39d685de264913dfaf.013.2",
       "type": "Feature",
       "geometry": null,
@@ -5977,6 +6323,85 @@
       }
     },
     {
+<<<<<<< HEAD
+=======
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9cc464f9d079a22326edb39d685de264913dfaf.015.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b9cc464f9d079a22326edb39d685de264913dfaf.015.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.b9cc464f9d079a22326edb39d685de264913dfaf.015.2",
+        "areaDesc": "Northern Chatham Strait",
+        "geocode": {
+          "SAME": [
+            "058032"
+          ],
+          "UGC": [
+            "PKZ032"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ032"
+        ],
+        "references": [],
+        "sent": "2026-11-10T04:20:00-09:00",
+        "effective": "2026-11-10T04:20:00-09:00",
+        "onset": "2026-11-11T03:00:00-09:00",
+        "expires": "2026-11-10T12:30:00-09:00",
+        "ends": "2026-11-11T06:00:00-09:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Small Craft Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Juneau AK",
+        "headline": "Small Craft Advisory issued November 10 at 4:20AM AKST until November 11 at 6:00AM AKST by NWS Juneau AK",
+        "description": "* WHAT...For the first Small Craft Advisory, east winds 20 to 30\nkt with gusts up to 40 kt. For the second Small Craft\nAdvisory, southeast winds 20 to 30 kt with gusts up to 40 kt\nexpected.\n\n* WHERE...Northern Chatham Strait.\n\n* WHEN...For the first Small Craft Advisory, until 6 PM AKST\nthis evening. For the second Small Craft Advisory, from 3 AM\nto 6 AM AKST Wednesday.\n\n* IMPACTS...Conditions will be hazardous to small craft.",
+        "instruction": "Inexperienced mariners, especially those operating smaller\nvessels, should avoid navigating in hazardous conditions.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "MWWAJK"
+          ],
+          "WMOidentifier": [
+            "WHAK77 PAJK 101320"
+          ],
+          "NWSheadline": [
+            "SMALL CRAFT ADVISORY REMAINS IN EFFECT UNTIL 6 PM AKST THIS EVENING... ...SMALL CRAFT ADVISORY IN EFFECT FROM 3 AM TO 6 AM AKST WEDNESDAY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.PAJK.SC.Y.0374.261111T1200Z-261111T1500Z/"
+          ],
+          "eventEndingTime": [
+            "2026-11-11T06:00:00-09:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "SCY"
+          ]
+        }
+      }
+    },
+    {
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.611b5a233427bb5a4f40f810bcbaf2f86b2d3557.001.1",
       "type": "Feature",
       "geometry": null,
@@ -13931,6 +14356,8 @@
     },
     {
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d8729ac0db05a495d77e571771829070c66c196e.017.1",
+<<<<<<< HEAD
+=======
       "type": "Feature",
       "geometry": null,
       "properties": {
@@ -14615,6 +15042,812 @@
     },
     {
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.005.1",
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d8729ac0db05a495d77e571771829070c66c196e.017.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.d8729ac0db05a495d77e571771829070c66c196e.017.1",
+        "areaDesc": "Sledge Island to Wales greater than 15 NM",
+        "geocode": {
+          "SAME": [
+            "058854"
+          ],
+          "UGC": [
+            "PKZ854"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ854"
+        ],
+        "references": [],
+        "sent": "2026-11-09T15:49:00-09:00",
+        "effective": "2026-11-09T15:49:00-09:00",
+        "onset": "2026-11-09T15:00:00-09:00",
+        "expires": "2026-11-10T06:00:00-09:00",
+        "ends": "2026-11-10T17:00:00-09:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Small Craft Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fairbanks AK",
+        "headline": "Small Craft Advisory issued November 9 at 3:49PM AKST until November 10 at 5:00PM AKST by NWS Fairbanks AK",
+        "description": "Northwestern Alaska Coastal Waters out 100 NM\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent the average of the highest one-\nthird of the combined wind-wave and swell height.\n\n.TONIGHT...NE winds 25 kt. Seas 7 ft. Light freezing spray.\n.TUE...N winds 25 kt. Seas 6 ft. Light freezing spray.\n.TUE NIGHT...N winds 20 kt. Seas 4 ft.\n.WED...N winds 20 kt. Seas 4 ft. Light freezing spray.\n.WED NIGHT...NW winds 20 kt. Seas 4 ft. Light freezing spray.\n.THU...W winds 15 kt. Seas 4 ft. Light freezing spray.\n.THU NIGHT...W winds 10 kt. Seas 5 ft.\n.FRI...SW winds 10 kt. Seas 4 ft.\n.SAT...E winds 15 kt. Seas 4 ft.",
+        "instruction": null,
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "CWFWCZ"
+          ],
+          "WMOidentifier": [
+            "FZAK52 PAFG 100049"
+          ],
+          "NWSheadline": [
+            "SMALL CRAFT ADVISORY IN EFFECT THROUGH TUESDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.PAFG.SC.Y.8948.261110T0000Z-261111T0200Z/"
+          ],
+          "eventEndingTime": [
+            "2026-11-10T17:00:00-09:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "SCY"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.002.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.002.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.002.2",
+        "areaDesc": "Cape Beaufort to Point Franklin out to 15 NM",
+        "geocode": {
+          "SAME": [
+            "058812"
+          ],
+          "UGC": [
+            "PKZ812"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ812"
+        ],
+        "references": [],
+        "sent": "2026-11-09T15:48:00-09:00",
+        "effective": "2026-11-09T15:48:00-09:00",
+        "onset": "2026-11-09T17:00:00-09:00",
+        "expires": "2026-11-10T06:00:00-09:00",
+        "ends": "2026-11-10T17:00:00-09:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Gale Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fairbanks AK",
+        "headline": "Gale Warning issued November 9 at 3:48PM AKST until November 10 at 5:00PM AKST by NWS Fairbanks AK",
+        "description": "Arctic Alaska Coastal Waters out 100 NM\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent the average of the highest one-\nthird of the combined wind-wave and swell height.\n\n.TONIGHT...E winds 35 kt. Seas 6 ft. Extreme freezing spray.\n.TUE...E winds 35 kt. Seas 8 ft. Extreme freezing spray.\n.TUE NIGHT...E winds 30 kt. Seas 9 ft. Extreme freezing spray.\n.WED...E winds 30 kt. Seas 9 ft. Heavy freezing spray.\n.WED NIGHT...E winds 30 kt. Seas 9 ft. Heavy freezing spray.\n.THU...E winds 30 kt. Seas 9 ft. Extreme freezing spray.\n.THU NIGHT...E winds 30 kt. Seas 8 ft. Extreme freezing spray.\n.FRI...E winds 30 kt. Seas 7 ft.\n.SAT...E winds 25 kt. Seas 7 ft.",
+        "instruction": null,
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "CWFNSB"
+          ],
+          "WMOidentifier": [
+            "FZAK51 PAFG 100048"
+          ],
+          "NWSheadline": [
+            "HEAVY FREEZING SPRAY WARNING IN EFFECT THROUGH TUESDAY AFTERNOON... ...GALE WARNING IN EFFECT FROM LATE TONIGHT THROUGH TUESDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.PAFG.GL.W.7456.261110T0200Z-261111T0200Z/"
+          ],
+          "eventEndingTime": [
+            "2026-11-10T17:00:00-09:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "GLW"
+          ]
+        }
+      }
+    },
+    {
+<<<<<<< HEAD
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.001.1",
+        "areaDesc": "Cape Thompson to Cape Beaufort out to 15 NM",
+        "geocode": {
+          "SAME": [
+            "058811"
+          ],
+          "UGC": [
+            "PKZ811"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ811"
+=======
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.003.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.003.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.003.1",
+        "areaDesc": "Point Franklin to Cape Halkett out to 15 NM",
+        "geocode": {
+          "SAME": [
+            "058813"
+          ],
+          "UGC": [
+            "PKZ813"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ813"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
+        ],
+        "references": [],
+        "sent": "2026-11-09T15:48:00-09:00",
+        "effective": "2026-11-09T15:48:00-09:00",
+        "onset": "2026-11-09T15:00:00-09:00",
+        "expires": "2026-11-10T06:00:00-09:00",
+        "ends": "2026-11-10T17:00:00-09:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+<<<<<<< HEAD
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Gale Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fairbanks AK",
+        "headline": "Gale Warning issued November 9 at 3:48PM AKST until November 10 at 5:00PM AKST by NWS Fairbanks AK",
+        "description": "Arctic Alaska Coastal Waters out 100 NM\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent the average of the highest one-\nthird of the combined wind-wave and swell height.\n\n.TONIGHT...NE winds 40 kt. Seas 11 ft. Extreme freezing spray.\n.TUE...NE winds 35 kt. Seas 11 ft. Extreme freezing spray.\n.TUE NIGHT...NE winds 35 kt. Seas 11 ft. Heavy freezing spray.\n.WED...E winds 30 kt. Seas 9 ft. Heavy freezing spray.\n.WED NIGHT...E winds 30 kt. Seas 9 ft. Heavy freezing spray.\n.THU...E winds 30 kt. Seas 9 ft. Heavy freezing spray.\n.THU NIGHT...E winds 25 kt. Seas 8 ft. Moderate freezing spray.\n.FRI...E winds 25 kt. Seas 5 ft.\n.SAT...E winds 25 kt. Seas 7 ft.",
+=======
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Heavy Freezing Spray Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fairbanks AK",
+        "headline": "Heavy Freezing Spray Warning issued November 9 at 3:48PM AKST until November 10 at 5:00PM AKST by NWS Fairbanks AK",
+        "description": "Arctic Alaska Coastal Waters out 100 NM\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent the average of the highest one-\nthird of the combined wind-wave and swell height.\n\n.TONIGHT...E winds 30 kt. Seas 6 ft. Blowing snow. Heavy freezing\nspray.\n.TUE...NE winds 35 kt. Seas 8 ft. Blowing snow. Extreme freezing\nspray.\n.TUE NIGHT...E winds 35 kt. Seas 8 ft. Blowing snow. Snow.\nExtreme freezing spray.\n.WED...E winds 35 kt. Seas 9 ft. Blowing snow. Extreme freezing\nspray.\n.WED NIGHT...E winds 35 kt. Seas 9 ft. Blowing snow. Extreme\nfreezing spray.\n.THU...E winds 35 kt. Seas 9 ft. Blowing snow. Extreme freezing\nspray.\n.THU NIGHT...E winds 35 kt. Seas 8 ft. Blowing snow. Extreme\nfreezing spray.\n.FRI...E winds 30 kt. Seas 7 ft.\n.SAT...E winds 25 kt. Seas 8 ft.",
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
+        "instruction": null,
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "CWFNSB"
+          ],
+          "WMOidentifier": [
+            "FZAK51 PAFG 100048"
+          ],
+          "NWSheadline": [
+<<<<<<< HEAD
+            "GALE WARNING IN EFFECT THROUGH TUESDAY AFTERNOON... ...HEAVY FREEZING SPRAY WARNING IN EFFECT THROUGH TUESDAY AFTERNOON"
+=======
+            "HEAVY FREEZING SPRAY WARNING IN EFFECT THROUGH TUESDAY AFTERNOON... ...GALE WARNING IN EFFECT FROM TUESDAY MORNING THROUGH TUESDAY AFTERNOON"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+<<<<<<< HEAD
+            "/O.NEW.PAFG.GL.W.7453.261110T0000Z-261111T0200Z/"
+=======
+            "/O.NEW.PAFG.UP.W.7457.261110T0000Z-261111T0200Z/"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
+          ],
+          "eventEndingTime": [
+            "2026-11-10T17:00:00-09:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+<<<<<<< HEAD
+            "GLW"
+=======
+            "UPW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.004.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.004.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.004.1",
+        "areaDesc": "Cape Halkett to Flaxman Island out to 15 NM",
+        "geocode": {
+          "SAME": [
+            "058814"
+          ],
+          "UGC": [
+            "PKZ814"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ814"
+        ],
+        "references": [],
+        "sent": "2026-11-09T15:48:00-09:00",
+        "effective": "2026-11-09T15:48:00-09:00",
+        "onset": "2026-11-09T15:00:00-09:00",
+        "expires": "2026-11-10T06:00:00-09:00",
+        "ends": "2026-11-10T17:00:00-09:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Heavy Freezing Spray Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fairbanks AK",
+        "headline": "Heavy Freezing Spray Warning issued November 9 at 3:48PM AKST until November 10 at 5:00PM AKST by NWS Fairbanks AK",
+        "description": "Arctic Alaska Coastal Waters out 100 NM\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent the average of the highest one-\nthird of the combined wind-wave and swell height.\n\n.TONIGHT...E winds 35 kt. Seas 7 ft. Blowing snow. Extreme\nfreezing spray.\n.TUE...E winds 40 kt. Seas 8 ft. Blowing snow. Extreme freezing\nspray.\n.TUE NIGHT...E winds 40 kt. Seas 8 ft. Blowing snow. Heavy\nfreezing spray.\n.WED...E winds 35 kt. Seas 8 ft. Blowing snow. Extreme freezing\nspray.\n.WED NIGHT...E winds 35 kt. Seas 8 ft. Blowing snow. Extreme\nfreezing spray.\n.THU...E winds 35 kt. Seas 8 ft. Blowing snow. Extreme freezing\nspray.\n.THU NIGHT...E winds 35 kt. Seas 8 ft. Blowing snow. Extreme\nfreezing spray.\n.FRI...E winds 30 kt. Seas 7 ft.\n.SAT...E winds 25 kt. Seas 8 ft.",
+        "instruction": null,
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "CWFNSB"
+          ],
+          "WMOidentifier": [
+            "FZAK51 PAFG 100048"
+          ],
+          "NWSheadline": [
+            "HEAVY FREEZING SPRAY WARNING IN EFFECT THROUGH TUESDAY AFTERNOON... ...GALE WARNING IN EFFECT FROM THIS EVENING THROUGH TUESDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.PAFG.UP.W.7459.261110T0000Z-261111T0200Z/"
+          ],
+          "eventEndingTime": [
+            "2026-11-10T17:00:00-09:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "UPW"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.009.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.009.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.009.1",
+        "areaDesc": "Cape Halkett to Flaxman Island from 15 to 80 NM",
+        "geocode": {
+          "SAME": [
+            "058860"
+          ],
+          "UGC": [
+            "PKZ860"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ860"
+        ],
+        "references": [],
+        "sent": "2026-11-09T15:48:00-09:00",
+        "effective": "2026-11-09T15:48:00-09:00",
+        "onset": "2026-11-09T15:00:00-09:00",
+        "expires": "2026-11-10T06:00:00-09:00",
+        "ends": "2026-11-10T17:00:00-09:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Heavy Freezing Spray Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fairbanks AK",
+        "headline": "Heavy Freezing Spray Warning issued November 9 at 3:48PM AKST until November 10 at 5:00PM AKST by NWS Fairbanks AK",
+        "description": "Arctic Alaska Coastal Waters out 100 NM\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent the average of the highest one-\nthird of the combined wind-wave and swell height.\n\n.TONIGHT...E winds 35 kt. Seas 7 ft. Extreme freezing spray.\n.TUE...E winds 40 kt. Seas 8 ft. Blowing snow. Extreme freezing\nspray.\n.TUE NIGHT...E winds 35 kt. Seas 8 ft. Blowing snow. Extreme\nfreezing spray.\n.WED...E winds 35 kt. Seas 8 ft. Blowing snow. Extreme freezing\nspray.\n.WED NIGHT...NE winds 35 kt. Seas 8 ft. Blowing snow. Extreme\nfreezing spray.\n.THU...NE winds 35 kt. Seas 8 ft. Blowing snow. Extreme freezing\nspray.\n.THU NIGHT...NE winds 35 kt. Seas 8 ft. Blowing snow. Extreme\nfreezing spray.\n.FRI...E winds 30 kt. Seas 7 ft.\n.SAT...E winds 25 kt. Seas 8 ft.",
+        "instruction": null,
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "CWFNSB"
+          ],
+          "WMOidentifier": [
+            "FZAK51 PAFG 100048"
+          ],
+          "NWSheadline": [
+            "HEAVY FREEZING SPRAY WARNING IN EFFECT THROUGH TUESDAY AFTERNOON... ...GALE WARNING IN EFFECT FROM THIS EVENING THROUGH TUESDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+<<<<<<< HEAD
+            "/O.NEW.PAFG.GL.W.7460.261110T0000Z-261111T0200Z/"
+          ],
+          "eventEndingTime": [
+            "2026-11-10T17:00:00-09:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "GLW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.008.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.008.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.008.2",
+        "areaDesc": "Point Franklin to Cape Halkett from 15 to 75 NM",
+        "geocode": {
+          "SAME": [
+            "058859"
+          ],
+          "UGC": [
+            "PKZ859"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ859"
+        ],
+        "references": [],
+        "sent": "2026-11-09T15:48:00-09:00",
+        "effective": "2026-11-09T15:48:00-09:00",
+        "onset": "2026-11-10T05:00:00-09:00",
+        "expires": "2026-11-10T06:00:00-09:00",
+        "ends": "2026-11-10T17:00:00-09:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Gale Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fairbanks AK",
+        "headline": "Gale Warning issued November 9 at 3:48PM AKST until November 10 at 5:00PM AKST by NWS Fairbanks AK",
+        "description": "Arctic Alaska Coastal Waters out 100 NM\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent the average of the highest one-\nthird of the combined wind-wave and swell height.\n\n.TONIGHT...NE winds 30 kt. Seas 6 ft. Blowing snow. Extreme\nfreezing spray.\n.TUE...NE winds 35 kt. Seas 8 ft. Blowing snow. Extreme freezing\nspray.\n.TUE NIGHT...NE winds 35 kt. Seas 9 ft. Blowing snow. Extreme\nfreezing spray.\n.WED...E winds 35 kt. Seas 9 ft. Blowing snow. Extreme freezing\nspray.\n.WED NIGHT...NE winds 35 kt. Seas 10 ft. Blowing snow. Extreme\nfreezing spray.\n.THU...NE winds 30 kt. Seas 9 ft. Blowing snow. Extreme freezing\nspray.\n.THU NIGHT...NE winds 30 kt. Seas 9 ft. Blowing snow. Extreme\nfreezing spray.\n.FRI...E winds 30 kt. Seas 8 ft.\n.SAT...E winds 25 kt. Seas 8 ft.",
+        "instruction": null,
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "CWFNSB"
+          ],
+          "WMOidentifier": [
+            "FZAK51 PAFG 100048"
+          ],
+          "NWSheadline": [
+            "HEAVY FREEZING SPRAY WARNING IN EFFECT THROUGH TUESDAY AFTERNOON... ...GALE WARNING IN EFFECT FROM TUESDAY MORNING THROUGH TUESDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.PAFG.GL.W.7468.261110T1400Z-261111T0200Z/"
+          ],
+          "eventEndingTime": [
+            "2026-11-10T17:00:00-09:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "GLW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.007.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.007.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.007.1",
+        "areaDesc": "Cape Beaufort to Point Franklin from 15 to 85 NM",
+        "geocode": {
+          "SAME": [
+            "058858"
+          ],
+          "UGC": [
+            "PKZ858"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ858"
+        ],
+        "references": [],
+        "sent": "2026-11-09T15:48:00-09:00",
+        "effective": "2026-11-09T15:48:00-09:00",
+        "onset": "2026-11-09T15:00:00-09:00",
+        "expires": "2026-11-10T06:00:00-09:00",
+        "ends": "2026-11-10T17:00:00-09:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Heavy Freezing Spray Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fairbanks AK",
+        "headline": "Heavy Freezing Spray Warning issued November 9 at 3:48PM AKST until November 10 at 5:00PM AKST by NWS Fairbanks AK",
+        "description": "Arctic Alaska Coastal Waters out 100 NM\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent the average of the highest one-\nthird of the combined wind-wave and swell height.\n\n.TONIGHT...NE winds 35 kt. Seas 9 ft. Extreme freezing spray.\n.TUE...NE winds 35 kt. Seas 10 ft. Extreme freezing spray.\n.TUE NIGHT...E winds 30 kt. Seas 11 ft. Snow. Extreme freezing\nspray.\n.WED...E winds 30 kt. Seas 12 ft. Extreme freezing spray.\n.WED NIGHT...E winds 30 kt. Seas 12 ft. Extreme freezing spray.\n.THU...E winds 30 kt. Seas 12 ft. Extreme freezing spray.\n.THU NIGHT...E winds 30 kt. Seas 11 ft. Extreme freezing spray.\n.FRI...E winds 30 kt. Seas 10 ft.\n.SAT...E winds 30 kt. Seas 10 ft.",
+        "instruction": null,
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "CWFNSB"
+          ],
+          "WMOidentifier": [
+            "FZAK51 PAFG 100048"
+          ],
+          "NWSheadline": [
+            "HEAVY FREEZING SPRAY WARNING IN EFFECT THROUGH TUESDAY AFTERNOON... ...GALE WARNING IN EFFECT FROM LATE TONIGHT THROUGH TUESDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.PAFG.UP.W.7465.261110T0000Z-261111T0200Z/"
+          ],
+          "eventEndingTime": [
+            "2026-11-10T17:00:00-09:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "UPW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.008.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.008.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.008.1",
+        "areaDesc": "Point Franklin to Cape Halkett from 15 to 75 NM",
+        "geocode": {
+          "SAME": [
+            "058859"
+          ],
+          "UGC": [
+            "PKZ859"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ859"
+        ],
+        "references": [],
+        "sent": "2026-11-09T15:48:00-09:00",
+        "effective": "2026-11-09T15:48:00-09:00",
+        "onset": "2026-11-09T15:00:00-09:00",
+        "expires": "2026-11-10T06:00:00-09:00",
+        "ends": "2026-11-10T17:00:00-09:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Heavy Freezing Spray Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fairbanks AK",
+        "headline": "Heavy Freezing Spray Warning issued November 9 at 3:48PM AKST until November 10 at 5:00PM AKST by NWS Fairbanks AK",
+        "description": "Arctic Alaska Coastal Waters out 100 NM\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent the average of the highest one-\nthird of the combined wind-wave and swell height.\n\n.TONIGHT...NE winds 30 kt. Seas 6 ft. Blowing snow. Extreme\nfreezing spray.\n.TUE...NE winds 35 kt. Seas 8 ft. Blowing snow. Extreme freezing\nspray.\n.TUE NIGHT...NE winds 35 kt. Seas 9 ft. Blowing snow. Extreme\nfreezing spray.\n.WED...E winds 35 kt. Seas 9 ft. Blowing snow. Extreme freezing\nspray.\n.WED NIGHT...NE winds 35 kt. Seas 10 ft. Blowing snow. Extreme\nfreezing spray.\n.THU...NE winds 30 kt. Seas 9 ft. Blowing snow. Extreme freezing\nspray.\n.THU NIGHT...NE winds 30 kt. Seas 9 ft. Blowing snow. Extreme\nfreezing spray.\n.FRI...E winds 30 kt. Seas 8 ft.\n.SAT...E winds 25 kt. Seas 8 ft.",
+        "instruction": null,
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "CWFNSB"
+          ],
+          "WMOidentifier": [
+            "FZAK51 PAFG 100048"
+          ],
+          "NWSheadline": [
+            "HEAVY FREEZING SPRAY WARNING IN EFFECT THROUGH TUESDAY AFTERNOON... ...GALE WARNING IN EFFECT FROM TUESDAY MORNING THROUGH TUESDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.PAFG.UP.W.7467.261110T0000Z-261111T0200Z/"
+          ],
+          "eventEndingTime": [
+            "2026-11-10T17:00:00-09:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "UPW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.006.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.006.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.006.1",
+        "areaDesc": "Cape Thompson to Cape Beaufort from 15 to 85 NM",
+        "geocode": {
+          "SAME": [
+            "058857"
+          ],
+          "UGC": [
+            "PKZ857"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ857"
+        ],
+        "references": [],
+        "sent": "2026-11-09T15:48:00-09:00",
+        "effective": "2026-11-09T15:48:00-09:00",
+        "onset": "2026-11-09T15:00:00-09:00",
+        "expires": "2026-11-10T06:00:00-09:00",
+        "ends": "2026-11-10T17:00:00-09:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Gale Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fairbanks AK",
+        "headline": "Gale Warning issued November 9 at 3:48PM AKST until November 10 at 5:00PM AKST by NWS Fairbanks AK",
+        "description": "Arctic Alaska Coastal Waters out 100 NM\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent the average of the highest one-\nthird of the combined wind-wave and swell height.\n\n.TONIGHT...NE winds 35 kt. Seas 13 ft. Heavy freezing spray.\n.TUE...NE winds 35 kt. Seas 13 ft. Heavy freezing spray.\n.TUE NIGHT...NE winds 30 kt. Seas 13 ft. Moderate freezing spray.\n.WED...E winds 30 kt. Seas 13 ft. Moderate freezing spray.\n.WED NIGHT...E winds 30 kt. Seas 13 ft. Moderate freezing spray.\n.THU...E winds 30 kt. Seas 13 ft. Moderate freezing spray.\n.THU NIGHT...E winds 30 kt. Seas 13 ft. Snow. Moderate freezing\nspray.\n.FRI...E winds 30 kt. Seas 8 ft.\n.SAT...E winds 30 kt. Seas 10 ft.",
+        "instruction": null,
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "CWFNSB"
+          ],
+          "WMOidentifier": [
+            "FZAK51 PAFG 100048"
+          ],
+          "NWSheadline": [
+            "GALE WARNING IN EFFECT THROUGH TUESDAY AFTERNOON... ...HEAVY FREEZING SPRAY WARNING IN EFFECT THROUGH TUESDAY MORNING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.PAFG.GL.W.7463.261110T0000Z-261111T0200Z/"
+          ],
+          "eventEndingTime": [
+            "2026-11-10T17:00:00-09:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "GLW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.002.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.002.1",
+        "areaDesc": "Cape Beaufort to Point Franklin out to 15 NM",
+        "geocode": {
+          "SAME": [
+            "058812"
+          ],
+          "UGC": [
+            "PKZ812"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ812"
+        ],
+        "references": [],
+        "sent": "2026-11-09T15:48:00-09:00",
+        "effective": "2026-11-09T15:48:00-09:00",
+        "onset": "2026-11-09T15:00:00-09:00",
+        "expires": "2026-11-10T06:00:00-09:00",
+        "ends": "2026-11-10T17:00:00-09:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Heavy Freezing Spray Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fairbanks AK",
+        "headline": "Heavy Freezing Spray Warning issued November 9 at 3:48PM AKST until November 10 at 5:00PM AKST by NWS Fairbanks AK",
+        "description": "Arctic Alaska Coastal Waters out 100 NM\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent the average of the highest one-\nthird of the combined wind-wave and swell height.\n\n.TONIGHT...E winds 35 kt. Seas 6 ft. Extreme freezing spray.\n.TUE...E winds 35 kt. Seas 8 ft. Extreme freezing spray.\n.TUE NIGHT...E winds 30 kt. Seas 9 ft. Extreme freezing spray.\n.WED...E winds 30 kt. Seas 9 ft. Heavy freezing spray.\n.WED NIGHT...E winds 30 kt. Seas 9 ft. Heavy freezing spray.\n.THU...E winds 30 kt. Seas 9 ft. Extreme freezing spray.\n.THU NIGHT...E winds 30 kt. Seas 8 ft. Extreme freezing spray.\n.FRI...E winds 30 kt. Seas 7 ft.\n.SAT...E winds 25 kt. Seas 7 ft.",
+        "instruction": null,
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "CWFNSB"
+          ],
+          "WMOidentifier": [
+            "FZAK51 PAFG 100048"
+          ],
+          "NWSheadline": [
+            "HEAVY FREEZING SPRAY WARNING IN EFFECT THROUGH TUESDAY AFTERNOON... ...GALE WARNING IN EFFECT FROM LATE TONIGHT THROUGH TUESDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.PAFG.UP.W.7455.261110T0000Z-261111T0200Z/"
+          ],
+          "eventEndingTime": [
+            "2026-11-10T17:00:00-09:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "UPW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f430cc14b4032669f2f960225a46a27af914640c.005.1",
       "type": "Feature",
       "geometry": null,
       "properties": {
@@ -14897,6 +16130,8 @@
             "CMAS"
           ],
           "VTEC": [
+=======
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
             "/O.NEW.PAFG.UP.W.7469.261110T0000Z-261111T0200Z/"
           ],
           "eventEndingTime": [
@@ -17578,6 +18813,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fcbd9d61f37b507eff2e415caf270c3420cf020.031.1",
       "type": "Feature",
       "geometry": null,
@@ -17596,6 +18832,26 @@
         },
         "affectedZones": [
           "https://api.weather.gov/zones/forecast/PKZ760"
+=======
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fcbd9d61f37b507eff2e415caf270c3420cf020.008.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fcbd9d61f37b507eff2e415caf270c3420cf020.008.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.0fcbd9d61f37b507eff2e415caf270c3420cf020.008.1",
+        "areaDesc": "Port Heiden to Nelson Lagoon out to 15 NM",
+        "geocode": {
+          "SAME": [
+            "058756"
+          ],
+          "UGC": [
+            "PKZ756"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ756"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
         ],
         "references": [],
         "sent": "2026-11-09T14:26:00-09:00",
@@ -17613,7 +18869,11 @@
         "sender": "w-nws.webmaster@noaa.gov",
         "senderName": "NWS Anchorage AK",
         "headline": "Small Craft Advisory issued November 9 at 2:26PM AKST until November 11 at 5:00AM AKST by NWS Anchorage AK",
+<<<<<<< HEAD
         "description": "Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The\nAlaska Peninsula Waters and the Aleutian Islands up to 100 nm out.\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent an average of the highest\none-third of the combined wind wave and swell height.\n\n.TONIGHT...NW wind 25 kt. Seas 6 ft.\n.TUE...NW wind 30 kt. Seas 7 ft.\n.TUE NIGHT...NW wind 25 kt. Seas 7 ft.\n.WED...N wind 20 kt. Seas 6 ft.\n.WED NIGHT...NE wind 20 kt. Seas 4 ft.\n.THU...NW wind 20 kt. Seas 6 ft.\n.FRI...NW wind 25 kt. Seas 10 ft.\n.SAT...W wind 25 kt. Seas 9 ft.",
+=======
+        "description": "Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The\nAlaska Peninsula Waters and the Aleutian Islands up to 100 nm out.\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent an average of the highest\none-third of the combined wind wave and swell height.\n\n.TONIGHT...NW wind 25 kt. Seas 6 ft.\n.TUE...NW wind 30 kt. Seas 8 ft.\n.TUE NIGHT...NW wind 25 kt. Seas 8 ft.\n.WED...W wind 20 kt. Seas 5 ft.\n.WED NIGHT...NE wind 20 kt. Seas 6 ft.\n.THU...NW wind 25 kt. Seas 8 ft.\n.FRI...NW wind 30 kt. Seas 11 ft.\n.SAT...SW wind 20 kt. Seas 10 ft.",
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
         "instruction": null,
         "response": "Avoid",
         "note": null,
@@ -17633,6 +18893,7 @@
             "CMAS"
           ],
           "VTEC": [
+<<<<<<< HEAD
             "/O.NEW.PAFC.SC.Y.7586.261110T1400Z-261111T1400Z/"
           ],
           "eventEndingTime": [
@@ -17710,6 +18971,9 @@
           ],
           "VTEC": [
             "/O.NEW.PAFC.SC.Y.7571.261110T1400Z-261111T1400Z/"
+=======
+            "/O.NEW.PAFC.SC.Y.7569.261110T1400Z-261111T1400Z/"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
           ],
           "eventEndingTime": [
             "2026-11-11T05:00:00-09:00"
@@ -17806,6 +19070,85 @@
       }
     },
     {
+<<<<<<< HEAD
+=======
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fcbd9d61f37b507eff2e415caf270c3420cf020.010.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fcbd9d61f37b507eff2e415caf270c3420cf020.010.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.0fcbd9d61f37b507eff2e415caf270c3420cf020.010.1",
+        "areaDesc": "Nelson Lagoon to Cape Sarichef out to 15 NM",
+        "geocode": {
+          "SAME": [
+            "058758"
+          ],
+          "UGC": [
+            "PKZ758"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ758"
+        ],
+        "references": [],
+        "sent": "2026-11-09T14:26:00-09:00",
+        "effective": "2026-11-09T14:26:00-09:00",
+        "onset": "2026-11-10T05:00:00-09:00",
+        "expires": "2026-11-10T03:15:00-09:00",
+        "ends": "2026-11-11T05:00:00-09:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Small Craft Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Anchorage AK",
+        "headline": "Small Craft Advisory issued November 9 at 2:26PM AKST until November 11 at 5:00AM AKST by NWS Anchorage AK",
+        "description": "Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The\nAlaska Peninsula Waters and the Aleutian Islands up to 100 nm out.\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent an average of the highest\none-third of the combined wind wave and swell height.\n\n.TONIGHT...NW wind 25 kt. Seas 5 ft.\n.TUE...NW wind 25 kt. Seas 7 ft.\n.TUE NIGHT...NW wind 25 kt diminishing to 15 kt after midnight.\nSeas 7 ft.\n.WED...SE wind 25 kt. Seas 5 ft.\n.WED NIGHT...NE wind 30 kt. Seas 8 ft.\n.THU...NW wind 30 kt. Seas 11 ft.\n.FRI...NW wind 25 kt. Seas 11 ft.\n.SAT...SW wind 30 kt. Seas 7 ft.",
+        "instruction": null,
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "CWFALU"
+          ],
+          "WMOidentifier": [
+            "FZAK52 PAFC 092326"
+          ],
+          "NWSheadline": [
+            "SMALL CRAFT ADVISORY THROUGH TUESDAY NIGHT"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.PAFC.SC.Y.7571.261110T1400Z-261111T1400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-11-11T05:00:00-09:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "SCY"
+          ]
+        }
+      }
+    },
+    {
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fcbd9d61f37b507eff2e415caf270c3420cf020.024.1",
       "type": "Feature",
       "geometry": null,
@@ -18946,6 +20289,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fcbd9d61f37b507eff2e415caf270c3420cf020.008.1",
       "type": "Feature",
       "geometry": null,
@@ -18964,6 +20308,26 @@
         },
         "affectedZones": [
           "https://api.weather.gov/zones/forecast/PKZ756"
+=======
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fcbd9d61f37b507eff2e415caf270c3420cf020.031.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fcbd9d61f37b507eff2e415caf270c3420cf020.031.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.0fcbd9d61f37b507eff2e415caf270c3420cf020.031.1",
+        "areaDesc": "Bristol Bay greater than 15 NM",
+        "geocode": {
+          "SAME": [
+            "058760"
+          ],
+          "UGC": [
+            "PKZ760"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ760"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
         ],
         "references": [],
         "sent": "2026-11-09T14:26:00-09:00",
@@ -18981,7 +20345,11 @@
         "sender": "w-nws.webmaster@noaa.gov",
         "senderName": "NWS Anchorage AK",
         "headline": "Small Craft Advisory issued November 9 at 2:26PM AKST until November 11 at 5:00AM AKST by NWS Anchorage AK",
+<<<<<<< HEAD
         "description": "Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The\nAlaska Peninsula Waters and the Aleutian Islands up to 100 nm out.\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent an average of the highest\none-third of the combined wind wave and swell height.\n\n.TONIGHT...NW wind 25 kt. Seas 6 ft.\n.TUE...NW wind 30 kt. Seas 8 ft.\n.TUE NIGHT...NW wind 25 kt. Seas 8 ft.\n.WED...W wind 20 kt. Seas 5 ft.\n.WED NIGHT...NE wind 20 kt. Seas 6 ft.\n.THU...NW wind 25 kt. Seas 8 ft.\n.FRI...NW wind 30 kt. Seas 11 ft.\n.SAT...SW wind 20 kt. Seas 10 ft.",
+=======
+        "description": "Coastal Waters Forecast for Southwest Alaska+Bristol Bay+The\nAlaska Peninsula Waters and the Aleutian Islands up to 100 nm out.\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent an average of the highest\none-third of the combined wind wave and swell height.\n\n.TONIGHT...NW wind 25 kt. Seas 6 ft.\n.TUE...NW wind 30 kt. Seas 7 ft.\n.TUE NIGHT...NW wind 25 kt. Seas 7 ft.\n.WED...N wind 20 kt. Seas 6 ft.\n.WED NIGHT...NE wind 20 kt. Seas 4 ft.\n.THU...NW wind 20 kt. Seas 6 ft.\n.FRI...NW wind 25 kt. Seas 10 ft.\n.SAT...W wind 25 kt. Seas 9 ft.",
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
         "instruction": null,
         "response": "Avoid",
         "note": null,
@@ -19001,7 +20369,11 @@
             "CMAS"
           ],
           "VTEC": [
+<<<<<<< HEAD
             "/O.NEW.PAFC.SC.Y.7569.261110T1400Z-261111T1400Z/"
+=======
+            "/O.NEW.PAFC.SC.Y.7586.261110T1400Z-261111T1400Z/"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
           ],
           "eventEndingTime": [
             "2026-11-11T05:00:00-09:00"
@@ -19098,82 +20470,6 @@
       }
     },
     {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e5fd04052cba3ab0596df80486bb476c4f58d3b.004.1",
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e5fd04052cba3ab0596df80486bb476c4f58d3b.004.1",
-        "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.2e5fd04052cba3ab0596df80486bb476c4f58d3b.004.1",
-        "areaDesc": "Southern Lynn Canal",
-        "geocode": {
-          "SAME": [
-            "058013"
-          ],
-          "UGC": [
-            "PKZ013"
-          ]
-        },
-        "affectedZones": [
-          "https://api.weather.gov/zones/forecast/PKZ013"
-        ],
-        "references": [],
-        "sent": "2026-11-09T08:39:00-09:00",
-        "effective": "2026-11-09T08:39:00-09:00",
-        "onset": "2026-11-10T05:00:00-09:00",
-        "expires": "2026-11-09T19:45:00-09:00",
-        "ends": "2026-11-10T17:00:00-09:00",
-        "status": "Actual",
-        "messageType": "Alert",
-        "category": "Met",
-        "severity": "Minor",
-        "certainty": "Likely",
-        "urgency": "Expected",
-        "event": "Small Craft Advisory",
-        "sender": "w-nws.webmaster@noaa.gov",
-        "senderName": "NWS Juneau AK",
-        "headline": "Small Craft Advisory issued November 9 at 8:39AM AKST until November 10 at 5:00PM AKST by NWS Juneau AK",
-        "description": "Southeast Alaska Inside Waters from Dixon Entrance to Skagway\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent the average of the highest\none-third of the combined windwave and swell height.\n\n.TODAY...N wind 25 kt. Near Point Couverden, gusts to 45 kt. Seas\n5 ft. Rain.\n.TONIGHT...SE wind 25 kt. Seas 5 ft. Rain in the evening.\n.TUE...NE wind 25 kt. Seas 5 ft. Rain in the afternoon.\n.TUE NIGHT...N wind 20 kt. Seas 4 ft. Rain.\n.WED...SE wind 20 kt. Seas 4 ft.\n.THU...SE wind 20 kt. Seas 4 ft.\n.FRI...N wind 25 kt. Seas 5 ft.",
-        "instruction": null,
-        "response": "Avoid",
-        "note": null,
-        "parameters": {
-          "AWIPSidentifier": [
-            "CWFAJK"
-          ],
-          "WMOidentifier": [
-            "FZAK51 PAJK 091739 AAA"
-          ],
-          "NWSheadline": [
-            "SMALL CRAFT ADVISORY THROUGH THIS EVENING... ...SMALL CRAFT ADVISORY TUESDAY"
-          ],
-          "BLOCKCHANNEL": [
-            "EAS",
-            "NWEM",
-            "CMAS"
-          ],
-          "VTEC": [
-            "/O.NEW.PAJK.SC.Y.8143.261110T1400Z-261111T0200Z/"
-          ],
-          "eventEndingTime": [
-            "2026-11-10T17:00:00-09:00"
-          ]
-        },
-        "scope": "Public",
-        "code": "IPAWSv1.0",
-        "language": "en-US",
-        "web": "http://www.weather.gov",
-        "eventCode": {
-          "SAME": [
-            "NWS"
-          ],
-          "NationalWeatherService": [
-            "SCY"
-          ]
-        }
-      }
-    },
-    {
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e5fd04052cba3ab0596df80486bb476c4f58d3b.010.2",
       "type": "Feature",
       "geometry": null,
@@ -19250,6 +20546,128 @@
       }
     },
     {
+<<<<<<< HEAD
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e5fd04052cba3ab0596df80486bb476c4f58d3b.012.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e5fd04052cba3ab0596df80486bb476c4f58d3b.012.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.2e5fd04052cba3ab0596df80486bb476c4f58d3b.012.1",
+        "areaDesc": "Clarence Strait",
+        "geocode": {
+          "SAME": [
+            "058036"
+          ],
+          "UGC": [
+            "PKZ036"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ036"
+=======
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e5fd04052cba3ab0596df80486bb476c4f58d3b.004.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e5fd04052cba3ab0596df80486bb476c4f58d3b.004.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.2e5fd04052cba3ab0596df80486bb476c4f58d3b.004.1",
+        "areaDesc": "Southern Lynn Canal",
+        "geocode": {
+          "SAME": [
+            "058013"
+          ],
+          "UGC": [
+            "PKZ013"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/PKZ013"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
+        ],
+        "references": [],
+        "sent": "2026-11-09T08:39:00-09:00",
+        "effective": "2026-11-09T08:39:00-09:00",
+<<<<<<< HEAD
+        "onset": "2026-11-09T08:00:00-09:00",
+=======
+        "onset": "2026-11-10T05:00:00-09:00",
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
+        "expires": "2026-11-09T19:45:00-09:00",
+        "ends": "2026-11-10T17:00:00-09:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+<<<<<<< HEAD
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Gale Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Juneau AK",
+        "headline": "Gale Warning issued November 9 at 8:39AM AKST until November 10 at 5:00PM AKST by NWS Juneau AK",
+        "description": "Southeast Alaska Inside Waters from Dixon Entrance to Skagway\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent the average of the highest\none-third of the combined windwave and swell height.\n\n.TODAY...SE wind increasing to 45 kt. Gusts to 65 kt. Seas 17 ft.\nRain.\n.TONIGHT...SE wind 40 kt. Gusts to 55 kt, except 40 kt out of\ninterior passes. Seas 13 ft. Rain.\n.TUE...SE gale to 45 kt. Seas 18 ft. Rain.\n.TUE NIGHT...SE gale to 40 kt. Gusts to 55 kt, except 40 kt\nout of interior passes. Seas 16 ft. Rain.\n.WED...SE gale to 40 kt. Seas 11 ft.\n.THU...SE gale to 40 kt. Seas 12 ft.\n.FRI...SE gale to 40 kt. Seas 14 ft.",
+=======
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Small Craft Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Juneau AK",
+        "headline": "Small Craft Advisory issued November 9 at 8:39AM AKST until November 10 at 5:00PM AKST by NWS Juneau AK",
+        "description": "Southeast Alaska Inside Waters from Dixon Entrance to Skagway\n\nWind forecasts reflect the predominant speed and direction\nexpected. Sea forecasts represent the average of the highest\none-third of the combined windwave and swell height.\n\n.TODAY...N wind 25 kt. Near Point Couverden, gusts to 45 kt. Seas\n5 ft. Rain.\n.TONIGHT...SE wind 25 kt. Seas 5 ft. Rain in the evening.\n.TUE...NE wind 25 kt. Seas 5 ft. Rain in the afternoon.\n.TUE NIGHT...N wind 20 kt. Seas 4 ft. Rain.\n.WED...SE wind 20 kt. Seas 4 ft.\n.THU...SE wind 20 kt. Seas 4 ft.\n.FRI...N wind 25 kt. Seas 5 ft.",
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
+        "instruction": null,
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "CWFAJK"
+          ],
+          "WMOidentifier": [
+            "FZAK51 PAJK 091739 AAA"
+          ],
+          "NWSheadline": [
+<<<<<<< HEAD
+            "GALE WARNING THROUGH TUESDAY"
+=======
+            "SMALL CRAFT ADVISORY THROUGH THIS EVENING... ...SMALL CRAFT ADVISORY TUESDAY"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+<<<<<<< HEAD
+            "/O.NEW.PAJK.GL.W.8147.261109T1700Z-261111T0200Z/"
+=======
+            "/O.NEW.PAJK.SC.Y.8143.261110T1400Z-261111T0200Z/"
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
+          ],
+          "eventEndingTime": [
+            "2026-11-10T17:00:00-09:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+<<<<<<< HEAD
+=======
+            "SCY"
+          ]
+        }
+      }
+    },
+    {
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e5fd04052cba3ab0596df80486bb476c4f58d3b.012.1",
       "type": "Feature",
       "geometry": null,
@@ -19320,6 +20738,7 @@
             "NWS"
           ],
           "NationalWeatherService": [
+>>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
             "GLW"
           ]
         }

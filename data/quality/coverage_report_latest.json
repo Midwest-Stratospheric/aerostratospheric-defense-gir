@@ -1,10 +1,6 @@
 {
   "schema": "gir.coverage_report.v1",
-<<<<<<< HEAD
-  "generated_at_utc": "2026-11-10T14:28:39Z",
-=======
-  "generated_at_utc": "2026-11-10T14:29:59Z",
->>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
+  "generated_at_utc": "2026-11-10T22:56:15Z",
   "tier": "open",
   "purpose": "Observing-system style inventory of open-tier GIR source groups",
   "layers": [
@@ -47,8 +43,8 @@
       "layer": "defense_open",
       "sources_configured": 7,
       "sources_present": 7,
-      "sources_ok": 6,
-      "coverage_pct": 85.7,
+      "sources_ok": 7,
+      "coverage_pct": 100.0,
       "sources": [
         "cisa_kev",
         "ourairports_military_keywords",
@@ -60,7 +56,7 @@
       ]
     }
   ],
-  "overall_ok": 14,
+  "overall_ok": 15,
   "overall_total": 15,
   "notes": [
     "Coverage is source-success based, not spatial grid completeness",

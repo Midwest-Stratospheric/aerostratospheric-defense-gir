@@ -1,30 +1,20 @@
 {
   "schema": "gir.scientific_scorecard.v1",
-<<<<<<< HEAD
-  "generated_at_utc": "2026-11-10T14:28:39Z",
-=======
-  "generated_at_utc": "2026-11-10T14:29:59Z",
->>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
+  "generated_at_utc": "2026-11-10T22:56:15Z",
   "tier": "open",
-  "completeness_pct": 93.3,
-  "sources_ok": 14,
+  "completeness_pct": 100.0,
+  "sources_ok": 15,
   "sources_total": 15,
   "freshness": {
-<<<<<<< HEAD
-    "manifest_generated_at_utc": "2026-11-10T14:28:39.210878+00:00",
-=======
-    "manifest_generated_at_utc": "2026-11-10T14:29:59.783031+00:00",
->>>>>>> 69402ce (chore(gir): daily open-tier data + scientific features 20261110T142906Z)
+    "manifest_generated_at_utc": "2026-11-10T22:56:15.663092+00:00",
     "age_hours": 0.0,
     "score": 100.0,
     "label": "fresh"
   },
   "integrity_pct": 100.0,
-  "composite_score": 97.0,
+  "composite_score": 100.0,
   "grade": "A",
-  "failed_sources": [
-    "osm_military_landuse"
-  ],
+  "failed_sources": [],
   "notes": [
     "Composite = 0.45·completeness + 0.30·freshness + 0.25·integrity",
     "Research screening only — not an operational readiness certificate"

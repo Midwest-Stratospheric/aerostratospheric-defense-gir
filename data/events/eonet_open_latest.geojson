@@ -6,6 +6,51 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -89.063853,
+          31.130069
+        ]
+      },
+      "properties": {
+        "id": "EONET_26331",
+        "title": "Wildfire Red Hill, Perry, Mississippi",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5974,
+          32.425
+        ]
+      },
+      "properties": {
+        "id": "EONET_26332",
+        "title": "Prescribed Fire Bienville CPT 29 Sub 2 RX, Scott, Mississippi",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.259363,
+          33.747313
+        ]
+      },
+      "properties": {
+        "id": "EONET_26333",
+        "title": "Prescribed Fire Compartment 170 RX, Greene, Georgia",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           50.5,
           -11.3
         ]
@@ -36,7 +81,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -171.3,
+          -173.2,
           9.8
         ]
       },
@@ -238,6 +283,21 @@
       "properties": {
         "id": "EONET_25828",
         "title": "Prescribed Fire Newman 3 Piles RX, Coconino, Arizona",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.561685,
+          48.675381
+        ]
+      },
+      "properties": {
+        "id": "EONET_26334",
+        "title": "Prescribed Fire REP RX - WALKER HP, Ferry, Washington",
         "categories": "Wildfires"
       }
     },
@@ -1440,67 +1500,7 @@
         "title": "Wildfire Needles, Oglala Lakota, South Dakota",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.927967,
-          46.586036
-        ]
-      },
-      "properties": {
-        "id": "EONET_24095",
-        "title": "Incident Complex Rattlesnake Complex, Prairie, Montana",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.74215,
-          41.517567
-        ]
-      },
-      "properties": {
-        "id": "EONET_23868",
-        "title": "Emergency Stabilization BAER McConnell, Humboldt, Nevada",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.83045,
-          46.65069
-        ]
-      },
-      "properties": {
-        "id": "EONET_23869",
-        "title": "Wildfire Ayers Pond, Prairie, Montana",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.185017,
-          46.48575
-        ]
-      },
-      "properties": {
-        "id": "EONET_23870",
-        "title": "Wildfire Snow, Custer, Montana",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-11-12T14:45:00.577155+00:00"
+  "updated_utc": "2026-11-12T23:15:56.572263+00:00"
 }

@@ -4,6 +4,192 @@
   "link": "https://eonet.gsfc.nasa.gov/api/v3/events",
   "events": [
     {
+      "id": "EONET_26463",
+      "title": "Tropical Cyclone Xavier",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26463",
+      "closed": null,
+      "categories": [
+        {
+          "id": "severeStorms",
+          "title": "Severe Storms"
+        }
+      ],
+      "sources": [
+        {
+          "id": "JTWC",
+          "url": "https://www.metoc.navy.mil/jtwc/products/sh0427.tcw"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-11-15T08:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -158.9,
+            -8.2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_26465",
+      "title": "Wildfire Range 47, Forrest, Mississippi",
+      "description": "16 Miles SE from Hattiesburg, MS",
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26465",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-MSMNF-000723"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 2378.77,
+          "magnitudeUnit": "acres",
+          "date": "2026-11-13T15:18:00Z",
+          "type": "Point",
+          "coordinates": [
+            -89.159329,
+            31.099822
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_26464",
+      "title": "Wildfire 201W, Perry, Mississippi",
+      "description": "7 Miles SW from New Augusta, MS",
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26464",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-MSMNF-000720"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 2700.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-11-13T13:31:00Z",
+          "type": "Point",
+          "coordinates": [
+            -89.079783,
+            31.119783
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_26469",
+      "title": "Prescribed Fire rx-Northern Scuppernong, Waukesha, Wisconsin",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26469",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-WIWIS-RX3504"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 1401.8,
+          "magnitudeUnit": "acres",
+          "date": "2026-11-13T10:30:00Z",
+          "type": "Point",
+          "coordinates": [
+            -88.4829256,
+            42.9241779
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_26467",
+      "title": "Prescribed Fire 3R RX - KRUMM MP, Stevens, Washington",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26467",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-WACOF-002229"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 500.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-11-12T11:59:00Z",
+          "type": "Point",
+          "coordinates": [
+            -117.533129,
+            48.402056
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_26468",
+      "title": "Prescribed Fire Holly Springs 119-1 &amp; 84-2 RX, Lafayette, Mississippi",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26468",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-MSMNF-000714"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 729.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-11-12T09:20:00Z",
+          "type": "Point",
+          "coordinates": [
+            -89.421184,
+            34.49329
+          ]
+        }
+      ]
+    },
+    {
       "id": "EONET_26331",
       "title": "Wildfire Red Hill, Perry, Mississippi",
       "description": null,
@@ -3323,192 +3509,6 @@
           "coordinates": [
             -98.67792,
             34.840579
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_24185",
-      "title": "Wildfire Kurk, San Saba, Texas",
-      "description": "6 Miles NE from Cherokee, TX",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24185",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-268233"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 1000.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-09-08T16:39:00Z",
-          "type": "Point",
-          "coordinates": [
-            -98.653084,
-            31.060181
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_24192",
-      "title": "Wildfire PINTO, Stephens, Oklahoma",
-      "description": null,
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24192",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-OKCHA-002788"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 553.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-09-08T12:44:00Z",
-          "type": "Point",
-          "coordinates": [
-            -97.5925,
-            34.413611
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_24187",
-      "title": "Wildfire Moonshine, Albany, Wyoming",
-      "description": "17 Miles SW from Wheatland, WY",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24187",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-WYHDD-000478"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 2000.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-09-07T19:58:00Z",
-          "type": "Point",
-          "coordinates": [
-            -105.321617,
-            41.95365
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_24100",
-      "title": "Wildfire S7, Broward, Florida",
-      "description": "3 Miles E from DEEM CITY, FL",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24100",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-FLFLS-1800147"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 884.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-09-04T15:16:00Z",
-          "type": "Point",
-          "coordinates": [
-            -80.4997222,
-            26.3258333
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_24096",
-      "title": "Wildfire Needles, Oglala Lakota, South Dakota",
-      "description": "2 Miles E from Evergreen Community, SD",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24096",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-SDPRA-000151"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 6017.81,
-          "magnitudeUnit": "acres",
-          "date": "2026-09-04T13:53:00Z",
-          "type": "Point",
-          "coordinates": [
-            -102.311123,
-            43.30421421
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_24095",
-      "title": "Incident Complex Rattlesnake Complex, Prairie, Montana",
-      "description": "30 Miles E from Miles City, MT",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24095",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-MTEAS-000786"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 15582.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-09-04T12:59:00Z",
-          "type": "Point",
-          "coordinates": [
-            -104.927967,
-            46.586036
           ]
         }
       ]

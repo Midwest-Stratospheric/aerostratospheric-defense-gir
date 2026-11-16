@@ -6,6 +6,96 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -158.9,
+          -8.2
+        ]
+      },
+      "properties": {
+        "id": "EONET_26463",
+        "title": "Tropical Cyclone Xavier",
+        "categories": "Severe Storms"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.159329,
+          31.099822
+        ]
+      },
+      "properties": {
+        "id": "EONET_26465",
+        "title": "Wildfire Range 47, Forrest, Mississippi",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.079783,
+          31.119783
+        ]
+      },
+      "properties": {
+        "id": "EONET_26464",
+        "title": "Wildfire 201W, Perry, Mississippi",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4829256,
+          42.9241779
+        ]
+      },
+      "properties": {
+        "id": "EONET_26469",
+        "title": "Prescribed Fire rx-Northern Scuppernong, Waukesha, Wisconsin",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.533129,
+          48.402056
+        ]
+      },
+      "properties": {
+        "id": "EONET_26467",
+        "title": "Prescribed Fire 3R RX - KRUMM MP, Stevens, Washington",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.421184,
+          34.49329
+        ]
+      },
+      "properties": {
+        "id": "EONET_26468",
+        "title": "Prescribed Fire Holly Springs 119-1 &amp; 84-2 RX, Lafayette, Mississippi",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -89.063853,
           31.130069
         ]
@@ -1410,97 +1500,7 @@
         "title": "Wildfire MEERS, Comanche, Oklahoma",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.653084,
-          31.060181
-        ]
-      },
-      "properties": {
-        "id": "EONET_24185",
-        "title": "Wildfire Kurk, San Saba, Texas",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.5925,
-          34.413611
-        ]
-      },
-      "properties": {
-        "id": "EONET_24192",
-        "title": "Wildfire PINTO, Stephens, Oklahoma",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.321617,
-          41.95365
-        ]
-      },
-      "properties": {
-        "id": "EONET_24187",
-        "title": "Wildfire Moonshine, Albany, Wyoming",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.4997222,
-          26.3258333
-        ]
-      },
-      "properties": {
-        "id": "EONET_24100",
-        "title": "Wildfire S7, Broward, Florida",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.311123,
-          43.30421421
-        ]
-      },
-      "properties": {
-        "id": "EONET_24096",
-        "title": "Wildfire Needles, Oglala Lakota, South Dakota",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.927967,
-          46.586036
-        ]
-      },
-      "properties": {
-        "id": "EONET_24095",
-        "title": "Incident Complex Rattlesnake Complex, Prairie, Montana",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-11-15T22:32:55.664492+00:00"
+  "updated_utc": "2026-11-16T15:00:55.033009+00:00"
 }

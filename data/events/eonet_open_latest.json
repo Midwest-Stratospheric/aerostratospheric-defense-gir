@@ -4,6 +4,37 @@
   "link": "https://eonet.gsfc.nasa.gov/api/v3/events",
   "events": [
     {
+      "id": "EONET_26494",
+      "title": "Tropical Cyclone Akvan",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26494",
+      "closed": null,
+      "categories": [
+        {
+          "id": "severeStorms",
+          "title": "Severe Storms"
+        }
+      ],
+      "sources": [
+        {
+          "id": "JTWC",
+          "url": "https://www.metoc.navy.mil/jtwc/products/io0526.tcw"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 35.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-11-16T18:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            86.8,
+            11.4
+          ]
+        }
+      ]
+    },
+    {
       "id": "EONET_26463",
       "title": "Tropical Cyclone Xavier",
       "description": null,
@@ -90,6 +121,26 @@
           "coordinates": [
             -162.6,
             -8.9
+          ]
+        },
+        {
+          "magnitudeValue": 105.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-11-17T00:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -163.2,
+            -9
+          ]
+        },
+        {
+          "magnitudeValue": 125.0,
+          "magnitudeUnit": "kts",
+          "date": "2026-11-17T06:00:00Z",
+          "type": "Point",
+          "coordinates": [
+            -163.5,
+            -9.1
           ]
         }
       ]
@@ -3358,37 +3409,6 @@
           "coordinates": [
             -98.67792,
             34.840579
-          ]
-        }
-      ]
-    },
-    {
-      "id": "EONET_24185",
-      "title": "Wildfire Kurk, San Saba, Texas",
-      "description": "6 Miles NE from Cherokee, TX",
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24185",
-      "closed": null,
-      "categories": [
-        {
-          "id": "wildfires",
-          "title": "Wildfires"
-        }
-      ],
-      "sources": [
-        {
-          "id": "IRWIN",
-          "url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-268233"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 1000.0,
-          "magnitudeUnit": "acres",
-          "date": "2026-09-08T16:39:00Z",
-          "type": "Point",
-          "coordinates": [
-            -98.653084,
-            31.060181
           ]
         }
       ]

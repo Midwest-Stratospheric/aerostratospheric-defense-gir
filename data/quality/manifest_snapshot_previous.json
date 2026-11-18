@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-18T15:15:04.334951+00:00",
-  "ok": 14,
+  "generated_at_utc": "2026-11-18T23:58:36.589647+00:00",
+  "ok": 15,
   "total": 15,
   "results": [
     {
@@ -8,8 +8,8 @@
       "ok": true,
       "file": "uogw_anomalies_latest.json",
       "counts": {
-        "total": 1,
-        "alert": 0,
+        "total": 2,
+        "alert": 1,
         "watch": 1,
         "info": 0
       }
@@ -36,13 +36,13 @@
       "source": "nws_alerts",
       "ok": true,
       "file": "nws_active_alerts_latest.geojson",
-      "count": 321
+      "count": 350
     },
     {
       "source": "sentinel2_stac",
       "ok": true,
       "file": "sentinel2_search_latest.json",
-      "scenes": 7
+      "scenes": 6
     },
     {
       "source": "donki_cme",
@@ -54,7 +54,7 @@
       "source": "cisa_kev",
       "ok": true,
       "file": "cisa_kev_latest.json",
-      "count": 1782
+      "count": 1786
     },
     {
       "source": "ourairports_military_keywords",
@@ -78,12 +78,13 @@
       "source": "opensky_midwest",
       "ok": true,
       "file": "opensky_midwest_snapshot.geojson",
-      "count": 183
+      "count": 180
     },
     {
       "source": "osm_military_landuse",
-      "ok": false,
-      "error": "HTTP Error 502: Bad Gateway"
+      "ok": true,
+      "file": "osm_military_landuse_il_sample.geojson",
+      "count": 10
     },
     {
       "source": "firms",

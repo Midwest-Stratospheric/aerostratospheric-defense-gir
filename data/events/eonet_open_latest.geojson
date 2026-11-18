@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          86.8,
-          11.4
+          87.3,
+          13.1
         ]
       },
       "properties": {
@@ -21,8 +21,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -163.5,
-          -9.1
+          -163.8,
+          -9.6
         ]
       },
       "properties": {
@@ -149,21 +149,6 @@
         "id": "EONET_26333",
         "title": "Prescribed Fire Compartment 170 RX, Greene, Georgia",
         "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -173.2,
-          9.8
-        ]
-      },
-      "properties": {
-        "id": "EONET_26158",
-        "title": "Tropical Storm Pena",
-        "categories": "Severe Storms"
       }
     },
     {
@@ -1500,7 +1485,22 @@
         "title": "Wildfire MEERS, Comanche, Oklahoma",
         "categories": "Wildfires"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.653084,
+          31.060181
+        ]
+      },
+      "properties": {
+        "id": "EONET_24185",
+        "title": "Wildfire Kurk, San Saba, Texas",
+        "categories": "Wildfires"
+      }
     }
   ],
-  "updated_utc": "2026-11-17T15:37:08.604179+00:00"
+  "updated_utc": "2026-11-18T00:38:26.274368+00:00"
 }

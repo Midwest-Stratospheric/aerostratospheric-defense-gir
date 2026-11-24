@@ -6,6 +6,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -79.791367,
+          38.313617
+        ]
+      },
+      "properties": {
+        "id": "EONET_26661",
+        "title": "Wildfire Little Ridge, Highland, Virginia",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.862117,
+          37.8422
+        ]
+      },
+      "properties": {
+        "id": "EONET_26662",
+        "title": "Wildfire White Oak Flat, Alleghany, Virginia",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -82.7985,
           36.36301667
         ]
@@ -88,6 +118,21 @@
       "properties": {
         "id": "EONET_26573",
         "title": "Prescribed Fire STEELY MILL RX, El Dorado, California",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.752017,
+          47.122717
+        ]
+      },
+      "properties": {
+        "id": "EONET_26665",
+        "title": "Prescribed Fire RX D7 Second Skinny Landings, Mineral, Montana",
         "categories": "Wildfires"
       }
     },
@@ -268,6 +313,21 @@
       "properties": {
         "id": "EONET_26333",
         "title": "Prescribed Fire Compartment 170 RX, Greene, Georgia",
+        "categories": "Wildfires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.618779,
+          48.387611
+        ]
+      },
+      "properties": {
+        "id": "EONET_26663",
+        "title": "Prescribed Fire 3R RX - ROCKY MP, Stevens, Washington",
         "categories": "Wildfires"
       }
     },
@@ -1440,67 +1500,7 @@
         "title": "Prescribed Fire D7 Morgan Unit 5 RX, Navajo, Arizona",
         "categories": "Wildfires"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.720126,
-          34.191317
-        ]
-      },
-      "properties": {
-        "id": "EONET_24713",
-        "title": "Prescribed Fire D7 Butler West RX, Apache, Arizona",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.811902,
-          34.127578
-        ]
-      },
-      "properties": {
-        "id": "EONET_24714",
-        "title": "Prescribed Fire D7 Brushy Mtn South RX, Apache, Arizona",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.725244,
-          34.210496
-        ]
-      },
-      "properties": {
-        "id": "EONET_24716",
-        "title": "Prescribed Fire D7 Arab RX, Apache, Arizona",
-        "categories": "Wildfires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.821408,
-          34.183939
-        ]
-      },
-      "properties": {
-        "id": "EONET_24712",
-        "title": "Prescribed Fire D7 Apprentice RX, Apache, Arizona",
-        "categories": "Wildfires"
-      }
     }
   ],
-  "updated_utc": "2026-11-24T03:51:45.720529+00:00"
+  "updated_utc": "2026-11-24T17:04:06.294712+00:00"
 }

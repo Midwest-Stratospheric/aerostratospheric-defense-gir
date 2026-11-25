@@ -190,157 +190,6 @@
       ]
     },
     {
-      "id": "EONET_26494",
-      "title": "Tropical Cyclone Akvan",
-      "description": null,
-      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26494",
-      "closed": null,
-      "categories": [
-        {
-          "id": "severeStorms",
-          "title": "Severe Storms"
-        }
-      ],
-      "sources": [
-        {
-          "id": "JTWC",
-          "url": "https://www.metoc.navy.mil/jtwc/products/io0526.tcw"
-        }
-      ],
-      "geometry": [
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-11-16T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            86.8,
-            11.4
-          ]
-        },
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-11-17T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            87.2,
-            11.7
-          ]
-        },
-        {
-          "magnitudeValue": 40.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-11-17T06:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            87.3,
-            12
-          ]
-        },
-        {
-          "magnitudeValue": 40.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-11-17T12:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            87.3,
-            12.2
-          ]
-        },
-        {
-          "magnitudeValue": 45.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-11-17T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            87.3,
-            13.1
-          ]
-        },
-        {
-          "magnitudeValue": 45.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-11-18T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            86.9,
-            13
-          ]
-        },
-        {
-          "magnitudeValue": 40.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-11-18T06:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            86.9,
-            13.1
-          ]
-        },
-        {
-          "magnitudeValue": 40.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-11-18T12:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            86.5,
-            13.6
-          ]
-        },
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-11-18T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            86.4,
-            13.8
-          ]
-        },
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-11-19T00:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            86.2,
-            14.6
-          ]
-        },
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-11-19T06:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            85.4,
-            15.1
-          ]
-        },
-        {
-          "magnitudeValue": 35.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-11-19T12:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            85.3,
-            16
-          ]
-        },
-        {
-          "magnitudeValue": 30.0,
-          "magnitudeUnit": "kts",
-          "date": "2026-11-19T18:00:00Z",
-          "type": "Point",
-          "coordinates": [
-            84.7,
-            17.2
-          ]
-        }
-      ]
-    },
-    {
       "id": "EONET_26573",
       "title": "Prescribed Fire STEELY MILL RX, El Dorado, California",
       "description": null,
@@ -3529,6 +3378,37 @@
           "coordinates": [
             -110.122144,
             34.225084
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EONET_24713",
+      "title": "Prescribed Fire D7 Butler West RX, Apache, Arizona",
+      "description": null,
+      "link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24713",
+      "closed": null,
+      "categories": [
+        {
+          "id": "wildfires",
+          "title": "Wildfires"
+        }
+      ],
+      "sources": [
+        {
+          "id": "IRWIN",
+          "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000945"
+        }
+      ],
+      "geometry": [
+        {
+          "magnitudeValue": 788.0,
+          "magnitudeUnit": "acres",
+          "date": "2026-09-14T11:03:00Z",
+          "type": "Point",
+          "coordinates": [
+            -109.720126,
+            34.191317
           ]
         }
       ]

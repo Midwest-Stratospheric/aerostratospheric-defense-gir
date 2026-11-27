@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-26T16:31:49.791268+00:00",
-  "ok": 14,
+  "generated_at_utc": "2026-11-27T01:33:28.601564+00:00",
+  "ok": 15,
   "total": 15,
   "results": [
     {
@@ -8,10 +8,10 @@
       "ok": true,
       "file": "uogw_anomalies_latest.json",
       "counts": {
-        "total": 2,
-        "alert": 0,
+        "total": 5,
+        "alert": 4,
         "watch": 1,
-        "info": 1
+        "info": 0
       }
     },
     {
@@ -30,13 +30,13 @@
       "source": "usgs_quakes",
       "ok": true,
       "file": "usgs_quakes_2.5_day_latest.geojson",
-      "features": 38
+      "features": 37
     },
     {
       "source": "nws_alerts",
       "ok": true,
       "file": "nws_active_alerts_latest.geojson",
-      "count": 355
+      "count": 453
     },
     {
       "source": "sentinel2_stac",
@@ -78,12 +78,13 @@
       "source": "opensky_midwest",
       "ok": true,
       "file": "opensky_midwest_snapshot.geojson",
-      "count": 64
+      "count": 20
     },
     {
       "source": "osm_military_landuse",
-      "ok": false,
-      "error": "HTTP Error 502: Bad Gateway"
+      "ok": true,
+      "file": "osm_military_landuse_il_sample.geojson",
+      "count": 10
     },
     {
       "source": "firms",
